@@ -1,0 +1,48 @@
+/* Ported by Studio from the agreed design .studio/designs/screens/contact.html: its own CSS, as drawn, applied only inside
+   this screen. Change nothing here; the build flattens the wrapper for every browser. */
+:where(.studio-screen-contact) {
+  .ct-top { display: flex; align-items: center; gap: calc(16px * var(--space-scale, 1)); padding-top: calc(16px * var(--space-scale, 1)); padding-bottom: calc(16px * var(--space-scale, 1)); }
+  .ct-links { display: flex; gap: calc(24px * var(--space-scale, 1)); font-size: 15px; }
+  .ct-links a { color: hsl(var(--muted-foreground)); text-decoration: none; display: inline-flex; align-items: center; min-height: 40px; }
+  .ct-links a:hover { color: hsl(var(--foreground)); }
+  .ct-links a.ct-on { color: hsl(var(--foreground)); font-weight: 600; }
+
+  .ct-hero { position: relative; padding-top: calc(32px * var(--space-scale, 1)); padding-bottom: calc(48px * var(--space-scale, 1)); }
+  .ct-kicker { display: inline-flex; align-items: center; gap: 8px; }
+  .ct-title { margin: calc(12px * var(--space-scale, 1)) 0 0; font-family: var(--font-heading); font-size: clamp(40px, 7vw, 76px); line-height: 0.95; letter-spacing: -0.04em; font-weight: 700; color: hsl(var(--foreground)); max-width: 14em; }
+  .ct-lead { margin: calc(20px * var(--space-scale, 1)) 0 0; font-size: 18px; line-height: 1.6; color: hsl(var(--muted-foreground)); max-width: 34em; }
+
+  .ct-band { padding-top: calc(48px * var(--space-scale, 1)); padding-bottom: calc(48px * var(--space-scale, 1)); }
+  .ct-band .ct-panel { position: relative; }
+  .ct-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: calc(16px * var(--space-scale, 1)); }
+  .ct-card { position: relative; display: flex; flex-direction: column; gap: calc(8px * var(--space-scale, 1)); padding: calc(24px * var(--space-scale, 1)); border-radius: calc(var(--radius) + 8px); background: hsl(var(--card)); box-shadow: var(--shadow); border: 1px solid hsl(var(--border) / 0.6); text-decoration: none; color: hsl(var(--card-foreground)); min-height: 100%; }
+  .ct-card:hover { border-color: hsl(var(--primary) / 0.5); }
+  .ct-card-label { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; color: hsl(var(--primary-text)); }
+  .ct-card-value { font-family: var(--font-heading); font-size: clamp(22px, 3vw, 30px); letter-spacing: -0.02em; font-weight: 700; line-height: 1.15; overflow-wrap: anywhere; }
+  .ct-card-note { font-size: 14px; color: hsl(var(--muted-foreground)); }
+  .ct-card-go { margin-top: calc(8px * var(--space-scale, 1)); display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: hsl(var(--primary-text)); min-height: 40px; }
+  .ct-icon { width: 20px; height: 20px; flex: none; }
+  .ct-address { margin-top: calc(16px * var(--space-scale, 1)); padding: calc(24px * var(--space-scale, 1)); border-radius: calc(var(--radius) + 8px); background: hsl(var(--muted)); border: 1px solid hsl(var(--border) / 0.6); }
+  .ct-address p { margin: calc(8px * var(--space-scale, 1)) 0 0; font-size: 16px; line-height: 1.6; color: hsl(var(--foreground)); }
+  .ct-hint { margin: calc(12px * var(--space-scale, 1)) 0 0; font-size: 15px; color: hsl(var(--muted-foreground)); }
+
+  .ct-help { display: grid; grid-template-columns: 1fr 1fr; gap: calc(32px * var(--space-scale, 1)); padding-top: calc(48px * var(--space-scale, 1)); padding-bottom: calc(48px * var(--space-scale, 1)); }
+  .ct-help h2 { margin: 0 0 calc(12px * var(--space-scale, 1)); }
+  .ct-help p { margin: 0 0 calc(12px * var(--space-scale, 1)); font-size: 16px; line-height: 1.65; color: hsl(var(--muted-foreground)); }
+  .ct-help a.ct-inline { color: hsl(var(--primary-text)); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; display: inline-flex; align-items: center; min-height: 40px; }
+
+  .ct-cta { display: grid; grid-template-columns: 1.2fr 1fr; gap: calc(32px * var(--space-scale, 1)); align-items: center; padding-top: calc(48px * var(--space-scale, 1)); padding-bottom: calc(48px * var(--space-scale, 1)); position: relative; }
+  .ct-cta h2 { margin: calc(10px * var(--space-scale, 1)) 0 0; color: hsl(var(--band-foreground)); max-width: 16em; }
+  .ct-cta .ct-eyebrow-band { color: hsl(var(--band-foreground)); opacity: 0.85; }
+  .ct-cta .ct-cta-lead { margin: calc(14px * var(--space-scale, 1)) 0 0; font-size: 16px; line-height: 1.6; color: hsl(var(--band-foreground)); opacity: 0.85; }
+  .ct-cta-actions { display: flex; flex-wrap: wrap; gap: calc(12px * var(--space-scale, 1)); align-items: center; }
+  .ct-cta .ds-btn-secondary { color: hsl(var(--band-foreground)); border-color: hsl(var(--band-foreground)); background: transparent; }
+  .ct-cta .ds-btn-secondary:hover { background: hsl(var(--band-foreground) / 0.12); }
+
+  @media (max-width: 860px) {
+    .ct-links { display: none; }
+    .ct-cards { grid-template-columns: 1fr; }
+    .ct-help { grid-template-columns: 1fr; gap: calc(24px * var(--space-scale, 1)); }
+    .ct-cta { grid-template-columns: 1fr; }
+  }
+}

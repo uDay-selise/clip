@@ -1,0 +1,42 @@
+/* Ported by Studio from the agreed design .studio/designs/screens/editor-sign-in.html: its own CSS, as drawn, applied only inside
+   this screen. Change nothing here; the build flattens the wrapper for every browser. */
+:where(.studio-screen-editor-sign-in) {
+  .esi-root { position: relative; min-height: 100vh; background: hsl(var(--background)); }
+  .esi-top { display: flex; align-items: center; gap: calc(16px * var(--space-scale, 1)); padding: calc(24px * var(--space-scale, 1)) 0; }
+  .esi-top .ds-spacer { flex: 1; }
+  .esi-brand { display: inline-flex; align-items: center; gap: calc(10px * var(--space-scale, 1)); font-family: var(--font-heading); font-weight: 800; font-size: 20px; letter-spacing: -0.03em; color: hsl(var(--foreground)); text-decoration: none; flex: none; }
+  .esi-mark { width: 34px; height: 34px; border-radius: calc(var(--radius) * 1.1); background: hsl(var(--primary)); display: inline-flex; align-items: center; justify-content: center; color: hsl(var(--primary-foreground)); flex: none; }
+  .esi-switches { display: flex; align-items: center; gap: calc(8px * var(--space-scale, 1)); flex: none; }
+
+  .esi-hero { position: relative; isolation: isolate; overflow: hidden; border-radius: calc(var(--radius) * 1.8); background: hsl(var(--primary)); color: hsl(var(--primary-foreground)); padding: calc(48px * var(--space-scale, 1)) calc(32px * var(--space-scale, 1)); margin-bottom: calc(32px * var(--space-scale, 1)); }
+  .esi-hero-inner { position: relative; max-width: 640px; }
+  .esi-eyebrow { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: hsl(var(--primary-foreground)); }
+  .esi-hero h1 { font-family: var(--font-heading); font-weight: 800; letter-spacing: -0.035em; line-height: 1.02; font-size: clamp(2.4rem, 6vw, 4.25rem); margin: calc(14px * var(--space-scale, 1)) 0 0; color: hsl(var(--primary-foreground)); }
+  .esi-hero p { margin: calc(20px * var(--space-scale, 1)) 0 0; font-size: 17px; line-height: 1.55; max-width: 34em; color: hsl(var(--primary-foreground)); }
+  .esi-hero-actions { margin-top: calc(32px * var(--space-scale, 1)); display: flex; flex-wrap: wrap; align-items: center; gap: calc(16px * var(--space-scale, 1)); }
+  .esi-hero .ds-btn { background: hsl(var(--primary-foreground)); color: hsl(var(--primary-text)); font-size: 17px; padding-left: calc(32px * var(--space-scale, 1)); padding-right: calc(32px * var(--space-scale, 1)); }
+  .esi-help { font-size: 14px; font-weight: 600; color: hsl(var(--primary-foreground)); }
+
+  .esi-ring { width: 300px; height: 300px; top: -70px; right: -70px; border-radius: 999px; border: 34px solid hsl(var(--primary-foreground) / 0.12); }
+  .esi-ring-2 { width: 180px; height: 180px; bottom: -60px; right: 90px; border-radius: 999px; border: 20px solid hsl(var(--primary-foreground) / 0.1); }
+  .esi-dot { width: 120px; height: 120px; top: 22px; right: 190px; border-radius: 999px; background: hsl(var(--primary-foreground) / 0.08); }
+
+  .esi-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(16px * var(--space-scale, 1)); }
+  .esi-card { background: hsl(var(--muted)); border-radius: calc(var(--radius) * 1.2); padding: calc(24px * var(--space-scale, 1)); display: flex; flex-direction: column; gap: calc(8px * var(--space-scale, 1)); min-width: 0; }
+  .esi-card .ds-label-caps { color: hsl(var(--muted-foreground)); }
+  .esi-card h3 { font-family: var(--font-heading); font-weight: 700; font-size: 18px; letter-spacing: -0.02em; margin: 0; color: hsl(var(--foreground)); }
+  .esi-card p { margin: 0; font-size: 14px; line-height: 1.5; color: hsl(var(--muted-foreground)); }
+  .esi-card .ds-num { font-family: var(--font-heading); font-variant-numeric: tabular-nums; color: hsl(var(--foreground)); }
+
+  .esi-footrow { margin-top: calc(32px * var(--space-scale, 1)); padding-top: calc(20px * var(--space-scale, 1)); border-top: 1px solid hsl(var(--border)); display: flex; flex-wrap: wrap; gap: calc(8px * var(--space-scale, 1)) calc(24px * var(--space-scale, 1)); align-items: baseline; font-size: 14px; color: hsl(var(--muted-foreground)); }
+  .esi-footrow a { color: hsl(var(--primary-text)); text-decoration: none; font-weight: 600; }
+
+  .esi-notice { margin-bottom: calc(24px * var(--space-scale, 1)); }
+
+  @media (max-width: 820px) {
+    .esi-cards { grid-template-columns: 1fr; }
+    .esi-hero { padding: calc(32px * var(--space-scale, 1)) calc(24px * var(--space-scale, 1)); }
+    .esi-top { flex-wrap: wrap; }
+    .esi-switches { width: 100%; justify-content: space-between; }
+  }
+}

@@ -1,0 +1,59 @@
+/* Ported by Studio from the agreed design .studio/designs/screens/products.html: its own CSS, as drawn, applied only inside
+   this screen. Change nothing here; the build flattens the wrapper for every browser. */
+:where(.studio-screen-products) {
+  .pr-top { display: flex; align-items: center; gap: calc(24px * var(--space-scale, 1)); padding: calc(16px * var(--space-scale, 1)) 0; }
+  .pr-brand { display: inline-flex; align-items: center; gap: calc(10px * var(--space-scale, 1)); font-family: var(--font-heading); font-weight: 800; font-size: 20px; letter-spacing: -0.03em; color: hsl(var(--foreground)); text-decoration: none; white-space: nowrap; }
+  .pr-mark { width: 32px; height: 32px; border-radius: 999px; background: hsl(var(--primary)); color: hsl(var(--primary-foreground)); display: inline-flex; align-items: center; justify-content: center; flex: none; }
+  .pr-mark svg { width: 20px; height: 20px; }
+  .pr-links { display: flex; gap: calc(22px * var(--space-scale, 1)); font-size: 15px; }
+  .pr-links a { color: hsl(var(--muted-foreground)); text-decoration: none; padding: 10px 0; display: inline-flex; align-items: center; min-height: 40px; }
+  .pr-links a.pr-on { color: hsl(var(--foreground)); font-weight: 600; box-shadow: inset 0 -2px 0 hsl(var(--primary)); }
+  .pr-head { display: grid; grid-template-columns: 1.35fr 1fr; gap: calc(48px * var(--space-scale, 1)); align-items: end; padding: calc(48px * var(--space-scale, 1)) 0 calc(40px * var(--space-scale, 1)); }
+  .pr-head h1 { margin: calc(12px * var(--space-scale, 1)) 0 0; }
+  .pr-lead { margin: calc(16px * var(--space-scale, 1)) 0 0; max-width: 26em; font-size: 17px; line-height: 1.6; color: hsl(var(--muted-foreground)); }
+  .pr-counts { display: flex; gap: calc(32px * var(--space-scale, 1)); border-top: 2px solid hsl(var(--foreground)); padding-top: calc(16px * var(--space-scale, 1)); flex-wrap: wrap; }
+  .pr-count b { display: block; font-family: var(--font-heading); font-size: 40px; line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; }
+  .pr-count span { display: block; margin-top: calc(8px * var(--space-scale, 1)); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: hsl(var(--muted-foreground)); }
+  .pr-band { background: hsl(var(--band)); color: hsl(var(--band-foreground)); padding: calc(48px * var(--space-scale, 1)) 0 calc(64px * var(--space-scale, 1)); border-radius: calc(var(--radius) + 20px); margin-top: calc(8px * var(--space-scale, 1)); }
+  .pr-band-head { display: flex; align-items: baseline; gap: calc(16px * var(--space-scale, 1)); flex-wrap: wrap; }
+  .pr-band-head .ds-label-caps { color: hsl(var(--band-foreground)); }
+  .pr-band-note { margin-left: auto; font-size: 13px; color: hsl(var(--band-foreground)); font-variant-numeric: tabular-nums; }
+  .pr-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(24px * var(--space-scale, 1)); margin-top: calc(24px * var(--space-scale, 1)); }
+  .pr-card { display: flex; flex-direction: column; background: hsl(var(--card)); color: hsl(var(--card-foreground, var(--foreground))); border-radius: calc(var(--card-radius, var(--radius)) + 4px); box-shadow: var(--shadow); overflow: hidden; }
+  .pr-card .ds-badge { background: hsl(var(--background)); }
+  .pr-photo { aspect-ratio: 4 / 3; background: linear-gradient(150deg, hsl(var(--main-100)), hsl(var(--main-200))); position: relative; display: flex; align-items: center; justify-content: center; color: hsl(var(--main-600)); }
+  .dark & .pr-photo { background: linear-gradient(150deg, hsl(var(--main-900)), hsl(var(--main-800))); color: hsl(var(--main-300)); }
+  .pr-photo svg { width: 48px; height: 48px; opacity: 0.6; }
+  .pr-tagline { display: flex; gap: calc(8px * var(--space-scale, 1)); padding: calc(16px * var(--space-scale, 1)) calc(20px * var(--space-scale, 1)) 0; flex-wrap: wrap; }
+  .pr-body { padding: calc(10px * var(--space-scale, 1)) calc(20px * var(--space-scale, 1)) calc(20px * var(--space-scale, 1)); display: flex; flex-direction: column; flex: 1; }
+  .pr-name { font-family: var(--font-heading); font-size: 21px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin: calc(8px * var(--space-scale, 1)) 0 0; color: hsl(var(--foreground)); }
+  .pr-desc { margin: calc(8px * var(--space-scale, 1)) 0 0; font-size: 15px; line-height: 1.55; color: hsl(var(--muted-foreground)); }
+  .pr-med { margin: calc(12px * var(--space-scale, 1)) 0 0; display: flex; gap: calc(8px * var(--space-scale, 1)); align-items: flex-start; font-size: 13px; line-height: 1.45; color: hsl(var(--muted-foreground)); background: hsl(var(--muted)); border-radius: var(--radius-input); padding: calc(10px * var(--space-scale, 1)); }
+  .pr-med svg { width: 16px; height: 16px; flex: none; margin-top: 1px; color: hsl(var(--primary-text)); }
+  .pr-foot { margin-top: auto; padding-top: calc(20px * var(--space-scale, 1)); display: flex; align-items: center; gap: calc(12px * var(--space-scale, 1)); }
+  .pr-price { font-family: var(--font-heading); font-size: 30px; font-weight: 700; letter-spacing: -0.03em; line-height: 1; font-variant-numeric: tabular-nums; white-space: nowrap; color: hsl(var(--foreground)); }
+  .pr-foot .ds-btn { margin-left: auto; min-height: 44px; }
+  .pr-close { margin-top: calc(64px * var(--space-scale, 1)); display: grid; grid-template-columns: 1.1fr 1fr; gap: calc(40px * var(--space-scale, 1)); align-items: center; background: hsl(var(--band)); color: hsl(var(--band-foreground)); border-radius: calc(var(--radius) + 16px); padding: calc(40px * var(--space-scale, 1)); position: relative; overflow: hidden; }
+  .pr-close h2 { margin: calc(10px * var(--space-scale, 1)) 0 0; color: inherit; }
+  .pr-close p { margin: calc(12px * var(--space-scale, 1)) 0 0; font-size: 16px; line-height: 1.6; color: hsl(var(--band-foreground)); max-width: 24em; }
+  .pr-close .ds-eyebrow { color: hsl(var(--band-foreground)); }
+  .pr-close-btn { display: flex; justify-content: flex-end; align-items: center; gap: calc(16px * var(--space-scale, 1)); flex-wrap: wrap; }
+  .pr-close .ds-btn { background: hsl(var(--band-foreground)); color: hsl(var(--band)); border-color: transparent; }
+  .pr-close .ds-btn-ghost { background: transparent; color: hsl(var(--band-foreground)); border: 1px solid hsl(var(--band-foreground)); }
+  .pr-close-shape { width: 260px; height: 260px; right: calc(16px * var(--space-scale, 1)); bottom: calc(16px * var(--space-scale, 1)); color: hsl(var(--band-foreground)); opacity: 0.14; }
+  @media (max-width: 1000px) {
+    .pr-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .pr-head { grid-template-columns: 1fr; gap: calc(24px * var(--space-scale, 1)); }
+  }
+  @media (max-width: 720px) {
+    .pr-links { display: none; }
+    .pr-grid { grid-template-columns: 1fr; }
+    .pr-close { grid-template-columns: 1fr; }
+    .pr-close-btn { justify-content: flex-start; }
+    .pr-band { border-radius: calc(var(--radius) + 12px); }
+    .pr-counts { gap: calc(24px * var(--space-scale, 1)); }
+    .pr-count b { font-size: 32px; }
+    .pr-top { gap: calc(12px * var(--space-scale, 1)); }
+    .pr-brand { font-size: 18px; }
+  }
+}

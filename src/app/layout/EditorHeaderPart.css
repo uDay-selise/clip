@@ -1,0 +1,15 @@
+/* Ported by Studio from the agreed design .studio/designs/parts/editor-header.html: its own CSS, as drawn, applied only inside
+   this shared part. Change nothing here; the build flattens the wrapper for every browser. */
+:where(.studio-part-editor-header) {
+    .ed-top { display: flex; align-items: center; gap: calc(16px * var(--space-scale, 1)); padding: calc(12px * var(--space-scale, 1)) 0; flex-wrap: nowrap; }
+    .ed-brand { display: inline-flex; align-items: center; gap: calc(10px * var(--space-scale, 1)); text-decoration: none; flex-shrink: 0; }
+    .ed-mark { width: 28px; height: 28px; border-radius: 8px; background: hsl(var(--brand)); display: inline-flex; align-items: center; justify-content: center; color: hsl(var(--brand-foreground)); font-family: var(--font-heading); font-weight: 700; font-size: 13px; }
+    .ed-brand .ds-brand-text { font-family: var(--font-heading); font-weight: 700; font-size: 18px; letter-spacing: -0.02em; color: hsl(var(--foreground)); }
+    .ed-tag { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: hsl(var(--primary-text)); background: hsl(var(--primary) / 0.14); border-radius: 999px; padding: 4px 10px; }
+    .ed-tabs { display: flex; gap: calc(4px * var(--space-scale, 1)); margin-left: calc(12px * var(--space-scale, 1)); }
+    .ed-tab { font-size: 14px; font-weight: 500; color: hsl(var(--muted-foreground)); text-decoration: none; padding: 8px 12px; border-radius: 999px; white-space: nowrap; }
+    .ed-tab.ds-active { background: hsl(var(--primary) / 0.12); color: hsl(var(--primary-text)); font-weight: 600; }
+    .ed-end { display: flex; align-items: center; gap: calc(12px * var(--space-scale, 1)); flex-shrink: 0; }
+    .ed-user .ds-user-name { font-size: 14px; font-weight: 600; }
+    .ed-user .ds-user-role { font-size: 12px; }
+}

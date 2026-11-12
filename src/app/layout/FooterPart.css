@@ -1,0 +1,20 @@
+/* Ported by Studio from the agreed design .studio/designs/parts/footer.html: its own CSS, as drawn, applied only inside
+   this shared part. Change nothing here; the build flattens the wrapper for every browser. */
+:where(.studio-part-footer) {
+    .site-foot { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: calc(32px * var(--space-scale, 1)); padding: calc(40px * var(--space-scale, 1)) 0 calc(32px * var(--space-scale, 1)); }
+    .site-foot-brand { display: flex; flex-direction: column; gap: calc(10px * var(--space-scale, 1)); }
+    .site-foot-brand .ds-brand-link { display: inline-flex; align-items: center; gap: calc(10px * var(--space-scale, 1)); text-decoration: none; }
+    .site-foot-brand .ds-brand-text { font-family: var(--font-heading); font-weight: 700; font-size: 20px; letter-spacing: -0.02em; color: hsl(var(--band-foreground)); }
+    .site-foot-brand .ds-brand-link img.ds-brand { height: 30px; width: auto; }
+    .site-foot-mark { width: 30px; height: 30px; border-radius: 9px; background: hsl(var(--band-foreground)); display: inline-flex; align-items: center; justify-content: center; color: hsl(var(--band)); font-family: var(--font-heading); font-weight: 700; font-size: 14px; }
+    .site-foot-line { font-size: 14px; color: inherit; opacity: 0.72; max-width: 26em; }
+    .site-foot h3 { margin-bottom: calc(10px * var(--space-scale, 1)); }
+    .site-foot-links { display: flex; flex-direction: column; gap: calc(8px * var(--space-scale, 1)); font-size: 14px; }
+    .site-foot-links a { color: inherit; opacity: 0.86; text-decoration: none; }
+    .site-foot-links a:hover { opacity: 1; text-decoration: underline; }
+    .site-foot-contact { display: flex; flex-direction: column; gap: calc(8px * var(--space-scale, 1)); font-size: 14px; }
+    .site-foot-contact a { color: inherit; text-decoration: none; opacity: 0.86; }
+    .site-foot-contact a:hover { opacity: 1; text-decoration: underline; }
+    .site-foot-base { display: flex; align-items: center; justify-content: space-between; gap: calc(16px * var(--space-scale, 1)); padding: calc(16px * var(--space-scale, 1)) 0; font-size: 13px; flex-wrap: wrap; }
+    @media (max-width: 860px) { .site-foot { grid-template-columns: 1fr; gap: calc(28px * var(--space-scale, 1)); } }
+}

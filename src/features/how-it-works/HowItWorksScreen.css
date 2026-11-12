@@ -1,0 +1,49 @@
+/* Ported by Studio from the agreed design .studio/designs/screens/how-it-works.html: its own CSS, as drawn, applied only inside
+   this screen. Change nothing here; the build flattens the wrapper for every browser. */
+:where(.studio-screen-how-it-works) {
+  .hi-top { display: flex; align-items: center; gap: calc(24px * var(--space-scale, 1)); padding: calc(16px * var(--space-scale, 1)) 0; }
+  .hi-brand { display: inline-flex; align-items: center; gap: calc(10px * var(--space-scale, 1)); font-family: var(--font-heading); font-weight: 700; font-size: 20px; letter-spacing: -0.03em; color: hsl(var(--foreground)); text-decoration: none; }
+  .hi-mark { width: 32px; height: 32px; border-radius: var(--radius); background: hsl(var(--primary)); color: hsl(var(--primary-foreground)); display: inline-grid; place-items: center; box-shadow: var(--shadow); }
+  .hi-mark svg { width: 18px; height: 18px; }
+  .hi-links { display: flex; gap: calc(24px * var(--space-scale, 1)); font-size: 15px; }
+  .hi-links a { color: hsl(var(--muted-foreground)); text-decoration: none; padding: 8px 0; }
+  .hi-links a[aria-current] { color: hsl(var(--foreground)); font-weight: 600; }
+  .hi-actions { display: flex; align-items: center; gap: calc(8px * var(--space-scale, 1)); }
+
+  .hi-hero { position: relative; padding-top: calc(32px * var(--space-scale, 1)); padding-bottom: calc(48px * var(--space-scale, 1)); }
+  .hi-hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: calc(48px * var(--space-scale, 1)); align-items: end; }
+  .hi-display { font-family: var(--font-heading); font-size: clamp(40px, 7.2vw, 76px); line-height: 0.98; letter-spacing: -0.045em; margin: 12px 0 0; }
+  .hi-lead { margin: calc(20px * var(--space-scale, 1)) 0 0; max-width: 30em; font-size: 18px; line-height: 1.6; color: hsl(var(--muted-foreground)); }
+  .hi-hero-note { display: grid; gap: calc(12px * var(--space-scale, 1)); padding: calc(24px * var(--space-scale, 1)); border-radius: calc(var(--radius) + 8px); background: hsl(var(--primary)); color: hsl(var(--primary-foreground)); box-shadow: var(--shadow); }
+  .hi-hero-note b { font-family: var(--font-heading); font-size: 22px; letter-spacing: -0.02em; line-height: 1.2; display: block; }
+  .hi-hero-note .hi-note-row { display: flex; align-items: center; gap: 10px; font-size: 14px; }
+  .hi-hero-note svg { width: 18px; height: 18px; flex: none; }
+
+  .hi-steps { counter-reset: step; list-style: none; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(32px * var(--space-scale, 1)); padding: calc(48px * var(--space-scale, 1)) 0 calc(64px * var(--space-scale, 1)); }
+  .hi-step { border-top: 2px solid hsl(var(--foreground)); padding-top: calc(16px * var(--space-scale, 1)); }
+  .hi-step-num { display: block; font-family: var(--font-heading); font-size: 48px; line-height: 1; letter-spacing: -0.04em; color: hsl(var(--primary-text)); margin-bottom: 10px; font-variant-numeric: tabular-nums; }
+  .hi-step p { margin: 8px 0 0; color: hsl(var(--muted-foreground)); font-size: 15px; line-height: 1.6; }
+
+  .hi-info { padding-top: calc(64px * var(--space-scale, 1)); padding-bottom: calc(48px * var(--space-scale, 1)); }
+  .hi-info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: calc(24px * var(--space-scale, 1)); margin-top: calc(32px * var(--space-scale, 1)); }
+  .hi-panel { background: hsl(var(--card)); border-radius: calc(var(--radius) + 8px); padding: calc(32px * var(--space-scale, 1)); box-shadow: var(--shadow); border: 1px solid hsl(var(--border)); display: flex; flex-direction: column; }
+  .hi-panel-head { display: flex; align-items: center; gap: 12px; }
+  .hi-icon { width: 44px; height: 44px; border-radius: var(--radius); background: hsl(var(--primary) / 0.12); color: hsl(var(--primary-text)); display: grid; place-items: center; flex: none; }
+  .hi-icon svg { width: 20px; height: 20px; }
+  .hi-panel-body { margin: calc(16px * var(--space-scale, 1)) 0 0; font-size: 16px; line-height: 1.7; color: hsl(var(--foreground)); }
+  .hi-panel-empty { margin: calc(16px * var(--space-scale, 1)) 0 0; font-size: 16px; line-height: 1.7; color: hsl(var(--muted-foreground)); font-style: italic; }
+
+  .hi-cta-band { padding-top: calc(64px * var(--space-scale, 1)); padding-bottom: calc(64px * var(--space-scale, 1)); }
+  .hi-cta { display: grid; grid-template-columns: 1fr auto; gap: calc(32px * var(--space-scale, 1)); align-items: center; }
+  .hi-cta h2 { font-family: var(--font-heading); font-size: clamp(28px, 4vw, 44px); line-height: 1.02; letter-spacing: -0.035em; margin: 8px 0 0; }
+  .hi-cta p { margin: 14px 0 0; font-size: 16px; line-height: 1.6; color: hsl(var(--primary-foreground) / 0.92); max-width: 32em; }
+  .hi-cta .ds-label-caps { color: hsl(var(--primary-foreground) / 0.92); }
+
+  @media (max-width: 860px) {
+    .hi-hero-grid { grid-template-columns: 1fr; gap: calc(24px * var(--space-scale, 1)); }
+    .hi-steps { grid-template-columns: 1fr; gap: calc(24px * var(--space-scale, 1)); padding-bottom: calc(48px * var(--space-scale, 1)); }
+    .hi-info-grid { grid-template-columns: 1fr; }
+    .hi-cta { grid-template-columns: 1fr; }
+    .hi-links { display: none; }
+  }
+}
