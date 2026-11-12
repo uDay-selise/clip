@@ -1,6 +1,6 @@
 import type { MouseEvent } from "react";
 import { useT } from "../../lib/i18n/LocalizationProvider";
-import { useEnterShop } from "../../features/shop-entry/useEnterShop";
+import { useEnterShop } from "./useEnterShop";
 import { useMenuClose } from "./useMenuClose";
 import { ThemeSwitch } from "./ThemeSwitch";
 import "./HeaderPart.css";
@@ -8,13 +8,11 @@ import "./HeaderPart.css";
 export type HeaderPartProps = {
   active?: "home" | "how-it-works" | "about" | "contact" | "products";
   onNavigate?: (path: string) => void;
-  onSignIn?: () => void;
 };
 
-export function HeaderPart({ active, onNavigate, onSignIn }: HeaderPartProps) {
+export function HeaderPart({ active, onNavigate }: HeaderPartProps) {
   const { t } = useT();
   const { enter, failed, pending } = useEnterShop();
-  const message = failed ? t("auth.openFailed") : "";
   useMenuClose();
 
   const goTo = (path: string) => (event: MouseEvent) => {
@@ -23,23 +21,13 @@ export function HeaderPart({ active, onNavigate, onSignIn }: HeaderPartProps) {
     onNavigate(path);
   };
 
-  function signUp(event: MouseEvent) {
+  function signIn(event: MouseEvent) {
     event.preventDefault();
     void enter();
   }
 
-  function signIn(event: MouseEvent) {
-    event.preventDefault();
-    onSignIn?.();
-  }
-
   const link = (path: string, label: string, key: string) => (
-    <a
-      href={path}
-      data-goto={key}
-      aria-current={active === key ? "page" : undefined}
-      onClick={goTo(path)}
-    >
+    <a href={path} data-goto={key} aria-current={active === key ? "page" : undefined} onClick={goTo(path)}>
       {t(label)}
     </a>
   );
@@ -64,11 +52,16 @@ export function HeaderPart({ active, onNavigate, onSignIn }: HeaderPartProps) {
           <span className="ds-spacer" />
           <div className="site-top-actions">
             <ThemeSwitch className="ds-only-wide" />
-            <a href="#" className="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" onClick={signIn}>
-              {t("auth.signIn")}
+            <a
+              href="#"
+              className={active ? "ds-btn ds-btn-ghost ds-btn-sm ds-only-wide" : "ds-btn ds-btn-secondary ds-btn-sm ds-only-wide"}
+              onClick={signIn}
+              aria-busy={pending}
+            >
+              {pending ? t("auth.opening") : t("auth.signIn")}
             </a>
             {" "}
-            <a className="ds-btn ds-btn-sm ds-only-wide" href="#" aria-label={t("auth.signUp")} onClick={signUp} aria-busy={pending}>
+            <a className="ds-btn ds-btn-sm ds-only-wide" href="#" onClick={signIn} aria-busy={pending}>
               {t("auth.signUp")}
             </a>
             <details className="ds-menu ds-only-narrow">
@@ -79,30 +72,18 @@ export function HeaderPart({ active, onNavigate, onSignIn }: HeaderPartProps) {
               </summary>
               <div className="ds-menu-list">
                 {link("/", "nav.home", "home")}
-                {" "}
                 {link("/how-it-works", "nav.howItWorks", "how-it-works")}
-                {" "}
-                {link("/products", "nav.products", "products")}
-                {" "}
                 {link("/about", "nav.about", "about")}
-                {" "}
                 {link("/contact", "nav.contact", "contact")}
-                {" "}
+                {link("/products", "nav.products", "products")}
                 <a href="#" onClick={signIn}>{t("auth.signIn")}</a>
-                {" "}
-                <a href="#" onClick={signUp}>{t("auth.signUp")}</a>
-                <div style={{ padding: "calc(8px * var(--space-scale, 1)) 0 0", borderTop: "1px solid hsl(var(--border))", marginTop: "calc(8px * var(--space-scale, 1))" }}>
-                  <ThemeSwitch />
-                </div>
+                <a href="#" onClick={signIn}>{t("auth.signUp")}</a>
+                <ThemeSwitch />
               </div>
             </details>
           </div>
         </div>
-        {message ? (
-          <div className="ds-bar" role="alert">
-            <p className="ds-muted" style={{ margin: 0 }}>{message}</p>
-          </div>
-        ) : null}
+        {failed ? <p role="alert" className="site-top-alert">{t("auth.openFailed")}</p> : null}
       </header>
     </div>
   );

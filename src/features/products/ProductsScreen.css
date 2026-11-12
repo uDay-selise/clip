@@ -1,6 +1,7 @@
 /* Ported by Studio from the agreed design .studio/designs/screens/products.html: its own CSS, as drawn, applied only inside
    this screen. Change nothing here; the build flattens the wrapper for every browser. */
 :where(.studio-screen-products) {
+    .pr-alert { width: min(calc(100% - 48px), 1072px); margin: 0 auto calc(12px * var(--space-scale, 1)); font-size: 14px; color: hsl(var(--destructive)); }
   .pr-top { display: flex; align-items: center; gap: calc(24px * var(--space-scale, 1)); padding: calc(16px * var(--space-scale, 1)) 0; }
   .pr-brand { display: inline-flex; align-items: center; gap: calc(10px * var(--space-scale, 1)); font-family: var(--font-heading); font-weight: 800; font-size: 20px; letter-spacing: -0.03em; color: hsl(var(--foreground)); text-decoration: none; white-space: nowrap; }
   .pr-mark { width: 32px; height: 32px; border-radius: 999px; background: hsl(var(--primary)); color: hsl(var(--primary-foreground)); display: inline-flex; align-items: center; justify-content: center; flex: none; }

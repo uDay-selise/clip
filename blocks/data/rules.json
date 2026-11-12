@@ -260,5 +260,63 @@
       "priority": 0,
       "isAllowPolicy": true
     }
+  ],
+  "security": [
+    {
+      "schemaName": "PageWording",
+      "operation": 0,
+      "policyType": 0,
+      "accessLevel": 2,
+      "fieldNames": []
+    },
+    {
+      "schemaName": "PageWording",
+      "operation": 1,
+      "policyType": 0,
+      "accessLevel": 3,
+      "fieldNames": []
+    },
+    {
+      "schemaName": "PageWording",
+      "operation": 2,
+      "policyType": 0,
+      "accessLevel": 3,
+      "fieldNames": []
+    },
+    {
+      "schemaName": "PageWording",
+      "operation": 3,
+      "policyType": 0,
+      "accessLevel": 3,
+      "fieldNames": []
+    },
+    {
+      "schemaName": "Product",
+      "operation": 0,
+      "policyType": 0,
+      "accessLevel": 2,
+      "fieldNames": []
+    },
+    {
+      "schemaName": "Product",
+      "operation": 1,
+      "policyType": 0,
+      "accessLevel": 3,
+      "fieldNames": []
+    },
+    {
+      "schemaName": "Product",
+      "operation": 2,
+      "policyType": 0,
+      "accessLevel": 3,
+      "fieldNames": []
+    },
+    {
+      "schemaName": "Product",
+      "operation": 3,
+      "policyType": 0,
+      "accessLevel": 3,
+      "fieldNames": []
+    }
   ]
 }

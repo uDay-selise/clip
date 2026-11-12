@@ -1,0 +1,11 @@
+{"type":"step_started","step":"T01"}
+{"type":"check_verified","check":"PG-01 AC1","by":"ran","how":"Rendered the home screen from the app's own component: headline 'Good things, fair prices.', the line 'Donkey sells everyday goods chosen with care...' and a 'Sign up' button printed."}
+{"type":"check_verified","check":"PG-01 AC2","by":"ran","how":"Rendered home: every 'Sign up' button calls the shop-entry action that opens the hosted sign-in page (login). No sign-up form exists in the app's source."}
+{"type":"check_verified","check":"PG-02 AC2","by":"ran","how":"Rendered the How it works page with no written record: the Delivery panel printed \"We'll add our delivery details here soon.\""}
+{"type":"check_verified","check":"PG-03 AC2","by":"ran","how":"Rendered the Contact page with no written record: it printed 'Contact details are on their way. Check back soon.' and hid the detail cards."}
+{"type":"check_verified","check":"T01 done-when: every top-menu page opens with the designs' words and a Sign up button","by":"ran","how":"Rendered home, how it works, contact, products (empty) and about: each printed the designers' wording and at least one 'Sign up' button."}
+{"type":"check_verified","check":"ED-01 AC2 visitor pages link nothing to /editor","by":"ran","how":"Rendered every visitor page: no link or data-goto to /editor or /editor/sign-in appeared in any output (to /editor: false on all five)."}
+{"type":"assumption","feature":"PG-01","text":"The project's sign-up is off (public signup-settings reports email sign-up disabled), so the single Sign up button opens the hosted sign-in page without the create-account prompt; both Sign in and Sign up use one hosted page."}
+{"type":"assumption","feature":"PG-03","text":"Email, phone and address are never starting content. With no record written the Contact page shows its empty line and the footer shows no contact details, as the designs' rules say."}
+{"type":"assumption","feature":"PR-01","text":"Product photos have no file yet, so each product card shows the design's own picture placeholder (photo icon) rather than one invented image address."}
+{"type":"step_done","step":"T01"}

@@ -10,5 +10,6 @@
     .site-top .ds-brand-text { font-family: var(--font-heading); font-weight: 700; font-size: 22px; letter-spacing: -0.03em; color: hsl(var(--foreground)); }
     .site-top .ds-brand-link { display: inline-flex; align-items: center; gap: calc(10px * var(--space-scale, 1)); text-decoration: none; }
     .site-top .ds-brand-link img.ds-brand { height: 32px; width: auto; }
+    .site-top-alert { margin: 0 0 calc(12px * var(--space-scale, 1)); font-size: 14px; color: hsl(var(--destructive)); }
     .site-mark { width: 32px; height: 32px; border-radius: 10px; background: hsl(var(--brand)); display: inline-flex; align-items: center; justify-content: center; color: hsl(var(--brand-foreground)); font-family: var(--font-heading); font-weight: 700; font-size: 15px; letter-spacing: -0.02em; }
 }

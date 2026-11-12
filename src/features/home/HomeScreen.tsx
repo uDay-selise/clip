@@ -7,6 +7,26 @@ import { usePageWording } from "../content/pageWording";
 import { useEnterShop } from "../shop-entry/useEnterShop";
 import "./HomeScreen.css";
 
+const PREVIEW = [
+  { name: "home.preview1Name", body: "home.preview1Body", price: "home.preview1Price" },
+  { name: "home.preview2Name", body: "home.preview2Body", price: "home.preview2Price" },
+  { name: "home.preview3Name", body: "home.preview3Body", price: "home.preview3Price" }
+] as const;
+
+function PreviewRow({ row }: { row: (typeof PREVIEW)[number] }) {
+  const { t } = useT();
+  return (
+    <div className="dn-preview-row">
+      <div className="ds-img dn-thumb" aria-hidden="true" />
+      <div className="dn-row-text">
+        <b>{t(row.name)}</b>
+        <span className="sm">{t(row.body)}</span>
+      </div>
+      <span className="dn-price">{t(row.price)}</span>
+    </div>
+  );
+}
+
 export function HomeScreen({ onNavigate }: { onNavigate?: (path: string) => void }) {
   const { t } = useT();
   useMenuClose();
@@ -136,22 +156,15 @@ export function HomeScreen({ onNavigate }: { onNavigate?: (path: string) => void
                 </li>
               </ul>
               <div className="ds-row" style={{ marginTop: "calc(28px * var(--space-scale, 1))" }}>
-                <button className="ds-btn" onClick={signUp} aria-busy={pending}>{t("auth.signUp")}</button>
+                <button className="ds-btn" onClick={signUp} aria-busy={pending}>{signUpLabel}</button>
                 {" "}
                 <button className="ds-btn ds-btn-ghost" data-goto="contact" onClick={goTo("/contact")}>{t("home.contactLink")}</button>
               </div>
             </div>
             <div className="dn-preview">
               <span className="ds-label-caps">{t("home.inShopNow")}</span>
-              {(["1", "2", "3"] as const).map((n) => (
-                <div className="dn-preview-row" key={n}>
-                  <div className="ds-img dn-thumb" aria-hidden="true" />
-                  <div className="dn-row-text">
-                    <b>{t(`home.preview${n}Name`)}</b>
-                    <span className="sm">{t(`home.preview${n}Body`)}</span>
-                  </div>
-                  <span className="dn-price">{t(`home.preview${n}Price`)}</span>
-                </div>
+              {PREVIEW.map((row) => (
+                <PreviewRow key={row.name} row={row} />
               ))}
             </div>
           </section>
@@ -159,7 +172,7 @@ export function HomeScreen({ onNavigate }: { onNavigate?: (path: string) => void
         <div className="ds-page">
           <section className="dn-close">
             <h2>{t("home.closeHeading")}</h2>
-            <button className="ds-btn ds-btn-lg" onClick={signUp} aria-busy={pending}>{t("auth.signUp")}</button>
+            <button className="ds-btn ds-btn-lg" onClick={signUp} aria-busy={pending}>{signUpLabel}</button>
           </section>
         </div>
         <FooterPart onNavigate={onNavigate} />

@@ -27,7 +27,17 @@ export async function readPageWording(pageKey: string): Promise<PageWording | un
 
 export function usePageWording(pageKey: string) {
   return useQuery({
+    // A temporary fallback: a read the gateway refuses must not leave a visitor page blank.
+    placeholderData: STARTER_WORDING[pageKey],
     queryKey: ["pageWording", pageKey],
     queryFn: () => readPageWording(pageKey)
   });
 }
+
+/** The shop's own words for each page, shown while the team has written none. */
+const STARTER_WORDING: Record<string, PageWording> = {
+  home: { itemId: "starter-home", pageKey: "home" },
+  "how-it-works": { itemId: "starter-how-it-works", pageKey: "how-it-works" },
+  about: { itemId: "starter-about", pageKey: "about" },
+  contact: { itemId: "starter-contact", pageKey: "contact" }
+};

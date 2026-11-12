@@ -8,7 +8,9 @@ import { AboutScreen } from "../../features/about/AboutScreen";
 import { ContactScreen } from "../../features/contact/ContactScreen";
 import { ProductsScreen } from "../../features/products/ProductsScreen";
 import { EditorSignInScreen } from "../../features/editor-sign-in/EditorSignInScreen";
-import { LoginPage } from "../../features/auth/LoginPage";
+import { EditorScreen } from "../../features/editor/EditorScreen";
+
+const VISITOR_PAGES = ["/", "/how-it-works", "/about", "/contact", "/products"];
 
 function VisitorPage({ path, onNavigate }: { path: string; onNavigate: (path: string) => void }) {
   switch (path) {
@@ -49,10 +51,14 @@ export function AppRouter() {
   }
 
   if (path === "/login/callback") return <CallbackPage onNavigate={navigate} />;
-  if (path === "/login") return <LoginPage returnTo={new URLSearchParams(search).get("returnTo") || undefined} />;
+  if (path === "/login") {
+    const returnTo = new URLSearchParams(search).get("returnTo") || "/editor";
+    window.history.replaceState({}, "", `/editor/sign-in?returnTo=${encodeURIComponent(returnTo)}`);
+    return <EditorSignInScreen onNavigate={navigate} />;
+  }
   if (path === "/error") return <ErrorPage onNavigate={navigate} />;
-  if (path === "/editor" || path.startsWith("/editor/")) return <EditorSignInScreen onNavigate={navigate} />;
+  if (path === "/editor/sign-in") return <EditorSignInScreen onNavigate={navigate} />;
+  if (path === "/editor" || path.startsWith("/editor/")) return <EditorScreen onNavigate={navigate} />;
 
-  const visitor = ["/", "/how-it-works", "/about", "/contact", "/products"].includes(path);
-  return visitor ? <VisitorPage path={path} onNavigate={navigate} /> : <NotFoundPage onNavigate={navigate} />;
+  return VISITOR_PAGES.includes(path) ? <VisitorPage path={path} onNavigate={navigate} /> : <NotFoundPage onNavigate={navigate} />;
 }

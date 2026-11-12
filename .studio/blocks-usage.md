@@ -38,3 +38,11 @@
 ## Languages
 - **Blocks work**: the app's own module `app-bec07a69`; the project's languages only.
 - **Skills**: `blocks-localization-configuration`, `blocks-localization-implementation`.
+
+## Run 5 (T01) checks and changes
+- **Access rules**: PageWording and Product both set Read Public (2), Write/Edit/Delete Custom (3) with the Editor role policies
+  already in `blocks/data/rules.json`. Rules deployed and reloaded; live aggregation reads R 2 / W 3 / E 3 / D 3 for both,
+  and every live policy still reads `Roles contains editor` (sources 0/2, operator 6) after the reload.
+- **Sign up**: the project's sign-up is off (public signup-settings: `isEmailPasswordSignUpEnabled: false`), so pages carry
+  the one "Sign in" button; while it is off it goes to the shop's editors' sign-in, never a form on this site.
+- **Skills**: `blocks-data-gateway-configuration` (access levels), `blocks-data-gateway-crud` (reads).

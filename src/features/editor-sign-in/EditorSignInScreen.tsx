@@ -13,7 +13,7 @@ import "./EditorSignInScreen.css";
 /** The situations the design shows: the screen as it usually is, then each one drawn. Show the one the real data or request is in. */
 export type EditorSignInScreenSituation = "normal" | "not-allowed";
 
-export function EditorSignInScreen({ situation = "normal", onNavigate }: { situation?: EditorSignInScreenSituation; onNavigate?: (path: string) => void }) {
+export function EditorSignInScreen({ situation = "normal", onNavigate, signedOut }: { situation?: EditorSignInScreenSituation; onNavigate?: (path: string) => void; signedOut?: () => void }) {
   const { t } = useT();
   const { login } = useAuth();
   const [pending, setPending] = useState(false);
@@ -78,7 +78,11 @@ export function EditorSignInScreen({ situation = "normal", onNavigate }: { situa
               <div className="esi-switches">
                 <ThemeSwitch />
                 {" "}
-                <a href="/" className="ds-btn ds-btn-ghost ds-btn-sm" data-goto="home" onClick={goTo("/")}>{t("editor.backToShop")}</a>
+                {signedOut ? (
+                  <a href="#" className="ds-btn ds-btn-ghost ds-btn-sm" onClick={(event) => { event.preventDefault(); signedOut(); }}>{t("editor.backToShop")}</a>
+                ) : (
+                  <a href="/" className="ds-btn ds-btn-ghost ds-btn-sm" data-goto="home" onClick={goTo("/")}>{t("editor.backToShop")}</a>
+                )}
               </div>
             </div>
             <section className="esi-hero">
