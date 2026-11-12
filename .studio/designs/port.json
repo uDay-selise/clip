@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "ported": [
+    {
+      "kind": "part",
+      "key": "header",
+      "name": "Visitor top bar",
+      "component": "HeaderPart",
+      "files": [
+        "src/app/layout/HeaderPart.tsx",
+        "src/app/layout/HeaderPart.css"
+      ],
+      "situations": [],
+      "parts": []
+    },
+    {
+      "kind": "part",
+      "key": "editor-header",
+      "name": "Editors' header",
+      "component": "EditorHeaderPart",
+      "files": [
+        "src/app/layout/EditorHeaderPart.tsx",
+        "src/app/layout/EditorHeaderPart.css"
+      ],
+      "situations": [],
+      "parts": []
+    },
+    {
+      "kind": "part",
+      "key": "footer",
+      "name": "Footer",
+      "component": "FooterPart",
+      "files": [
+        "src/app/layout/FooterPart.tsx",
+        "src/app/layout/FooterPart.css"
+      ],
+      "situations": [],
+      "parts": []
+    },
+    {
+      "kind": "screen",
+      "key": "home",
+      "name": "Home",
+      "component": "HomeScreen",
+      "files": [
+        "src/features/home/HomeScreen.tsx",
+        "src/features/home/HomeScreen.css"
+      ],
+      "situations": [],
+      "parts": [
+        "footer"
+      ]
+    },
+    {
+      "kind": "screen",
+      "key": "how-it-works",
+      "name": "How it works",
+      "component": "HowItWorksScreen",
+      "files": [
+        "src/features/how-it-works/HowItWorksScreen.tsx",
+        "src/features/how-it-works/HowItWorksScreen.css"
+      ],
+      "situations": [],
+      "parts": [
+        "footer"
+      ]
+    },
+    {
+      "kind": "screen",
+      "key": "products",
+      "name": "Products",
+      "component": "ProductsScreen",
+      "files": [
+        "src/features/products/ProductsScreen.tsx",
+        "src/features/products/ProductsScreen.css"
+      ],
+      "situations": [
+        "empty"
+      ],
+      "parts": [
+        "footer"
+      ]
+    },
+    {
+      "kind": "screen",
+      "key": "contact",
+      "name": "Contact",
+      "component": "ContactScreen",
+      "files": [
+        "src/features/contact/ContactScreen.tsx",
+        "src/features/contact/ContactScreen.css"
+      ],
+      "situations": [
+        "empty"
+      ],
+      "parts": [
+        "footer"
+      ]
+    },
+    {
+      "kind": "screen",
+      "key": "about",
+      "name": "About",
+      "component": "AboutScreen",
+      "files": [
+        "src/features/about/AboutScreen.tsx",
+        "src/features/about/AboutScreen.css"
+      ],
+      "situations": [],
+      "parts": [
+        "footer"
+      ]
+    },
+    {
+      "kind": "screen",
+      "key": "editor-sign-in",
+      "name": "Editor sign-in",
+      "component": "EditorSignInScreen",
+      "files": [
+        "src/features/editor-sign-in/EditorSignInScreen.tsx",
+        "src/features/editor-sign-in/EditorSignInScreen.css"
+      ],
+      "situations": [
+        "not-allowed"
+      ],
+      "parts": [
+        "footer"
+      ]
+    },
+    {
+      "kind": "screen",
+      "key": "editor",
+      "name": "Editors' area",
+      "component": "EditorScreen",
+      "files": [
+        "src/features/editor/EditorScreen.tsx",
+        "src/features/editor/EditorScreen.css"
+      ],
+      "situations": [
+        "empty",
+        "not-allowed",
+        "done"
+      ],
+      "parts": [
+        "header",
+        "footer"
+      ]
+    }
+  ],
+  "notPorted": [],
+  "checkedWith": "starter"
+}

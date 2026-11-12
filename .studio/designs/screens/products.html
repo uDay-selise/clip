@@ -1,0 +1,226 @@
+<style>
+  .pr-top { display: flex; align-items: center; gap: calc(24px * var(--space-scale, 1)); padding: calc(16px * var(--space-scale, 1)) 0; }
+  .pr-brand { display: inline-flex; align-items: center; gap: calc(10px * var(--space-scale, 1)); font-family: var(--font-heading); font-weight: 800; font-size: 20px; letter-spacing: -0.03em; color: hsl(var(--foreground)); text-decoration: none; white-space: nowrap; }
+  .pr-mark { width: 32px; height: 32px; border-radius: 999px; background: hsl(var(--primary)); color: hsl(var(--primary-foreground)); display: inline-flex; align-items: center; justify-content: center; flex: none; }
+  .pr-mark svg { width: 20px; height: 20px; }
+  .pr-links { display: flex; gap: calc(22px * var(--space-scale, 1)); font-size: 15px; }
+  .pr-links a { color: hsl(var(--muted-foreground)); text-decoration: none; padding: 10px 0; display: inline-flex; align-items: center; min-height: 40px; }
+  .pr-links a.pr-on { color: hsl(var(--foreground)); font-weight: 600; box-shadow: inset 0 -2px 0 hsl(var(--primary)); }
+  .pr-head { display: grid; grid-template-columns: 1.35fr 1fr; gap: calc(48px * var(--space-scale, 1)); align-items: end; padding: calc(48px * var(--space-scale, 1)) 0 calc(40px * var(--space-scale, 1)); }
+  .pr-head h1 { margin: calc(12px * var(--space-scale, 1)) 0 0; }
+  .pr-lead { margin: calc(16px * var(--space-scale, 1)) 0 0; max-width: 26em; font-size: 17px; line-height: 1.6; color: hsl(var(--muted-foreground)); }
+  .pr-counts { display: flex; gap: calc(32px * var(--space-scale, 1)); border-top: 2px solid hsl(var(--foreground)); padding-top: calc(16px * var(--space-scale, 1)); flex-wrap: wrap; }
+  .pr-count b { display: block; font-family: var(--font-heading); font-size: 40px; line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; }
+  .pr-count span { display: block; margin-top: calc(8px * var(--space-scale, 1)); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: hsl(var(--muted-foreground)); }
+  .pr-band { background: hsl(var(--band)); color: hsl(var(--band-foreground)); padding: calc(48px * var(--space-scale, 1)) 0 calc(64px * var(--space-scale, 1)); border-radius: calc(var(--radius) + 20px); margin-top: calc(8px * var(--space-scale, 1)); }
+  .pr-band-head { display: flex; align-items: baseline; gap: calc(16px * var(--space-scale, 1)); flex-wrap: wrap; }
+  .pr-band-head .ds-label-caps { color: hsl(var(--band-foreground)); }
+  .pr-band-note { margin-left: auto; font-size: 13px; color: hsl(var(--band-foreground)); font-variant-numeric: tabular-nums; }
+  .pr-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(24px * var(--space-scale, 1)); margin-top: calc(24px * var(--space-scale, 1)); }
+  .pr-card { display: flex; flex-direction: column; background: hsl(var(--card)); color: hsl(var(--card-foreground, var(--foreground))); border-radius: calc(var(--card-radius, var(--radius)) + 4px); box-shadow: var(--shadow); overflow: hidden; }
+  .pr-card .ds-badge { background: hsl(var(--background)); }
+  .pr-photo { aspect-ratio: 4 / 3; background: linear-gradient(150deg, hsl(var(--main-100)), hsl(var(--main-200))); position: relative; display: flex; align-items: center; justify-content: center; color: hsl(var(--main-600)); }
+  .dark .pr-photo { background: linear-gradient(150deg, hsl(var(--main-900)), hsl(var(--main-800))); color: hsl(var(--main-300)); }
+  .pr-photo svg { width: 48px; height: 48px; opacity: 0.6; }
+  .pr-tagline { display: flex; gap: calc(8px * var(--space-scale, 1)); padding: calc(16px * var(--space-scale, 1)) calc(20px * var(--space-scale, 1)) 0; flex-wrap: wrap; }
+  .pr-body { padding: calc(10px * var(--space-scale, 1)) calc(20px * var(--space-scale, 1)) calc(20px * var(--space-scale, 1)); display: flex; flex-direction: column; flex: 1; }
+  .pr-name { font-family: var(--font-heading); font-size: 21px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin: calc(8px * var(--space-scale, 1)) 0 0; color: hsl(var(--foreground)); }
+  .pr-desc { margin: calc(8px * var(--space-scale, 1)) 0 0; font-size: 15px; line-height: 1.55; color: hsl(var(--muted-foreground)); }
+  .pr-med { margin: calc(12px * var(--space-scale, 1)) 0 0; display: flex; gap: calc(8px * var(--space-scale, 1)); align-items: flex-start; font-size: 13px; line-height: 1.45; color: hsl(var(--muted-foreground)); background: hsl(var(--muted)); border-radius: var(--radius-input); padding: calc(10px * var(--space-scale, 1)); }
+  .pr-med svg { width: 16px; height: 16px; flex: none; margin-top: 1px; color: hsl(var(--primary-text)); }
+  .pr-foot { margin-top: auto; padding-top: calc(20px * var(--space-scale, 1)); display: flex; align-items: center; gap: calc(12px * var(--space-scale, 1)); }
+  .pr-price { font-family: var(--font-heading); font-size: 30px; font-weight: 700; letter-spacing: -0.03em; line-height: 1; font-variant-numeric: tabular-nums; white-space: nowrap; color: hsl(var(--foreground)); }
+  .pr-foot .ds-btn { margin-left: auto; min-height: 44px; }
+  .pr-close { margin-top: calc(64px * var(--space-scale, 1)); display: grid; grid-template-columns: 1.1fr 1fr; gap: calc(40px * var(--space-scale, 1)); align-items: center; background: hsl(var(--band)); color: hsl(var(--band-foreground)); border-radius: calc(var(--radius) + 16px); padding: calc(40px * var(--space-scale, 1)); position: relative; overflow: hidden; }
+  .pr-close h2 { margin: calc(10px * var(--space-scale, 1)) 0 0; color: inherit; }
+  .pr-close p { margin: calc(12px * var(--space-scale, 1)) 0 0; font-size: 16px; line-height: 1.6; color: hsl(var(--band-foreground)); max-width: 24em; }
+  .pr-close .ds-eyebrow { color: hsl(var(--band-foreground)); }
+  .pr-close-btn { display: flex; justify-content: flex-end; align-items: center; gap: calc(16px * var(--space-scale, 1)); flex-wrap: wrap; }
+  .pr-close .ds-btn { background: hsl(var(--band-foreground)); color: hsl(var(--band)); border-color: transparent; }
+  .pr-close .ds-btn-ghost { background: transparent; color: hsl(var(--band-foreground)); border: 1px solid hsl(var(--band-foreground)); }
+  .pr-close-shape { width: 260px; height: 260px; right: calc(16px * var(--space-scale, 1)); bottom: calc(16px * var(--space-scale, 1)); color: hsl(var(--band-foreground)); opacity: 0.14; }
+  @media (max-width: 1000px) {
+    .pr-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .pr-head { grid-template-columns: 1fr; gap: calc(24px * var(--space-scale, 1)); }
+  }
+  @media (max-width: 720px) {
+    .pr-links { display: none; }
+    .pr-grid { grid-template-columns: 1fr; }
+    .pr-close { grid-template-columns: 1fr; }
+    .pr-close-btn { justify-content: flex-start; }
+    .pr-band { border-radius: calc(var(--radius) + 12px); }
+    .pr-counts { gap: calc(24px * var(--space-scale, 1)); }
+    .pr-count b { font-size: 32px; }
+    .pr-top { gap: calc(12px * var(--space-scale, 1)); }
+    .pr-brand { font-size: 18px; }
+  }
+</style><main data-screen="products" data-eid="e1">
+  <div class="ds-page" style="padding-top: 0; padding-bottom: 0" data-eid="e2">
+    <header class="pr-top" data-eid="e3">
+      <a class="pr-brand" data-goto="home" data-eid="e4">
+        <span class="pr-mark" aria-hidden="true" data-eid="e5"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M7 8c-1.5 1.6-2 3.4 0 4.5M17 8c1.5 1.6 2 3.4 0 4.5"></path><path d="M6 13.5c0 3.5 2.7 6 6 6s6-2.5 6-6c0-1.6-1-2.8-2.5-2.8h-7C7 10.7 6 11.9 6 13.5Z"></path></svg></span>
+        <span data-eid="e6">Donkey website</span>
+      </a>
+      <nav class="pr-links ds-only-wide" aria-label="Site pages" data-eid="e7">
+        <a data-goto="home" data-eid="e8">Home</a>
+        <a class="pr-on" href="#" aria-current="page" data-eid="e9">Products</a>
+        <a data-goto="how-it-works" data-eid="e10">How it works</a>
+        <a data-goto="about" data-eid="e11">About</a>
+        <a data-goto="contact" data-eid="e12">Contact</a>
+      </nav>
+      <span class="ds-spacer" data-eid="e13"></span>
+      <div class="ds-theme-switch ds-only-wide" role="group" aria-label="Colour mode" data-eid="e14">
+        <button class="ds-active" aria-label="Light" data-eid="e15"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg></button>
+        <button aria-label="Dark" data-eid="e16"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"></path></svg></button>
+        <button aria-label="Auto" data-eid="e17"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="8"></circle><path d="M12 4v16"></path><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"></path></svg></button>
+      </div>
+      <a class="ds-btn ds-btn-sm ds-only-wide" data-goto="home" data-eid="e18">Sign up</a>
+      <a class="ds-btn ds-btn-ghost ds-btn-sm ds-only-wide" data-goto="editor-sign-in" data-eid="e19">Sign in</a>
+      <details class="ds-menu ds-only-narrow"><summary class="ds-menu-button" aria-label="Open the menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></summary><div class="ds-menu-list" data-eid="e20"><a data-goto="home" data-eid="e21">Home</a><a href="#" data-eid="e22">Products</a><a data-goto="how-it-works" data-eid="e23">How it works</a><a data-goto="about" data-eid="e24">About</a><a data-goto="contact" data-eid="e25">Contact</a><a data-goto="editor-sign-in" data-eid="e26">Sign in</a><div class="ds-theme-switch" role="group" aria-label="Colour mode" data-eid="e27"><button class="ds-active" aria-label="Light" data-eid="e28"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg></button><button aria-label="Dark" data-eid="e29"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"></path></svg></button><button aria-label="Auto" data-eid="e30"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="8"></circle><path d="M12 4v16"></path><path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"></path></svg></button></div></div></details>
+    </header>
+  </div>
+
+  <div data-eid="content">
+    <div class="ds-page" style="padding-top: 0; padding-bottom: 0" data-eid="e31">
+      <div class="ds-page-head pr-head" data-eid="e32">
+        <div data-eid="e33">
+          <span class="ds-eyebrow" data-eid="e34">The shop</span>
+          <h1 class="ds-h1 ds-display" data-eid="e35">Everything we sell, priced plainly.</h1>
+          <p class="pr-lead" data-eid="e36">Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.</p>
+        </div>
+        <div class="pr-counts" data-eid="e37">
+          <div class="pr-count" data-eid="e38"><b data-sample="">6</b><span data-eid="e39">On sale</span></div>
+          <div class="pr-count" data-eid="e40"><b data-sample="">£12.50</b><span data-eid="e41">From</span></div>
+          <div class="pr-count" data-eid="e42"><b data-sample="">3 to 5 days</b><span data-eid="e43">Delivery</span></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ds-band pr-band" data-eid="e44">
+      <div class="ds-page" style="padding-top: 0; padding-bottom: 0" data-eid="e45">
+        <div class="pr-band-head" data-eid="e46">
+          <span class="ds-label-caps" data-eid="e47">On sale now</span>
+          <span class="pr-band-note" data-eid="e48">Prices in pounds, no extras</span>
+        </div>
+
+        <div class="pr-grid" data-eid="e49">
+          <article class="pr-card" data-eid="e50">
+            <div class="pr-photo" data-eid="e51"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"></rect><path d="m3 16 5-4 4 3 3-2 6 4"></path><circle cx="9" cy="9" r="1.5"></circle></svg></div>
+            <div class="pr-tagline" data-eid="e52"><span class="ds-badge ds-badge-success" data-eid="e53">In stock</span><span class="ds-badge ds-badge-quiet" data-sample="Product#1.group" data-eid="e54">Oils</span></div>
+            <div class="pr-body" data-eid="e55">
+              <h2 class="pr-name" data-sample="Product#1.name" data-eid="e56">Calm Nights lavender oil</h2>
+              <p class="pr-desc" data-sample="Product#1.description" data-eid="e57">A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.</p>
+              <p class="pr-med" data-eid="e58"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M12 3v18M5 8h14M5 16h14"></path></svg><span data-sample="Product#1.medicineNote" data-eid="e59">For adults. Keep away from children and ask your doctor if you are pregnant.</span></p>
+              <div class="pr-foot" data-eid="e60">
+                <span class="pr-price" data-sample="Product#1.price" data-eid="e61">£12.50</span>
+                <a class="ds-btn ds-btn-secondary ds-btn-sm" data-goto="home" data-eid="e62">Sign up</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pr-card" data-eid="e63">
+            <div class="pr-photo" data-eid="e64"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"></rect><path d="m3 16 5-4 4 3 3-2 6 4"></path><circle cx="9" cy="9" r="1.5"></circle></svg></div>
+            <div class="pr-tagline" data-eid="e65"><span class="ds-badge ds-badge-success" data-eid="e66">In stock</span><span class="ds-badge ds-badge-quiet" data-sample="Product#2.group" data-eid="e67">Balms</span></div>
+            <div class="pr-body" data-eid="e68">
+              <h2 class="pr-name" data-sample="Product#2.name" data-eid="e69">Hand balm, unscented</h2>
+              <p class="pr-desc" data-sample="Product#2.description" data-eid="e70">Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.</p>
+              <div class="pr-foot" data-eid="e71">
+                <span class="pr-price" data-sample="Product#2.price" data-eid="e72">£8.00</span>
+                <a class="ds-btn ds-btn-secondary ds-btn-sm" data-goto="home" data-eid="e73">Sign up</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pr-card" data-eid="e74">
+            <div class="pr-photo" data-eid="e75"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"></rect><path d="m3 16 5-4 4 3 3-2 6 4"></path><circle cx="9" cy="9" r="1.5"></circle></svg></div>
+            <div class="pr-tagline" data-eid="e76"><span class="ds-badge ds-badge-warning" data-eid="e77">Low stock</span><span class="ds-badge ds-badge-quiet" data-sample="Product#3.group" data-eid="e78">Teas</span></div>
+            <div class="pr-body" data-eid="e79">
+              <h2 class="pr-name" data-sample="Product#3.name" data-eid="e80">Nettle and mint tea, 20 bags</h2>
+              <p class="pr-desc" data-sample="Product#3.description" data-eid="e81">Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.</p>
+              <p class="pr-med" data-eid="e82"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M12 3v18M5 8h14M5 16h14"></path></svg><span data-sample="Product#3.medicineNote" data-eid="e83">A food, not a medicine. Not for children under 2.</span></p>
+              <div class="pr-foot" data-eid="e84">
+                <span class="pr-price" data-sample="Product#3.price" data-eid="e85">£6.40</span>
+                <a class="ds-btn ds-btn-secondary ds-btn-sm" data-goto="home" data-eid="e86">Sign up</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pr-card" data-eid="e87">
+            <div class="pr-photo" data-eid="e88"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"></rect><path d="m3 16 5-4 4 3 3-2 6 4"></path><circle cx="9" cy="9" r="1.5"></circle></svg></div>
+            <div class="pr-tagline" data-eid="e89"><span class="ds-badge ds-badge-success" data-eid="e90">In stock</span><span class="ds-badge ds-badge-quiet" data-sample="Product#4.group" data-eid="e91">Grow your own</span></div>
+            <div class="pr-body" data-eid="e92">
+              <h2 class="pr-name" data-sample="Product#4.name" data-eid="e93">Wildflower seed tin</h2>
+              <p class="pr-desc" data-sample="Product#4.description" data-eid="e94">Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.</p>
+              <div class="pr-foot" data-eid="e95">
+                <span class="pr-price" data-sample="Product#4.price" data-eid="e96">£4.50</span>
+                <a class="ds-btn ds-btn-secondary ds-btn-sm" data-goto="home" data-eid="e97">Sign up</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pr-card" data-eid="e98">
+            <div class="pr-photo" data-eid="e99"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"></rect><path d="m3 16 5-4 4 3 3-2 6 4"></path><circle cx="9" cy="9" r="1.5"></circle></svg></div>
+            <div class="pr-tagline" data-eid="e100"><span class="ds-badge ds-badge-success" data-eid="e101">In stock</span><span class="ds-badge ds-badge-quiet" data-sample="Product#5.group" data-eid="e102">Balms</span></div>
+            <div class="pr-body" data-eid="e103">
+              <h2 class="pr-name" data-sample="Product#5.name" data-eid="e104">Donkey lip salve</h2>
+              <p class="pr-desc" data-sample="Product#5.description" data-eid="e105">A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.</p>
+              <div class="pr-foot" data-eid="e106">
+                <span class="pr-price" data-sample="Product#5.price" data-eid="e107">£3.20</span>
+                <a class="ds-btn ds-btn-secondary ds-btn-sm" data-goto="home" data-eid="e108">Sign up</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="pr-card" data-eid="e109">
+            <div class="pr-photo" data-eid="e110"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"></rect><path d="m3 16 5-4 4 3 3-2 6 4"></path><circle cx="9" cy="9" r="1.5"></circle></svg></div>
+            <div class="pr-tagline" data-eid="e111"><span class="ds-badge ds-badge-quiet" data-sample="Product#6.group" data-eid="e112">Oils</span></div>
+            <div class="pr-body" data-eid="e113">
+              <h2 class="pr-name" data-sample="Product#6.name" data-eid="e114">Rosehip face oil, 30ml</h2>
+              <p class="pr-desc" data-sample="Product#6.description" data-eid="e115">Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.</p>
+              <p class="pr-med" data-eid="e116"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M12 3v18M5 8h14M5 16h14"></path></svg><span data-sample="Product#6.medicineNote" data-eid="e117">Patch test first if your skin is sensitive.</span></p>
+              <div class="pr-foot" data-eid="e118">
+                <span class="pr-price" data-sample="Product#6.price" data-eid="e119">£18.00</span>
+                <a class="ds-btn ds-btn-secondary ds-btn-sm" data-goto="home" data-eid="e120">Sign up</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="ds-page" data-eid="e121">
+      <section class="pr-close" data-eid="e122">
+        <svg class="ds-deco pr-close-shape" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="96" fill="none" stroke="currentColor" stroke-width="2"></circle><circle cx="100" cy="100" r="64" fill="none" stroke="currentColor" stroke-width="2"></circle></svg>
+        <div data-eid="e123">
+          <span class="ds-eyebrow" data-eid="e124">Ready to buy</span>
+          <h2 class="ds-h2" data-eid="e125">Take your pick into the shop.</h2>
+          <p data-eid="e126">Signing up takes a minute. Then you can put things in a basket and pay at the checkout.</p>
+        </div>
+        <div class="pr-close-btn" data-eid="e127">
+          <a class="ds-btn ds-btn-lg" data-goto="home" data-eid="e128">Sign up</a>
+          <a class="ds-btn ds-btn-ghost" data-goto="how-it-works" data-eid="e129">How it works</a>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div data-part="footer" data-eid="e130"></div>
+
+  <section data-state="empty" hidden="" data-replaces="content" data-eid="e131">
+    <div class="ds-page" style="padding-top: calc(48px * var(--space-scale, 1)); padding-bottom: calc(64px * var(--space-scale, 1))" data-eid="e132">
+      <div class="ds-page-head pr-head" style="grid-template-columns: 1fr" data-eid="e133">
+        <div data-eid="e134">
+          <span class="ds-eyebrow" data-eid="e135">The shop</span>
+          <h1 class="ds-h1 ds-display" data-eid="e136">Everything we sell, priced plainly.</h1>
+          <p class="pr-lead" data-eid="e137">Every price is the full price in pounds, nothing added at the counter.</p>
+        </div>
+      </div>
+      <div class="ds-empty" data-eid="e138">
+        <div class="ds-empty-icon" data-eid="e139"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"></rect><path d="m3 16 5-4 4 3 3-2 6 4"></path><circle cx="9" cy="9" r="1.5"></circle></svg></div>
+        <h2 class="ds-h3" data-eid="e140">Our products are on their way. Check back soon.</h2>
+        <p class="ds-muted" style="margin-top: calc(8px * var(--space-scale, 1))" data-eid="e141">In the meantime, sign up and we will let you know when the first things are ready.</p>
+        <a class="ds-btn" style="margin-top: calc(24px * var(--space-scale, 1))" data-goto="home" data-eid="e142">Sign up</a>
+      </div>
+    </div>
+  </section>
+</main>

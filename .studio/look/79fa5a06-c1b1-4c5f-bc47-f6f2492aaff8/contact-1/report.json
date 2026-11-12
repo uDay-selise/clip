@@ -1,0 +1,4683 @@
+{
+  "version": 1,
+  "target": ".studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/contact-1.html",
+  "kind": "file",
+  "situation": null,
+  "startedAt": "2026-11-12T04:34:44.306Z",
+  "views": [
+    {
+      "width": 390,
+      "mode": "light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Contact",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/contact-1.html",
+      "situation": null,
+      "document": {
+        "width": 390,
+        "height": 2443,
+        "title": "Contact",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "text": "Talk to Donkey. We answer.",
+          "classes": "ct-title",
+          "eid": "e5",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 134,
+            "width": 358,
+            "height": 76
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SEE THE PRODUCTS",
+          "text": "See the products",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e38",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 1737,
+            "width": 201,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "page": {
+            "x": 16,
+            "y": 68,
+            "width": 358,
+            "height": 326
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e2",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1886,
+            "width": 390,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 2443
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68
+          },
+          "content": {
+            "left": 16,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Talk to Donkey. We answer.",
+          "box": {
+            "x": 16,
+            "y": 134,
+            "width": 358,
+            "height": 76
+          },
+          "content": {
+            "left": 16,
+            "right": 350
+          }
+        },
+        {
+          "kind": "section",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 394,
+            "width": 390,
+            "height": 689
+          },
+          "content": {
+            "left": 16,
+            "right": 363
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Have a look at the shop.",
+          "box": {
+            "x": 0,
+            "y": 1531,
+            "width": 390,
+            "height": 355
+          },
+          "content": {
+            "left": 16,
+            "right": 372
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1886,
+            "width": 390,
+            "height": 557
+          },
+          "content": {
+            "left": 16,
+            "right": 326
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read How it works"
+        },
+        {
+          "target": "products",
+          "text": "Browse Products"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Email us hello@donkey.shop Best for orders, returns and any…"
+        },
+        {
+          "href": "#",
+          "text": "Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "EMAIL US",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "CALL US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Before you write",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Something from the shop",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Have a look at the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign in",
+        "Contact",
+        "Talk to Donkey. We answer.",
+        "A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.",
+        "Email us",
+        "hello@donkey.shop",
+        "Best for orders, returns and anything with a photo.",
+        "Write to us",
+        "Call us",
+        "01632 960 412",
+        "Monday to Friday, 9am to 5pm.",
+        "Call us",
+        "Find us",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.",
+        "Before you write",
+        "Most answers are already here. How buying works covers delivery times and what to do if something isn't right.",
+        "Read How it works",
+        "Something from the shop",
+        "Have your order in front of you when you call. We can find it faster with the name on it and the date it came.",
+        "Browse Products",
+        "Ready when you are",
+        "Have a look at the shop.",
+        "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+        "See the products",
+        "How buying works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "HOW BUYING WORKS",
+          "text": "How buying works",
+          "classes": "ds-btn ds-btn-secondary ds-btn-lg",
+          "eid": "e39",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 1793,
+            "width": 212,
+            "height": 44
+          },
+          "colour": "#ffffff",
+          "background": "#f0f8f5",
+          "ratio": 1.08,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+          "text": "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+          "classes": "ct-cta-lead",
+          "eid": "e36",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 1654,
+            "width": 358,
+            "height": 51
+          },
+          "colour": "#fcfdfd",
+          "background": "#e9f5ef",
+          "ratio": 1.1,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "READY WHEN YOU ARE",
+          "text": "Ready when you are",
+          "classes": "ds-eyebrow ct-eyebrow-band",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": "Something from the shop",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 1583,
+            "width": 154,
+            "height": 19
+          },
+          "colour": "#fbfdfc",
+          "background": "#e6f3ed",
+          "ratio": 1.12,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Have a look at the shop.",
+          "text": "Have a look at the shop.",
+          "classes": "ds-h1",
+          "eid": "e35",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 1612,
+            "width": 358,
+            "height": 28
+          },
+          "colour": "#ffffff",
+          "background": "#e7f3ee",
+          "ratio": 1.14,
+          "required": 3,
+          "fontSize": 24,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2063,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2236,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2325,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2394,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1994,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2295,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2092,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2122,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2152,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2181,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2265,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 15,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey Sign in\n  - group:\n    - img\n  - text: Contact\n  - heading \"Talk to Donkey. We answer.\" [level=1]\n  - paragraph: A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.\n  - link \"Email us hello@donkey.shop Best for orders, returns and anything with a photo. Write to us\":\n    - /url: \"#\"\n  - link \"Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us\":\n    - /url: \"#\"\n  - text: Find us\n  - paragraph: 12 Larkfield Road, Nottingham NG7 4DQ\n  - paragraph: Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.\n  - heading \"Before you write\" [level=2]\n  - paragraph: Most answers are already here. How buying works covers delivery times and what to do if something isn't right.\n  - text: Read How it works\n  - heading \"Something from the shop\" [level=2]\n  - paragraph: Have your order in front of you when you call. We can find it faster with the name on it and the date it came.\n  - text: Browse Products Ready when you are\n  - heading \"Have a look at the shop.\" [level=2]\n  - paragraph: Everything Donkey sells, with prices in pounds. No account needed to browse.\n  - text: See the products How buying works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w390-light.png",
+      "thumbnail": "thumb-w390-light.webp",
+      "modelImage": "model-w390-light.jpg"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Contact",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/contact-1.html",
+      "situation": null,
+      "document": {
+        "width": 390,
+        "height": 2443,
+        "title": "Contact",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "text": "Talk to Donkey. We answer.",
+          "classes": "ct-title",
+          "eid": "e5",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 134,
+            "width": 358,
+            "height": 76
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SEE THE PRODUCTS",
+          "text": "See the products",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e38",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 1737,
+            "width": 201,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "page": {
+            "x": 16,
+            "y": 68,
+            "width": 358,
+            "height": 326
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e2",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1886,
+            "width": 390,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 2443
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 68
+          },
+          "content": {
+            "left": 16,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Talk to Donkey. We answer.",
+          "box": {
+            "x": 16,
+            "y": 134,
+            "width": 358,
+            "height": 76
+          },
+          "content": {
+            "left": 16,
+            "right": 350
+          }
+        },
+        {
+          "kind": "section",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 394,
+            "width": 390,
+            "height": 689
+          },
+          "content": {
+            "left": 16,
+            "right": 363
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Have a look at the shop.",
+          "box": {
+            "x": 0,
+            "y": 1531,
+            "width": 390,
+            "height": 355
+          },
+          "content": {
+            "left": 16,
+            "right": 372
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1886,
+            "width": 390,
+            "height": 557
+          },
+          "content": {
+            "left": 16,
+            "right": 326
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read How it works"
+        },
+        {
+          "target": "products",
+          "text": "Browse Products"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Email us hello@donkey.shop Best for orders, returns and any…"
+        },
+        {
+          "href": "#",
+          "text": "Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "EMAIL US",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "CALL US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Before you write",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Something from the shop",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Have a look at the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign in",
+        "Contact",
+        "Talk to Donkey. We answer.",
+        "A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.",
+        "Email us",
+        "hello@donkey.shop",
+        "Best for orders, returns and anything with a photo.",
+        "Write to us",
+        "Call us",
+        "01632 960 412",
+        "Monday to Friday, 9am to 5pm.",
+        "Call us",
+        "Find us",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.",
+        "Before you write",
+        "Most answers are already here. How buying works covers delivery times and what to do if something isn't right.",
+        "Read How it works",
+        "Something from the shop",
+        "Have your order in front of you when you call. We can find it faster with the name on it and the date it came.",
+        "Browse Products",
+        "Ready when you are",
+        "Have a look at the shop.",
+        "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+        "See the products",
+        "How buying works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2063,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2236,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2325,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2394,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1994,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2295,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2092,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2122,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2152,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2181,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2265,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey Sign in\n  - group:\n    - img\n  - text: Contact\n  - heading \"Talk to Donkey. We answer.\" [level=1]\n  - paragraph: A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.\n  - link \"Email us hello@donkey.shop Best for orders, returns and anything with a photo. Write to us\":\n    - /url: \"#\"\n  - link \"Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us\":\n    - /url: \"#\"\n  - text: Find us\n  - paragraph: 12 Larkfield Road, Nottingham NG7 4DQ\n  - paragraph: Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.\n  - heading \"Before you write\" [level=2]\n  - paragraph: Most answers are already here. How buying works covers delivery times and what to do if something isn't right.\n  - text: Read How it works\n  - heading \"Something from the shop\" [level=2]\n  - paragraph: Have your order in front of you when you call. We can find it faster with the name on it and the date it came.\n  - text: Browse Products Ready when you are\n  - heading \"Have a look at the shop.\" [level=2]\n  - paragraph: Everything Donkey sells, with prices in pounds. No account needed to browse.\n  - text: See the products How buying works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w390-dark.png",
+      "thumbnail": "thumb-w390-dark.webp",
+      "modelImage": "model-w390-dark.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "light",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Contact",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/contact-1.html",
+      "situation": null,
+      "document": {
+        "width": 834,
+        "height": 2194,
+        "title": "Contact",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "text": "Talk to Donkey. We answer.",
+          "classes": "ct-title",
+          "eid": "e5",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 134,
+            "width": 786,
+            "height": 55
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SEE THE PRODUCTS",
+          "text": "See the products",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e38",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 1545,
+            "width": 201,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "page": {
+            "x": 24,
+            "y": 68,
+            "width": 786,
+            "height": 248
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e2",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1638,
+            "width": 834,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 2194
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 68
+          },
+          "content": {
+            "left": 24,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Talk to Donkey. We answer.",
+          "box": {
+            "x": 24,
+            "y": 134,
+            "width": 786,
+            "height": 55
+          },
+          "content": {
+            "left": 24,
+            "right": 723
+          }
+        },
+        {
+          "kind": "section",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 316,
+            "width": 834,
+            "height": 651
+          },
+          "content": {
+            "left": 24,
+            "right": 602
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Have a look at the shop.",
+          "box": {
+            "x": 0,
+            "y": 1363,
+            "width": 834,
+            "height": 275
+          },
+          "content": {
+            "left": 24,
+            "right": 618
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1638,
+            "width": 834,
+            "height": 557
+          },
+          "content": {
+            "left": 24,
+            "right": 334
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read How it works"
+        },
+        {
+          "target": "products",
+          "text": "Browse Products"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Email us hello@donkey.shop Best for orders, returns and any…"
+        },
+        {
+          "href": "#",
+          "text": "Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "EMAIL US",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "CALL US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Before you write",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Something from the shop",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Have a look at the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign in",
+        "Contact",
+        "Talk to Donkey. We answer.",
+        "A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.",
+        "Email us",
+        "hello@donkey.shop",
+        "Best for orders, returns and anything with a photo.",
+        "Write to us",
+        "Call us",
+        "01632 960 412",
+        "Monday to Friday, 9am to 5pm.",
+        "Call us",
+        "Find us",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.",
+        "Before you write",
+        "Most answers are already here. How buying works covers delivery times and what to do if something isn't right.",
+        "Read How it works",
+        "Something from the shop",
+        "Have your order in front of you when you call. We can find it faster with the name on it and the date it came.",
+        "Browse Products",
+        "Ready when you are",
+        "Have a look at the shop.",
+        "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+        "See the products",
+        "How buying works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "HOW BUYING WORKS",
+          "text": "How buying works",
+          "classes": "ds-btn ds-btn-secondary ds-btn-lg",
+          "eid": "e39",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 237,
+            "y": 1545,
+            "width": 212,
+            "height": 44
+          },
+          "colour": "#ffffff",
+          "background": "#f0f8f4",
+          "ratio": 1.08,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+          "text": "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+          "classes": "ct-cta-lead",
+          "eid": "e36",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 1487,
+            "width": 786,
+            "height": 26
+          },
+          "colour": "#fcfefd",
+          "background": "#ebf6f1",
+          "ratio": 1.09,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "READY WHEN YOU ARE",
+          "text": "Ready when you are",
+          "classes": "ds-eyebrow ct-eyebrow-band",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": "Something from the shop",
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 1415,
+            "width": 154,
+            "height": 19
+          },
+          "colour": "#fbfdfc",
+          "background": "#e7f3ee",
+          "ratio": 1.12,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Have a look at the shop.",
+          "text": "Have a look at the shop.",
+          "classes": "ds-h1",
+          "eid": "e35",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 1444,
+            "width": 400,
+            "height": 29
+          },
+          "colour": "#ffffff",
+          "background": "#e8f4ef",
+          "ratio": 1.13,
+          "required": 3,
+          "fontSize": 25,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1814,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1987,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2076,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2146,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1746,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2047,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1844,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1873,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1903,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1933,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2017,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 15,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey Sign in\n  - group:\n    - img\n  - text: Contact\n  - heading \"Talk to Donkey. We answer.\" [level=1]\n  - paragraph: A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.\n  - link \"Email us hello@donkey.shop Best for orders, returns and anything with a photo. Write to us\":\n    - /url: \"#\"\n  - link \"Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us\":\n    - /url: \"#\"\n  - text: Find us\n  - paragraph: 12 Larkfield Road, Nottingham NG7 4DQ\n  - paragraph: Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.\n  - heading \"Before you write\" [level=2]\n  - paragraph: Most answers are already here. How buying works covers delivery times and what to do if something isn't right.\n  - text: Read How it works\n  - heading \"Something from the shop\" [level=2]\n  - paragraph: Have your order in front of you when you call. We can find it faster with the name on it and the date it came.\n  - text: Browse Products Ready when you are\n  - heading \"Have a look at the shop.\" [level=2]\n  - paragraph: Everything Donkey sells, with prices in pounds. No account needed to browse.\n  - text: See the products How buying works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w834-light.png",
+      "thumbnail": "thumb-w834-light.webp",
+      "modelImage": "model-w834-light.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "dark",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Contact",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/contact-1.html",
+      "situation": null,
+      "document": {
+        "width": 834,
+        "height": 2194,
+        "title": "Contact",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "text": "Talk to Donkey. We answer.",
+          "classes": "ct-title",
+          "eid": "e5",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 134,
+            "width": 786,
+            "height": 55
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SEE THE PRODUCTS",
+          "text": "See the products",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e38",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 1545,
+            "width": 201,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "page": {
+            "x": 24,
+            "y": 68,
+            "width": 786,
+            "height": 248
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e2",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1638,
+            "width": 834,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 2194
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 68
+          },
+          "content": {
+            "left": 24,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Talk to Donkey. We answer.",
+          "box": {
+            "x": 24,
+            "y": 134,
+            "width": 786,
+            "height": 55
+          },
+          "content": {
+            "left": 24,
+            "right": 723
+          }
+        },
+        {
+          "kind": "section",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 316,
+            "width": 834,
+            "height": 651
+          },
+          "content": {
+            "left": 24,
+            "right": 602
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Have a look at the shop.",
+          "box": {
+            "x": 0,
+            "y": 1363,
+            "width": 834,
+            "height": 275
+          },
+          "content": {
+            "left": 24,
+            "right": 618
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1638,
+            "width": 834,
+            "height": 557
+          },
+          "content": {
+            "left": 24,
+            "right": 334
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read How it works"
+        },
+        {
+          "target": "products",
+          "text": "Browse Products"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Email us hello@donkey.shop Best for orders, returns and any…"
+        },
+        {
+          "href": "#",
+          "text": "Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "EMAIL US",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "CALL US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Before you write",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Something from the shop",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Have a look at the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign in",
+        "Contact",
+        "Talk to Donkey. We answer.",
+        "A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.",
+        "Email us",
+        "hello@donkey.shop",
+        "Best for orders, returns and anything with a photo.",
+        "Write to us",
+        "Call us",
+        "01632 960 412",
+        "Monday to Friday, 9am to 5pm.",
+        "Call us",
+        "Find us",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.",
+        "Before you write",
+        "Most answers are already here. How buying works covers delivery times and what to do if something isn't right.",
+        "Read How it works",
+        "Something from the shop",
+        "Have your order in front of you when you call. We can find it faster with the name on it and the date it came.",
+        "Browse Products",
+        "Ready when you are",
+        "Have a look at the shop.",
+        "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+        "See the products",
+        "How buying works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1814,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1987,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2076,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2146,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1746,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2047,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1844,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1873,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1903,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1933,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2017,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey Sign in\n  - group:\n    - img\n  - text: Contact\n  - heading \"Talk to Donkey. We answer.\" [level=1]\n  - paragraph: A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.\n  - link \"Email us hello@donkey.shop Best for orders, returns and anything with a photo. Write to us\":\n    - /url: \"#\"\n  - link \"Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us\":\n    - /url: \"#\"\n  - text: Find us\n  - paragraph: 12 Larkfield Road, Nottingham NG7 4DQ\n  - paragraph: Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.\n  - heading \"Before you write\" [level=2]\n  - paragraph: Most answers are already here. How buying works covers delivery times and what to do if something isn't right.\n  - text: Read How it works\n  - heading \"Something from the shop\" [level=2]\n  - paragraph: Have your order in front of you when you call. We can find it faster with the name on it and the date it came.\n  - text: Browse Products Ready when you are\n  - heading \"Have a look at the shop.\" [level=2]\n  - paragraph: Everything Donkey sells, with prices in pounds. No account needed to browse.\n  - text: See the products How buying works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w834-dark.png",
+      "thumbnail": "thumb-w834-dark.webp",
+      "modelImage": "model-w834-dark.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Contact",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/contact-1.html",
+      "situation": null,
+      "document": {
+        "width": 1280,
+        "height": 1566,
+        "title": "Contact",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "text": "Talk to Donkey. We answer.",
+          "classes": "ct-title",
+          "eid": "e5",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 138,
+            "width": 1064,
+            "height": 72
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SEE THE PRODUCTS",
+          "text": "See the products",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e38",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 703,
+            "y": 1129,
+            "width": 201,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 72
+          },
+          "page": {
+            "x": 104,
+            "y": 72,
+            "width": 1072,
+            "height": 264
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e2",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 72
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1271,
+            "width": 1280,
+            "height": 294
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 1566
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 72
+          },
+          "content": {
+            "left": 104,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Talk to Donkey. We answer.",
+          "box": {
+            "x": 104,
+            "y": 138,
+            "width": 1064,
+            "height": 72
+          },
+          "content": {
+            "left": 104,
+            "right": 1014
+          }
+        },
+        {
+          "kind": "section",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 336,
+            "width": 1280,
+            "height": 450
+          },
+          "content": {
+            "left": 104,
+            "right": 878
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Have a look at the shop.",
+          "box": {
+            "x": 0,
+            "y": 1032,
+            "width": 1280,
+            "height": 240
+          },
+          "content": {
+            "left": 104,
+            "right": 1107
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1271,
+            "width": 1280,
+            "height": 294
+          },
+          "content": {
+            "left": 104,
+            "right": 1144
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read How it works"
+        },
+        {
+          "target": "products",
+          "text": "Browse Products"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Email us hello@donkey.shop Best for orders, returns and any…"
+        },
+        {
+          "href": "#",
+          "text": "Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "EMAIL US",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "CALL US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Before you write",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Something from the shop",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Have a look at the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Home",
+        "How it works",
+        "Products",
+        "Contact",
+        "Sign in",
+        "Contact",
+        "Talk to Donkey. We answer.",
+        "A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.",
+        "Email us",
+        "hello@donkey.shop",
+        "Best for orders, returns and anything with a photo.",
+        "Write to us",
+        "Call us",
+        "01632 960 412",
+        "Monday to Friday, 9am to 5pm.",
+        "Call us",
+        "Find us",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.",
+        "Before you write",
+        "Most answers are already here. How buying works covers delivery times and what to do if something isn't right.",
+        "Read How it works",
+        "Something from the shop",
+        "Have your order in front of you when you call. We can find it faster with the name on it and the date it came.",
+        "Browse Products",
+        "Ready when you are",
+        "Have a look at the shop.",
+        "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+        "See the products",
+        "How buying works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+          "text": "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+          "classes": "ct-cta-lead",
+          "eid": "e36",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 1171,
+            "width": 567,
+            "height": 51
+          },
+          "colour": "#fcfefd",
+          "background": "#edf7f2",
+          "ratio": 1.08,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "READY WHEN YOU ARE",
+          "text": "Ready when you are",
+          "classes": "ds-eyebrow ct-eyebrow-band",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": "Something from the shop",
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 1084,
+            "width": 154,
+            "height": 19
+          },
+          "colour": "#fbfdfc",
+          "background": "#e7f3ee",
+          "ratio": 1.11,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "HOW BUYING WORKS",
+          "text": "How buying works",
+          "classes": "ds-btn ds-btn-secondary ds-btn-lg",
+          "eid": "e39",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 916,
+            "y": 1129,
+            "width": 212,
+            "height": 44
+          },
+          "colour": "#ffffff",
+          "background": "#ebf5f0",
+          "ratio": 1.11,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Have a look at the shop.",
+          "text": "Have a look at the shop.",
+          "classes": "ds-h1",
+          "eid": "e35",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 1113,
+            "width": 567,
+            "height": 44
+          },
+          "colour": "#ffffff",
+          "background": "#e9f4ef",
+          "ratio": 1.12,
+          "required": 3,
+          "fontSize": 38,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1329,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1329,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1418,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 1518,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 1379,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1388,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1359,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1388,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1418,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1448,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1359,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 15,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - navigation \"Pages\": Home How it works Products Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Sign in Contact\n  - heading \"Talk to Donkey. We answer.\" [level=1]\n  - paragraph: A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.\n  - link \"Email us hello@donkey.shop Best for orders, returns and anything with a photo. Write to us\":\n    - /url: \"#\"\n  - link \"Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us\":\n    - /url: \"#\"\n  - text: Find us\n  - paragraph: 12 Larkfield Road, Nottingham NG7 4DQ\n  - paragraph: Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.\n  - heading \"Before you write\" [level=2]\n  - paragraph: Most answers are already here. How buying works covers delivery times and what to do if something isn't right.\n  - text: Read How it works\n  - heading \"Something from the shop\" [level=2]\n  - paragraph: Have your order in front of you when you call. We can find it faster with the name on it and the date it came.\n  - text: Browse Products Ready when you are\n  - heading \"Have a look at the shop.\" [level=2]\n  - paragraph: Everything Donkey sells, with prices in pounds. No account needed to browse.\n  - text: See the products How buying works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w1280-light.png",
+      "thumbnail": "thumb-w1280-light.webp",
+      "modelImage": "model-w1280-light.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Contact",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/contact-1.html",
+      "situation": null,
+      "document": {
+        "width": 1280,
+        "height": 1566,
+        "title": "Contact",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "text": "Talk to Donkey. We answer.",
+          "classes": "ct-title",
+          "eid": "e5",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 138,
+            "width": 1064,
+            "height": 72
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SEE THE PRODUCTS",
+          "text": "See the products",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e38",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": null,
+          "box": {
+            "x": 703,
+            "y": 1129,
+            "width": 201,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 72
+          },
+          "page": {
+            "x": 104,
+            "y": 72,
+            "width": 1072,
+            "height": 264
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e2",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 72
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1271,
+            "width": 1280,
+            "height": 294
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home How it works Products Contact Sign in HomeHow it worksProductsConta…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 1566
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 72
+          },
+          "content": {
+            "left": 104,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Talk to Donkey. We answer.",
+          "box": {
+            "x": 104,
+            "y": 138,
+            "width": 1064,
+            "height": 72
+          },
+          "content": {
+            "left": 104,
+            "right": 1014
+          }
+        },
+        {
+          "kind": "section",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 336,
+            "width": 1280,
+            "height": 450
+          },
+          "content": {
+            "left": 104,
+            "right": 878
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Have a look at the shop.",
+          "box": {
+            "x": 0,
+            "y": 1032,
+            "width": 1280,
+            "height": 240
+          },
+          "content": {
+            "left": 104,
+            "right": 1107
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1271,
+            "width": 1280,
+            "height": 294
+          },
+          "content": {
+            "left": 104,
+            "right": 1144
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read How it works"
+        },
+        {
+          "target": "products",
+          "text": "Browse Products"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Email us hello@donkey.shop Best for orders, returns and any…"
+        },
+        {
+          "href": "#",
+          "text": "Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Talk to Donkey. We answer.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "EMAIL US",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "CALL US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Before you write",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Something from the shop",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Have a look at the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Home",
+        "How it works",
+        "Products",
+        "Contact",
+        "Sign in",
+        "Contact",
+        "Talk to Donkey. We answer.",
+        "A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.",
+        "Email us",
+        "hello@donkey.shop",
+        "Best for orders, returns and anything with a photo.",
+        "Write to us",
+        "Call us",
+        "01632 960 412",
+        "Monday to Friday, 9am to 5pm.",
+        "Call us",
+        "Find us",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.",
+        "Before you write",
+        "Most answers are already here. How buying works covers delivery times and what to do if something isn't right.",
+        "Read How it works",
+        "Something from the shop",
+        "Have your order in front of you when you call. We can find it faster with the name on it and the date it came.",
+        "Browse Products",
+        "Ready when you are",
+        "Have a look at the shop.",
+        "Everything Donkey sells, with prices in pounds. No account needed to browse.",
+        "See the products",
+        "How buying works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1329,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1329,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1418,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 1518,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 1379,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1388,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1359,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1388,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1418,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1448,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Have a look at the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1359,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - navigation \"Pages\": Home How it works Products Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Sign in Contact\n  - heading \"Talk to Donkey. We answer.\" [level=1]\n  - paragraph: A question about a product, an order on its way, or sending something back? Reach us by email or phone and a real person replies.\n  - link \"Email us hello@donkey.shop Best for orders, returns and anything with a photo. Write to us\":\n    - /url: \"#\"\n  - link \"Call us 01632 960 412 Monday to Friday, 9am to 5pm. Call us\":\n    - /url: \"#\"\n  - text: Find us\n  - paragraph: 12 Larkfield Road, Nottingham NG7 4DQ\n  - paragraph: Shoppers order through Donkey app. Use Sign in in the top bar to get in and start.\n  - heading \"Before you write\" [level=2]\n  - paragraph: Most answers are already here. How buying works covers delivery times and what to do if something isn't right.\n  - text: Read How it works\n  - heading \"Something from the shop\" [level=2]\n  - paragraph: Have your order in front of you when you call. We can find it faster with the name on it and the date it came.\n  - text: Browse Products Ready when you are\n  - heading \"Have a look at the shop.\" [level=2]\n  - paragraph: Everything Donkey sells, with prices in pounds. No account needed to browse.\n  - text: See the products How buying works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w1280-dark.png",
+      "thumbnail": "thumb-w1280-dark.webp",
+      "modelImage": "model-w1280-dark.jpg"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-12T04:34:54.056Z"
+}

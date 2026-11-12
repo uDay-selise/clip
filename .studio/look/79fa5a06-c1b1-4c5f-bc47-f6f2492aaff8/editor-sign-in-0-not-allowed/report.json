@@ -1,0 +1,1715 @@
+{
+  "version": 1,
+  "target": ".studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-sign-in-0.html",
+  "kind": "file",
+  "situation": "not-allowed",
+  "startedAt": "2026-11-12T04:34:44.816Z",
+  "views": [
+    {
+      "width": 390,
+      "mode": "light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-sign-in-0.html",
+      "situation": {
+        "name": "not-allowed",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 417,
+        "height": 903,
+        "title": "Editor sign-in",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 27,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "Back to the shop",
+            "classes": "esi-switches",
+            "eid": "e53",
+            "control": false,
+            "decorative": false,
+            "heading": null,
+            "part": null,
+            "box": {
+              "x": 161,
+              "y": 25,
+              "width": 256,
+              "height": 32
+            },
+            "beyond": 27,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "a",
+            "role": "generic",
+            "name": "BACK TO THE SHOP",
+            "text": "Back to the shop",
+            "classes": "ds-btn ds-btn-ghost ds-btn-sm",
+            "eid": "e58",
+            "control": false,
+            "decorative": false,
+            "heading": null,
+            "part": null,
+            "box": {
+              "x": 263,
+              "y": 26,
+              "width": 154,
+              "height": 30
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Keep the shop looking sharp.",
+          "text": "Keep the shop looking sharp.",
+          "classes": "",
+          "eid": "e19",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "Sign in",
+          "text": "Sign in",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e22",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": false,
+          "how": null
+        },
+        "situationsShowing": [
+          "not-allowed"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": null,
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Back to the shop Editors only. This area is for people invited to look a…",
+          "classes": "esi-root",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "section",
+          "name": "Editors only.",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 598
+          },
+          "content": {
+            "left": 51,
+            "right": 405
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "not-allowed",
+          "hidden": false,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        }
+      ],
+      "links": [],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "heading",
+          "name": "Editors only.",
+          "level": 2,
+          "depth": 1,
+          "state": "not-allowed"
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Back to the shop",
+        "Editors only.",
+        "This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.",
+        "Back to the shop"
+      ],
+      "lowContrast": [],
+      "lowContrastCount": 0,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Back to the shop\n  - img\n  - heading \"Editors only.\" [level=2]\n  - paragraph: This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.\n  - text: Back to the shop",
+      "screenshot": "w390-light.png",
+      "thumbnail": "thumb-w390-light.webp",
+      "modelImage": "model-w390-light.jpg"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-sign-in-0.html",
+      "situation": {
+        "name": "not-allowed",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 417,
+        "height": 903,
+        "title": "Editor sign-in",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 27,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "Back to the shop",
+            "classes": "esi-switches",
+            "eid": "e53",
+            "control": false,
+            "decorative": false,
+            "heading": null,
+            "part": null,
+            "box": {
+              "x": 161,
+              "y": 25,
+              "width": 256,
+              "height": 32
+            },
+            "beyond": 27,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "a",
+            "role": "generic",
+            "name": "BACK TO THE SHOP",
+            "text": "Back to the shop",
+            "classes": "ds-btn ds-btn-ghost ds-btn-sm",
+            "eid": "e58",
+            "control": false,
+            "decorative": false,
+            "heading": null,
+            "part": null,
+            "box": {
+              "x": 263,
+              "y": 26,
+              "width": 154,
+              "height": 30
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Keep the shop looking sharp.",
+          "text": "Keep the shop looking sharp.",
+          "classes": "",
+          "eid": "e19",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "Sign in",
+          "text": "Sign in",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e22",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": false,
+          "how": null
+        },
+        "situationsShowing": [
+          "not-allowed"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": null,
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Back to the shop Editors only. This area is for people invited to look a…",
+          "classes": "esi-root",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "section",
+          "name": "Editors only.",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 598
+          },
+          "content": {
+            "left": 51,
+            "right": 405
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "not-allowed",
+          "hidden": false,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        }
+      ],
+      "links": [],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "heading",
+          "name": "Editors only.",
+          "level": 2,
+          "depth": 1,
+          "state": "not-allowed"
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Back to the shop",
+        "Editors only.",
+        "This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.",
+        "Back to the shop"
+      ],
+      "lowContrast": [],
+      "lowContrastCount": 0,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Back to the shop\n  - img\n  - heading \"Editors only.\" [level=2]\n  - paragraph: This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.\n  - text: Back to the shop",
+      "screenshot": "w390-dark.png",
+      "thumbnail": "thumb-w390-dark.webp",
+      "modelImage": "model-w390-dark.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "light",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-sign-in-0.html",
+      "situation": {
+        "name": "not-allowed",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 834,
+        "height": 1112,
+        "title": "Editor sign-in",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Keep the shop looking sharp.",
+          "text": "Keep the shop looking sharp.",
+          "classes": "",
+          "eid": "e19",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "Sign in",
+          "text": "Sign in",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e22",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": false,
+          "how": null
+        },
+        "situationsShowing": [
+          "not-allowed"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": null,
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Back to the shop Editors only. This area is for people invited to look a…",
+          "classes": "esi-root",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 1112
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "section",
+          "name": "Editors only.",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 576
+          },
+          "content": {
+            "left": 68,
+            "right": 798
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "not-allowed",
+          "hidden": false,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        }
+      ],
+      "links": [],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "heading",
+          "name": "Editors only.",
+          "level": 2,
+          "depth": 1,
+          "state": "not-allowed"
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Back to the shop",
+        "Editors only.",
+        "This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.",
+        "Back to the shop"
+      ],
+      "lowContrast": [],
+      "lowContrastCount": 0,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Back to the shop\n  - img\n  - heading \"Editors only.\" [level=2]\n  - paragraph: This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.\n  - text: Back to the shop",
+      "screenshot": "w834-light.png",
+      "thumbnail": "thumb-w834-light.webp",
+      "modelImage": "model-w834-light.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "dark",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-sign-in-0.html",
+      "situation": {
+        "name": "not-allowed",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 834,
+        "height": 1112,
+        "title": "Editor sign-in",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Keep the shop looking sharp.",
+          "text": "Keep the shop looking sharp.",
+          "classes": "",
+          "eid": "e19",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "Sign in",
+          "text": "Sign in",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e22",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": false,
+          "how": null
+        },
+        "situationsShowing": [
+          "not-allowed"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": null,
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Back to the shop Editors only. This area is for people invited to look a…",
+          "classes": "esi-root",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 1112
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "section",
+          "name": "Editors only.",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 576
+          },
+          "content": {
+            "left": 68,
+            "right": 798
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "not-allowed",
+          "hidden": false,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        }
+      ],
+      "links": [],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "heading",
+          "name": "Editors only.",
+          "level": 2,
+          "depth": 1,
+          "state": "not-allowed"
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Back to the shop",
+        "Editors only.",
+        "This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.",
+        "Back to the shop"
+      ],
+      "lowContrast": [],
+      "lowContrastCount": 0,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Back to the shop\n  - img\n  - heading \"Editors only.\" [level=2]\n  - paragraph: This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.\n  - text: Back to the shop",
+      "screenshot": "w834-dark.png",
+      "thumbnail": "thumb-w834-dark.webp",
+      "modelImage": "model-w834-dark.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-sign-in-0.html",
+      "situation": {
+        "name": "not-allowed",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 1280,
+        "height": 800,
+        "title": "Editor sign-in",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Keep the shop looking sharp.",
+          "text": "Keep the shop looking sharp.",
+          "classes": "",
+          "eid": "e19",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "Sign in",
+          "text": "Sign in",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e22",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": false,
+          "how": null
+        },
+        "situationsShowing": [
+          "not-allowed"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": null,
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Back to the shop Editors only. This area is for people invited to look a…",
+          "classes": "esi-root",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 800
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "section",
+          "name": "Editors only.",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 587
+          },
+          "content": {
+            "left": 148,
+            "right": 1164
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "not-allowed",
+          "hidden": false,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        }
+      ],
+      "links": [],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "heading",
+          "name": "Editors only.",
+          "level": 2,
+          "depth": 1,
+          "state": "not-allowed"
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Back to the shop",
+        "Editors only.",
+        "This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.",
+        "Back to the shop"
+      ],
+      "lowContrast": [],
+      "lowContrastCount": 0,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Back to the shop\n  - img\n  - heading \"Editors only.\" [level=2]\n  - paragraph: This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.\n  - text: Back to the shop",
+      "screenshot": "w1280-light.png",
+      "thumbnail": "thumb-w1280-light.webp",
+      "modelImage": "model-w1280-light.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-sign-in-0.html",
+      "situation": {
+        "name": "not-allowed",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 1280,
+        "height": 800,
+        "title": "Editor sign-in",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Keep the shop looking sharp.",
+          "text": "Keep the shop looking sharp.",
+          "classes": "",
+          "eid": "e19",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "Sign in",
+          "text": "Sign in",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e22",
+          "control": false,
+          "decorative": false,
+          "heading": "Editors only.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": false,
+          "how": null
+        },
+        "situationsShowing": [
+          "not-allowed"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": null,
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Back to the shop Editors only. This area is for people invited to look a…",
+          "classes": "esi-root",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 800
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "section",
+          "name": "Editors only.",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 587
+          },
+          "content": {
+            "left": 148,
+            "right": 1164
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "BACK TO THE SHOP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "not-allowed",
+          "hidden": false,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        },
+        {
+          "target": "home",
+          "text": "Back to the shop"
+        }
+      ],
+      "links": [],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "not-allowed"
+        },
+        {
+          "role": "heading",
+          "name": "Editors only.",
+          "level": 2,
+          "depth": 1,
+          "state": "not-allowed"
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Back to the shop",
+        "Editors only.",
+        "This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.",
+        "Back to the shop"
+      ],
+      "lowContrast": [],
+      "lowContrastCount": 0,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Back to the shop\n  - img\n  - heading \"Editors only.\" [level=2]\n  - paragraph: This area is for people invited to look after the shop. If you think you should be here, ask the shop owner to send you an invite.\n  - text: Back to the shop",
+      "screenshot": "w1280-dark.png",
+      "thumbnail": "thumb-w1280-dark.webp",
+      "modelImage": "model-w1280-dark.jpg"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-12T04:34:52.497Z"
+}

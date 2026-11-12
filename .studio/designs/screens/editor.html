@@ -1,0 +1,726 @@
+<style>
+  /* Editors' area: a working surface that still carries Donkey's bold family. */
+  .ed-mast { padding: calc(16px * var(--space-scale, 1)) 0 calc(32px * var(--space-scale, 1)); }
+  .ed-mast-row { display: flex; align-items: center; gap: calc(16px * var(--space-scale, 1)); flex-wrap: wrap; }
+  .ed-mast-title { font-family: var(--font-heading); font-size: 15px; font-weight: 700; letter-spacing: -0.01em; color: hsl(var(--primary-text));
+    background: hsl(var(--primary) / 0.1); border-radius: 999px; padding: 6px 14px; }
+
+  .ed-head { padding: calc(8px * var(--space-scale, 1)) 0 calc(24px * var(--space-scale, 1)); }
+  .ed-head h1 { font-size: clamp(30px, 4.6vw, 46px); line-height: 1.02; letter-spacing: -0.035em; margin: 10px 0 0; max-width: 16em; }
+  .ed-head p { margin: 12px 0 0; max-width: 46em; font-size: 16px; line-height: 1.55; color: hsl(var(--muted-foreground)); }
+
+  .ed-figures { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(16px * var(--space-scale, 1)); margin-top: calc(24px * var(--space-scale, 1)); }
+  .ed-fig { border-radius: calc(var(--radius) + 4px); padding: calc(20px * var(--space-scale, 1)) calc(24px * var(--space-scale, 1));
+    background: hsl(var(--card)); box-shadow: var(--shadow); border: 1px solid hsl(var(--border)); }
+  .ed-fig-bold { background: hsl(var(--band)); color: hsl(var(--band-foreground)); border-color: transparent; }
+  .ed-fig .ds-stat-value { font-family: var(--font-heading); font-size: 40px; line-height: 1; letter-spacing: -0.03em; margin-top: 8px; font-variant-numeric: tabular-nums; }
+  /* Label on the band tint: full foreground, never a faded green. */
+  .ed-fig-bold .ds-stat-label { color: hsl(var(--band-foreground)); font-weight: 600; }
+
+  .ed-sec { margin-top: calc(48px * var(--space-scale, 1)); }
+  .ed-sec-head { display: flex; align-items: baseline; gap: calc(12px * var(--space-scale, 1)); flex-wrap: wrap; margin-bottom: calc(16px * var(--space-scale, 1)); }
+  .ed-sec-head h2 { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
+  .ed-sec-head p { margin: 0; font-size: 14px; color: hsl(var(--muted-foreground)); }
+
+  .ed-toolbar { margin-bottom: calc(16px * var(--space-scale, 1)); }
+  .ed-sort { min-width: 160px; }
+
+  .ed-name { display: flex; align-items: center; gap: calc(12px * var(--space-scale, 1)); }
+  .ed-thumb { width: 40px; height: 40px; border-radius: 10px; flex: none; box-shadow: inset 0 0 0 1px hsl(var(--border)); }
+  .ed-name b { display: block; font-size: 15px; letter-spacing: -0.01em; }
+  .ed-name span { display: block; font-size: 13px; color: hsl(var(--muted-foreground)); }
+  .ed-note { display: inline-flex; align-items: center; gap: 6px; margin-top: 4px; font-size: 12px; color: hsl(var(--primary-text)); }
+  .ed-price { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; font-weight: 600; }
+  .ed-order { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; color: hsl(var(--muted-foreground)); }
+
+  .ed-switchcell { display: flex; align-items: center; gap: calc(8px * var(--space-scale, 1)); white-space: nowrap; }
+  .ed-switchcell span { font-size: 13px; color: hsl(var(--muted-foreground)); }
+
+  /* Product form, off to the side on wide screens but reading top to bottom on narrow ones. */
+  .ed-form-card { border-radius: calc(var(--radius) + 6px); padding: calc(24px * var(--space-scale, 1)); position: relative; overflow: visible; }
+  .ed-form-card h2 { margin: 6px 0 4px; font-size: 24px; letter-spacing: -0.025em; }
+  .ed-form-card > p { margin: 0 0 calc(16px * var(--space-scale, 1)); font-size: 14px; color: hsl(var(--muted-foreground)); }
+  .ed-form-card .ds-form { gap: calc(16px * var(--space-scale, 1)); }
+  .ed-pricewrap { position: relative; }
+  .ed-pricewrap .ds-input { padding-left: 26px; }
+  .ed-pricewrap::before { content: "£"; position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-weight: 600; color: hsl(var(--muted-foreground)); pointer-events: none; }
+  .ed-photo { display: flex; align-items: center; gap: calc(12px * var(--space-scale, 1)); }
+  .ed-photo .ds-img { width: 64px; height: 64px; border-radius: 10px; flex: none; }
+  .ed-visible { display: flex; align-items: center; gap: calc(12px * var(--space-scale, 1)); padding: calc(12px * var(--space-scale, 1)) 0 0;
+    border-top: 1px solid hsl(var(--border)); }
+  .ed-visible b { display: block; font-size: 14px; }
+  .ed-visible small { display: block; font-size: 13px; color: hsl(var(--muted-foreground)); }
+
+  .ed-cols { display: grid; grid-template-columns: minmax(0, 1fr); gap: calc(24px * var(--space-scale, 1)); }
+  @media (min-width: 1040px) {
+    .ed-cols { grid-template-columns: minmax(0, 1.55fr) minmax(340px, 0.85fr); align-items: start; }
+    .ed-form-card { position: sticky; top: calc(16px * var(--space-scale, 1)); }
+  }
+
+  .ed-entries { display: grid; grid-template-columns: minmax(0, 1fr); gap: calc(16px * var(--space-scale, 1)); }
+  .ed-entry { border-radius: calc(var(--radius) + 4px); padding: calc(20px * var(--space-scale, 1)); }
+  .ed-entry-top { display: flex; align-items: baseline; gap: calc(8px * var(--space-scale, 1)); flex-wrap: wrap; }
+  .ed-entry-top b { font-size: 15px; }
+  .ed-entry-top time { font-size: 13px; color: hsl(var(--muted-foreground)); font-variant-numeric: tabular-nums; }
+  .ed-entry p { margin: 8px 0 0; font-size: 15px; line-height: 1.55; max-width: 60ch; }
+
+  .ed-foot { margin-top: calc(48px * var(--space-scale, 1)); }
+
+  /* The band that frames the main task. */
+  .ed-band { margin-top: calc(40px * var(--space-scale, 1)); padding: calc(24px * var(--space-scale, 1)) 0 calc(56px * var(--space-scale, 1));
+    background: linear-gradient(180deg, hsl(var(--primary) / 0.1), hsl(var(--primary) / 0.03) 40%, hsl(var(--primary) / 0)); }
+  .ed-band .ed-sec:first-child { margin-top: calc(8px * var(--space-scale, 1)); }
+
+  .ed-empty-inline { padding: calc(32px * var(--space-scale, 1)) calc(24px * var(--space-scale, 1)); }
+  .ed-empty-actions { margin-top: calc(16px * var(--space-scale, 1)); }
+
+  @media (max-width: 780px) {
+    .ed-figures { grid-template-columns: minmax(0, 1fr); }
+    .ed-fig .ds-stat-value { font-size: 32px; }
+    .ed-head h1 { font-size: 32px; }
+  }
+</style><main data-screen="editor" data-eid="e1">
+
+  <div data-part="header" data-eid="e2"></div>
+
+  <div data-eid="content">
+    <div class="ds-page ed-mast" data-eid="e3">
+      <div class="ed-mast-row" data-eid="e4">
+        <span class="ed-mast-title" data-eid="e5">Donkey editors</span>
+        <span class="ds-spacer" data-eid="e6"></span>
+        <a class="ds-btn ds-btn-ghost ds-btn-sm" data-goto="products" data-eid="e7">View the products page</a>
+        <details class="ds-menu">
+          <summary class="ds-btn ds-btn-ghost ds-btn-sm" aria-label="Open the editor menu">
+            <span class="ds-avatar ds-avatar-sm" data-sample="" data-eid="e8">AM</span>
+            <span data-sample="me.name" data-eid="e9">Amara Osei</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+          </summary>
+          <div class="ds-menu-list" data-eid="e10">
+            <a data-goto="home" data-eid="e11">Home</a>
+            <a data-goto="how-it-works" data-eid="e12">How it works</a>
+            <a data-goto="products" data-eid="e13">Products</a>
+            <a data-goto="contact" data-eid="e14">Contact</a>
+            <a data-goto="editor-sign-in" data-eid="e15">Sign out</a>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <div class="ds-page ed-head" data-eid="e16">
+      <span class="ds-eyebrow" data-eid="e17">Products</span>
+      <h1 data-eid="e18">Everything on the shop floor, in one place.</h1>
+      <p data-eid="e19">Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.</p>
+
+      <div class="ed-figures" data-eid="e20">
+        <div class="ed-fig ed-fig-bold" data-eid="e21">
+          <div class="ds-stat-label" data-eid="e22">On the site now</div>
+          <div class="ds-stat-value" data-sample data-eid="e23">6</div>
+        </div>
+        <div class="ed-fig" data-eid="e24">
+          <div class="ds-stat-label" data-eid="e25">Waiting in the wings</div>
+          <div class="ds-stat-value" data-sample data-eid="e26">2</div>
+        </div>
+        <div class="ed-fig" data-eid="e27">
+          <div class="ds-stat-label" data-eid="e28">Every product, all year</div>
+          <div class="ds-stat-value" data-sample data-eid="e29">8</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ds-band ed-band" data-eid="e30">
+      <div class="ds-page" style="padding-top: 0; padding-bottom: 0" data-eid="e31">
+        <div class="ed-cols" data-eid="e32">
+
+          <section class="ed-sec" aria-labelledby="ed-products-title" data-eid="list">
+            <div class="ed-sec-head" data-eid="e33">
+              <h2 id="ed-products-title" data-eid="e34">Products</h2>
+              <p data-eid="e35">Lowest order number shows first.</p>
+            </div>
+
+            <div class="ds-filter-bar ed-toolbar" data-eid="e36">
+              <label class="ds-search" data-eid="e37">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+                <input class="ds-input ds-input-sm" type="search" placeholder="Search products" aria-label="Search products" data-eid="e38">
+              </label>
+              <select class="ds-select ds-input-sm ed-sort" aria-label="Show" data-eid="e39">
+                <option>All products</option>
+                <option>On the site only</option>
+                <option>Hidden only</option>
+              </select>
+              <span class="ds-spacer" data-eid="e40"></span>
+              <span class="ds-muted" style="font-size: 13px" data-eid="e41">8 products</span>
+            </div>
+
+            <div class="ds-table-card" data-eid="e42">
+              <div class="ds-table-wrap" data-eid="e43">
+                <table class="ds-table ds-table-compact" data-eid="e44">
+                  <thead data-eid="e45">
+                    <tr data-eid="e46">
+                      <th scope="col" data-eid="e47">Product</th>
+                      <th scope="col" style="text-align: right" data-eid="e48">Price</th>
+                      <th scope="col" class="ds-only-wide" style="text-align: right" data-eid="e49">Order</th>
+                      <th scope="col" data-eid="e50">Visible</th>
+                      <th scope="col" data-eid="e51"><span class="ds-only-wide" data-eid="e52">Actions</span></th>
+                    </tr>
+                  </thead>
+                  <tbody data-eid="e53">
+                    <tr data-eid="e54">
+                      <td data-eid="e55">
+                        <div class="ed-name" data-eid="e56">
+                          <div class="ds-img ed-thumb" data-sample data-eid="e57"></div>
+                          <div data-eid="e58">
+                            <b data-sample="Product#1.name">Wool winter scarf</b>
+                            <span data-sample="Product#1.group" data-eid="e59">Clothing</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#1.pricePence" data-eid="e60">£18.00</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#1.sortOrder" data-eid="e61">1</td>
+                      <td data-eid="e62">
+                        <div class="ed-switchcell" data-eid="e63">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Wool winter scarf" data-eid="e64"></button>
+                          <span class="ds-only-wide" data-eid="e65">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e66">
+                        <div class="ds-row-actions" data-eid="e67">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e68">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Wool winter scarf">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"></circle><circle cx="12" cy="12" r="1.2" fill="currentColor"></circle><circle cx="19" cy="12" r="1.2" fill="currentColor"></circle></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e69">
+                              <a data-eid="e70">Edit</a>
+                              <a data-eid="e71">Duplicate</a>
+                              <a data-eid="e72">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e73">
+                      <td data-eid="e74">
+                        <div class="ed-name" data-eid="e75">
+                          <div class="ds-img ed-thumb" data-sample data-eid="e76"></div>
+                          <div data-eid="e77">
+                            <b data-sample="Product#2.name">Beeswax hand balm</b>
+                            <span data-sample="Product#2.group" data-eid="e78">Bath and body</span>
+                            <div class="ed-note" data-eid="e79">
+                              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v5M12 16h.01"></path></svg>
+                              <span data-sample="Product#2.medicineNote" data-eid="e80">External use only</span>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#2.pricePence" data-eid="e81">£6.50</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#2.sortOrder" data-eid="e82">2</td>
+                      <td data-eid="e83">
+                        <div class="ed-switchcell" data-eid="e84">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Beeswax hand balm" data-eid="e85"></button>
+                          <span class="ds-only-wide" data-eid="e86">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e87">
+                        <div class="ds-row-actions" data-eid="e88">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e89">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Beeswax hand balm">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"></circle><circle cx="12" cy="12" r="1.2" fill="currentColor"></circle><circle cx="19" cy="12" r="1.2" fill="currentColor"></circle></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e90">
+                              <a data-eid="e91">Edit</a>
+                              <a data-eid="e92">Duplicate</a>
+                              <a data-eid="e93">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e94">
+                      <td data-eid="e95">
+                        <div class="ed-name" data-eid="e96">
+                          <div class="ds-img ed-thumb" data-sample data-eid="e97"></div>
+                          <div data-eid="e98">
+                            <b data-sample="Product#3.name">Enamel camping mug, sage</b>
+                            <span data-sample="Product#3.group" data-eid="e99">Kitchen</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#3.pricePence" data-eid="e100">£12.50</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#3.sortOrder" data-eid="e101">3</td>
+                      <td data-eid="e102">
+                        <div class="ed-switchcell" data-eid="e103">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Enamel camping mug, sage" data-eid="e104"></button>
+                          <span class="ds-only-wide" data-eid="e105">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e106">
+                        <div class="ds-row-actions" data-eid="e107">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e108">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Enamel camping mug, sage">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"></circle><circle cx="12" cy="12" r="1.2" fill="currentColor"></circle><circle cx="19" cy="12" r="1.2" fill="currentColor"></circle></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e109">
+                              <a data-eid="e110">Edit</a>
+                              <a data-eid="e111">Duplicate</a>
+                              <a data-eid="e112">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e113">
+                      <td data-eid="e114">
+                        <div class="ed-name" data-eid="e115">
+                          <div class="ds-img ed-thumb" data-sample data-eid="e116"></div>
+                          <div data-eid="e117">
+                            <b data-sample="Product#4.name">Raspberry leaf tea, 40 bags</b>
+                            <span data-sample="Product#4.group" data-eid="e118">Kitchen</span>
+                            <div class="ed-note" data-eid="e119">
+                              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v5M12 16h.01"></path></svg>
+                              <span data-sample="Product#4.medicineNote" data-eid="e120">Not for children under 12</span>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#4.pricePence" data-eid="e121">£4.20</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#4.sortOrder" data-eid="e122">4</td>
+                      <td data-eid="e123">
+                        <div class="ed-switchcell" data-eid="e124">
+                          <button class="ds-switch" role="switch" aria-checked="false" aria-label="Visible: Raspberry leaf tea, 40 bags" data-eid="e125"></button>
+                          <span class="ds-only-wide" data-eid="e126">Off</span>
+                        </div>
+                      </td>
+                      <td data-eid="e127">
+                        <div class="ds-row-actions" data-eid="e128">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e129">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Raspberry leaf tea, 40 bags">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"></circle><circle cx="12" cy="12" r="1.2" fill="currentColor"></circle><circle cx="19" cy="12" r="1.2" fill="currentColor"></circle></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e130">
+                              <a data-eid="e131">Edit</a>
+                              <a data-eid="e132">Duplicate</a>
+                              <a data-eid="e133">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e134">
+                      <td data-eid="e135">
+                        <div class="ed-name" data-eid="e136">
+                          <div class="ds-img ed-thumb" data-sample data-eid="e137"></div>
+                          <div data-eid="e138">
+                            <b data-sample="Product#5.name">Recycled cotton tote bag with long handles and inner pocket</b>
+                            <span data-sample="Product#5.group" data-eid="e139">Clothing</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#5.pricePence" data-eid="e140">£9.00</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#5.sortOrder" data-eid="e141">5</td>
+                      <td data-eid="e142">
+                        <div class="ed-switchcell" data-eid="e143">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Recycled cotton tote bag" data-eid="e144"></button>
+                          <span class="ds-only-wide" data-eid="e145">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e146">
+                        <div class="ds-row-actions" data-eid="e147">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e148">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Recycled cotton tote bag">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"></circle><circle cx="12" cy="12" r="1.2" fill="currentColor"></circle><circle cx="19" cy="12" r="1.2" fill="currentColor"></circle></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e149">
+                              <a data-eid="e150">Edit</a>
+                              <a data-eid="e151">Duplicate</a>
+                              <a data-eid="e152">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e153">
+                      <td data-eid="e154">
+                        <div class="ed-name" data-eid="e155">
+                          <div class="ds-img ed-thumb" data-sample data-eid="e156"></div>
+                          <div data-eid="e157">
+                            <b data-sample="Product#6.name">Soy wax candle, fig and cedar</b>
+                            <span data-sample="Product#6.group" data-eid="e158">Home</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#6.pricePence" data-eid="e159">£14.00</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#6.sortOrder" data-eid="e160">6</td>
+                      <td data-eid="e161">
+                        <div class="ed-switchcell" data-eid="e162">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Soy wax candle, fig and cedar" data-eid="e163"></button>
+                          <span class="ds-only-wide" data-eid="e164">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e165">
+                        <div class="ds-row-actions" data-eid="e166">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e167">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Soy wax candle, fig and cedar">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"></circle><circle cx="12" cy="12" r="1.2" fill="currentColor"></circle><circle cx="19" cy="12" r="1.2" fill="currentColor"></circle></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e168">
+                              <a data-eid="e169">Edit</a>
+                              <a data-eid="e170">Duplicate</a>
+                              <a data-eid="e171">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e172">
+                      <td data-eid="e173">
+                        <div class="ed-name" data-eid="e174">
+                          <div class="ds-img ed-thumb" data-sample data-eid="e175"></div>
+                          <div data-eid="e176">
+                            <b data-sample="Product#7.name">Linen tea towel, stripe</b>
+                            <span data-sample="Product#7.group" data-eid="e177">Home</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#7.pricePence" data-eid="e178">£11.00</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#7.sortOrder" data-eid="e179">7</td>
+                      <td data-eid="e180">
+                        <div class="ed-switchcell" data-eid="e181">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Linen tea towel, stripe" data-eid="e182"></button>
+                          <span class="ds-only-wide" data-eid="e183">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e184">
+                        <div class="ds-row-actions" data-eid="e185">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e186">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Linen tea towel, stripe">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"></circle><circle cx="12" cy="12" r="1.2" fill="currentColor"></circle><circle cx="19" cy="12" r="1.2" fill="currentColor"></circle></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e187">
+                              <a data-eid="e188">Edit</a>
+                              <a data-eid="e189">Duplicate</a>
+                              <a data-eid="e190">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e191">
+                      <td data-eid="e192">
+                        <div class="ed-name" data-eid="e193">
+                          <div class="ds-img ed-thumb" data-sample data-eid="e194"></div>
+                          <div data-eid="e195">
+                            <b data-sample="Product#8.name">Cedar soap dish</b>
+                            <span data-sample="Product#8.group" data-eid="e196">Bath and body</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#8.pricePence" data-eid="e197">£8.75</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#8.sortOrder" data-eid="e198">8</td>
+                      <td data-eid="e199">
+                        <div class="ed-switchcell" data-eid="e200">
+                          <button class="ds-switch" role="switch" aria-checked="false" aria-label="Visible: Cedar soap dish" data-eid="e201"></button>
+                          <span class="ds-only-wide" data-eid="e202">Off</span>
+                        </div>
+                      </td>
+                      <td data-eid="e203">
+                        <div class="ds-row-actions" data-eid="e204">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e205">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Cedar soap dish">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"></circle><circle cx="12" cy="12" r="1.2" fill="currentColor"></circle><circle cx="19" cy="12" r="1.2" fill="currentColor"></circle></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e206">
+                              <a data-eid="e207">Edit</a>
+                              <a data-eid="e208">Duplicate</a>
+                              <a data-eid="e209">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="ds-table-card-foot" data-eid="e210">
+                <span class="ds-muted" style="font-size: 13px" data-eid="e211">Showing all 8 products</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="ed-sec" aria-labelledby="ed-add-title" style="margin-top: 0" data-eid="e212">
+            <div class="ds-card ed-form-card" data-eid="e213">
+              <span class="ds-label-caps" data-eid="e214">New product</span>
+              <h2 id="ed-add-title" data-eid="e215">Add product</h2>
+              <p data-eid="e216">Name and price are all you need. The rest can come later.</p>
+              <form class="ds-form" data-eid="e217">
+                <div class="ds-field" data-eid="e218">
+                  <label class="ds-label" for="p-name" data-eid="e219">Name</label>
+                  <input class="ds-input" id="p-name" type="text" placeholder="Wool winter scarf" data-sample="Product#new.name" data-eid="e220">
+                </div>
+                <div class="ds-field" data-eid="e221">
+                  <label class="ds-label" for="p-desc" data-eid="e222">Description</label>
+                  <textarea class="ds-textarea" id="p-desc" rows="3" placeholder="What it is, what it is made of, who it suits" data-sample="Product#new.description" data-eid="e223"></textarea>
+                  <p class="ds-hint" data-eid="e224">Up to 500 characters. Shoppers read this under the name.</p>
+                </div>
+                <div class="ds-form-row" data-eid="e225">
+                  <div class="ds-field" data-eid="e226">
+                    <label class="ds-label" for="p-price" data-eid="e227">Price</label>
+                    <div class="ed-pricewrap" data-eid="e228">
+                      <input class="ds-input" id="p-price" type="text" inputmode="decimal" placeholder="12.50" data-sample="Product#new.pricePence" data-eid="e229">
+                    </div>
+                    <p class="ds-hint" data-eid="e230">In pounds and pence.</p>
+                  </div>
+                  <div class="ds-field" data-eid="e231">
+                    <label class="ds-label" for="p-group" data-eid="e232">Group</label>
+                    <input class="ds-input" id="p-group" type="text" placeholder="Clothing" data-sample="Product#new.group" data-eid="e233">
+                  </div>
+                </div>
+                <div class="ds-field" data-eid="e234">
+                  <label class="ds-label" for="p-note" data-eid="e235">Medicine note</label>
+                  <input class="ds-input" id="p-note" type="text" placeholder="Shown under the price, only if it applies" data-sample="Product#new.medicineNote" data-eid="e236">
+                </div>
+                <div class="ds-field" data-eid="e237">
+                  <span class="ds-label" data-eid="e238">Photo</span>
+                  <div class="ed-photo" data-eid="e239">
+                    <div class="ds-img" data-sample data-eid="e240"></div>
+                    <div data-eid="e241">
+                      <button type="button" class="ds-btn ds-btn-secondary ds-btn-sm" data-eid="e242">Choose a photo</button>
+                      <p class="ds-hint" style="margin-top: 6px" data-eid="e243">A square picture works best.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="ds-form-row" data-eid="e244">
+                  <div class="ds-field" data-eid="e245">
+                    <label class="ds-label" for="p-order" data-eid="e246">Order</label>
+                    <input class="ds-input" id="p-order" type="number" value="9" data-sample="Product#new.sortOrder" data-eid="e247">
+                    <p class="ds-hint" data-eid="e248">Lowest shows first.</p>
+                  </div>
+                  <div class="ds-field" style="justify-content: flex-end" data-eid="e249">
+                    <div class="ed-visible" style="border-top: 0; padding-top: 0" data-eid="e250">
+                      <button class="ds-switch" role="switch" aria-checked="false" aria-label="Visible on the site" data-eid="e251"></button>
+                      <div data-eid="e252">
+                        <b>Visible on the site</b>
+                        <small data-eid="e253">Shoppers see it once this is on.</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ds-form-actions" data-eid="e254">
+                  <button type="button" class="ds-btn ds-btn-secondary" data-eid="e255">Cancel</button>
+                  <button type="submit" class="ds-btn" data-situation="done" data-eid="e256">Save</button>
+                </div>
+              </form>
+            </div>
+          </section>
+
+        </div>
+
+        <section class="ed-sec" aria-labelledby="ed-entries-title" data-eid="e257">
+          <div class="ed-sec-head" data-eid="e258">
+            <h2 id="ed-entries-title" data-eid="e259">Form entries</h2>
+            <p data-eid="e260">Messages the contact form sent to the shop.</p>
+          </div>
+          <div class="ed-entries" data-eid="e261">
+            <article class="ds-panel ed-entry" data-eid="e262">
+              <div class="ed-entry-top" data-eid="e263">
+                <b data-sample="Form entry#1.name">Priya Shah</b>
+                <span class="ds-badge ds-badge-quiet" data-eid="e264">New</span>
+                <time data-sample="Form entry#1.sentAt">14 March, 9:42 am</time>
+              </div>
+              <p data-sample="Form entry#1.message" data-eid="e265">Do you have the camping mug in a second colour? I would like three for a birthday present.</p>
+            </article>
+            <article class="ds-panel ed-entry" data-eid="e266">
+              <div class="ed-entry-top" data-eid="e267">
+                <b data-sample="Form entry#2.name">Tom Whitlock</b>
+                <span class="ds-badge ds-badge-success" data-eid="e268">Replied</span>
+                <time data-sample="Form entry#2.sentAt">12 March, 4:05 pm</time>
+              </div>
+              <p data-sample="Form entry#2.message" data-eid="e269">My order arrived with one item missing. Could you check the farm shop order from last Tuesday?</p>
+            </article>
+            <article class="ds-panel ed-entry" data-eid="e270">
+              <div class="ed-entry-top" data-eid="e271">
+                <b data-sample="Form entry#3.name">Rachel Nkemelu</b>
+                <span class="ds-badge ds-badge-quiet" data-eid="e272">New</span>
+                <time data-sample="Form entry#3.sentAt">9 March, 11:18 am</time>
+              </div>
+              <p data-sample="Form entry#3.message" data-eid="e273">Do you ship to Northern Ireland? The tea would make a good gift for my mum.</p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="ds-page ed-foot" data-eid="e274">
+      <div class="ds-notice ds-notice-info" data-eid="e275">
+        <span data-eid="e276">Shoppers never see this area. Everything you save here goes live on the pages straight away.</span>
+      </div>
+    </div>
+  </div>
+
+  <div data-part="footer" data-eid="e277"></div>
+
+  <section data-state="empty" hidden data-replaces="content" data-eid="e278">
+    <div class="ds-page ed-head" data-eid="e279">
+      <span class="ds-eyebrow" data-eid="e280">Products</span>
+      <h1 data-eid="e281">Everything on the shop floor, in one place.</h1>
+      <p data-eid="e282">Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.</p>
+    </div>
+
+    <div class="ds-page" style="padding-top: 0" data-eid="e283">
+      <div class="ds-card ed-empty-inline" data-eid="e284">
+        <div class="ds-empty" data-eid="e285">
+          <div class="ds-empty-icon" data-eid="e286">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M4 8h16l-1.5 11h-13Z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg>
+          </div>
+          <h2 class="ds-h3" data-eid="e287">No products yet. Add your first one.</h2>
+          <p class="ds-muted" data-eid="e288">A name and a price is all it takes. Switch it on and it shows on the shop page.</p>
+          <div class="ed-empty-actions" data-eid="e289"><button class="ds-btn" data-eid="e290">Add product</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ds-page" style="padding-top: 0" data-eid="e291">
+      <section class="ed-sec" aria-labelledby="ed-entries-empty-title" data-eid="e292">
+        <div class="ed-sec-head" data-eid="e293">
+          <h2 id="ed-entries-empty-title" data-eid="e294">Form entries</h2>
+        </div>
+        <div class="ds-card ed-empty-inline" data-eid="e295">
+          <div class="ds-empty" data-eid="e296">
+            <div class="ds-empty-icon" data-eid="e297">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M4 6h16v12H4Z"></path><path d="m4 7 8 6 8-6"></path></svg>
+            </div>
+            <h2 class="ds-h3" data-eid="e298">No entries yet.</h2>
+            <p class="ds-muted" data-eid="e299">When someone writes to the shop, their message lands here.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section data-state="not-allowed" hidden data-replaces="content" data-root-class="is-signed-out" data-eid="e300">
+    <div class="ds-page ed-head" data-eid="e301">
+      <span class="ds-eyebrow" data-eid="e302">Editors only</span>
+      <h1 data-eid="e303">This area is for the Donkey team.</h1>
+      <p data-eid="e304">Sign in with the email address you were invited on to add products and change the site's words.</p>
+      <div class="ds-actions" style="margin-top: 24px" data-eid="e305">
+        <a class="ds-btn" data-goto="editor-sign-in" data-eid="e306">Go to the sign-in page</a>
+        <a class="ds-btn ds-btn-ghost" data-goto="home" data-eid="e307">Back to the shop</a>
+      </div>
+    </div>
+  </section>
+
+  <section data-state="done" hidden data-replaces="content" data-eid="e308">
+    <div class="ds-page ed-mast" data-eid="e309">
+      <div class="ed-mast-row" data-eid="e310">
+        <span class="ed-mast-title" data-eid="e311">Donkey editors</span>
+        <span class="ds-spacer" data-eid="e312"></span>
+        <a class="ds-btn ds-btn-ghost ds-btn-sm" data-goto="products" data-eid="e313">View the products page</a>
+        <details class="ds-menu">
+          <summary class="ds-btn ds-btn-ghost ds-btn-sm" aria-label="Open the editor menu">
+            <span class="ds-avatar ds-avatar-sm" data-sample data-eid="e314">AM</span>
+            <span data-sample="me.name" data-eid="e315">Amara Osei</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+          </summary>
+          <div class="ds-menu-list" data-eid="e316">
+            <a data-goto="home" data-eid="e317">Home</a>
+            <a data-goto="how-it-works" data-eid="e318">How it works</a>
+            <a data-goto="products" data-eid="e319">Products</a>
+            <a data-goto="contact" data-eid="e320">Contact</a>
+            <a data-goto="editor-sign-in" data-eid="e321">Sign out</a>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <div class="ds-page ed-head" data-eid="e322">
+      <span class="ds-eyebrow" data-eid="e323">Products</span>
+      <h1 data-eid="e324">Everything on the shop floor, in one place.</h1>
+      <p data-eid="e325">Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.</p>
+    </div>
+
+    <div class="ds-page" style="padding-top: 0" data-eid="e326">
+      <div class="ds-notice ds-notice-success" data-eid="e327">
+        <span data-eid="e328">Saved. Shoppers see this now.</span>
+      </div>
+    </div>
+
+    <div class="ds-page" style="padding-top: 24px" data-eid="e329">
+      <div class="ds-table-card" data-eid="e330">
+        <div class="ds-table-card-head" data-eid="e331">
+          <h2 class="ds-h3" data-eid="e332">Products</h2>
+          <div class="ds-actions" data-eid="e333">
+            <a class="ds-btn ds-btn-ghost ds-btn-sm" data-goto="products" data-eid="e334">View the products page</a>
+          </div>
+        </div>
+        <div class="ds-table-wrap" data-eid="e335">
+          <table class="ds-table ds-table-compact" data-eid="e336">
+            <thead data-eid="e337">
+              <tr data-eid="e338">
+                <th scope="col" data-eid="e339">Product</th>
+                <th scope="col" style="text-align: right" data-eid="e340">Price</th>
+                <th scope="col" data-eid="e341">Visible</th>
+              </tr>
+            </thead>
+            <tbody data-eid="e342">
+              <tr data-eid="e343">
+                <td data-eid="e344">
+                  <div class="ed-name" data-eid="e345">
+                    <div class="ds-img ed-thumb" data-sample data-eid="e346"></div>
+                    <div data-eid="e347"><b data-sample="Product#9.name">Wheat straw lunch box</b><span data-sample="Product#9.group" data-eid="e348">Kitchen</span></div>
+                  </div>
+                </td>
+                <td class="ed-price ds-num" data-sample="Product#9.pricePence" data-eid="e349">£15.50</td>
+                <td data-eid="e350">
+                  <div class="ed-switchcell" data-eid="e351">
+                    <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Wheat straw lunch box" data-eid="e352"></button>
+                    <span data-eid="e353">On</span>
+                  </div>
+                </td>
+              </tr>
+              <tr data-eid="e354">
+                <td data-eid="e355">
+                  <div class="ed-name" data-eid="e356">
+                    <div class="ds-img ed-thumb" data-sample data-eid="e357"></div>
+                    <div data-eid="e358"><b data-sample="Product#1.name">Wool winter scarf</b><span data-sample="Product#1.group" data-eid="e359">Clothing</span></div>
+                  </div>
+                </td>
+                <td class="ed-price ds-num" data-sample="Product#1.pricePence" data-eid="e360">£18.00</td>
+                <td data-eid="e361">
+                  <div class="ed-switchcell" data-eid="e362">
+                    <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Wool winter scarf" data-eid="e363"></button>
+                    <span data-eid="e364">On</span>
+                  </div>
+                </td>
+              </tr>
+              <tr data-eid="e365">
+                <td data-eid="e366">
+                  <div class="ed-name" data-eid="e367">
+                    <div class="ds-img ed-thumb" data-sample data-eid="e368"></div>
+                    <div data-eid="e369"><b data-sample="Product#3.name">Enamel camping mug, sage</b><span data-sample="Product#3.group" data-eid="e370">Kitchen</span></div>
+                  </div>
+                </td>
+                <td class="ed-price ds-num" data-sample="Product#3.pricePence" data-eid="e371">£12.50</td>
+                <td data-eid="e372">
+                  <div class="ed-switchcell" data-eid="e373">
+                    <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Enamel camping mug, sage" data-eid="e374"></button>
+                    <span data-eid="e375">On</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="ds-table-card-foot" data-eid="e376">
+          <span class="ds-muted" style="font-size: 13px" data-eid="e377">Showing the newest first</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>

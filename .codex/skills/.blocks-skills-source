@@ -1,0 +1,4 @@
+source_path=/home/ubuntu/references
+source_signature=88AF9B04156E45225AE4352C0DD87E12F03A6D73974679C45446947736BDFC37
+skills=blocks-bootstrap blocks-captcha blocks-data-gateway-configuration blocks-data-gateway-crud blocks-data-storage blocks-frontend-local-https blocks-iam-access-control blocks-iam-account blocks-iam-mfa blocks-iam-organizations blocks-iam-sso-oidc-configuration blocks-iam-sso-oidc-implementation blocks-iam-users blocks-localization-configuration blocks-localization-implementation blocks-mail blocks-notification blocks-notifier blocks-release-deployment blocks-secrets blocks-storage-configuration blocks-workflow
+vendored_utc=2026-11-12T04:41:02.6113860Z

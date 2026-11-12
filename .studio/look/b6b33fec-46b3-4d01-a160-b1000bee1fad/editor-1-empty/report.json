@@ -1,0 +1,3837 @@
+{
+  "version": 1,
+  "target": ".studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-1.html",
+  "kind": "file",
+  "situation": "empty",
+  "startedAt": "2026-11-12T03:14:27.711Z",
+  "views": [
+    {
+      "width": 390,
+      "mode": "light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 390,
+        "height": 1250,
+        "title": "Editors' area",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Products",
+          "text": "Products",
+          "classes": "ds-h1",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Add product",
+          "text": "Add product",
+          "classes": "ds-btn",
+          "eid": "e11",
+          "control": true,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home How it works Products About Contact Sign in Sign up Home Ho…",
+          "classes": "dn-header",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 590,
+            "width": 390,
+            "height": 660
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".dn-header { position: sticky; top: 0; z-index: 20; background: hsl(var(--backg…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 1250
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "content": {
+            "left": 60,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Products",
+          "box": {
+            "x": 16,
+            "y": 97,
+            "width": 358,
+            "height": 58
+          },
+          "content": {
+            "left": 16,
+            "right": 120
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 590,
+            "width": 390,
+            "height": 660
+          },
+          "content": {
+            "left": 16,
+            "right": 298
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": "header"
+          },
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "error",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Sign up"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Products",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Sign up",
+        "Editors' area",
+        "Products",
+        "No products yet. Add your first one.",
+        "A name and a price are all a product needs to go live.",
+        "Add product",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 810,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1026,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1169,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1206,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 686,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - link \"Sign up\":\n    - /url: \"#\"\n  - group:\n    - img\n  - text: Editors' area\n  - heading \"Products\" [level=1]\n  - img\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price are all a product needs to go live.\n  - button \"Add product\"\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w390-light.png",
+      "thumbnail": "thumb-w390-light.webp",
+      "modelImage": "model-w390-light.jpg"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 390,
+        "height": 1250,
+        "title": "Editors' area",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Products",
+          "text": "Products",
+          "classes": "ds-h1",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Add product",
+          "text": "Add product",
+          "classes": "ds-btn",
+          "eid": "e11",
+          "control": true,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home How it works Products About Contact Sign in Sign up Home Ho…",
+          "classes": "dn-header",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 590,
+            "width": 390,
+            "height": 660
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".dn-header { position: sticky; top: 0; z-index: 20; background: hsl(var(--backg…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 1250
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "content": {
+            "left": 60,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Products",
+          "box": {
+            "x": 16,
+            "y": 97,
+            "width": 358,
+            "height": 58
+          },
+          "content": {
+            "left": 16,
+            "right": 120
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 590,
+            "width": 390,
+            "height": 660
+          },
+          "content": {
+            "left": 16,
+            "right": 298
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": "header"
+          },
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "error",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Sign up"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Products",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Sign up",
+        "Editors' area",
+        "Products",
+        "No products yet. Add your first one.",
+        "A name and a price are all a product needs to go live.",
+        "Add product",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 810,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1026,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1169,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1206,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 686,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - link \"Sign up\":\n    - /url: \"#\"\n  - group:\n    - img\n  - text: Editors' area\n  - heading \"Products\" [level=1]\n  - img\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price are all a product needs to go live.\n  - button \"Add product\"\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w390-dark.png",
+      "thumbnail": "thumb-w390-dark.webp",
+      "modelImage": "model-w390-dark.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "light",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 834,
+        "height": 1112,
+        "title": "Editors' area",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Products",
+          "text": "Products",
+          "classes": "ds-h1",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Add product",
+          "text": "Add product",
+          "classes": "ds-btn",
+          "eid": "e11",
+          "control": true,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home How it works Products About Contact Sign in Sign up Home Ho…",
+          "classes": "dn-header",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 585,
+            "width": 834,
+            "height": 497
+          },
+          "atBottom": false
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".dn-header { position: sticky; top: 0; z-index: 20; background: hsl(var(--backg…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 1082
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "content": {
+            "left": 68,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Products",
+          "box": {
+            "x": 24,
+            "y": 97,
+            "width": 786,
+            "height": 59
+          },
+          "content": {
+            "left": 24,
+            "right": 128
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 585,
+            "width": 834,
+            "height": 497
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": "header"
+          },
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "error",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Sign up"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Products",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Sign up",
+        "Editors' area",
+        "Products",
+        "No products yet. Add your first one.",
+        "A name and a price are all a product needs to go live.",
+        "Add product",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 805,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 441,
+            "y": 805,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1038,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 704,
+            "y": 1038,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 681,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - link \"Sign up\":\n    - /url: \"#\"\n  - group:\n    - img\n  - text: Editors' area\n  - heading \"Products\" [level=1]\n  - img\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price are all a product needs to go live.\n  - button \"Add product\"\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w834-light.png",
+      "thumbnail": "thumb-w834-light.webp",
+      "modelImage": "model-w834-light.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "dark",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 834,
+        "height": 1112,
+        "title": "Editors' area",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Products",
+          "text": "Products",
+          "classes": "ds-h1",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Add product",
+          "text": "Add product",
+          "classes": "ds-btn",
+          "eid": "e11",
+          "control": true,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home How it works Products About Contact Sign in Sign up Home Ho…",
+          "classes": "dn-header",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 585,
+            "width": 834,
+            "height": 497
+          },
+          "atBottom": false
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".dn-header { position: sticky; top: 0; z-index: 20; background: hsl(var(--backg…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 1082
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "content": {
+            "left": 68,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Products",
+          "box": {
+            "x": 24,
+            "y": 97,
+            "width": 786,
+            "height": 59
+          },
+          "content": {
+            "left": 24,
+            "right": 128
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 585,
+            "width": 834,
+            "height": 497
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": "header"
+          },
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "error",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Sign up"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Products",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Sign up",
+        "Editors' area",
+        "Products",
+        "No products yet. Add your first one.",
+        "A name and a price are all a product needs to go live.",
+        "Add product",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 805,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 441,
+            "y": 805,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1038,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 704,
+            "y": 1038,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 681,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - link \"Sign up\":\n    - /url: \"#\"\n  - group:\n    - img\n  - text: Editors' area\n  - heading \"Products\" [level=1]\n  - img\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price are all a product needs to go live.\n  - button \"Add product\"\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w834-dark.png",
+      "thumbnail": "thumb-w834-dark.webp",
+      "modelImage": "model-w834-dark.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 1280,
+        "height": 945,
+        "title": "Editors' area",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Products",
+          "text": "Products",
+          "classes": "ds-h1",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Add product",
+          "text": "Add product",
+          "classes": "ds-btn",
+          "eid": "e11",
+          "control": true,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home How it works Products About Contact Sign in Sign up Home Ho…",
+          "classes": "dn-header",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 615,
+            "width": 1280,
+            "height": 330
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".dn-header { position: sticky; top: 0; z-index: 20; background: hsl(var(--backg…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 945
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 68
+          },
+          "content": {
+            "left": 148,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Products",
+          "box": {
+            "x": 104,
+            "y": 100,
+            "width": 1072,
+            "height": 75
+          },
+          "content": {
+            "left": 104,
+            "right": 261
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 615,
+            "width": 1280,
+            "height": 330
+          },
+          "content": {
+            "left": 104,
+            "right": 1176
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": "header"
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": "header"
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": "header"
+          },
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "error",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "Sign in"
+        },
+        {
+          "href": "#",
+          "text": "Sign up"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Site pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "SIGN IN",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Products",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Sign in",
+        "Sign up",
+        "Editors' area",
+        "Products",
+        "No products yet. Add your first one.",
+        "A name and a price are all a product needs to go live.",
+        "Add product",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 518,
+            "y": 668,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 871,
+            "y": 668,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 900,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 1070,
+            "y": 900,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 711,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - navigation \"Site pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - link \"Sign in\":\n    - /url: \"#\"\n  - link \"Sign up\":\n    - /url: \"#\"\n  - text: Editors' area\n  - heading \"Products\" [level=1]\n  - img\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price are all a product needs to go live.\n  - button \"Add product\"\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w1280-light.png",
+      "thumbnail": "thumb-w1280-light.webp",
+      "modelImage": "model-w1280-light.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 1280,
+        "height": 945,
+        "title": "Editors' area",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Products",
+          "text": "Products",
+          "classes": "ds-h1",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Add product",
+          "text": "Add product",
+          "classes": "ds-btn",
+          "eid": "e11",
+          "control": true,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home How it works Products About Contact Sign in Sign up Home Ho…",
+          "classes": "dn-header",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 615,
+            "width": 1280,
+            "height": 330
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".dn-header { position: sticky; top: 0; z-index: 20; background: hsl(var(--backg…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 945
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 68
+          },
+          "content": {
+            "left": 148,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Products",
+          "box": {
+            "x": 104,
+            "y": 100,
+            "width": 1072,
+            "height": 75
+          },
+          "content": {
+            "left": 104,
+            "right": 261
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 615,
+            "width": 1280,
+            "height": 330
+          },
+          "content": {
+            "left": 104,
+            "right": 1176
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": "header"
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": "header"
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": "header"
+          },
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "error",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "Sign in"
+        },
+        {
+          "href": "#",
+          "text": "Sign up"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Site pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "SIGN IN",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Products",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Sign in",
+        "Sign up",
+        "Editors' area",
+        "Products",
+        "No products yet. Add your first one.",
+        "A name and a price are all a product needs to go live.",
+        "Add product",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 518,
+            "y": 668,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 871,
+            "y": 668,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 900,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 1070,
+            "y": 900,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "No products yet. Add your first one.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 711,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - navigation \"Site pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - link \"Sign in\":\n    - /url: \"#\"\n  - link \"Sign up\":\n    - /url: \"#\"\n  - text: Editors' area\n  - heading \"Products\" [level=1]\n  - img\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price are all a product needs to go live.\n  - button \"Add product\"\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w1280-dark.png",
+      "thumbnail": "thumb-w1280-dark.webp",
+      "modelImage": "model-w1280-dark.jpg"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-12T03:14:35.319Z"
+}

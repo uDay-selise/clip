@@ -1,0 +1,203 @@
+{
+  "plan": 1,
+  "screens": [
+    {
+      "key": "home",
+      "name": "Home",
+      "route": "/",
+      "purpose": "Signed out public home page: the Donkey name, top bar links to Home, How it works, About and Contact with Sign up and Sign in buttons, a big headline and intro line, a short block on what shoppers can",
+      "features": [
+        "PG-01"
+      ],
+      "parts": [
+        "footer"
+      ],
+      "links": [
+        "how-it-works",
+        "about",
+        "contact",
+        "products"
+      ],
+      "file": "screens/home.html",
+      "changedByThisPlan": true
+    },
+    {
+      "key": "how-it-works",
+      "name": "How it works",
+      "route": "/how-it-works",
+      "purpose": "Signed out public page: three short steps (pick, pay, get it delivered), then the Delivery and Returns text the team keeps, each with its empty state, and a Sign up button at the foot leading into Don",
+      "features": [
+        "PG-02"
+      ],
+      "parts": [
+        "footer"
+      ],
+      "links": [
+        "home",
+        "products",
+        "contact"
+      ],
+      "file": "screens/how-it-works.html",
+      "changedByThisPlan": true
+    },
+    {
+      "key": "products",
+      "name": "Products",
+      "route": "/products",
+      "purpose": "Signed out public page: every product the team marked visible in their order, each with photo, name, description, price in pounds and medicine note when written, a Sign up button at the foot of each, ",
+      "features": [
+        "PR-01"
+      ],
+      "parts": [
+        "footer"
+      ],
+      "links": [
+        "home",
+        "how-it-works",
+        "contact"
+      ],
+      "file": "screens/products.html",
+      "changedByThisPlan": true,
+      "situations": [
+        {
+          "name": "empty",
+          "replaces": "the element with data-eid=\u0022content\u0022"
+        }
+      ]
+    },
+    {
+      "key": "contact",
+      "name": "Contact",
+      "route": "/contact",
+      "purpose": "Signed out public page: Donkey\u0027s email address as a mail link and phone number as a call link, the address when written, and the both-blank empty state",
+      "features": [
+        "PG-03"
+      ],
+      "parts": [
+        "footer",
+        "header"
+      ],
+      "links": [
+        "home",
+        "products"
+      ],
+      "file": "screens/contact.html",
+      "changedByThisPlan": true,
+      "situations": [
+        {
+          "name": "empty",
+          "replaces": "the element with data-eid=\u0022content\u0022"
+        }
+      ]
+    },
+    {
+      "key": "about",
+      "name": "About",
+      "route": "/about",
+      "purpose": "Signed out public page reached from the About link in the top bar, saying in plain warm words what Donkey is and the kind of products it sells, with a Sign up button leading into Donkey app. The About",
+      "features": [
+        "PG-01"
+      ],
+      "parts": [
+        "footer"
+      ],
+      "links": [
+        "home",
+        "products",
+        "contact"
+      ],
+      "file": "screens/about.html",
+      "changedByThisPlan": true
+    },
+    {
+      "key": "editor-sign-in",
+      "name": "Editor sign-in",
+      "route": "/editor/sign-in",
+      "purpose": "Signed out short page at /editor for the shop\u0027s editors only, with a line on what the editors\u0027 area is for and one Sign in button to the hosted sign-in page. Never linked from a visitor page",
+      "features": [
+        "ED-01"
+      ],
+      "parts": [
+        "footer"
+      ],
+      "links": [],
+      "file": "screens/editor-sign-in.html",
+      "changedByThisPlan": true,
+      "situations": [
+        {
+          "name": "not-allowed",
+          "replaces": "the main content region (the first ds-page after the page head)"
+        }
+      ]
+    },
+    {
+      "key": "editor",
+      "name": "Editors\u0027 area",
+      "route": "/editor",
+      "purpose": "Signed in editors\u0027 area under a small header with the editor\u0027s menu: Products list of every product with its price and visible switch, an Add product form (name, description, price, group, medicine no",
+      "features": [
+        "ED-01"
+      ],
+      "parts": [
+        "header",
+        "footer"
+      ],
+      "links": [
+        "home",
+        "products"
+      ],
+      "file": "screens/editor.html",
+      "changedByThisPlan": true,
+      "situations": [
+        {
+          "name": "empty",
+          "replaces": "the element with data-eid=\u0022content\u0022"
+        },
+        {
+          "name": "not-allowed",
+          "replaces": "the element with data-eid=\u0022content\u0022",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "replaces": "the element with data-eid=\u0022content\u0022"
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "key": "header",
+      "name": "Visitor top bar",
+      "route": "",
+      "purpose": "Donkey name left, links to Home, How it works, About and Contact, then a Sign in button outlined and a Sign up button filled leading into Donkey app, with the colour-mode switch. No person menu and no",
+      "features": [],
+      "parts": [],
+      "links": [],
+      "file": "parts/header.html",
+      "changedByThisPlan": true
+    },
+    {
+      "key": "editor-header",
+      "name": "Editors\u0027 header",
+      "route": "",
+      "purpose": "Small header for the editors\u0027 area: Donkey name with a tag saying Editors, the Products, Page wording and Form entries menu, the signed-in editor\u0027s name and role, and the colour-mode switch",
+      "features": [],
+      "parts": [],
+      "links": [],
+      "file": "parts/editor-header.html",
+      "changedByThisPlan": true
+    },
+    {
+      "key": "footer",
+      "name": "Footer",
+      "route": "",
+      "purpose": "Donkey name, a short line on what the shop sells, links to Home, How it works, About and Contact, the email and phone number, and the colour-mode switch. Never a link to /editor",
+      "features": [],
+      "parts": [],
+      "links": [],
+      "file": "parts/footer.html",
+      "changedByThisPlan": true
+    }
+  ]
+}

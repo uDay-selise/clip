@@ -1,0 +1,109 @@
+{
+  "plan": 1,
+  "title": "First version",
+  "buildNow": [
+    "T01",
+    "T02",
+    "T03",
+    "T04"
+  ],
+  "steps": [
+    {
+      "key": "T01",
+      "title": "The shop\u0027s pages open with the designs\u0027 words, and Sign up leads into Donkey app",
+      "covers": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "redraws": null,
+      "doneWhen": "PG-02 AC2 and PG-03 AC2 hold, and every page in the top menu opens with the designers\u0027 words and a Sign up button.",
+      "built": false
+    },
+    {
+      "key": "T02",
+      "title": "The editors\u0027 area opens at /editor, with editors invited by email",
+      "covers": [
+        "ED-01"
+      ],
+      "redraws": null,
+      "doneWhen": "ED-01 AC1 and AC2 hold.",
+      "built": false
+    },
+    {
+      "key": "T03",
+      "title": "Shoppers see the products and prices, and editors change them",
+      "covers": [
+        "PR-01"
+      ],
+      "redraws": null,
+      "doneWhen": "PR-01 AC1\u2013AC3 and ED-01 AC3 hold.",
+      "built": false
+    },
+    {
+      "key": "T04",
+      "title": "The team\u0027s delivery, returns and contact details show on the site",
+      "covers": [
+        "PG-02",
+        "PG-03"
+      ],
+      "redraws": null,
+      "doneWhen": "PG-02 AC1 and PG-03 AC1 hold.",
+      "built": false
+    }
+  ],
+  "features": [
+    {
+      "key": "PG-01",
+      "name": "See the home page",
+      "area": "Pages",
+      "change": "add",
+      "checks": [
+        "PG-01 AC1",
+        "PG-01 AC2"
+      ]
+    },
+    {
+      "key": "PG-02",
+      "name": "See how buying works",
+      "area": "Pages",
+      "change": "add",
+      "checks": [
+        "PG-02 AC1",
+        "PG-02 AC2"
+      ]
+    },
+    {
+      "key": "PG-03",
+      "name": "Reach Donkey",
+      "area": "Pages",
+      "change": "add",
+      "checks": [
+        "PG-03 AC1",
+        "PG-03 AC2"
+      ]
+    },
+    {
+      "key": "PR-01",
+      "name": "Browse the products and prices",
+      "area": "Products",
+      "change": "add",
+      "checks": [
+        "PR-01 AC1",
+        "PR-01 AC2",
+        "PR-01 AC3"
+      ]
+    },
+    {
+      "key": "ED-01",
+      "name": "Edit the site\u0027s content",
+      "area": "Editor",
+      "change": "add",
+      "checks": [
+        "ED-01 AC1",
+        "ED-01 AC2",
+        "ED-01 AC3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4391 @@
+{
+  "version": 1,
+  "target": ".studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-sign-in-0.html",
+  "kind": "file",
+  "situation": null,
+  "startedAt": "2026-11-12T03:12:43.105Z",
+  "views": [
+    {
+      "width": 390,
+      "mode": "light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-sign-in-0.html",
+      "situation": null,
+      "document": {
+        "width": 390,
+        "height": 1859,
+        "title": "Editor sign-in",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-ring",
+            "eid": "e25",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": 164,
+              "y": 496,
+              "width": 320,
+              "height": 320
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 16,
+              "y": 616,
+              "width": 358,
+              "height": 415
+            }
+          }
+        },
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-blob",
+            "eid": "e26",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": -54,
+              "y": 881,
+              "width": 240,
+              "height": 240
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 16,
+              "y": 616,
+              "width": 358,
+              "height": 415
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "text": "The shop's editor desk.",
+          "classes": "es-title",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 145,
+            "width": 358,
+            "height": 77
+          },
+          "shown": true
+        },
+        "mainAction": null,
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 1199,
+            "width": 358,
+            "height": 559
+          },
+          "page": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 1135
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 1,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1199,
+            "width": 390,
+            "height": 660
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey For Donkey's editors The shop's editor desk. This is where the Donkey te…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 1859
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "pagehead",
+          "name": "The shop's editor desk.",
+          "box": {
+            "x": 16,
+            "y": 98,
+            "width": 358,
+            "height": 486
+          },
+          "content": {
+            "left": 16,
+            "right": 366
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1199,
+            "width": 390,
+            "height": 660
+          },
+          "content": {
+            "left": 16,
+            "right": 298
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "editor",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "complementary",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 2
+        },
+        {
+          "role": "heading",
+          "name": "Only invited editors get in.",
+          "level": 2,
+          "depth": 2
+        },
+        {
+          "role": "button",
+          "name": "SIGN IN",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "For Donkey's editors",
+        "The shop's",
+        "editor desk.",
+        "This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.",
+        "Change the words shoppers read on Home, How it works and Contact.",
+        "Add products, prices and photos, and choose what shows on the site.",
+        "Sign in with the email address your invite came to.",
+        "Editors' area",
+        "Only invited editors get in.",
+        "No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.",
+        "Sign in",
+        "Lost your invite email? Write to",
+        "hello@donkey.example",
+        "and the team will send a new one.",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1419,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1636,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1779,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1815,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.example",
+          "text": "hello@donkey.example",
+          "classes": "",
+          "eid": "e35",
+          "control": true,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 53,
+            "y": 961,
+            "width": 142,
+            "height": 16
+          },
+          "colour": "#d1e5de",
+          "background": "#2b8a68",
+          "ratio": 3.23,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "text": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "classes": "es-door-footnote",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 48,
+            "y": 939,
+            "width": 294,
+            "height": 60
+          },
+          "colour": "#cee4dc",
+          "background": "#228561",
+          "ratio": 3.44,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "EDITORS' AREA",
+          "text": "Editors' area",
+          "classes": "es-door-label",
+          "eid": "e29",
+          "control": false,
+          "decorative": false,
+          "heading": "The shop's editor desk.",
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 673,
+            "width": 114,
+            "height": 19
+          },
+          "colour": "#cde4db",
+          "background": "#1c825d",
+          "ratio": 3.56,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": true
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1295,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "No sign-up here, and nothing on the shop pages links to this door. Your invite …",
+          "text": "No sign-up here, and nothing on the shop pages links to this door. Your invite …",
+          "classes": "es-door-copy",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 48,
+            "y": 781,
+            "width": 294,
+            "height": 70
+          },
+          "colour": "#dfede8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 9,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: For Donkey's editors\n  - heading \"The shop's editor desk.\" [level=1]\n  - paragraph: \"This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.\"\n  - list:\n    - listitem: Change the words shoppers read on Home, How it works and Contact.\n    - listitem: Add products, prices and photos, and choose what shows on the site.\n    - listitem: Sign in with the email address your invite came to.\n  - complementary:\n    - text: Editors' area\n    - heading \"Only invited editors get in.\" [level=2]\n    - paragraph: No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.\n    - button \"Sign in\"\n    - paragraph:\n      - text: Lost your invite email? Write to\n      - link \"hello@donkey.example\":\n        - /url: \"#\"\n      - text: and the team will send a new one.\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w390-light.png",
+      "thumbnail": "thumb-w390-light.webp",
+      "modelImage": "model-w390-light.jpg"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-sign-in-0.html",
+      "situation": null,
+      "document": {
+        "width": 390,
+        "height": 1859,
+        "title": "Editor sign-in",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-ring",
+            "eid": "e25",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": 164,
+              "y": 496,
+              "width": 320,
+              "height": 320
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 16,
+              "y": 616,
+              "width": 358,
+              "height": 415
+            }
+          }
+        },
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-blob",
+            "eid": "e26",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": -54,
+              "y": 881,
+              "width": 240,
+              "height": 240
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 16,
+              "y": 616,
+              "width": 358,
+              "height": 415
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "text": "The shop's editor desk.",
+          "classes": "es-title",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 145,
+            "width": 358,
+            "height": 77
+          },
+          "shown": true
+        },
+        "mainAction": null,
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 1199,
+            "width": 358,
+            "height": 559
+          },
+          "page": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 1135
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 1,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1199,
+            "width": 390,
+            "height": 660
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey For Donkey's editors The shop's editor desk. This is where the Donkey te…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 1859
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "pagehead",
+          "name": "The shop's editor desk.",
+          "box": {
+            "x": 16,
+            "y": 98,
+            "width": 358,
+            "height": 486
+          },
+          "content": {
+            "left": 16,
+            "right": 366
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1199,
+            "width": 390,
+            "height": 660
+          },
+          "content": {
+            "left": 16,
+            "right": 298
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#080b09",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "editor",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "complementary",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 2
+        },
+        {
+          "role": "heading",
+          "name": "Only invited editors get in.",
+          "level": 2,
+          "depth": 2
+        },
+        {
+          "role": "button",
+          "name": "SIGN IN",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "For Donkey's editors",
+        "The shop's",
+        "editor desk.",
+        "This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.",
+        "Change the words shoppers read on Home, How it works and Contact.",
+        "Add products, prices and photos, and choose what shows on the site.",
+        "Sign in with the email address your invite came to.",
+        "Editors' area",
+        "Only invited editors get in.",
+        "No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.",
+        "Sign in",
+        "Lost your invite email? Write to",
+        "hello@donkey.example",
+        "and the team will send a new one.",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1419,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1636,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1779,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1815,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1295,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.example",
+          "text": "hello@donkey.example",
+          "classes": "",
+          "eid": "e35",
+          "control": true,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 53,
+            "y": 961,
+            "width": 142,
+            "height": 16
+          },
+          "colour": "#142c21",
+          "background": "#38906d",
+          "ratio": 3.81,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "text": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "classes": "es-door-footnote",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 48,
+            "y": 939,
+            "width": 294,
+            "height": 60
+          },
+          "colour": "#152d22",
+          "background": "#3b9772",
+          "ratio": 4.08,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "EDITORS' AREA",
+          "text": "Editors' area",
+          "classes": "es-door-label",
+          "eid": "e29",
+          "control": false,
+          "decorative": false,
+          "heading": "The shop's editor desk.",
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 673,
+            "width": 114,
+            "height": 19
+          },
+          "colour": "#152e23",
+          "background": "#3c9b75",
+          "ratio": 4.23,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": true
+        }
+      ],
+      "lowContrastCount": 8,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: For Donkey's editors\n  - heading \"The shop's editor desk.\" [level=1]\n  - paragraph: \"This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.\"\n  - list:\n    - listitem: Change the words shoppers read on Home, How it works and Contact.\n    - listitem: Add products, prices and photos, and choose what shows on the site.\n    - listitem: Sign in with the email address your invite came to.\n  - complementary:\n    - text: Editors' area\n    - heading \"Only invited editors get in.\" [level=2]\n    - paragraph: No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.\n    - button \"Sign in\"\n    - paragraph:\n      - text: Lost your invite email? Write to\n      - link \"hello@donkey.example\":\n        - /url: \"#\"\n      - text: and the team will send a new one.\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w390-dark.png",
+      "thumbnail": "thumb-w390-dark.webp",
+      "modelImage": "model-w390-dark.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "light",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-sign-in-0.html",
+      "situation": null,
+      "document": {
+        "width": 834,
+        "height": 1417,
+        "title": "Editor sign-in",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-ring",
+            "eid": "e25",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": 600,
+              "y": 293,
+              "width": 320,
+              "height": 320
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 24,
+              "y": 413,
+              "width": 786,
+              "height": 323
+            }
+          }
+        },
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-blob",
+            "eid": "e26",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": -46,
+              "y": 586,
+              "width": 240,
+              "height": 240
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 24,
+              "y": 413,
+              "width": 786,
+              "height": 323
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "text": "The shop's editor desk.",
+          "classes": "es-title",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 214,
+            "y": 114,
+            "width": 596,
+            "height": 56
+          },
+          "shown": true
+        },
+        "mainAction": null,
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 920,
+            "width": 786,
+            "height": 432
+          },
+          "page": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 856
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 1,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 920,
+            "width": 834,
+            "height": 497
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey For Donkey's editors The shop's editor desk. This is where the Donkey te…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 1417
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "pagehead",
+          "name": "The shop's editor desk.",
+          "box": {
+            "x": 24,
+            "y": 98,
+            "width": 786,
+            "height": 283
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 920,
+            "width": 834,
+            "height": 497
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "editor",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "complementary",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 2
+        },
+        {
+          "role": "heading",
+          "name": "Only invited editors get in.",
+          "level": 2,
+          "depth": 2
+        },
+        {
+          "role": "button",
+          "name": "SIGN IN",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "For Donkey's editors",
+        "The shop's",
+        "editor desk.",
+        "This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.",
+        "Change the words shoppers read on Home, How it works and Contact.",
+        "Add products, prices and photos, and choose what shows on the site.",
+        "Sign in with the email address your invite came to.",
+        "Editors' area",
+        "Only invited editors get in.",
+        "No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.",
+        "Sign in",
+        "Lost your invite email? Write to",
+        "hello@donkey.example",
+        "and the team will send a new one.",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1140,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 441,
+            "y": 1140,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1373,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 704,
+            "y": 1373,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "text": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "classes": "es-door-footnote",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 56,
+            "y": 684,
+            "width": 722,
+            "height": 20
+          },
+          "colour": "#cee4dc",
+          "background": "#1e835e",
+          "ratio": 3.52,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "EDITORS' AREA",
+          "text": "Editors' area",
+          "classes": "es-door-label",
+          "eid": "e29",
+          "control": false,
+          "decorative": false,
+          "heading": "The shop's editor desk.",
+          "part": null,
+          "box": {
+            "x": 112,
+            "y": 470,
+            "width": 114,
+            "height": 19
+          },
+          "colour": "#cde4db",
+          "background": "#1c825d",
+          "ratio": 3.56,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": true
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.example",
+          "text": "hello@donkey.example",
+          "classes": "",
+          "eid": "e35",
+          "control": true,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 336,
+            "y": 686,
+            "width": 142,
+            "height": 16
+          },
+          "colour": "#cde4db",
+          "background": "#1c825d",
+          "ratio": 3.56,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1016,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "No sign-up here, and nothing on the shop pages links to this door. Your invite …",
+          "text": "No sign-up here, and nothing on the shop pages links to this door. Your invite …",
+          "classes": "es-door-copy",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 56,
+            "y": 550,
+            "width": 722,
+            "height": 47
+          },
+          "colour": "#dfede8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 9,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: For Donkey's editors\n  - heading \"The shop's editor desk.\" [level=1]\n  - paragraph: \"This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.\"\n  - list:\n    - listitem: Change the words shoppers read on Home, How it works and Contact.\n    - listitem: Add products, prices and photos, and choose what shows on the site.\n    - listitem: Sign in with the email address your invite came to.\n  - complementary:\n    - text: Editors' area\n    - heading \"Only invited editors get in.\" [level=2]\n    - paragraph: No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.\n    - button \"Sign in\"\n    - paragraph:\n      - text: Lost your invite email? Write to\n      - link \"hello@donkey.example\":\n        - /url: \"#\"\n      - text: and the team will send a new one.\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w834-light.png",
+      "thumbnail": "thumb-w834-light.webp",
+      "modelImage": "model-w834-light.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "dark",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-sign-in-0.html",
+      "situation": null,
+      "document": {
+        "width": 834,
+        "height": 1417,
+        "title": "Editor sign-in",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-ring",
+            "eid": "e25",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": 600,
+              "y": 293,
+              "width": 320,
+              "height": 320
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 24,
+              "y": 413,
+              "width": 786,
+              "height": 323
+            }
+          }
+        },
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-blob",
+            "eid": "e26",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": -46,
+              "y": 586,
+              "width": 240,
+              "height": 240
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 24,
+              "y": 413,
+              "width": 786,
+              "height": 323
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "text": "The shop's editor desk.",
+          "classes": "es-title",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 214,
+            "y": 114,
+            "width": 596,
+            "height": 56
+          },
+          "shown": true
+        },
+        "mainAction": null,
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 920,
+            "width": 786,
+            "height": 432
+          },
+          "page": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 856
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 1,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 920,
+            "width": 834,
+            "height": 497
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey For Donkey's editors The shop's editor desk. This is where the Donkey te…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 1417
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "pagehead",
+          "name": "The shop's editor desk.",
+          "box": {
+            "x": 24,
+            "y": 98,
+            "width": 786,
+            "height": 283
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 920,
+            "width": 834,
+            "height": 497
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#080b09",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "editor",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "complementary",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 2
+        },
+        {
+          "role": "heading",
+          "name": "Only invited editors get in.",
+          "level": 2,
+          "depth": 2
+        },
+        {
+          "role": "button",
+          "name": "SIGN IN",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "For Donkey's editors",
+        "The shop's",
+        "editor desk.",
+        "This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.",
+        "Change the words shoppers read on Home, How it works and Contact.",
+        "Add products, prices and photos, and choose what shows on the site.",
+        "Sign in with the email address your invite came to.",
+        "Editors' area",
+        "Only invited editors get in.",
+        "No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.",
+        "Sign in",
+        "Lost your invite email? Write to",
+        "hello@donkey.example",
+        "and the team will send a new one.",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1140,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 441,
+            "y": 1140,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1373,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 704,
+            "y": 1373,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1016,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "text": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "classes": "es-door-footnote",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 56,
+            "y": 684,
+            "width": 722,
+            "height": 20
+          },
+          "colour": "#152e22",
+          "background": "#3b9974",
+          "ratio": 4.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.example",
+          "text": "hello@donkey.example",
+          "classes": "",
+          "eid": "e35",
+          "control": true,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 336,
+            "y": 686,
+            "width": 142,
+            "height": 16
+          },
+          "colour": "#152e23",
+          "background": "#3c9a75",
+          "ratio": 4.22,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "EDITORS' AREA",
+          "text": "Editors' area",
+          "classes": "es-door-label",
+          "eid": "e29",
+          "control": false,
+          "decorative": false,
+          "heading": "The shop's editor desk.",
+          "part": null,
+          "box": {
+            "x": 112,
+            "y": 470,
+            "width": 114,
+            "height": 19
+          },
+          "colour": "#152e23",
+          "background": "#3c9b75",
+          "ratio": 4.23,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": true
+        }
+      ],
+      "lowContrastCount": 8,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: For Donkey's editors\n  - heading \"The shop's editor desk.\" [level=1]\n  - paragraph: \"This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.\"\n  - list:\n    - listitem: Change the words shoppers read on Home, How it works and Contact.\n    - listitem: Add products, prices and photos, and choose what shows on the site.\n    - listitem: Sign in with the email address your invite came to.\n  - complementary:\n    - text: Editors' area\n    - heading \"Only invited editors get in.\" [level=2]\n    - paragraph: No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.\n    - button \"Sign in\"\n    - paragraph:\n      - text: Lost your invite email? Write to\n      - link \"hello@donkey.example\":\n        - /url: \"#\"\n      - text: and the team will send a new one.\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w834-dark.png",
+      "thumbnail": "thumb-w834-dark.webp",
+      "modelImage": "model-w834-dark.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-sign-in-0.html",
+      "situation": null,
+      "document": {
+        "width": 1280,
+        "height": 1167,
+        "title": "Editor sign-in",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-ring",
+            "eid": "e25",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": 966,
+              "y": -22,
+              "width": 320,
+              "height": 320
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 690,
+              "y": 98,
+              "width": 486,
+              "height": 555
+            }
+          }
+        },
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-blob",
+            "eid": "e26",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": 620,
+              "y": 503,
+              "width": 240,
+              "height": 240
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 690,
+              "y": 98,
+              "width": 486,
+              "height": 555
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "text": "The shop's editor desk.",
+          "classes": "es-title",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 145,
+            "width": 538,
+            "height": 146
+          },
+          "shown": true
+        },
+        "mainAction": null,
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 837,
+            "width": 1072,
+            "height": 265
+          },
+          "page": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 773
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 1,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 837,
+            "width": 1280,
+            "height": 330
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey For Donkey's editors The shop's editor desk. This is where the Donkey te…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 1167
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "pagehead",
+          "name": "The shop's editor desk.",
+          "box": {
+            "x": 104,
+            "y": 98,
+            "width": 538,
+            "height": 555
+          },
+          "content": {
+            "left": 104,
+            "right": 502
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 837,
+            "width": 1280,
+            "height": 330
+          },
+          "content": {
+            "left": 104,
+            "right": 1176
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "editor",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "complementary",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 2
+        },
+        {
+          "role": "heading",
+          "name": "Only invited editors get in.",
+          "level": 2,
+          "depth": 2
+        },
+        {
+          "role": "button",
+          "name": "SIGN IN",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "For Donkey's editors",
+        "The shop's",
+        "editor desk.",
+        "This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.",
+        "Change the words shoppers read on Home, How it works and Contact.",
+        "Add products, prices and photos, and choose what shows on the site.",
+        "Sign in with the email address your invite came to.",
+        "Editors' area",
+        "Only invited editors get in.",
+        "No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.",
+        "Sign in",
+        "Lost your invite email? Write to",
+        "hello@donkey.example",
+        "and the team will send a new one.",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 518,
+            "y": 890,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 871,
+            "y": 890,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 1122,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 1070,
+            "y": 1122,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "text": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "classes": "es-door-footnote",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 722,
+            "y": 580,
+            "width": 422,
+            "height": 40
+          },
+          "colour": "#cee4dc",
+          "background": "#228561",
+          "ratio": 3.43,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "EDITORS' AREA",
+          "text": "Editors' area",
+          "classes": "es-door-label",
+          "eid": "e29",
+          "control": false,
+          "decorative": false,
+          "heading": "The shop's editor desk.",
+          "part": null,
+          "box": {
+            "x": 778,
+            "y": 155,
+            "width": 114,
+            "height": 19
+          },
+          "colour": "#cde4db",
+          "background": "#1c825d",
+          "ratio": 3.56,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": true
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.example",
+          "text": "hello@donkey.example",
+          "classes": "",
+          "eid": "e35",
+          "control": true,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 916,
+            "y": 582,
+            "width": 142,
+            "height": 16
+          },
+          "colour": "#cde4db",
+          "background": "#1c825d",
+          "ratio": 3.56,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 933,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "No sign-up here, and nothing on the shop pages links to this door. Your invite …",
+          "text": "No sign-up here, and nothing on the shop pages links to this door. Your invite …",
+          "classes": "es-door-copy",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 722,
+            "y": 235,
+            "width": 422,
+            "height": 47
+          },
+          "colour": "#dfede8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 9,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: For Donkey's editors\n  - heading \"The shop's editor desk.\" [level=1]\n  - paragraph: \"This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.\"\n  - list:\n    - listitem: Change the words shoppers read on Home, How it works and Contact.\n    - listitem: Add products, prices and photos, and choose what shows on the site.\n    - listitem: Sign in with the email address your invite came to.\n  - complementary:\n    - text: Editors' area\n    - heading \"Only invited editors get in.\" [level=2]\n    - paragraph: No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.\n    - button \"Sign in\"\n    - paragraph:\n      - text: Lost your invite email? Write to\n      - link \"hello@donkey.example\":\n        - /url: \"#\"\n      - text: and the team will send a new one.\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w1280-light.png",
+      "thumbnail": "thumb-w1280-light.webp",
+      "modelImage": "model-w1280-light.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Editor sign-in",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/editor-sign-in-0.html",
+      "situation": null,
+      "document": {
+        "width": 1280,
+        "height": 1167,
+        "title": "Editor sign-in",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-ring",
+            "eid": "e25",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": 966,
+              "y": -22,
+              "width": 320,
+              "height": 320
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 690,
+              "y": 98,
+              "width": 486,
+              "height": 555
+            }
+          }
+        },
+        {
+          "element": {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco es-blob",
+            "eid": "e26",
+            "control": false,
+            "decorative": true,
+            "heading": "The shop's editor desk.",
+            "part": null,
+            "box": {
+              "x": 620,
+              "y": 503,
+              "width": 240,
+              "height": 240
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "aside",
+            "classes": "es-door",
+            "text": "Editors' area Only invited editors get in. No sign-up here,…",
+            "box": {
+              "x": 690,
+              "y": 98,
+              "width": 486,
+              "height": 555
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "text": "The shop's editor desk.",
+          "classes": "es-title",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 145,
+            "width": 538,
+            "height": 146
+          },
+          "shown": true
+        },
+        "mainAction": null,
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 837,
+            "width": 1072,
+            "height": 265
+          },
+          "page": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 773
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 1,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": null,
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 837,
+            "width": 1280,
+            "height": 330
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey For Donkey's editors The shop's editor desk. This is where the Donkey te…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 1167
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "pagehead",
+          "name": "The shop's editor desk.",
+          "box": {
+            "x": 104,
+            "y": 98,
+            "width": 538,
+            "height": 555
+          },
+          "content": {
+            "left": 104,
+            "right": 502
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 837,
+            "width": 1280,
+            "height": 330
+          },
+          "content": {
+            "left": 104,
+            "right": 1176
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#080b09",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "editor",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "The shop's editor desk.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "complementary",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 2
+        },
+        {
+          "role": "heading",
+          "name": "Only invited editors get in.",
+          "level": 2,
+          "depth": 2
+        },
+        {
+          "role": "button",
+          "name": "SIGN IN",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "For Donkey's editors",
+        "The shop's",
+        "editor desk.",
+        "This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.",
+        "Change the words shoppers read on Home, How it works and Contact.",
+        "Add products, prices and photos, and choose what shows on the site.",
+        "Sign in with the email address your invite came to.",
+        "Editors' area",
+        "Only invited editors get in.",
+        "No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.",
+        "Sign in",
+        "Lost your invite email? Write to",
+        "hello@donkey.example",
+        "and the team will send a new one.",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 518,
+            "y": 890,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 871,
+            "y": 890,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 1122,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 1070,
+            "y": 1122,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 933,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "text": "Lost your invite email? Write to hello@donkey.example and the team will send a …",
+          "classes": "es-door-footnote",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 722,
+            "y": 580,
+            "width": 422,
+            "height": 40
+          },
+          "colour": "#152d22",
+          "background": "#3b9772",
+          "ratio": 4.08,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.example",
+          "text": "hello@donkey.example",
+          "classes": "",
+          "eid": "e35",
+          "control": true,
+          "decorative": false,
+          "heading": "Only invited editors get in.",
+          "part": null,
+          "box": {
+            "x": 916,
+            "y": 582,
+            "width": 142,
+            "height": 16
+          },
+          "colour": "#152e23",
+          "background": "#3c9a75",
+          "ratio": 4.22,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "EDITORS' AREA",
+          "text": "Editors' area",
+          "classes": "es-door-label",
+          "eid": "e29",
+          "control": false,
+          "decorative": false,
+          "heading": "The shop's editor desk.",
+          "part": null,
+          "box": {
+            "x": 778,
+            "y": 155,
+            "width": 114,
+            "height": 19
+          },
+          "colour": "#152e23",
+          "background": "#3c9b75",
+          "ratio": 4.23,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": true
+        }
+      ],
+      "lowContrastCount": 8,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: For Donkey's editors\n  - heading \"The shop's editor desk.\" [level=1]\n  - paragraph: \"This is where the Donkey team keeps the site up to date: page wording, delivery and returns, contact details, and every product with its price.\"\n  - list:\n    - listitem: Change the words shoppers read on Home, How it works and Contact.\n    - listitem: Add products, prices and photos, and choose what shows on the site.\n    - listitem: Sign in with the email address your invite came to.\n  - complementary:\n    - text: Editors' area\n    - heading \"Only invited editors get in.\" [level=2]\n    - paragraph: No sign-up here, and nothing on the shop pages links to this door. Your invite email set your password the first time.\n    - button \"Sign in\"\n    - paragraph:\n      - text: Lost your invite email? Write to\n      - link \"hello@donkey.example\":\n        - /url: \"#\"\n      - text: and the team will send a new one.\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w1280-dark.png",
+      "thumbnail": "thumb-w1280-dark.webp",
+      "modelImage": "model-w1280-dark.jpg"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-12T03:12:53.585Z"
+}

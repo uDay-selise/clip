@@ -1,0 +1,4179 @@
+{
+  "version": 1,
+  "target": ".studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-1.html",
+  "kind": "file",
+  "situation": "empty",
+  "startedAt": "2026-11-12T04:36:56.494Z",
+  "views": [
+    {
+      "width": 390,
+      "mode": "light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 390,
+        "height": 1736,
+        "title": "Editors' area",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "text": "Everything on the shop floor, in one place.",
+          "classes": "",
+          "eid": "e18",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Save",
+          "text": "Save",
+          "classes": "ds-btn",
+          "eid": "e256",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1179,
+            "width": 390,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 1736
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "content": {
+            "left": 27,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything on the shop floor, in one place.",
+          "box": {
+            "x": 16,
+            "y": 105,
+            "width": 358,
+            "height": 65
+          },
+          "content": {
+            "left": 16,
+            "right": 353
+          }
+        },
+        {
+          "kind": "section",
+          "name": "No products yet. Add your first one.",
+          "box": {
+            "x": 16,
+            "y": 281,
+            "width": 358,
+            "height": 407
+          },
+          "content": {
+            "left": 58,
+            "right": 332
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Form entries",
+          "box": {
+            "x": 16,
+            "y": 776,
+            "width": 358,
+            "height": 364
+          },
+          "content": {
+            "left": 16,
+            "right": 332
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1179,
+            "width": 390,
+            "height": 557
+          },
+          "content": {
+            "left": 16,
+            "right": 326
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": [
+          {
+            "radius": 8
+          },
+          {
+            "radius": 8
+          }
+        ]
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "region",
+          "name": "Form entries",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "Form entries",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No entries yet.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Products",
+        "Everything on the shop floor, in one place.",
+        "Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.",
+        "No products yet. Add your first one.",
+        "A name and a price is all it takes. Switch it on and it shows on the shop page.",
+        "Add product",
+        "Form entries",
+        "No entries yet.",
+        "When someone writes to the shop, their message lands here.",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1356,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1529,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1618,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1688,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1287,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1588,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1386,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1415,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1445,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1475,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1559,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - group:\n    - img\n  - text: Products\n  - heading \"Everything on the shop floor, in one place.\" [level=1]\n  - paragraph: Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price is all it takes. Switch it on and it shows on the shop page.\n  - button \"Add product\"\n  - region \"Form entries\":\n    - heading \"Form entries\" [level=2]\n    - heading \"No entries yet.\" [level=2]\n    - paragraph: When someone writes to the shop, their message lands here.\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w390-light.png",
+      "thumbnail": "thumb-w390-light.webp",
+      "modelImage": "model-w390-light.jpg"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 390,
+        "height": 1736,
+        "title": "Editors' area",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "text": "Everything on the shop floor, in one place.",
+          "classes": "",
+          "eid": "e18",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Save",
+          "text": "Save",
+          "classes": "ds-btn",
+          "eid": "e256",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1179,
+            "width": 390,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 1736
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "content": {
+            "left": 27,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything on the shop floor, in one place.",
+          "box": {
+            "x": 16,
+            "y": 105,
+            "width": 358,
+            "height": 65
+          },
+          "content": {
+            "left": 16,
+            "right": 353
+          }
+        },
+        {
+          "kind": "section",
+          "name": "No products yet. Add your first one.",
+          "box": {
+            "x": 16,
+            "y": 281,
+            "width": 358,
+            "height": 407
+          },
+          "content": {
+            "left": 58,
+            "right": 332
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Form entries",
+          "box": {
+            "x": 16,
+            "y": 776,
+            "width": 358,
+            "height": 364
+          },
+          "content": {
+            "left": 16,
+            "right": 332
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1179,
+            "width": 390,
+            "height": 557
+          },
+          "content": {
+            "left": 16,
+            "right": 326
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": [
+          {
+            "radius": 8
+          },
+          {
+            "radius": 8
+          }
+        ]
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "region",
+          "name": "Form entries",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "Form entries",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No entries yet.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Products",
+        "Everything on the shop floor, in one place.",
+        "Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.",
+        "No products yet. Add your first one.",
+        "A name and a price is all it takes. Switch it on and it shows on the shop page.",
+        "Add product",
+        "Form entries",
+        "No entries yet.",
+        "When someone writes to the shop, their message lands here.",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1356,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1529,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1618,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1688,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1287,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1588,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1386,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1415,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1445,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1475,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 1559,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - group:\n    - img\n  - text: Products\n  - heading \"Everything on the shop floor, in one place.\" [level=1]\n  - paragraph: Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price is all it takes. Switch it on and it shows on the shop page.\n  - button \"Add product\"\n  - region \"Form entries\":\n    - heading \"Form entries\" [level=2]\n    - heading \"No entries yet.\" [level=2]\n    - paragraph: When someone writes to the shop, their message lands here.\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w390-dark.png",
+      "thumbnail": "thumb-w390-dark.webp",
+      "modelImage": "model-w390-dark.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "light",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 834,
+        "height": 1687,
+        "title": "Editors' area",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "text": "Everything on the shop floor, in one place.",
+          "classes": "",
+          "eid": "e18",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Save",
+          "text": "Save",
+          "classes": "ds-btn",
+          "eid": "e256",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1130,
+            "width": 834,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 1687
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "content": {
+            "left": 35,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything on the shop floor, in one place.",
+          "box": {
+            "x": 24,
+            "y": 105,
+            "width": 614,
+            "height": 78
+          },
+          "content": {
+            "left": 24,
+            "right": 636
+          }
+        },
+        {
+          "kind": "section",
+          "name": "No products yet. Add your first one.",
+          "box": {
+            "x": 24,
+            "y": 269,
+            "width": 786,
+            "height": 360
+          },
+          "content": {
+            "left": 154,
+            "right": 680
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Form entries",
+          "box": {
+            "x": 24,
+            "y": 733,
+            "width": 786,
+            "height": 341
+          },
+          "content": {
+            "left": 24,
+            "right": 626
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1130,
+            "width": 834,
+            "height": 557
+          },
+          "content": {
+            "left": 24,
+            "right": 334
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": [
+          {
+            "radius": 8
+          },
+          {
+            "radius": 8
+          }
+        ]
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "region",
+          "name": "Form entries",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "Form entries",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No entries yet.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Products",
+        "Everything on the shop floor, in one place.",
+        "Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.",
+        "No products yet. Add your first one.",
+        "A name and a price is all it takes. Switch it on and it shows on the shop page.",
+        "Add product",
+        "Form entries",
+        "No entries yet.",
+        "When someone writes to the shop, their message lands here.",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1307,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1480,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1569,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1639,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1238,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1539,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1336,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1366,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1396,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1426,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1510,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - group:\n    - img\n  - text: Products\n  - heading \"Everything on the shop floor, in one place.\" [level=1]\n  - paragraph: Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price is all it takes. Switch it on and it shows on the shop page.\n  - button \"Add product\"\n  - region \"Form entries\":\n    - heading \"Form entries\" [level=2]\n    - heading \"No entries yet.\" [level=2]\n    - paragraph: When someone writes to the shop, their message lands here.\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w834-light.png",
+      "thumbnail": "thumb-w834-light.webp",
+      "modelImage": "model-w834-light.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "dark",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 834,
+        "height": 1687,
+        "title": "Editors' area",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "text": "Everything on the shop floor, in one place.",
+          "classes": "",
+          "eid": "e18",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Save",
+          "text": "Save",
+          "classes": "ds-btn",
+          "eid": "e256",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1130,
+            "width": 834,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 1687
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "content": {
+            "left": 35,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything on the shop floor, in one place.",
+          "box": {
+            "x": 24,
+            "y": 105,
+            "width": 614,
+            "height": 78
+          },
+          "content": {
+            "left": 24,
+            "right": 636
+          }
+        },
+        {
+          "kind": "section",
+          "name": "No products yet. Add your first one.",
+          "box": {
+            "x": 24,
+            "y": 269,
+            "width": 786,
+            "height": 360
+          },
+          "content": {
+            "left": 154,
+            "right": 680
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Form entries",
+          "box": {
+            "x": 24,
+            "y": 733,
+            "width": 786,
+            "height": 341
+          },
+          "content": {
+            "left": 24,
+            "right": 626
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1130,
+            "width": 834,
+            "height": 557
+          },
+          "content": {
+            "left": 24,
+            "right": 334
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": [
+          {
+            "radius": 8
+          },
+          {
+            "radius": 8
+          }
+        ]
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "region",
+          "name": "Form entries",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "Form entries",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No entries yet.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Products",
+        "Everything on the shop floor, in one place.",
+        "Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.",
+        "No products yet. Add your first one.",
+        "A name and a price is all it takes. Switch it on and it shows on the shop page.",
+        "Add product",
+        "Form entries",
+        "No entries yet.",
+        "When someone writes to the shop, their message lands here.",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1307,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1480,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1569,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1639,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1238,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1539,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1336,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1366,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1396,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1426,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 1510,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - group:\n    - img\n  - text: Products\n  - heading \"Everything on the shop floor, in one place.\" [level=1]\n  - paragraph: Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price is all it takes. Switch it on and it shows on the shop page.\n  - button \"Add product\"\n  - region \"Form entries\":\n    - heading \"Form entries\" [level=2]\n    - heading \"No entries yet.\" [level=2]\n    - paragraph: When someone writes to the shop, their message lands here.\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w834-dark.png",
+      "thumbnail": "thumb-w834-dark.webp",
+      "modelImage": "model-w834-dark.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 1280,
+        "height": 1438,
+        "title": "Editors' area",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "text": "Everything on the shop floor, in one place.",
+          "classes": "",
+          "eid": "e18",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Save",
+          "text": "Save",
+          "classes": "ds-btn",
+          "eid": "e256",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 63
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1144,
+            "width": 1280,
+            "height": 294
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 1438
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 63
+          },
+          "content": {
+            "left": 115,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything on the shop floor, in one place.",
+          "box": {
+            "x": 104,
+            "y": 104,
+            "width": 736,
+            "height": 94
+          },
+          "content": {
+            "left": 104,
+            "right": 838
+          }
+        },
+        {
+          "kind": "section",
+          "name": "No products yet. Add your first one.",
+          "box": {
+            "x": 104,
+            "y": 283,
+            "width": 1072,
+            "height": 360
+          },
+          "content": {
+            "left": 377,
+            "right": 903
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Form entries",
+          "box": {
+            "x": 104,
+            "y": 747,
+            "width": 1072,
+            "height": 341
+          },
+          "content": {
+            "left": 104,
+            "right": 849
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1144,
+            "width": 1280,
+            "height": 294
+          },
+          "content": {
+            "left": 104,
+            "right": 1144
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": "header"
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": "header"
+          },
+          {
+            "name": "Sign up",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": "header"
+          },
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": [
+          {
+            "radius": 8
+          },
+          {
+            "radius": 8
+          }
+        ]
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Sign up"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Sign up",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "region",
+          "name": "Form entries",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "Form entries",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No entries yet.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Sign in",
+        "Sign up",
+        "Products",
+        "Everything on the shop floor, in one place.",
+        "Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.",
+        "No products yet. Add your first one.",
+        "A name and a price is all it takes. Switch it on and it shows on the shop page.",
+        "Add product",
+        "Form entries",
+        "No entries yet.",
+        "When someone writes to the shop, their message lands here.",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1202,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1202,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1291,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 1390,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 1252,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1261,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1231,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1261,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1291,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1320,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1231,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - navigation \"Pages\": Home How it works About Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Sign in\n  - link \"Sign up\":\n    - /url: \"#\"\n  - text: Products\n  - heading \"Everything on the shop floor, in one place.\" [level=1]\n  - paragraph: Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price is all it takes. Switch it on and it shows on the shop page.\n  - button \"Add product\"\n  - region \"Form entries\":\n    - heading \"Form entries\" [level=2]\n    - heading \"No entries yet.\" [level=2]\n    - paragraph: When someone writes to the shop, their message lands here.\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w1280-light.png",
+      "thumbnail": "thumb-w1280-light.webp",
+      "modelImage": "model-w1280-light.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Editors' area",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/editor-1.html",
+      "situation": {
+        "name": "empty",
+        "found": true,
+        "replaced": true
+      },
+      "document": {
+        "width": 1280,
+        "height": 1438,
+        "title": "Editors' area",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "text": "Everything on the shop floor, in one place.",
+          "classes": "",
+          "eid": "e18",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "Save",
+          "text": "Save",
+          "classes": "ds-btn",
+          "eid": "e256",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "shown": false
+        },
+        "columns": null,
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [
+          "empty"
+        ],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 63
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1144,
+            "width": 1280,
+            "height": 294
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 1438
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 63
+          },
+          "content": {
+            "left": 115,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything on the shop floor, in one place.",
+          "box": {
+            "x": 104,
+            "y": 104,
+            "width": 736,
+            "height": 94
+          },
+          "content": {
+            "left": 104,
+            "right": 838
+          }
+        },
+        {
+          "kind": "section",
+          "name": "No products yet. Add your first one.",
+          "box": {
+            "x": 104,
+            "y": 283,
+            "width": 1072,
+            "height": 360
+          },
+          "content": {
+            "left": 377,
+            "right": 903
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Form entries",
+          "box": {
+            "x": 104,
+            "y": 747,
+            "width": 1072,
+            "height": 341
+          },
+          "content": {
+            "left": 104,
+            "right": 849
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1144,
+            "width": 1280,
+            "height": 294
+          },
+          "content": {
+            "left": 104,
+            "right": 1144
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": "header"
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": "header"
+          },
+          {
+            "name": "Sign up",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": "header"
+          },
+          {
+            "name": "ADD PRODUCT",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": [
+          {
+            "radius": 8
+          },
+          {
+            "radius": 8
+          }
+        ]
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": false,
+          "replaces": "content",
+          "rootClass": null
+        },
+        {
+          "name": "not-allowed",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": "is-signed-out"
+        },
+        {
+          "name": "done",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Sign up"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Sign up",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything on the shop floor, in one place.",
+          "level": 1,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No products yet. Add your first one.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "button",
+          "name": "ADD PRODUCT",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "region",
+          "name": "Form entries",
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "Form entries",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "heading",
+          "name": "No entries yet.",
+          "level": 2,
+          "depth": 1,
+          "state": "empty"
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Sign in",
+        "Sign up",
+        "Products",
+        "Everything on the shop floor, in one place.",
+        "Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.",
+        "No products yet. Add your first one.",
+        "A name and a price is all it takes. Switch it on and it shows on the shop page.",
+        "Add product",
+        "Form entries",
+        "No entries yet.",
+        "When someone writes to the shop, their message lands here.",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1202,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1202,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1291,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 1390,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 1252,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1261,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1231,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1261,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1291,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 1320,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "No entries yet.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 1231,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - navigation \"Pages\": Home How it works About Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Sign in\n  - link \"Sign up\":\n    - /url: \"#\"\n  - text: Products\n  - heading \"Everything on the shop floor, in one place.\" [level=1]\n  - paragraph: Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.\n  - heading \"No products yet. Add your first one.\" [level=2]\n  - paragraph: A name and a price is all it takes. Switch it on and it shows on the shop page.\n  - button \"Add product\"\n  - region \"Form entries\":\n    - heading \"Form entries\" [level=2]\n    - heading \"No entries yet.\" [level=2]\n    - paragraph: When someone writes to the shop, their message lands here.\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w1280-dark.png",
+      "thumbnail": "thumb-w1280-dark.webp",
+      "modelImage": "model-w1280-dark.jpg"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-12T04:37:04.508Z"
+}

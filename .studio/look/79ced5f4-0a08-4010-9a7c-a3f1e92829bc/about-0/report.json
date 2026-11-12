@@ -1,0 +1,4263 @@
+{
+  "version": 1,
+  "target": ".studio/look/79ced5f4-0a08-4010-9a7c-a3f1e92829bc/about-0.html",
+  "kind": "file",
+  "situation": null,
+  "startedAt": "2026-11-12T04:28:34.103Z",
+  "views": [
+    {
+      "width": 390,
+      "mode": "light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "About",
+      "url": "file:///workspace/.studio/look/79ced5f4-0a08-4010-9a7c-a3f1e92829bc/about-0.html",
+      "situation": null,
+      "document": {
+        "width": 390,
+        "height": 3380,
+        "title": "About",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco ab-close-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "A short shelf, chosen slowly.",
+            "part": null,
+            "box": {
+              "x": 164,
+              "y": 2217,
+              "width": 300,
+              "height": 300
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "div",
+            "classes": "ab-close-panel",
+            "text": "Ready to have a look around? Sign up to step into the shop,…",
+            "box": {
+              "x": 16,
+              "y": 2327,
+              "width": 358,
+              "height": 265
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "text": "We sell the good stuff, picked for you.",
+          "classes": "ds-display",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 134,
+            "width": 358,
+            "height": 122
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e35",
+          "control": false,
+          "decorative": false,
+          "heading": "We sell the good stuff, picked for you.",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 428,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 2720,
+            "width": 358,
+            "height": 559
+          },
+          "page": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 873
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "ab-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2720,
+            "width": 390,
+            "height": 660
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 3380
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "content": {
+            "left": 58,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "We sell the good stuff, picked for you.",
+          "box": {
+            "x": 16,
+            "y": 134,
+            "width": 358,
+            "height": 122
+          },
+          "content": {
+            "left": 16,
+            "right": 314
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "box": {
+            "x": 0,
+            "y": 873,
+            "width": 390,
+            "height": 851
+          },
+          "content": {
+            "left": 16,
+            "right": 369
+          }
+        },
+        {
+          "kind": "section",
+          "name": "A short shelf, chosen slowly.",
+          "box": {
+            "x": 16,
+            "y": 1724,
+            "width": 358,
+            "height": 603
+          },
+          "content": {
+            "left": 16,
+            "right": 374
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to have a look around?",
+          "box": {
+            "x": 16,
+            "y": 2327,
+            "width": 358,
+            "height": 329
+          },
+          "content": {
+            "left": 56,
+            "right": 319
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2720,
+            "width": 390,
+            "height": 660
+          },
+          "content": {
+            "left": 16,
+            "right": 298
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#080b09",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "A short shelf, chosen slowly.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to have a look around?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Sign up",
+        "About Donkey",
+        "We sell the good stuff,",
+        "picked for you.",
+        "Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.",
+        "Sign up",
+        "See the products",
+        "Open",
+        "Open for orders every day",
+        "What we sell",
+        "Four kinds of thing, all chosen by hand.",
+        "We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.",
+        "Kitchen",
+        "Mugs, bowls, and the small tools we reach for daily.",
+        "from £8.00",
+        "Garden",
+        "Pots, twine and gloves that survive a wet spring.",
+        "from £4.50",
+        "Weekend",
+        "Blankets, lanterns and things for slow days off.",
+        "from £12.50",
+        "Gifts",
+        "Wrapped, stamped and ready for someone else.",
+        "from £6.00",
+        "How we pick",
+        "A short shelf, chosen slowly.",
+        "We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.",
+        "Plain prices, in pounds,",
+        "with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.",
+        "Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.",
+        "Ready to have a look around?",
+        "Sign up to step into the shop, or read how buying works first. Either way, take your time.",
+        "Sign up",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2940,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3157,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3300,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3336,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2816,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website Sign up\n  - group:\n    - img\n  - text: About Donkey\n  - heading \"We sell the good stuff, picked for you.\" [level=1]:\n    - text: We sell the good stuff,\n    - emphasis: picked for you.\n  - paragraph: \"Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.\"\n  - text: Sign up See the products Open Open for orders every day What we sell\n  - heading \"Four kinds of thing, all chosen by hand.\" [level=2]\n  - paragraph: \"We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.\"\n  - text: Kitchen Mugs, bowls, and the small tools we reach for daily. from £8.00 Garden Pots, twine and gloves that survive a wet spring. from £4.50 Weekend Blankets, lanterns and things for slow days off. from £12.50 Gifts Wrapped, stamped and ready for someone else. from £6.00 How we pick\n  - heading \"A short shelf, chosen slowly.\" [level=2]\n  - paragraph: \"We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.\"\n  - paragraph:\n    - strong: Plain prices, in pounds,\n    - text: with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.\n  - paragraph: Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.\n  - heading \"Ready to have a look around?\" [level=2]\n  - paragraph: Sign up to step into the shop, or read how buying works first. Either way, take your time.\n  - text: Sign up\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w390-light.png",
+      "thumbnail": "thumb-w390-light.webp",
+      "modelImage": "model-w390-light.jpg"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "About",
+      "url": "file:///workspace/.studio/look/79ced5f4-0a08-4010-9a7c-a3f1e92829bc/about-0.html",
+      "situation": null,
+      "document": {
+        "width": 390,
+        "height": 3380,
+        "title": "About",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco ab-close-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "A short shelf, chosen slowly.",
+            "part": null,
+            "box": {
+              "x": 164,
+              "y": 2217,
+              "width": 300,
+              "height": 300
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "div",
+            "classes": "ab-close-panel",
+            "text": "Ready to have a look around? Sign up to step into the shop,…",
+            "box": {
+              "x": 16,
+              "y": 2327,
+              "width": 358,
+              "height": 265
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "text": "We sell the good stuff, picked for you.",
+          "classes": "ds-display",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 134,
+            "width": 358,
+            "height": 122
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e35",
+          "control": false,
+          "decorative": false,
+          "heading": "We sell the good stuff, picked for you.",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 428,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 2720,
+            "width": 358,
+            "height": 559
+          },
+          "page": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 873
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "ab-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2720,
+            "width": 390,
+            "height": 660
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 3380
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "content": {
+            "left": 58,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "We sell the good stuff, picked for you.",
+          "box": {
+            "x": 16,
+            "y": 134,
+            "width": 358,
+            "height": 122
+          },
+          "content": {
+            "left": 16,
+            "right": 314
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "box": {
+            "x": 0,
+            "y": 873,
+            "width": 390,
+            "height": 851
+          },
+          "content": {
+            "left": 16,
+            "right": 369
+          }
+        },
+        {
+          "kind": "section",
+          "name": "A short shelf, chosen slowly.",
+          "box": {
+            "x": 16,
+            "y": 1724,
+            "width": 358,
+            "height": 603
+          },
+          "content": {
+            "left": 16,
+            "right": 374
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to have a look around?",
+          "box": {
+            "x": 16,
+            "y": 2327,
+            "width": 358,
+            "height": 329
+          },
+          "content": {
+            "left": 56,
+            "right": 319
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2720,
+            "width": 390,
+            "height": 660
+          },
+          "content": {
+            "left": 16,
+            "right": 298
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#f8fbf9",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "A short shelf, chosen slowly.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to have a look around?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Sign up",
+        "About Donkey",
+        "We sell the good stuff,",
+        "picked for you.",
+        "Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.",
+        "Sign up",
+        "See the products",
+        "Open",
+        "Open for orders every day",
+        "What we sell",
+        "Four kinds of thing, all chosen by hand.",
+        "We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.",
+        "Kitchen",
+        "Mugs, bowls, and the small tools we reach for daily.",
+        "from £8.00",
+        "Garden",
+        "Pots, twine and gloves that survive a wet spring.",
+        "from £4.50",
+        "Weekend",
+        "Blankets, lanterns and things for slow days off.",
+        "from £12.50",
+        "Gifts",
+        "Wrapped, stamped and ready for someone else.",
+        "from £6.00",
+        "How we pick",
+        "A short shelf, chosen slowly.",
+        "We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.",
+        "Plain prices, in pounds,",
+        "with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.",
+        "Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.",
+        "Ready to have a look around?",
+        "Sign up to step into the shop, or read how buying works first. Either way, take your time.",
+        "Sign up",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2940,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3157,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3300,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3336,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 2816,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website Sign up\n  - group:\n    - img\n  - text: About Donkey\n  - heading \"We sell the good stuff, picked for you.\" [level=1]:\n    - text: We sell the good stuff,\n    - emphasis: picked for you.\n  - paragraph: \"Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.\"\n  - text: Sign up See the products Open Open for orders every day What we sell\n  - heading \"Four kinds of thing, all chosen by hand.\" [level=2]\n  - paragraph: \"We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.\"\n  - text: Kitchen Mugs, bowls, and the small tools we reach for daily. from £8.00 Garden Pots, twine and gloves that survive a wet spring. from £4.50 Weekend Blankets, lanterns and things for slow days off. from £12.50 Gifts Wrapped, stamped and ready for someone else. from £6.00 How we pick\n  - heading \"A short shelf, chosen slowly.\" [level=2]\n  - paragraph: \"We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.\"\n  - paragraph:\n    - strong: Plain prices, in pounds,\n    - text: with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.\n  - paragraph: Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.\n  - heading \"Ready to have a look around?\" [level=2]\n  - paragraph: Sign up to step into the shop, or read how buying works first. Either way, take your time.\n  - text: Sign up\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w390-dark.png",
+      "thumbnail": "thumb-w390-dark.webp",
+      "modelImage": "model-w390-dark.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "light",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "About",
+      "url": "file:///workspace/.studio/look/79ced5f4-0a08-4010-9a7c-a3f1e92829bc/about-0.html",
+      "situation": null,
+      "document": {
+        "width": 834,
+        "height": 3172,
+        "title": "About",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco ab-close-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "A short shelf, chosen slowly.",
+            "part": null,
+            "box": {
+              "x": 600,
+              "y": 2196,
+              "width": 300,
+              "height": 300
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "div",
+            "classes": "ab-close-panel",
+            "text": "Ready to have a look around? Sign up to step into the shop,…",
+            "box": {
+              "x": 24,
+              "y": 2306,
+              "width": 786,
+              "height": 240
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "text": "We sell the good stuff, picked for you.",
+          "classes": "ds-display",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 134,
+            "width": 786,
+            "height": 102
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e35",
+          "control": false,
+          "decorative": false,
+          "heading": "We sell the good stuff, picked for you.",
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 379,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 2675,
+            "width": 786,
+            "height": 432
+          },
+          "page": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 1145
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "ab-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2675,
+            "width": 834,
+            "height": 497
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 3172
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "content": {
+            "left": 66,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "We sell the good stuff, picked for you.",
+          "box": {
+            "x": 24,
+            "y": 134,
+            "width": 786,
+            "height": 102
+          },
+          "content": {
+            "left": 24,
+            "right": 764
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "box": {
+            "x": 0,
+            "y": 1145,
+            "width": 834,
+            "height": 642
+          },
+          "content": {
+            "left": 24,
+            "right": 794
+          }
+        },
+        {
+          "kind": "section",
+          "name": "A short shelf, chosen slowly.",
+          "box": {
+            "x": 24,
+            "y": 1787,
+            "width": 786,
+            "height": 520
+          },
+          "content": {
+            "left": 24,
+            "right": 517
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to have a look around?",
+          "box": {
+            "x": 24,
+            "y": 2306,
+            "width": 786,
+            "height": 304
+          },
+          "content": {
+            "left": 64,
+            "right": 573
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2675,
+            "width": 834,
+            "height": 497
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#080b09",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "A short shelf, chosen slowly.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to have a look around?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Sign up",
+        "About Donkey",
+        "We sell the good stuff,",
+        "picked for you.",
+        "Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.",
+        "Sign up",
+        "See the products",
+        "Open",
+        "Open for orders every day",
+        "What we sell",
+        "Four kinds of thing, all chosen by hand.",
+        "We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.",
+        "Kitchen",
+        "Mugs, bowls, and the small tools we reach for daily.",
+        "from £8.00",
+        "Garden",
+        "Pots, twine and gloves that survive a wet spring.",
+        "from £4.50",
+        "Weekend",
+        "Blankets, lanterns and things for slow days off.",
+        "from £12.50",
+        "Gifts",
+        "Wrapped, stamped and ready for someone else.",
+        "from £6.00",
+        "How we pick",
+        "A short shelf, chosen slowly.",
+        "We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.",
+        "Plain prices, in pounds,",
+        "with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.",
+        "Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.",
+        "Ready to have a look around?",
+        "Sign up to step into the shop, or read how buying works first. Either way, take your time.",
+        "Sign up",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2895,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 441,
+            "y": 2895,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3127,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 704,
+            "y": 3127,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2771,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website Sign up\n  - group:\n    - img\n  - text: About Donkey\n  - heading \"We sell the good stuff, picked for you.\" [level=1]:\n    - text: We sell the good stuff,\n    - emphasis: picked for you.\n  - paragraph: \"Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.\"\n  - text: Sign up See the products Open Open for orders every day What we sell\n  - heading \"Four kinds of thing, all chosen by hand.\" [level=2]\n  - paragraph: \"We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.\"\n  - text: Kitchen Mugs, bowls, and the small tools we reach for daily. from £8.00 Garden Pots, twine and gloves that survive a wet spring. from £4.50 Weekend Blankets, lanterns and things for slow days off. from £12.50 Gifts Wrapped, stamped and ready for someone else. from £6.00 How we pick\n  - heading \"A short shelf, chosen slowly.\" [level=2]\n  - paragraph: \"We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.\"\n  - paragraph:\n    - strong: Plain prices, in pounds,\n    - text: with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.\n  - paragraph: Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.\n  - heading \"Ready to have a look around?\" [level=2]\n  - paragraph: Sign up to step into the shop, or read how buying works first. Either way, take your time.\n  - text: Sign up\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w834-light.png",
+      "thumbnail": "thumb-w834-light.webp",
+      "modelImage": "model-w834-light.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "dark",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "About",
+      "url": "file:///workspace/.studio/look/79ced5f4-0a08-4010-9a7c-a3f1e92829bc/about-0.html",
+      "situation": null,
+      "document": {
+        "width": 834,
+        "height": 3172,
+        "title": "About",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco ab-close-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "A short shelf, chosen slowly.",
+            "part": null,
+            "box": {
+              "x": 600,
+              "y": 2196,
+              "width": 300,
+              "height": 300
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "div",
+            "classes": "ab-close-panel",
+            "text": "Ready to have a look around? Sign up to step into the shop,…",
+            "box": {
+              "x": 24,
+              "y": 2306,
+              "width": 786,
+              "height": 240
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "text": "We sell the good stuff, picked for you.",
+          "classes": "ds-display",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 134,
+            "width": 786,
+            "height": 102
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e35",
+          "control": false,
+          "decorative": false,
+          "heading": "We sell the good stuff, picked for you.",
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 379,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 2675,
+            "width": 786,
+            "height": 432
+          },
+          "page": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 1145
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "ab-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2675,
+            "width": 834,
+            "height": 497
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 3172
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "content": {
+            "left": 66,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "We sell the good stuff, picked for you.",
+          "box": {
+            "x": 24,
+            "y": 134,
+            "width": 786,
+            "height": 102
+          },
+          "content": {
+            "left": 24,
+            "right": 764
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "box": {
+            "x": 0,
+            "y": 1145,
+            "width": 834,
+            "height": 642
+          },
+          "content": {
+            "left": 24,
+            "right": 794
+          }
+        },
+        {
+          "kind": "section",
+          "name": "A short shelf, chosen slowly.",
+          "box": {
+            "x": 24,
+            "y": 1787,
+            "width": 786,
+            "height": 520
+          },
+          "content": {
+            "left": 24,
+            "right": 517
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to have a look around?",
+          "box": {
+            "x": 24,
+            "y": 2306,
+            "width": 786,
+            "height": 304
+          },
+          "content": {
+            "left": 64,
+            "right": 573
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2675,
+            "width": 834,
+            "height": 497
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#f8fbf9",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "A short shelf, chosen slowly.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to have a look around?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Sign up",
+        "About Donkey",
+        "We sell the good stuff,",
+        "picked for you.",
+        "Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.",
+        "Sign up",
+        "See the products",
+        "Open",
+        "Open for orders every day",
+        "What we sell",
+        "Four kinds of thing, all chosen by hand.",
+        "We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.",
+        "Kitchen",
+        "Mugs, bowls, and the small tools we reach for daily.",
+        "from £8.00",
+        "Garden",
+        "Pots, twine and gloves that survive a wet spring.",
+        "from £4.50",
+        "Weekend",
+        "Blankets, lanterns and things for slow days off.",
+        "from £12.50",
+        "Gifts",
+        "Wrapped, stamped and ready for someone else.",
+        "from £6.00",
+        "How we pick",
+        "A short shelf, chosen slowly.",
+        "We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.",
+        "Plain prices, in pounds,",
+        "with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.",
+        "Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.",
+        "Ready to have a look around?",
+        "Sign up to step into the shop, or read how buying works first. Either way, take your time.",
+        "Sign up",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2895,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 441,
+            "y": 2895,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3127,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 704,
+            "y": 3127,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2771,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website Sign up\n  - group:\n    - img\n  - text: About Donkey\n  - heading \"We sell the good stuff, picked for you.\" [level=1]:\n    - text: We sell the good stuff,\n    - emphasis: picked for you.\n  - paragraph: \"Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.\"\n  - text: Sign up See the products Open Open for orders every day What we sell\n  - heading \"Four kinds of thing, all chosen by hand.\" [level=2]\n  - paragraph: \"We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.\"\n  - text: Kitchen Mugs, bowls, and the small tools we reach for daily. from £8.00 Garden Pots, twine and gloves that survive a wet spring. from £4.50 Weekend Blankets, lanterns and things for slow days off. from £12.50 Gifts Wrapped, stamped and ready for someone else. from £6.00 How we pick\n  - heading \"A short shelf, chosen slowly.\" [level=2]\n  - paragraph: \"We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.\"\n  - paragraph:\n    - strong: Plain prices, in pounds,\n    - text: with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.\n  - paragraph: Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.\n  - heading \"Ready to have a look around?\" [level=2]\n  - paragraph: Sign up to step into the shop, or read how buying works first. Either way, take your time.\n  - text: Sign up\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w834-dark.png",
+      "thumbnail": "thumb-w834-dark.webp",
+      "modelImage": "model-w834-dark.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "About",
+      "url": "file:///workspace/.studio/look/79ced5f4-0a08-4010-9a7c-a3f1e92829bc/about-0.html",
+      "situation": null,
+      "document": {
+        "width": 1280,
+        "height": 2270,
+        "title": "About",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco ab-close-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "A short shelf, chosen slowly.",
+            "part": null,
+            "box": {
+              "x": 966,
+              "y": 1526,
+              "width": 300,
+              "height": 300
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "div",
+            "classes": "ab-close-panel",
+            "text": "Ready to have a look around? Sign up to step into the shop,…",
+            "box": {
+              "x": 104,
+              "y": 1636,
+              "width": 1072,
+              "height": 176
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "text": "We sell the good stuff, picked for you.",
+          "classes": "ds-display",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 208,
+            "width": 589,
+            "height": 220
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e35",
+          "control": false,
+          "decorative": false,
+          "heading": "We sell the good stuff, picked for you.",
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 571,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 1940,
+            "width": 1072,
+            "height": 265
+          },
+          "page": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 749
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "ab-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 72
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1940,
+            "width": 1280,
+            "height": 330
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 2270
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 72
+          },
+          "content": {
+            "left": 146,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "We sell the good stuff, picked for you.",
+          "box": {
+            "x": 104,
+            "y": 208,
+            "width": 589,
+            "height": 220
+          },
+          "content": {
+            "left": 104,
+            "right": 641
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "box": {
+            "x": 0,
+            "y": 749,
+            "width": 1280,
+            "height": 463
+          },
+          "content": {
+            "left": 104,
+            "right": 1160
+          }
+        },
+        {
+          "kind": "section",
+          "name": "A short shelf, chosen slowly.",
+          "box": {
+            "x": 104,
+            "y": 1212,
+            "width": 1072,
+            "height": 424
+          },
+          "content": {
+            "left": 104,
+            "right": 1106
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to have a look around?",
+          "box": {
+            "x": 104,
+            "y": 1636,
+            "width": 1072,
+            "height": 240
+          },
+          "content": {
+            "left": 144,
+            "right": 1115
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1940,
+            "width": 1280,
+            "height": 330
+          },
+          "content": {
+            "left": 104,
+            "right": 1176
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#080b09",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "A short shelf, chosen slowly.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to have a look around?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Home",
+        "Products",
+        "How it works",
+        "About",
+        "Contact",
+        "Sign up",
+        "About Donkey",
+        "We sell the good stuff,",
+        "picked for you.",
+        "Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.",
+        "Sign up",
+        "See the products",
+        "Open",
+        "Open for orders every day",
+        "What we sell",
+        "Four kinds of thing, all chosen by hand.",
+        "We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.",
+        "Kitchen",
+        "Mugs, bowls, and the small tools we reach for daily.",
+        "from £8.00",
+        "Garden",
+        "Pots, twine and gloves that survive a wet spring.",
+        "from £4.50",
+        "Weekend",
+        "Blankets, lanterns and things for slow days off.",
+        "from £12.50",
+        "Gifts",
+        "Wrapped, stamped and ready for someone else.",
+        "from £6.00",
+        "How we pick",
+        "A short shelf, chosen slowly.",
+        "We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.",
+        "Plain prices, in pounds,",
+        "with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.",
+        "Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.",
+        "Ready to have a look around?",
+        "Sign up to step into the shop, or read how buying works first. Either way, take your time.",
+        "Sign up",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 518,
+            "y": 1993,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 871,
+            "y": 1993,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2226,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 1070,
+            "y": 2226,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2036,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - navigation \"Pages\": Home Products How it works About Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Sign up About Donkey\n  - heading \"We sell the good stuff, picked for you.\" [level=1]:\n    - text: We sell the good stuff,\n    - emphasis: picked for you.\n  - paragraph: \"Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.\"\n  - text: Sign up See the products Open Open for orders every day What we sell\n  - heading \"Four kinds of thing, all chosen by hand.\" [level=2]\n  - paragraph: \"We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.\"\n  - text: Kitchen Mugs, bowls, and the small tools we reach for daily. from £8.00 Garden Pots, twine and gloves that survive a wet spring. from £4.50 Weekend Blankets, lanterns and things for slow days off. from £12.50 Gifts Wrapped, stamped and ready for someone else. from £6.00 How we pick\n  - heading \"A short shelf, chosen slowly.\" [level=2]\n  - paragraph: \"We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.\"\n  - paragraph:\n    - strong: Plain prices, in pounds,\n    - text: with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.\n  - paragraph: Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.\n  - heading \"Ready to have a look around?\" [level=2]\n  - paragraph: Sign up to step into the shop, or read how buying works first. Either way, take your time.\n  - text: Sign up\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w1280-light.png",
+      "thumbnail": "thumb-w1280-light.webp",
+      "modelImage": "model-w1280-light.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "About",
+      "url": "file:///workspace/.studio/look/79ced5f4-0a08-4010-9a7c-a3f1e92829bc/about-0.html",
+      "situation": null,
+      "document": {
+        "width": 1280,
+        "height": 2270,
+        "title": "About",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco ab-close-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "A short shelf, chosen slowly.",
+            "part": null,
+            "box": {
+              "x": 966,
+              "y": 1526,
+              "width": 300,
+              "height": 300
+            }
+          },
+          "kind": "ancestor",
+          "fully": false,
+          "by": {
+            "tag": "div",
+            "classes": "ab-close-panel",
+            "text": "Ready to have a look around? Sign up to step into the shop,…",
+            "box": {
+              "x": 104,
+              "y": 1636,
+              "width": 1072,
+              "height": 176
+            }
+          }
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "text": "We sell the good stuff, picked for you.",
+          "classes": "ds-display",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 208,
+            "width": 589,
+            "height": 220
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e35",
+          "control": false,
+          "decorative": false,
+          "heading": "We sell the good stuff, picked for you.",
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 571,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 1940,
+            "width": 1072,
+            "height": 265
+          },
+          "page": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 749
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "ab-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 72
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 1940,
+            "width": 1280,
+            "height": 330
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey website Home Products How it works About Contact Sign up Home Products H…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 2270
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 72
+          },
+          "content": {
+            "left": 146,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "We sell the good stuff, picked for you.",
+          "box": {
+            "x": 104,
+            "y": 208,
+            "width": 589,
+            "height": 220
+          },
+          "content": {
+            "left": 104,
+            "right": 641
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "box": {
+            "x": 0,
+            "y": 749,
+            "width": 1280,
+            "height": 463
+          },
+          "content": {
+            "left": 104,
+            "right": 1160
+          }
+        },
+        {
+          "kind": "section",
+          "name": "A short shelf, chosen slowly.",
+          "box": {
+            "x": 104,
+            "y": 1212,
+            "width": 1072,
+            "height": 424
+          },
+          "content": {
+            "left": 104,
+            "right": 1106
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to have a look around?",
+          "box": {
+            "x": 104,
+            "y": 1636,
+            "width": 1072,
+            "height": 240
+          },
+          "content": {
+            "left": 144,
+            "right": 1115
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 1940,
+            "width": 1280,
+            "height": 330
+          },
+          "content": {
+            "left": 104,
+            "right": 1176
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SEE THE PRODUCTS",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#f8fbf9",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "products",
+          "text": "See the products"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "We sell the good stuff, picked for you.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Four kinds of thing, all chosen by hand.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "A short shelf, chosen slowly.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to have a look around?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey website",
+        "Home",
+        "Products",
+        "How it works",
+        "About",
+        "Contact",
+        "Sign up",
+        "About Donkey",
+        "We sell the good stuff,",
+        "picked for you.",
+        "Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.",
+        "Sign up",
+        "See the products",
+        "Open",
+        "Open for orders every day",
+        "What we sell",
+        "Four kinds of thing, all chosen by hand.",
+        "We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.",
+        "Kitchen",
+        "Mugs, bowls, and the small tools we reach for daily.",
+        "from £8.00",
+        "Garden",
+        "Pots, twine and gloves that survive a wet spring.",
+        "from £4.50",
+        "Weekend",
+        "Blankets, lanterns and things for slow days off.",
+        "from £12.50",
+        "Gifts",
+        "Wrapped, stamped and ready for someone else.",
+        "from £6.00",
+        "How we pick",
+        "A short shelf, chosen slowly.",
+        "We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.",
+        "Plain prices, in pounds,",
+        "with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.",
+        "Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.",
+        "Ready to have a look around?",
+        "Sign up to step into the shop, or read how buying works first. Either way, take your time.",
+        "Sign up",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 518,
+            "y": 1993,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 871,
+            "y": 1993,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2226,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 1070,
+            "y": 2226,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to have a look around?",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2036,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 5,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - navigation \"Pages\": Home Products How it works About Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Sign up About Donkey\n  - heading \"We sell the good stuff, picked for you.\" [level=1]:\n    - text: We sell the good stuff,\n    - emphasis: picked for you.\n  - paragraph: \"Donkey is a small shop with a big shelf: everyday things for the kitchen, the garden and a slow weekend, chosen by hand and priced plainly.\"\n  - text: Sign up See the products Open Open for orders every day What we sell\n  - heading \"Four kinds of thing, all chosen by hand.\" [level=2]\n  - paragraph: \"We keep the shelf short on purpose. Each thing earns its place: it lasts, it does one job well, and it costs what it says.\"\n  - text: Kitchen Mugs, bowls, and the small tools we reach for daily. from £8.00 Garden Pots, twine and gloves that survive a wet spring. from £4.50 Weekend Blankets, lanterns and things for slow days off. from £12.50 Gifts Wrapped, stamped and ready for someone else. from £6.00 How we pick\n  - heading \"A short shelf, chosen slowly.\" [level=2]\n  - paragraph: \"We started Donkey because buying a good wooden spoon shouldn't take an afternoon. So we do the looking for you: we hold each thing, use it for a week, and only then does it go on the shelf.\"\n  - paragraph:\n    - strong: Plain prices, in pounds,\n    - text: with no faff around them. When something sells out, we say so and tell you when it's back, rather than quietly taking your order.\n  - paragraph: Orders go out from our own little store room. If you're not sure which size or shape you need, write to us and a real person will answer.\n  - heading \"Ready to have a look around?\" [level=2]\n  - paragraph: Sign up to step into the shop, or read how buying works first. Either way, take your time.\n  - text: Sign up\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w1280-dark.png",
+      "thumbnail": "thumb-w1280-dark.webp",
+      "modelImage": "model-w1280-dark.jpg"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-12T04:28:43.466Z"
+}

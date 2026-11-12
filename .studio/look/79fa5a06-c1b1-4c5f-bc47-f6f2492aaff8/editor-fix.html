@@ -1,0 +1,1224 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Editors&#39; area</title><style data-studio-kit>@font-face {
+  font-family: "Space Grotesk Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300 700;
+  src: url("fonts/space-grotesk.woff2") format("woff2-variations"), url("fonts/space-grotesk.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("fonts/inter.woff2") format("woff2-variations"), url("fonts/inter.woff2") format("woff2");
+}
+:root {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-heading: "Space Grotesk Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --border-width: 1px;
+  --motion-duration: 180ms;
+  --surface-blur: 0px;
+  --surface-opacity: 1;
+  --heading-weight: 700;
+  --heading-tracking: -0.04em;
+  --label-transform: uppercase;
+  --background: 150 40% 96.1%;
+  --foreground: 140 15.8% 3.7%;
+  --card: 0 0% 100%;
+  --card-foreground: 140 15.8% 3.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 140 15.8% 3.7%;
+  --primary: 158.2 64.6% 31%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 160 13% 95.5%;
+  --secondary-foreground: 150 9.1% 8.6%;
+  --muted: 160 13% 95.5%;
+  --muted-foreground: 145.7 4.2% 32.4%;
+  --accent: 146.7 37.5% 90.6%;
+  --accent-foreground: 160.7 93.3% 17.6%;
+  --destructive: 357.3 71% 51.4%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 144 9.8% 90%;
+  --input: 145.7 7.9% 82.5%;
+  --ring: 158.2 64.6% 31%;
+  --brand: 158.2 64.6% 31%;
+  --brand-foreground: 0 0% 100%;
+  --band: 158.2 64.6% 31%;
+  --band-foreground: 0 0% 100%;
+  --bar: 0 0% 100%;
+  --bar-foreground: 140 15.8% 3.7%;
+  --primary-soft: 146.7 37.5% 90.6%;
+  --primary-soft-foreground: 160.7 93.3% 17.6%;
+  --primary-text: 160 83.2% 23.3%;
+  --action-2: 0 0% 100%;
+  --action-2-foreground: 140 15.8% 3.7%;
+  --action-2-border: 144 9.8% 90%;
+  --tint-surface: 158 20% 12.5%;
+  --tint-deep: 158 30% 5%;
+  --tint-lit: 158 16% 19.5%;
+  --tint-muted: 158 16% 16.5%;
+  --tint-border: 158 13% 21%;
+  --success: 147 100% 25.3%;
+  --success-foreground: 0 0% 100%;
+  --success-soft: 130.9 44% 90.2%;
+  --success-soft-foreground: 145.5 100% 17.1%;
+  --warning: 40.8 100% 45.3%;
+  --warning-foreground: 140 15.8% 3.7%;
+  --warning-soft: 34.7 91.8% 90.4%;
+  --warning-soft-foreground: 32.6 100% 22.7%;
+  --danger: 357.3 71% 51.4%;
+  --danger-foreground: 0 0% 100%;
+  --danger-soft: 6.2 100% 94.3%;
+  --danger-soft-foreground: 353.2 89.8% 30.8%;
+  --info: 205.2 100% 36.9%;
+  --info-foreground: 0 0% 100%;
+  --info-soft: 211.7 100% 92.9%;
+  --info-soft-foreground: 205.8 100% 25.1%;
+  --chart-1: 158.2 64.6% 31%;
+  --chart-2: 322 45.3% 56.3%;
+  --chart-3: 264.2 51.8% 62.5%;
+  --chart-4: 41.9 100% 34.5%;
+  --chart-5: 188.9 100% 34.5%;
+  --main-50: 150 40% 96.1%;
+  --main-100: 146.7 37.5% 90.6%;
+  --main-200: 150 37.5% 81.2%;
+  --main-300: 151.6 35.4% 68.4%;
+  --main-400: 153.1 33.6% 54.5%;
+  --main-500: 156 44.2% 42.2%;
+  --main-600: 158.2 64.6% 31%;
+  --main-700: 160 83.2% 23.3%;
+  --main-800: 160.7 93.3% 17.6%;
+  --main-900: 160 91.3% 13.5%;
+  --main-950: 158.2 100% 8.6%;
+  --accent-50: 150 40% 96.1%;
+  --accent-100: 146.7 37.5% 90.6%;
+  --accent-200: 150 37.5% 81.2%;
+  --accent-300: 151.6 35.4% 68.4%;
+  --accent-400: 153.1 33.6% 54.5%;
+  --accent-500: 156 44.2% 42.2%;
+  --accent-600: 158.2 64.6% 31%;
+  --accent-700: 160 83.2% 23.3%;
+  --accent-800: 160.7 93.3% 17.6%;
+  --accent-900: 160 91.3% 13.5%;
+  --accent-950: 158.2 100% 8.6%;
+  --neutral-50: 140 27.3% 97.8%;
+  --neutral-100: 160 13% 95.5%;
+  --neutral-200: 144 9.8% 90%;
+  --neutral-300: 145.7 7.9% 82.5%;
+  --neutral-400: 150 4.2% 62.4%;
+  --neutral-500: 145.7 3.1% 44.5%;
+  --neutral-600: 145.7 4.2% 32.4%;
+  --neutral-700: 150 4.8% 24.7%;
+  --neutral-800: 150 7.7% 15.3%;
+  --neutral-900: 150 9.1% 8.6%;
+  --neutral-950: 140 15.8% 3.7%;
+  --radius: 8px;
+  --radius-button: 999px;
+  --radius-input: min(8px, 12px);
+  --space-scale: 1;
+  --shadow: 0 2px 4px rgb(0 0 0 / 0.05), 0 10px 24px -8px rgb(0 0 0 / 0.14);
+  --shadow-lg: 0 16px 40px -14px rgb(0 0 0 / 0.22);
+  --type-ratio: 1.46;
+  --text-h3: 21.2px;
+  --text-h2: 30.9px;
+  --text-h1: 56.6px;
+  --icon-stroke: 2.5;
+  --btn-bg: hsl(var(--primary));
+  --btn-fg: hsl(var(--primary-foreground));
+  --btn-border: hsl(var(--primary));
+  --btn-shadow: 0 1px 2px rgb(0 0 0 / 0.1), inset 0 1px 0 rgb(255 255 255 / 0.12);
+  --btn-transform: uppercase;
+  --btn-tracking: 0.04em;
+  --card-bg: hsl(var(--muted));
+  --card-border: 0 solid transparent;
+  --card-border-top: 0 solid transparent;
+  --card-shadow: none;
+  --card-blur: none;
+  --card-radius: 8px;
+  --card-pad-x: 1;
+  --input-bg: hsl(var(--muted));
+  --input-border: 1px solid transparent;
+  --input-border-bottom: 1px solid transparent;
+  --input-shadow: none;
+  --nav-active-bg: hsl(var(--primary));
+  --nav-active-fg: hsl(var(--primary-foreground));
+  --nav-active-shadow: none;
+  --nav-active-weight: 600;
+  --nav-radius: min(8px, 10px);
+  --table-head-bg: hsl(var(--muted));
+  --table-line: transparent;
+  --table-stripe: hsl(var(--muted) / 0.45);
+  --table-pad-y: 11px;
+  --badge-bg: hsl(var(--accent));
+  --badge-fg: hsl(var(--accent-foreground));
+  --badge-border: transparent;
+  --bar-link: hsl(var(--muted-foreground));
+  --bar-nav-bg: hsl(var(--primary));
+  --bar-nav-fg: hsl(var(--primary-foreground));
+  --bar-nav-shadow: none;
+  --bar-btn-bg: hsl(var(--primary));
+  --bar-btn-fg: hsl(var(--primary-foreground));
+  --bar-btn-border: hsl(var(--primary));
+  --page-bg: hsl(var(--background));
+  --label-font: inherit;
+  --figure-font: var(--font-heading);
+  --num-font: inherit;
+}
+.dark {
+  --background: 140 15.8% 3.7%;
+  --foreground: 140 27.3% 97.8%;
+  --card: 150 9.1% 8.6%;
+  --card-foreground: 140 27.3% 97.8%;
+  --popover: 150 9.1% 8.6%;
+  --popover-foreground: 140 27.3% 97.8%;
+  --primary: 156 44.2% 42.2%;
+  --primary-foreground: 140 15.8% 3.7%;
+  --secondary: 150 7.7% 15.3%;
+  --secondary-foreground: 160 13% 95.5%;
+  --muted: 150 7.7% 15.3%;
+  --muted-foreground: 150 4.2% 62.4%;
+  --accent: 158.2 100% 8.6%;
+  --accent-foreground: 150 37.5% 81.2%;
+  --destructive: 359.7 90.6% 62.5%;
+  --destructive-foreground: 140 15.8% 3.7%;
+  --border: 150 7.7% 15.3%;
+  --input: 150 4.8% 24.7%;
+  --ring: 156 44.2% 42.2%;
+  --brand: 158.2 64.6% 31%;
+  --brand-foreground: 0 0% 100%;
+  --band: 158.2 64.6% 31%;
+  --band-foreground: 0 0% 100%;
+  --bar: 150 9.1% 8.6%;
+  --bar-foreground: 140 27.3% 97.8%;
+  --primary-soft: 158.2 100% 8.6%;
+  --primary-soft-foreground: 150 37.5% 81.2%;
+  --primary-text: 151.6 35.4% 68.4%;
+  --action-2: 150 9.1% 8.6%;
+  --action-2-foreground: 140 27.3% 97.8%;
+  --action-2-border: 150 7.7% 15.3%;
+  --tint-surface: 158 20% 12.5%;
+  --tint-deep: 158 30% 5%;
+  --tint-lit: 158 16% 19.5%;
+  --tint-muted: 158 16% 16.5%;
+  --tint-border: 158 13% 21%;
+  --success: 140.9 60.8% 37.1%;
+  --success-foreground: 140 15.8% 3.7%;
+  --success-soft: 141.3 100% 8.8%;
+  --success-soft-foreground: 130.2 40.6% 80.2%;
+  --warning: 40.8 100% 45.3%;
+  --warning-foreground: 140 15.8% 3.7%;
+  --warning-soft: 25 100% 11.8%;
+  --warning-soft-foreground: 34.6 89.5% 81.4%;
+  --danger: 359.7 90.6% 62.5%;
+  --danger-foreground: 140 15.8% 3.7%;
+  --danger-soft: 355.2 100% 14.7%;
+  --danger-soft-foreground: 5.3 100% 88.8%;
+  --info: 207.9 69% 49.4%;
+  --info-foreground: 140 15.8% 3.7%;
+  --info-soft: 208.3 100% 13.7%;
+  --info-soft-foreground: 210.4 94.7% 85.3%;
+  --chart-1: 156 44.2% 42.2%;
+  --chart-2: 322.9 61% 68.8%;
+  --chart-3: 263.8 73.8% 74.5%;
+  --chart-4: 39.5 71% 48.6%;
+  --chart-5: 188.7 100% 42.2%;
+  --main-50: 150 40% 96.1%;
+  --main-100: 146.7 37.5% 90.6%;
+  --main-200: 150 37.5% 81.2%;
+  --main-300: 151.6 35.4% 68.4%;
+  --main-400: 153.1 33.6% 54.5%;
+  --main-500: 156 44.2% 42.2%;
+  --main-600: 158.2 64.6% 31%;
+  --main-700: 160 83.2% 23.3%;
+  --main-800: 160.7 93.3% 17.6%;
+  --main-900: 160 91.3% 13.5%;
+  --main-950: 158.2 100% 8.6%;
+  --accent-50: 150 40% 96.1%;
+  --accent-100: 146.7 37.5% 90.6%;
+  --accent-200: 150 37.5% 81.2%;
+  --accent-300: 151.6 35.4% 68.4%;
+  --accent-400: 153.1 33.6% 54.5%;
+  --accent-500: 156 44.2% 42.2%;
+  --accent-600: 158.2 64.6% 31%;
+  --accent-700: 160 83.2% 23.3%;
+  --accent-800: 160.7 93.3% 17.6%;
+  --accent-900: 160 91.3% 13.5%;
+  --accent-950: 158.2 100% 8.6%;
+  --neutral-50: 140 27.3% 97.8%;
+  --neutral-100: 160 13% 95.5%;
+  --neutral-200: 144 9.8% 90%;
+  --neutral-300: 145.7 7.9% 82.5%;
+  --neutral-400: 150 4.2% 62.4%;
+  --neutral-500: 145.7 3.1% 44.5%;
+  --neutral-600: 145.7 4.2% 32.4%;
+  --neutral-700: 150 4.8% 24.7%;
+  --neutral-800: 150 7.7% 15.3%;
+  --neutral-900: 150 9.1% 8.6%;
+  --neutral-950: 140 15.8% 3.7%;
+  --shadow: 0 2px 4px rgb(0 0 0 / 0.3), 0 10px 24px -8px rgb(0 0 0 / 0.5);
+  --shadow-lg: 0 4px 8px rgb(0 0 0 / 0.35), 0 22px 44px -14px rgb(0 0 0 / 0.6);
+  --input-shadow: none;
+}
+
+.ds-root { margin: 0; font-family: var(--font-sans); font-size: 14.5px; line-height: 1.55; color: hsl(var(--foreground)); background: var(--page-bg, hsl(var(--background))); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+.ds-root *, .ds-root *::before, .ds-root *::after { box-sizing: border-box; }
+:root { color-scheme: light; }
+.dark { color-scheme: dark; }
+/* Base text: what designs are drawn with, kept in apps whose CSS resets it; any class rule wins over it. */
+:where(.ds-root) :is(h1, h2, h3, h4, h5, h6) { font-family: var(--font-heading); font-weight: var(--heading-weight, 700); line-height: 1.15; }
+:where(.ds-root) h1 { font-size: 2em; margin: 0.67em 0; }
+:where(.ds-root) h2 { font-size: 1.5em; margin: 0.83em 0; }
+:where(.ds-root) h3 { font-size: 1.17em; margin: 1em 0; }
+:where(.ds-root) h4 { font-size: 1em; margin: 1.33em 0; }
+:where(.ds-root) :is(p, blockquote, figure, dl) { margin: 1em 0; }
+:where(.ds-root) :is(ul, ol) { margin: 1em 0; padding-left: 40px; }
+:where(.ds-root) ul { list-style: disc; }
+:where(.ds-root) ol { list-style: decimal; }
+:where(.ds-root) :is(b, strong) { font-weight: bolder; }
+.ds-h1, .ds-h2, .ds-h3 { margin: 0; font-family: var(--font-heading); font-weight: var(--heading-weight, 650); letter-spacing: var(--heading-tracking, -0.02em); line-height: 1.15; color: hsl(var(--foreground)); }
+.ds-h1 { font-size: clamp(24px, 3vw, var(--text-h1, 32px)); }
+.ds-h2 { font-size: clamp(18px, 2.2vw, var(--text-h2, 22px)); }
+.ds-h3 { font-size: var(--text-h3, 15.5px); letter-spacing: -0.01em; }
+.ds-text { margin: 0; }
+.ds-muted { color: hsl(var(--muted-foreground)); }
+.ds-label-caps { font-family: var(--label-font, inherit); font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: var(--label-transform, uppercase); color: hsl(var(--muted-foreground)); }
+.ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 7px; height: 36px; padding: 0 14px; font: 600 13.5px/1 var(--font-sans); letter-spacing: var(--btn-tracking, -0.005em); border-radius: var(--radius-button, var(--radius)); border: max(1px, var(--border-width, 1px)) solid var(--btn-border, hsl(var(--primary))); background: var(--btn-bg, hsl(var(--primary))); color: var(--btn-fg, hsl(var(--primary-foreground))); box-shadow: var(--btn-shadow, 0 1px 2px rgb(0 0 0 / 0.1)); text-transform: var(--btn-transform, none); cursor: pointer; text-decoration: none; white-space: nowrap; transition: filter 120ms, background-color 120ms, box-shadow 120ms; }
+.ds-btn:hover { filter: brightness(0.96); }
+.ds-btn:focus-visible { outline: none; box-shadow: 0 0 0 3px hsl(var(--ring, var(--primary)) / 0.3); }
+.ds-btn svg { width: 16px; height: 16px; }
+.ds-btn-sm { height: 30px; padding: 0 11px; font-size: 12.5px; }
+.ds-btn-lg { height: 44px; padding: 0 20px; font-size: 15px; gap: 8px; }
+.ds-btn-lg svg { width: 18px; height: 18px; }
+/* Sizes in px, so a kit button is known by its kit size; none is under the 24 px a finger needs. */
+.ds-btn-icon { width: 36px; padding: 0; flex: none; }
+.ds-btn-icon.ds-btn-sm { width: 30px; }
+.ds-btn-icon.ds-btn-lg { width: 44px; }
+.ds-btn-secondary { background: hsl(var(--action-2)); color: hsl(var(--action-2-foreground)); border-color: hsl(var(--action-2-border)); box-shadow: 0 1px 2px rgb(0 0 0 / 0.05); }
+.ds-btn-secondary:hover { filter: brightness(0.97); }
+.ds-btn-ghost { background: transparent; color: hsl(var(--muted-foreground)); border-color: transparent; box-shadow: none; }
+.ds-btn-ghost:hover { filter: none; background: hsl(var(--muted)); color: hsl(var(--foreground)); }
+.ds-btn-danger { background: hsl(var(--destructive)); color: hsl(var(--destructive-foreground)); border-color: hsl(var(--destructive)); }
+.ds-card { background: var(--card-bg, hsl(var(--card))); color: hsl(var(--card-foreground)); border: var(--card-border, 1px solid hsl(var(--border))); border-top: var(--card-border-top, var(--card-border, 1px solid hsl(var(--border)))); border-radius: var(--card-radius, var(--radius)); box-shadow: var(--card-shadow, var(--shadow, none)); backdrop-filter: var(--card-blur, none); -webkit-backdrop-filter: var(--card-blur, none); padding: calc(20px * var(--space-scale, 1)) calc(20px * var(--space-scale, 1) * var(--card-pad-x, 1)); }
+.ds-panel { background: hsl(var(--muted) / 0.6); border-radius: var(--radius); padding: 16px; }
+.ds-field { display: flex; flex-direction: column; gap: 6px; }
+.ds-label { font-size: 13px; font-weight: 600; color: hsl(var(--foreground)); }
+.ds-input, .ds-select, .ds-textarea { width: 100%; height: 38px; padding: 0 12px; font: 14px/1.4 var(--font-sans); color: hsl(var(--foreground)); background: var(--input-bg, hsl(var(--background))); border: var(--input-border, 1px solid hsl(var(--input))); border-bottom: var(--input-border-bottom, var(--input-border, 1px solid hsl(var(--input)))); border-radius: var(--radius-input, min(var(--radius), 12px)); box-shadow: var(--input-shadow, 0 1px 2px rgb(0 0 0 / 0.04)); transition: border-color 120ms, box-shadow 120ms; }
+.ds-input, .ds-select { flex-shrink: 0; min-height: 38px; max-height: 38px; }
+.ds-input-sm { height: 32px; min-height: 32px; max-height: 32px; padding-inline: 10px; font-size: 13px; }
+.ds-input-lg { height: 44px; min-height: 44px; max-height: 44px; padding-inline: 14px; font-size: 15px; }
+.ds-select.ds-input-sm { padding-right: 30px; }
+.ds-select.ds-input-lg { padding-right: 38px; }
+.ds-select { appearance: none; -webkit-appearance: none; padding-right: 34px; cursor: pointer; text-overflow: ellipsis; background-image: linear-gradient(45deg, transparent 50%, hsl(var(--muted-foreground)) 50%), linear-gradient(135deg, hsl(var(--muted-foreground)) 50%, transparent 50%); background-position: calc(100% - 18px) 52%, calc(100% - 13px) 52%; background-size: 5px 5px, 5px 5px; background-repeat: no-repeat; }
+.ds-select:hover, .ds-input:hover { border-color: hsl(var(--foreground) / 0.25); }
+.ds-select option { color: hsl(var(--foreground)); background: hsl(var(--popover, var(--card))); }
+@supports (appearance: base-select) {
+  .ds-select, .ds-select::picker(select) { appearance: base-select; }
+  .ds-select { display: inline-flex; align-items: center; }
+  .ds-select::picker-icon { display: none; }
+  .ds-select::picker(select) { margin-block: 4px; padding: 4px; color: hsl(var(--foreground)); background: hsl(var(--popover, var(--card))); border: 1px solid hsl(var(--border)); border-radius: var(--radius-input, min(var(--radius), 12px)); box-shadow: 0 12px 32px rgb(0 0 0 / 0.18); }
+  .ds-select option { display: flex; align-items: center; gap: 8px; min-height: 36px; padding: 6px 10px; border-radius: calc(var(--radius-input, min(var(--radius), 12px)) - 2px); background: transparent; cursor: pointer; }
+  .ds-select option:hover, .ds-select option:focus-visible { background: hsl(var(--muted)); outline: none; }
+  .ds-select option:checked { font-weight: 600; }
+  .ds-select option::checkmark { order: 1; margin-left: auto; color: hsl(var(--primary)); }
+}
+.ds-input:focus, .ds-select:focus, .ds-textarea:focus { outline: none; border-color: hsl(var(--primary)); box-shadow: 0 0 0 3px hsl(var(--primary) / 0.15); }
+.ds-textarea { height: auto; min-height: 96px; padding: 10px 12px; resize: vertical; }
+.ds-hint { font-size: 12.5px; color: hsl(var(--muted-foreground)); }
+.ds-error { font-size: 12.5px; color: hsl(var(--destructive)); }
+.ds-badge { font-family: var(--label-font, inherit); display: inline-flex; align-items: center; gap: 6px; height: 22px; padding: 0 9px; font-size: 12px; font-weight: 600; line-height: 1; border-radius: 999px; border: 1px solid var(--badge-border, transparent); background: var(--badge-bg, hsl(var(--primary) / 0.1)); color: var(--badge-fg, hsl(var(--primary))); white-space: nowrap; }
+.ds-badge-success, .ds-badge-warning, .ds-badge-danger, .ds-badge-info, .ds-badge-quiet { gap: 6px; }
+.ds-badge-success::before, .ds-badge-warning::before, .ds-badge-danger::before, .ds-badge-info::before, .ds-badge-quiet::before { content: ""; width: 6px; height: 6px; border-radius: 999px; background: currentColor; }
+.ds-badge-quiet { background: hsl(var(--muted)); color: hsl(var(--muted-foreground)); }
+.ds-badge-success { background: var(--badge-success-bg, hsl(var(--success-soft))); color: hsl(var(--success-soft-foreground)); }
+.ds-badge-warning { background: var(--badge-warning-bg, hsl(var(--warning-soft))); color: hsl(var(--warning-soft-foreground)); }
+.ds-badge-danger { background: var(--badge-danger-bg, hsl(var(--danger-soft))); color: hsl(var(--danger-soft-foreground)); }
+.ds-badge-info { background: var(--badge-info-bg, hsl(var(--info-soft))); color: hsl(var(--info-soft-foreground)); }
+.ds-table-wrap { background: var(--card-bg, hsl(var(--card))); border: var(--card-border, 1px solid hsl(var(--border))); border-top: var(--card-border-top, var(--card-border, 1px solid hsl(var(--border)))); border-radius: var(--card-radius, var(--radius)); box-shadow: var(--card-shadow, var(--shadow, none)); overflow-x: auto; overflow-y: hidden; }
+.ds-table { width: 100%; border-collapse: collapse; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+.ds-table th { font-family: var(--label-font, inherit); text-align: left; font-size: 11.5px; font-weight: 600; letter-spacing: 0.04em; text-transform: var(--label-transform, none); color: hsl(var(--muted-foreground)); background: var(--table-head-bg, hsl(var(--muted) / 0.5)); padding: 10px 14px; border-bottom: 1px solid var(--table-line, hsl(var(--border))); white-space: nowrap; }
+.ds-table td { padding: calc(var(--table-pad-y, 12px) * var(--space-scale, 1)) 14px; border-top: 1px solid var(--table-line, hsl(var(--border))); vertical-align: middle; }
+.ds-table tbody tr:nth-child(even) td { background: var(--table-stripe, transparent); }
+.ds-table tbody tr:first-child td { border-top: 0; }
+.ds-table tbody tr:hover td { background: hsl(var(--muted) / 0.35); }
+.ds-table td:first-child { font-weight: 500; }
+.ds-table-compact { font-size: 13px; }
+.ds-table-compact th { padding: 7px 12px; }
+.ds-table-compact td { padding: calc(7px * var(--space-scale, 1)) 12px; }
+.ds-list { list-style: none; margin: 0; padding: 0; }
+.ds-list-item { display: flex; align-items: center; gap: 12px; padding: 14px 0; border-top: 1px solid hsl(var(--border)); }
+.ds-list-item:first-child { border-top: 0; }
+.ds-list-item > :only-child { flex: 1 1 auto; min-width: 0; }
+.ds-row-actions { display: inline-flex; align-items: center; justify-content: flex-end; gap: 8px; white-space: nowrap; }
+.ds-list-item > .ds-row-actions:last-child, .ds-list-item > .ds-menu:last-child { margin-left: auto; }
+.ds-table td:has(> .ds-row-actions:only-child), .ds-table td:has(> .ds-menu:only-child) { width: 1%; white-space: nowrap; text-align: right; }
+@media (max-width: 640px) { .ds-row-actions > :not(.ds-menu) { display: none; } }
+.ds-nav { display: flex; align-items: center; gap: 2px; }
+.ds-nav-item { display: flex; align-items: center; gap: 8px; white-space: nowrap; padding: 7px 11px; border-radius: min(var(--radius), 10px); color: hsl(var(--muted-foreground)); text-decoration: none; font-size: 13.5px; font-weight: 500; }
+.ds-nav-item:hover { color: hsl(var(--foreground)); background: hsl(var(--muted) / 0.6); }
+.ds-nav-item.ds-active { color: var(--nav-active-fg, hsl(var(--primary))); background: var(--nav-active-bg, hsl(var(--primary) / 0.08)); box-shadow: var(--nav-active-shadow, none); border-radius: var(--nav-radius, min(var(--radius), 10px)); font-weight: var(--nav-active-weight, 600); }
+.ds-nav-item svg { width: 16px; height: 16px; }
+.ds-tabs { display: inline-flex; gap: 2px; padding: 3px; background: hsl(var(--muted)); border-radius: min(var(--radius), 10px); }
+.ds-menu { position: relative; display: inline-block; }
+.ds-menu > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+.ds-menu > summary::-webkit-details-marker { display: none; }
+.ds-menu-list { position: absolute; right: 0; top: calc(100% + 6px); z-index: 30; min-width: 200px; padding: 6px; display: grid; gap: 2px; background: hsl(var(--popover, var(--card))); color: hsl(var(--popover-foreground, var(--foreground))); border: 1px solid hsl(var(--border)); border-radius: min(var(--radius), 12px); box-shadow: 0 16px 40px -16px rgb(0 0 0 / 0.3); }
+.ds-menu-left .ds-menu-list { right: auto; left: 0; }
+.ds-menu-list > a, .ds-menu-list > button { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border: 0; border-radius: min(var(--radius), 8px); background: none; font: 500 13.5px/1.3 var(--font-sans); color: inherit; text-align: left; text-decoration: none; cursor: pointer; }
+.ds-menu-list > a:hover, .ds-menu-list > button:hover { background: hsl(var(--muted)); }
+.ds-menu-list > hr { height: 1px; margin: 4px 2px; border: 0; background: hsl(var(--border)); }
+.ds-tab, .ds-chip { appearance: none; -webkit-appearance: none; border: 0; background: none; font-family: inherit; line-height: 1.2; cursor: pointer; }
+.ds-tab:hover:not(.ds-active) { color: hsl(var(--foreground)); }
+.ds-tab { padding: 6px 12px; font-size: 13px; font-weight: 500; color: hsl(var(--muted-foreground)); border-radius: min(var(--radius), 8px); text-decoration: none; white-space: nowrap; }
+.ds-tab.ds-active { background: hsl(var(--card)); color: hsl(var(--foreground)); box-shadow: 0 1px 2px rgb(0 0 0 / 0.08); }
+.ds-chip { display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 12px; font-size: 13px; font-weight: 500; color: hsl(var(--foreground)); background: hsl(var(--card)); border: 1px solid hsl(var(--border)); border-radius: 999px; }
+.ds-stat { display: flex; flex-direction: column; gap: 4px; }
+.ds-stat-label { font-size: 12.5px; color: hsl(var(--muted-foreground)); }
+.ds-stat-value { font-family: var(--figure-font, var(--font-heading)); font-size: 26px; font-weight: var(--heading-weight, 650); letter-spacing: -0.02em; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.ds-avatar { display: inline-grid; place-items: center; flex: none; width: 32px; height: 32px; border-radius: 999px; background: hsl(var(--primary) / 0.12); color: hsl(var(--primary-text, var(--primary))); font-size: 12px; font-weight: 700; }
+.ds-avatar-sm { width: 24px; height: 24px; font-size: 10px; }
+.ds-avatar-lg { width: 44px; height: 44px; font-size: 15px; }
+.ds-avatar-xl { width: 64px; height: 64px; font-size: 21px; }
+.ds-divider { border: 0; border-top: 1px solid hsl(var(--border)); margin: 16px 0; }
+.ds-empty { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 48px 16px; text-align: center; color: hsl(var(--muted-foreground)); }
+.ds-empty-icon { display: grid; place-items: center; width: 44px; height: 44px; margin-bottom: 4px; border-radius: 999px; background: hsl(var(--primary) / 0.08); color: hsl(var(--primary-text, var(--primary))); }
+.ds-img { display: block; width: 100%; min-height: 120px; border-radius: min(var(--radius), 14px); background-color: hsl(var(--muted)); background-image: repeating-linear-gradient(135deg, hsl(var(--border) / 0.55) 0 1px, transparent 1px 12px); }
+/* The side gutter is the width and side margins, not padding, so a screen's own `padding: 20px 0` can't take it away. */
+.ds-page { width: min(calc(100% - 48px), 1072px); margin-inline: auto; padding: calc(32px * var(--space-scale, 1)) 0 calc(56px * var(--space-scale, 1)); }
+.ds-page-narrow { width: min(calc(100% - 48px), 672px); margin-inline: auto; padding: calc(32px * var(--space-scale, 1)) 0 calc(56px * var(--space-scale, 1)); }
+/* Sized by width and side margins, not padding, so a bar's own `padding: 14px 0` can't take its gutter away. */
+.ds-bar { width: min(calc(100% - 48px), 1072px); margin-inline: auto; }
+:where(header, footer) > :where(.ds-bar) { padding-block: calc(12px * var(--space-scale, 1)); }
+.ds-page-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; margin-bottom: 24px; }
+.ds-section { margin-top: 48px; }
+.ds-stack { display: flex; flex-direction: column; gap: calc(16px * var(--space-scale, 1)); }
+.ds-stack-tight { display: flex; flex-direction: column; gap: 8px; }
+.ds-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.ds-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.ds-spacer { flex: 1; }
+@media (max-width: 640px) { .ds-page, .ds-page-narrow { width: calc(100% - 32px); padding: 20px 0 40px; } .ds-bar { width: calc(100% - 32px); } .ds-section { margin-top: 32px; } }
+.ds-shell { display: grid; grid-template-columns: auto minmax(0, 1fr); min-height: 100vh; align-items: stretch; }
+.ds-shell > [data-part-root] > aside, .ds-shell > aside { width: 248px; max-width: 280px; margin: 0; }
+.ds-shell-main { min-width: 0; display: flex; flex-direction: column; }
+.ds-shell:not(:has(aside)) { display: block; }
+@media (max-width: 860px) { .ds-shell { grid-template-columns: minmax(0, 1fr); } .ds-shell > [data-part-root] > aside, .ds-shell > aside { display: none; } }
+.ds-theme-switch { display: inline-flex !important; flex-direction: row !important; align-items: center; gap: 2px; height: 32px; padding: 3px; border-radius: 999px; background: hsl(var(--muted)); flex: none; }
+.ds-theme-switch > * { display: grid; place-items: center; width: 28px; height: 26px; padding: 0; border: 0; border-radius: 999px; background: transparent; color: hsl(var(--muted-foreground)); cursor: pointer; }
+.ds-theme-switch > .ds-active { background: hsl(var(--card)); color: hsl(var(--foreground)); box-shadow: 0 1px 2px rgb(0 0 0 / 0.12); }
+.ds-theme-switch svg { width: 14px; height: 14px; }
+.ds-lang-switch { display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 10px; border: 1px solid hsl(var(--border)); border-radius: 999px; background: hsl(var(--card)); color: hsl(var(--foreground)); font: 600 12.5px/1 var(--font-sans); cursor: pointer; flex: none; }
+.ds-lang-switch svg { width: 14px; height: 14px; color: hsl(var(--muted-foreground)); }
+.ds-menu-button { display: none; place-items: center; width: 36px; height: 36px; padding: 0; border: 1px solid hsl(var(--border)); border-radius: min(var(--radius), 10px); background: hsl(var(--card)); color: hsl(var(--foreground)); cursor: pointer; flex: none; }
+.ds-menu-button svg { width: 18px; height: 18px; }
+.ds-menu > summary.ds-menu-button { display: none; }
+.ds-menu-list > .ds-theme-switch, .ds-menu-list > .ds-lang-switch { justify-self: start; margin: 4px 6px; }
+.ds-corner { display: flex; justify-content: flex-end; align-items: center; gap: 8px; padding: 14px 24px 0; }
+@media (max-width: 640px) { .ds-corner { padding: 12px 16px 0; } }
+.ds-user { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.ds-user-text { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
+.ds-user-name { font-size: 13.5px; font-weight: 600; color: hsl(var(--foreground)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ds-user-role { font-size: 12px; color: hsl(var(--muted-foreground)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ds-only-narrow { display: none !important; }
+@media (max-width: 860px) { .ds-menu-button, .ds-menu > summary.ds-menu-button { display: inline-grid; } .ds-only-wide { display: none !important; } .ds-only-narrow { display: revert !important; } }
+.ds-display { margin: 0; font-family: var(--font-heading); font-weight: var(--heading-weight, 700); font-size: clamp(40px, 6vw, 72px); line-height: 1.02; letter-spacing: -0.035em; }
+.ds-eyebrow { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: hsl(var(--primary-text, var(--primary))); }
+.ds-band-bold { background: hsl(var(--band)); color: hsl(var(--band-foreground)); }
+.ds-num { font-family: var(--num-font, inherit); font-variant-numeric: tabular-nums; }
+.ds-root input[type="checkbox"], .ds-root input[type="radio"] { accent-color: hsl(var(--primary)); }
+.ds-check { width: 16px; height: 16px; margin: 0; flex: none; }
+.ds-switch { position: relative; flex: none; width: 34px; height: 20px; padding: 0; border: 0; border-radius: 999px; background: hsl(var(--input)); cursor: pointer; transition: background-color var(--motion-duration, 150ms); }
+.ds-switch::after { content: ""; position: absolute; top: 3px; left: 3px; width: 14px; height: 14px; border-radius: 999px; background: hsl(var(--card)); box-shadow: 0 1px 2px rgb(0 0 0 / 0.2); transition: transform var(--motion-duration, 150ms); }
+.ds-switch[aria-checked="true"] { background: hsl(var(--primary)); }
+.ds-switch[aria-checked="true"]::after { transform: translateX(14px); background: hsl(var(--primary-foreground)); }
+.ds-progress { height: 6px; border-radius: 999px; background: hsl(var(--muted)); overflow: hidden; }
+.ds-progress > span { display: block; height: 100%; border-radius: inherit; background: hsl(var(--primary)); }
+.ds-notice { display: flex; align-items: flex-start; gap: 8px; padding: calc(10px * var(--space-scale, 1)) 12px; border-radius: min(var(--radius), 12px); font-size: 13px; background: hsl(var(--muted)); color: hsl(var(--foreground)); }
+.ds-notice-success { background: var(--badge-success-bg, hsl(var(--success-soft))); color: hsl(var(--success-soft-foreground)); }
+.ds-notice-info { background: var(--badge-info-bg, hsl(var(--info-soft))); color: hsl(var(--info-soft-foreground)); }
+.ds-notice-warning { background: var(--badge-warning-bg, hsl(var(--warning-soft))); color: hsl(var(--warning-soft-foreground)); }
+.ds-notice-danger { background: var(--badge-danger-bg, hsl(var(--danger-soft))); color: hsl(var(--danger-soft-foreground)); }
+.ds-bar-surface { background: hsl(var(--bar)); color: hsl(var(--bar-foreground)); }
+.dark .ds-tab.ds-active, .dark .ds-theme-switch > .ds-active { background: hsl(var(--foreground) / 0.12); box-shadow: none; }
+.ds-bar-surface .ds-nav-item { color: var(--bar-link, hsl(var(--muted-foreground))); }
+.ds-bar-surface .ds-nav-item.ds-active { background: var(--bar-nav-bg, var(--nav-active-bg)); color: var(--bar-nav-fg, var(--nav-active-fg)); box-shadow: var(--bar-nav-shadow, none); }
+.ds-band-bold .ds-btn:not(.ds-btn-secondary, .ds-btn-ghost, .ds-btn-danger) { background: hsl(var(--band-foreground)); border-color: hsl(var(--band-foreground)); color: hsl(var(--band)); box-shadow: none; }
+.ds-bar-surface .ds-btn:not(.ds-btn-secondary, .ds-btn-ghost, .ds-btn-danger) { background: var(--bar-btn-bg, var(--btn-bg)); color: var(--bar-btn-fg, var(--btn-fg)); border-color: var(--bar-btn-border, var(--btn-border)); }
+:is(.ds-btn, .ds-nav-item, .ds-empty-icon, .ds-menu-button, .ds-chip, .ds-tab, .ds-theme-switch, .ds-lang-switch) svg { stroke-width: var(--icon-stroke, 2); }
+.ds-band { background: linear-gradient(180deg, hsl(var(--primary) / 0.07), hsl(var(--accent) / 0.05)); border-block: 1px solid hsl(var(--border)); }
+.ds-band-dark { background: hsl(var(--foreground)); color: hsl(var(--background)); }
+.ds-band-dark .ds-muted { color: hsl(var(--background) / 0.7); }
+.ds-bento { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: minmax(140px, auto); gap: 14px; }
+.ds-bento > .ds-span-2 { grid-column: span 2; }
+.ds-bento > .ds-tall { grid-row: span 2; }
+.ds-tile { position: relative; overflow: hidden; padding: calc(20px * var(--space-scale, 1)); background: var(--card-bg, hsl(var(--card))); border: var(--card-border, 1px solid hsl(var(--border))); border-radius: calc(var(--card-radius, var(--radius)) + 4px); box-shadow: var(--card-shadow, var(--shadow, none)); backdrop-filter: var(--card-blur, none); }
+.ds-glow { position: relative; isolation: isolate; }
+.ds-glow::before { content: ""; position: absolute; inset: -20%; z-index: -1; background: radial-gradient(closest-side, hsl(var(--primary) / 0.22), transparent); filter: blur(24px); }
+.ds-deco { position: absolute; z-index: -1 !important; pointer-events: none; }
+.ds-deco:has(a, button, input, select, textarea, label) { z-index: auto !important; pointer-events: auto; }
+:where(:has(> .ds-deco)) { position: relative; isolation: isolate; }
+.ds-root { overflow-x: clip; }
+@media (max-width: 900px) { .ds-bento { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .ds-bento { grid-template-columns: 1fr; } .ds-bento > .ds-span-2 { grid-column: auto; } }
+.ds-brand-link { display: inline-flex; align-items: center; gap: 10px; flex: none; color: inherit; text-decoration: none; }
+.ds-brand { display: block; height: var(--brand-height, 28px); width: auto; max-width: 200px; object-fit: contain; }
+.ds-brand-dark { display: none; }
+.dark .ds-brand-light { display: none; }
+.dark .ds-brand.ds-brand-dark { display: block; }
+.ds-brand-text { font-family: var(--font-heading); font-weight: var(--heading-weight, 700); font-size: 17px; letter-spacing: -0.01em; white-space: nowrap; }
+.dark .ds-brand-text.ds-brand-dark { display: inline; }
+/* Everyday pieces: a search and filter bar, a form, a detail page, page actions and a toolbar, steps, a table in a card. */
+.ds-filter-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-bottom: calc(16px * var(--space-scale, 1)); }
+.ds-filter-bar > .ds-select { width: auto; min-width: 140px; }
+.ds-search { position: relative; display: flex; align-items: center; flex: 1 1 240px; min-width: 0; max-width: 420px; }
+.ds-search > svg { position: absolute; left: 12px; width: 16px; height: 16px; color: hsl(var(--muted-foreground)); pointer-events: none; }
+.ds-search > .ds-input { padding-left: 36px; }
+.ds-form { display: flex; flex-direction: column; gap: calc(16px * var(--space-scale, 1)); }
+.ds-form-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: calc(16px * var(--space-scale, 1)); }
+.ds-form-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: 8px; padding-top: 8px; }
+.ds-detail { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: calc(24px * var(--space-scale, 1)); align-items: start; }
+.ds-detail-main, .ds-detail-side { min-width: 0; display: flex; flex-direction: column; gap: calc(16px * var(--space-scale, 1)); }
+@media (max-width: 860px) { .ds-detail { grid-template-columns: minmax(0, 1fr); } }
+.ds-facts { display: grid; gap: 12px; margin: 0; }
+.ds-facts > div { display: grid; grid-template-columns: minmax(96px, 40%) minmax(0, 1fr); gap: 12px; align-items: baseline; }
+.ds-facts dt { font-size: 12.5px; color: hsl(var(--muted-foreground)); }
+.ds-facts dd { margin: 0; font-weight: 500; min-width: 0; overflow-wrap: anywhere; }
+.ds-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.ds-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 8px 12px; margin-bottom: 12px; font-size: 13px; background: hsl(var(--muted) / 0.6); border-radius: min(var(--radius), 12px); }
+.ds-steps { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0; padding: 0; list-style: none; }
+.ds-step { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500; color: hsl(var(--muted-foreground)); }
+.ds-step + .ds-step::before { content: ""; width: 24px; height: 1px; background: hsl(var(--border)); }
+.ds-step-mark { display: grid; place-items: center; flex: none; width: 24px; height: 24px; border-radius: 999px; border: 1px solid hsl(var(--border)); background: hsl(var(--card)); font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.ds-step.ds-active { color: hsl(var(--foreground)); font-weight: 600; }
+.ds-step.ds-active .ds-step-mark { background: hsl(var(--primary)); border-color: hsl(var(--primary)); color: hsl(var(--primary-foreground)); }
+.ds-step.ds-done .ds-step-mark { background: hsl(var(--primary) / 0.12); border-color: transparent; color: hsl(var(--primary-text, var(--primary))); }
+.ds-table-card { background: var(--card-bg, hsl(var(--card))); color: hsl(var(--card-foreground)); border: var(--card-border, 1px solid hsl(var(--border))); border-top: var(--card-border-top, var(--card-border, 1px solid hsl(var(--border)))); border-radius: var(--card-radius, var(--radius)); box-shadow: var(--card-shadow, var(--shadow, none)); overflow: hidden; }
+.ds-table-card > .ds-table-wrap { border: 0; border-radius: 0; box-shadow: none; background: transparent; }
+.ds-table-card-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; padding: calc(14px * var(--space-scale, 1)) 14px; border-bottom: 1px solid var(--table-line, hsl(var(--border))); }
+.ds-table-card-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 12px; padding: 10px 14px; border-top: 1px solid var(--table-line, hsl(var(--border))); font-size: 13px; color: hsl(var(--muted-foreground)); }
+[data-goto] { cursor: pointer; }
+section[data-state]:not([data-ds-shown]), [data-state][hidden] { display: none !important; }
+[data-ds-replaced] { display: none !important; }
+[data-part-root] { display: contents; }</style></head><body class="ds-root"><style>
+  /* Editors' area: a working surface that still carries Donkey's bold family. */
+  .ed-mast { padding: calc(16px * var(--space-scale, 1)) 0 calc(32px * var(--space-scale, 1)); }
+  .ed-mast-row { display: flex; align-items: center; gap: calc(16px * var(--space-scale, 1)); flex-wrap: wrap; }
+  .ed-mast-title { font-family: var(--font-heading); font-size: 15px; font-weight: 700; letter-spacing: -0.01em; color: hsl(var(--primary));
+    background: hsl(var(--primary) / 0.1); border-radius: 999px; padding: 6px 14px; }
+
+  .ed-head { padding: calc(8px * var(--space-scale, 1)) 0 calc(24px * var(--space-scale, 1)); }
+  .ed-head h1 { font-size: clamp(30px, 4.6vw, 46px); line-height: 1.02; letter-spacing: -0.035em; margin: 10px 0 0; max-width: 16em; }
+  .ed-head p { margin: 12px 0 0; max-width: 46em; font-size: 16px; line-height: 1.55; color: hsl(var(--muted-foreground)); }
+
+  .ed-figures { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(16px * var(--space-scale, 1)); margin-top: calc(24px * var(--space-scale, 1)); }
+  .ed-fig { border-radius: calc(var(--radius) + 4px); padding: calc(20px * var(--space-scale, 1)) calc(24px * var(--space-scale, 1));
+    background: hsl(var(--card)); box-shadow: var(--shadow); border: 1px solid hsl(var(--border)); }
+  .ed-fig-bold { background: hsl(var(--band)); color: hsl(var(--band-foreground)); border-color: transparent; }
+  .ed-fig .ds-stat-value { font-family: var(--font-heading); font-size: 40px; line-height: 1; letter-spacing: -0.03em; margin-top: 8px; font-variant-numeric: tabular-nums; }
+  .ed-fig-bold .ds-stat-label { color: hsl(var(--band-foreground) / 0.82); }
+
+  .ed-sec { margin-top: calc(48px * var(--space-scale, 1)); }
+  .ed-sec-head { display: flex; align-items: baseline; gap: calc(12px * var(--space-scale, 1)); flex-wrap: wrap; margin-bottom: calc(16px * var(--space-scale, 1)); }
+  .ed-sec-head h2 { margin: 0; font-size: 22px; letter-spacing: -0.02em; }
+  .ed-sec-head p { margin: 0; font-size: 14px; color: hsl(var(--muted-foreground)); }
+
+  .ed-toolbar { margin-bottom: calc(16px * var(--space-scale, 1)); }
+  .ed-sort { min-width: 160px; }
+
+  .ed-name { display: flex; align-items: center; gap: calc(12px * var(--space-scale, 1)); }
+  .ed-thumb { width: 40px; height: 40px; border-radius: 10px; flex: none; box-shadow: inset 0 0 0 1px hsl(var(--border)); }
+  .ed-name b { display: block; font-size: 15px; letter-spacing: -0.01em; }
+  .ed-name span { display: block; font-size: 13px; color: hsl(var(--muted-foreground)); }
+  .ed-note { display: inline-flex; align-items: center; gap: 6px; margin-top: 4px; font-size: 12px; color: hsl(var(--primary-text)); }
+  .ed-price { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; font-weight: 600; }
+  .ed-order { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; color: hsl(var(--muted-foreground)); }
+
+  .ed-switchcell { display: flex; align-items: center; gap: calc(8px * var(--space-scale, 1)); white-space: nowrap; }
+  .ed-switchcell span { font-size: 13px; color: hsl(var(--muted-foreground)); }
+
+  /* Product form, off to the side on wide screens but reading top to bottom on narrow ones. */
+  .ed-form-card { border-radius: calc(var(--radius) + 6px); padding: calc(24px * var(--space-scale, 1)); position: relative; overflow: visible; }
+  .ed-form-card h2 { margin: 6px 0 4px; font-size: 24px; letter-spacing: -0.025em; }
+  .ed-form-card > p { margin: 0 0 calc(16px * var(--space-scale, 1)); font-size: 14px; color: hsl(var(--muted-foreground)); }
+  .ed-form-card .ds-form { gap: calc(16px * var(--space-scale, 1)); }
+  .ed-pricewrap { position: relative; }
+  .ed-pricewrap .ds-input { padding-left: 26px; }
+  .ed-pricewrap::before { content: "£"; position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-weight: 600; color: hsl(var(--muted-foreground)); pointer-events: none; }
+  .ed-photo { display: flex; align-items: center; gap: calc(12px * var(--space-scale, 1)); }
+  .ed-photo .ds-img { width: 64px; height: 64px; border-radius: 10px; flex: none; }
+  .ed-visible { display: flex; align-items: center; gap: calc(12px * var(--space-scale, 1)); padding: calc(12px * var(--space-scale, 1)) 0 0;
+    border-top: 1px solid hsl(var(--border)); }
+  .ed-visible b { display: block; font-size: 14px; }
+  .ed-visible small { display: block; font-size: 13px; color: hsl(var(--muted-foreground)); }
+
+  .ed-cols { display: grid; grid-template-columns: minmax(0, 1fr); gap: calc(24px * var(--space-scale, 1)); }
+  @media (min-width: 1040px) {
+    .ed-cols { grid-template-columns: minmax(0, 1.55fr) minmax(340px, 0.85fr); align-items: start; }
+    .ed-form-card { position: sticky; top: calc(16px * var(--space-scale, 1)); }
+  }
+
+  .ed-entries { display: grid; grid-template-columns: minmax(0, 1fr); gap: calc(16px * var(--space-scale, 1)); }
+  .ed-entry { border-radius: calc(var(--radius) + 4px); padding: calc(20px * var(--space-scale, 1)); }
+  .ed-entry-top { display: flex; align-items: baseline; gap: calc(8px * var(--space-scale, 1)); flex-wrap: wrap; }
+  .ed-entry-top b { font-size: 15px; }
+  .ed-entry-top time { font-size: 13px; color: hsl(var(--muted-foreground)); font-variant-numeric: tabular-nums; }
+  .ed-entry p { margin: 8px 0 0; font-size: 15px; line-height: 1.55; max-width: 60ch; }
+
+  .ed-foot { margin-top: calc(48px * var(--space-scale, 1)); }
+
+  /* The band that frames the main task. */
+  .ed-band { margin-top: calc(40px * var(--space-scale, 1)); padding: calc(24px * var(--space-scale, 1)) 0 calc(56px * var(--space-scale, 1));
+    background: linear-gradient(180deg, hsl(var(--primary) / 0.1), hsl(var(--primary) / 0.03) 40%, hsl(var(--primary) / 0)); }
+  .ed-band .ed-sec:first-child { margin-top: calc(8px * var(--space-scale, 1)); }
+
+  .ed-empty-inline { padding: calc(32px * var(--space-scale, 1)) calc(24px * var(--space-scale, 1)); }
+
+  @media (max-width: 780px) {
+    .ed-figures { grid-template-columns: minmax(0, 1fr); }
+    .ed-fig .ds-stat-value { font-size: 32px; }
+    .ed-head h1 { font-size: 32px; }
+  }
+</style><main data-screen="editor" data-eid="e1">
+
+  <div data-part="header" data-eid="e2"></div>
+
+  <div data-eid="content">
+    <div class="ds-page ed-mast" data-eid="e3">
+      <div class="ed-mast-row" data-eid="e4">
+        <span class="ed-mast-title" data-eid="e5">Donkey editors</span>
+        <span class="ds-spacer" data-eid="e6"></span>
+        <a class="ds-btn ds-btn-ghost ds-btn-sm" data-goto="products" data-eid="e7">View the products page</a>
+        <details class="ds-menu">
+          <summary class="ds-btn ds-btn-ghost ds-btn-sm" aria-label="Open the editor menu">
+            <span class="ds-avatar ds-avatar-sm" data-sample data-eid="e8">AM</span>
+            <span data-sample="me.name" data-eid="e9">Amara Osei</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </summary>
+          <div class="ds-menu-list" data-eid="e10">
+            <a data-goto="home" data-eid="e11">Home</a>
+            <a data-goto="how-it-works" data-eid="e12">How it works</a>
+            <a data-goto="products" data-eid="e13">Products</a>
+            <a data-goto="contact" data-eid="e14">Contact</a>
+            <a data-goto="editor-sign-in" data-eid="e15">Sign out</a>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <div class="ds-page ed-head" data-eid="e16">
+      <span class="ds-eyebrow" data-eid="e17">Products</span>
+      <h1 data-eid="e18">Everything on the shop floor, in one place.</h1>
+      <p data-eid="e19">Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.</p>
+
+      <div class="ed-figures" data-eid="e20">
+        <div class="ed-fig ed-fig-bold" data-eid="e21">
+          <div class="ds-stat-label" data-eid="e22">On the site now</div>
+          <div class="ds-stat-value" data-sample data-eid="e23">6</div>
+        </div>
+        <div class="ed-fig" data-eid="e24">
+          <div class="ds-stat-label" data-eid="e25">Waiting in the wings</div>
+          <div class="ds-stat-value" data-sample data-eid="e26">2</div>
+        </div>
+        <div class="ed-fig" data-eid="e27">
+          <div class="ds-stat-label" data-eid="e28">Every product, all year</div>
+          <div class="ds-stat-value" data-sample data-eid="e29">8</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ds-band ed-band" data-eid="e30">
+      <div class="ds-page" style="padding-top: 0; padding-bottom: 0" data-eid="e31">
+        <div class="ed-cols" data-eid="e32">
+
+          <section class="ed-sec" aria-labelledby="ed-products-title" data-eid="list">
+            <div class="ed-sec-head" data-eid="e33">
+              <h2 id="ed-products-title" data-eid="e34">Products</h2>
+              <p data-eid="e35">Lowest order number shows first.</p>
+            </div>
+
+            <div class="ds-filter-bar ed-toolbar" data-eid="e36">
+              <label class="ds-search" data-eid="e37">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+                <input class="ds-input ds-input-sm" type="search" placeholder="Search products" aria-label="Search products" data-eid="e38">
+              </label>
+              <select class="ds-select ds-input-sm ed-sort" aria-label="Show" data-eid="e39">
+                <option>All products</option>
+                <option>On the site only</option>
+                <option>Hidden only</option>
+              </select>
+              <span class="ds-spacer" data-eid="e40"></span>
+              <span class="ds-muted" style="font-size: 13px" data-eid="e41">8 products</span>
+            </div>
+
+            <div class="ds-table-card" data-eid="e42">
+              <div class="ds-table-wrap" data-eid="e43">
+                <table class="ds-table ds-table-compact" data-eid="e44">
+                  <thead data-eid="e45">
+                    <tr data-eid="e46">
+                      <th scope="col" data-eid="e47">Product</th>
+                      <th scope="col" style="text-align: right" data-eid="e48">Price</th>
+                      <th scope="col" class="ds-only-wide" style="text-align: right" data-eid="e49">Order</th>
+                      <th scope="col" data-eid="e50">Visible</th>
+                      <th scope="col" data-eid="e51"><span class="ds-only-wide" data-eid="e52">Actions</span></th>
+                    </tr>
+                  </thead>
+                  <tbody data-eid="e53">
+                    <tr data-eid="e54">
+                      <td data-eid="e55">
+                        <div class="ed-name" data-eid="e56">
+                          <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e57"></div>
+                          <div data-eid="e58">
+                            <b data-sample="Product#1.name">Wool winter scarf</b>
+                            <span data-sample="Product#1.group" data-eid="e59">Clothing</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#1.pricePence" data-eid="e60">£18.00</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#1.sortOrder" data-eid="e61">1</td>
+                      <td data-eid="e62">
+                        <div class="ed-switchcell" data-eid="e63">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Wool winter scarf" data-eid="e64"></button>
+                          <span class="ds-only-wide" data-eid="e65">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e66">
+                        <div class="ds-row-actions" data-eid="e67">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e68">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Wool winter scarf">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="19" cy="12" r="1.2" fill="currentColor"/></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e69">
+                              <a data-eid="e70">Edit</a>
+                              <a data-eid="e71">Duplicate</a>
+                              <a data-eid="e72">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e73">
+                      <td data-eid="e74">
+                        <div class="ed-name" data-eid="e75">
+                          <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e76"></div>
+                          <div data-eid="e77">
+                            <b data-sample="Product#2.name">Beeswax hand balm</b>
+                            <span data-sample="Product#2.group" data-eid="e78">Bath and body</span>
+                            <div class="ed-note" data-eid="e79">
+                              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
+                              <span data-sample="Product#2.medicineNote" data-eid="e80">External use only</span>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#2.pricePence" data-eid="e81">£6.50</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#2.sortOrder" data-eid="e82">2</td>
+                      <td data-eid="e83">
+                        <div class="ed-switchcell" data-eid="e84">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Beeswax hand balm" data-eid="e85"></button>
+                          <span class="ds-only-wide" data-eid="e86">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e87">
+                        <div class="ds-row-actions" data-eid="e88">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e89">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Beeswax hand balm">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="19" cy="12" r="1.2" fill="currentColor"/></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e90">
+                              <a data-eid="e91">Edit</a>
+                              <a data-eid="e92">Duplicate</a>
+                              <a data-eid="e93">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e94">
+                      <td data-eid="e95">
+                        <div class="ed-name" data-eid="e96">
+                          <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e97"></div>
+                          <div data-eid="e98">
+                            <b data-sample="Product#3.name">Enamel camping mug, sage</b>
+                            <span data-sample="Product#3.group" data-eid="e99">Kitchen</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#3.pricePence" data-eid="e100">£12.50</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#3.sortOrder" data-eid="e101">3</td>
+                      <td data-eid="e102">
+                        <div class="ed-switchcell" data-eid="e103">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Enamel camping mug, sage" data-eid="e104"></button>
+                          <span class="ds-only-wide" data-eid="e105">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e106">
+                        <div class="ds-row-actions" data-eid="e107">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e108">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Enamel camping mug, sage">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="19" cy="12" r="1.2" fill="currentColor"/></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e109">
+                              <a data-eid="e110">Edit</a>
+                              <a data-eid="e111">Duplicate</a>
+                              <a data-eid="e112">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e113">
+                      <td data-eid="e114">
+                        <div class="ed-name" data-eid="e115">
+                          <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e116"></div>
+                          <div data-eid="e117">
+                            <b data-sample="Product#4.name">Raspberry leaf tea, 40 bags</b>
+                            <span data-sample="Product#4.group" data-eid="e118">Kitchen</span>
+                            <div class="ed-note" data-eid="e119">
+                              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
+                              <span data-sample="Product#4.medicineNote" data-eid="e120">Not for children under 12</span>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#4.pricePence" data-eid="e121">£4.20</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#4.sortOrder" data-eid="e122">4</td>
+                      <td data-eid="e123">
+                        <div class="ed-switchcell" data-eid="e124">
+                          <button class="ds-switch" role="switch" aria-checked="false" aria-label="Visible: Raspberry leaf tea, 40 bags" data-eid="e125"></button>
+                          <span class="ds-only-wide" data-eid="e126">Off</span>
+                        </div>
+                      </td>
+                      <td data-eid="e127">
+                        <div class="ds-row-actions" data-eid="e128">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e129">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Raspberry leaf tea, 40 bags">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="19" cy="12" r="1.2" fill="currentColor"/></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e130">
+                              <a data-eid="e131">Edit</a>
+                              <a data-eid="e132">Duplicate</a>
+                              <a data-eid="e133">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e134">
+                      <td data-eid="e135">
+                        <div class="ed-name" data-eid="e136">
+                          <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e137"></div>
+                          <div data-eid="e138">
+                            <b data-sample="Product#5.name">Recycled cotton tote bag with long handles and inner pocket</b>
+                            <span data-sample="Product#5.group" data-eid="e139">Clothing</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#5.pricePence" data-eid="e140">£9.00</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#5.sortOrder" data-eid="e141">5</td>
+                      <td data-eid="e142">
+                        <div class="ed-switchcell" data-eid="e143">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Recycled cotton tote bag" data-eid="e144"></button>
+                          <span class="ds-only-wide" data-eid="e145">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e146">
+                        <div class="ds-row-actions" data-eid="e147">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e148">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Recycled cotton tote bag">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="19" cy="12" r="1.2" fill="currentColor"/></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e149">
+                              <a data-eid="e150">Edit</a>
+                              <a data-eid="e151">Duplicate</a>
+                              <a data-eid="e152">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e153">
+                      <td data-eid="e154">
+                        <div class="ed-name" data-eid="e155">
+                          <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e156"></div>
+                          <div data-eid="e157">
+                            <b data-sample="Product#6.name">Soy wax candle, fig and cedar</b>
+                            <span data-sample="Product#6.group" data-eid="e158">Home</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#6.pricePence" data-eid="e159">£14.00</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#6.sortOrder" data-eid="e160">6</td>
+                      <td data-eid="e161">
+                        <div class="ed-switchcell" data-eid="e162">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Soy wax candle, fig and cedar" data-eid="e163"></button>
+                          <span class="ds-only-wide" data-eid="e164">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e165">
+                        <div class="ds-row-actions" data-eid="e166">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e167">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Soy wax candle, fig and cedar">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="19" cy="12" r="1.2" fill="currentColor"/></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e168">
+                              <a data-eid="e169">Edit</a>
+                              <a data-eid="e170">Duplicate</a>
+                              <a data-eid="e171">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e172">
+                      <td data-eid="e173">
+                        <div class="ed-name" data-eid="e174">
+                          <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e175"></div>
+                          <div data-eid="e176">
+                            <b data-sample="Product#7.name">Linen tea towel, stripe</b>
+                            <span data-sample="Product#7.group" data-eid="e177">Home</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#7.pricePence" data-eid="e178">£11.00</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#7.sortOrder" data-eid="e179">7</td>
+                      <td data-eid="e180">
+                        <div class="ed-switchcell" data-eid="e181">
+                          <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Linen tea towel, stripe" data-eid="e182"></button>
+                          <span class="ds-only-wide" data-eid="e183">On</span>
+                        </div>
+                      </td>
+                      <td data-eid="e184">
+                        <div class="ds-row-actions" data-eid="e185">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e186">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Linen tea towel, stripe">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="19" cy="12" r="1.2" fill="currentColor"/></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e187">
+                              <a data-eid="e188">Edit</a>
+                              <a data-eid="e189">Duplicate</a>
+                              <a data-eid="e190">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr data-eid="e191">
+                      <td data-eid="e192">
+                        <div class="ed-name" data-eid="e193">
+                          <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e194"></div>
+                          <div data-eid="e195">
+                            <b data-sample="Product#8.name">Cedar soap dish</b>
+                            <span data-sample="Product#8.group" data-eid="e196">Bath and body</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="ed-price ds-num" data-sample="Product#8.pricePence" data-eid="e197">£8.75</td>
+                      <td class="ed-order ds-num ds-only-wide" data-sample="Product#8.sortOrder" data-eid="e198">8</td>
+                      <td data-eid="e199">
+                        <div class="ed-switchcell" data-eid="e200">
+                          <button class="ds-switch" role="switch" aria-checked="false" aria-label="Visible: Cedar soap dish" data-eid="e201"></button>
+                          <span class="ds-only-wide" data-eid="e202">Off</span>
+                        </div>
+                      </td>
+                      <td data-eid="e203">
+                        <div class="ds-row-actions" data-eid="e204">
+                          <button class="ds-btn ds-btn-secondary ds-btn-sm ds-only-wide" data-eid="e205">Edit</button>
+                          <details class="ds-menu">
+                            <summary class="ds-btn ds-btn-ghost ds-btn-icon ds-btn-sm" aria-label="More actions for Cedar soap dish">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="5" cy="12" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="19" cy="12" r="1.2" fill="currentColor"/></svg>
+                            </summary>
+                            <div class="ds-menu-list" data-eid="e206">
+                              <a data-eid="e207">Edit</a>
+                              <a data-eid="e208">Duplicate</a>
+                              <a data-eid="e209">Remove</a>
+                            </div>
+                          </details>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="ds-table-card-foot" data-eid="e210">
+                <span class="ds-muted" style="font-size: 13px" data-eid="e211">Showing all 8 products</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="ed-sec" aria-labelledby="ed-add-title" style="margin-top: 0" data-eid="e212">
+            <div class="ds-card ed-form-card" data-eid="e213">
+              <span class="ds-label-caps" data-eid="e214">New product</span>
+              <h2 id="ed-add-title" data-eid="e215">Add product</h2>
+              <p data-eid="e216">Name and price are all you need. The rest can come later.</p>
+              <form class="ds-form" data-eid="e217">
+                <div class="ds-field" data-eid="e218">
+                  <label class="ds-label" for="p-name" data-eid="e219">Name</label>
+                  <input class="ds-input" id="p-name" type="text" placeholder="Wool winter scarf" data-sample="Product#new.name" data-eid="e220">
+                </div>
+                <div class="ds-field" data-eid="e221">
+                  <label class="ds-label" for="p-desc" data-eid="e222">Description</label>
+                  <textarea class="ds-textarea" id="p-desc" rows="3" placeholder="What it is, what it is made of, who it suits" data-sample="Product#new.description" data-eid="e223"></textarea>
+                  <p class="ds-hint" data-eid="e224">Up to 500 characters. Shoppers read this under the name.</p>
+                </div>
+                <div class="ds-form-row" data-eid="e225">
+                  <div class="ds-field" data-eid="e226">
+                    <label class="ds-label" for="p-price" data-eid="e227">Price</label>
+                    <div class="ed-pricewrap" data-eid="e228">
+                      <input class="ds-input" id="p-price" type="text" inputmode="decimal" placeholder="12.50" data-sample="Product#new.pricePence" data-eid="e229">
+                    </div>
+                    <p class="ds-hint" data-eid="e230">In pounds and pence.</p>
+                  </div>
+                  <div class="ds-field" data-eid="e231">
+                    <label class="ds-label" for="p-group" data-eid="e232">Group</label>
+                    <input class="ds-input" id="p-group" type="text" placeholder="Clothing" data-sample="Product#new.group" data-eid="e233">
+                  </div>
+                </div>
+                <div class="ds-field" data-eid="e234">
+                  <label class="ds-label" for="p-note" data-eid="e235">Medicine note</label>
+                  <input class="ds-input" id="p-note" type="text" placeholder="Shown under the price, only if it applies" data-sample="Product#new.medicineNote" data-eid="e236">
+                </div>
+                <div class="ds-field" data-eid="e237">
+                  <span class="ds-label" data-eid="e238">Photo</span>
+                  <div class="ed-photo" data-eid="e239">
+                    <div class="ds-img" data-sample data-sample-role="photo" data-eid="e240"></div>
+                    <div data-eid="e241">
+                      <button type="button" class="ds-btn ds-btn-secondary ds-btn-sm" data-eid="e242">Choose a photo</button>
+                      <p class="ds-hint" style="margin-top: 6px" data-eid="e243">A square picture works best.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="ds-form-row" data-eid="e244">
+                  <div class="ds-field" data-eid="e245">
+                    <label class="ds-label" for="p-order" data-eid="e246">Order</label>
+                    <input class="ds-input" id="p-order" type="number" value="9" data-sample="Product#new.sortOrder" data-eid="e247">
+                    <p class="ds-hint" data-eid="e248">Lowest shows first.</p>
+                  </div>
+                  <div class="ds-field" style="justify-content: flex-end" data-eid="e249">
+                    <div class="ed-visible" style="border-top: 0; padding-top: 0" data-eid="e250">
+                      <button class="ds-switch" role="switch" aria-checked="false" aria-label="Visible on the site" data-eid="e251"></button>
+                      <div data-eid="e252">
+                        <b>Visible on the site</b>
+                        <small data-eid="e253">Shoppers see it once this is on.</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ds-form-actions" data-eid="e254">
+                  <button type="button" class="ds-btn ds-btn-secondary" data-eid="e255">Cancel</button>
+                  <button type="submit" class="ds-btn" data-situation="done" data-eid="e256">Save</button>
+                </div>
+              </form>
+            </div>
+          </section>
+
+        </div>
+
+        <section class="ed-sec" aria-labelledby="ed-entries-title" data-eid="e257">
+          <div class="ed-sec-head" data-eid="e258">
+            <h2 id="ed-entries-title" data-eid="e259">Form entries</h2>
+            <p data-eid="e260">Messages the contact form sent to the shop.</p>
+          </div>
+          <div class="ed-entries" data-eid="e261">
+            <article class="ds-panel ed-entry" data-eid="e262">
+              <div class="ed-entry-top" data-eid="e263">
+                <b data-sample="Form entry#1.name">Priya Shah</b>
+                <span class="ds-badge ds-badge-quiet" data-eid="e264">New</span>
+                <time data-sample="Form entry#1.sentAt">14 March, 9:42 am</time>
+              </div>
+              <p data-sample="Form entry#1.message" data-eid="e265">Do you have the camping mug in a second colour? I would like three for a birthday present.</p>
+            </article>
+            <article class="ds-panel ed-entry" data-eid="e266">
+              <div class="ed-entry-top" data-eid="e267">
+                <b data-sample="Form entry#2.name">Tom Whitlock</b>
+                <span class="ds-badge ds-badge-success" data-eid="e268">Replied</span>
+                <time data-sample="Form entry#2.sentAt">12 March, 4:05 pm</time>
+              </div>
+              <p data-sample="Form entry#2.message" data-eid="e269">My order arrived with one item missing. Could you check the farm shop order from last Tuesday?</p>
+            </article>
+            <article class="ds-panel ed-entry" data-eid="e270">
+              <div class="ed-entry-top" data-eid="e271">
+                <b data-sample="Form entry#3.name">Rachel Nkemelu</b>
+                <span class="ds-badge ds-badge-quiet" data-eid="e272">New</span>
+                <time data-sample="Form entry#3.sentAt">9 March, 11:18 am</time>
+              </div>
+              <p data-sample="Form entry#3.message" data-eid="e273">Do you ship to Northern Ireland? The tea would make a good gift for my mum.</p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="ds-page ed-foot" data-eid="e274">
+      <div class="ds-notice ds-notice-info" data-eid="e275">
+        <span data-eid="e276">Shoppers never see this area. Everything you save here goes live on the pages straight away.</span>
+      </div>
+    </div>
+  </div>
+
+  <div data-part="footer" data-eid="e277"></div>
+
+  <section data-state="empty" hidden data-replaces="content" data-eid="e278">
+    <div class="ds-page ed-head" data-eid="e279">
+      <span class="ds-eyebrow" data-eid="e280">Products</span>
+      <h1 data-eid="e281">Everything on the shop floor, in one place.</h1>
+      <p data-eid="e282">Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.</p>
+    </div>
+
+    <div class="ds-page" style="padding-top: 0" data-eid="e283">
+      <div class="ds-card ed-empty-inline" data-eid="e284">
+        <div class="ds-empty" data-eid="e285">
+          <div class="ds-empty-icon" data-eid="e286">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M4 8h16l-1.5 11h-13Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          </div>
+          <h2 class="ds-h3" data-eid="e287">No products yet. Add your first one.</h2>
+          <p class="ds-muted" data-eid="e288">A name and a price is all it takes. Switch it on and it shows on the shop page.</p>
+          <button class="ds-btn" data-eid="e289">Add product</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="ds-page" style="padding-top: 0" data-eid="e290">
+      <section class="ed-sec" aria-labelledby="ed-entries-empty-title" data-eid="e291">
+        <div class="ed-sec-head" data-eid="e292">
+          <h2 id="ed-entries-empty-title" data-eid="e293">Form entries</h2>
+        </div>
+        <div class="ds-card ed-empty-inline" data-eid="e294">
+          <div class="ds-empty" data-eid="e295">
+            <div class="ds-empty-icon" data-eid="e296">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M4 6h16v12H4Z"/><path d="m4 7 8 6 8-6"/></svg>
+            </div>
+            <h2 class="ds-h3" data-eid="e297">No entries yet.</h2>
+            <p class="ds-muted" data-eid="e298">When someone writes to the shop, their message lands here.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section data-state="not-allowed" hidden data-replaces="content" data-root-class="is-signed-out" data-eid="e299">
+    <div class="ds-page ed-head" data-eid="e300">
+      <span class="ds-eyebrow" data-eid="e301">Editors only</span>
+      <h1 data-eid="e302">This area is for the Donkey team.</h1>
+      <p data-eid="e303">Sign in with the email address you were invited on to add products and change the site's words.</p>
+      <div class="ds-actions" style="margin-top: 24px" data-eid="e304">
+        <a class="ds-btn" data-goto="editor-sign-in" data-eid="e305">Go to the sign-in page</a>
+        <a class="ds-btn ds-btn-ghost" data-goto="home" data-eid="e306">Back to the shop</a>
+      </div>
+    </div>
+  </section>
+
+  <section data-state="done" hidden data-replaces="content" data-eid="e307">
+    <div class="ds-page ed-mast" data-eid="e308">
+      <div class="ed-mast-row" data-eid="e309">
+        <span class="ed-mast-title" data-eid="e310">Donkey editors</span>
+        <span class="ds-spacer" data-eid="e311"></span>
+        <a class="ds-btn ds-btn-ghost ds-btn-sm" data-goto="products" data-eid="e312">View the products page</a>
+        <details class="ds-menu">
+          <summary class="ds-btn ds-btn-ghost ds-btn-sm" aria-label="Open the editor menu">
+            <span class="ds-avatar ds-avatar-sm" data-sample data-eid="e313">AM</span>
+            <span data-sample="me.name" data-eid="e314">Amara Osei</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </summary>
+          <div class="ds-menu-list" data-eid="e315">
+            <a data-goto="home" data-eid="e316">Home</a>
+            <a data-goto="how-it-works" data-eid="e317">How it works</a>
+            <a data-goto="products" data-eid="e318">Products</a>
+            <a data-goto="contact" data-eid="e319">Contact</a>
+            <a data-goto="editor-sign-in" data-eid="e320">Sign out</a>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <div class="ds-page ed-head" data-eid="e321">
+      <span class="ds-eyebrow" data-eid="e322">Products</span>
+      <h1 data-eid="e323">Everything on the shop floor, in one place.</h1>
+      <p data-eid="e324">Add a product, set its price and put it on the site. Shoppers see whatever you switch on right away.</p>
+    </div>
+
+    <div class="ds-page" style="padding-top: 0" data-eid="e325">
+      <div class="ds-notice ds-notice-success" data-eid="e326">
+        <span data-eid="e327">Saved. Shoppers see this now.</span>
+      </div>
+    </div>
+
+    <div class="ds-page" style="padding-top: 24px" data-eid="e328">
+      <div class="ds-table-card" data-eid="e329">
+        <div class="ds-table-card-head" data-eid="e330">
+          <h2 class="ds-h3" data-eid="e331">Products</h2>
+          <div class="ds-actions" data-eid="e332">
+            <a class="ds-btn ds-btn-ghost ds-btn-sm" data-goto="products" data-eid="e333">View the products page</a>
+          </div>
+        </div>
+        <div class="ds-table-wrap" data-eid="e334">
+          <table class="ds-table ds-table-compact" data-eid="e335">
+            <thead data-eid="e336">
+              <tr data-eid="e337">
+                <th scope="col" data-eid="e338">Product</th>
+                <th scope="col" style="text-align: right" data-eid="e339">Price</th>
+                <th scope="col" data-eid="e340">Visible</th>
+              </tr>
+            </thead>
+            <tbody data-eid="e341">
+              <tr data-eid="e342">
+                <td data-eid="e343">
+                  <div class="ed-name" data-eid="e344">
+                    <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e345"></div>
+                    <div data-eid="e346"><b data-sample="Product#9.name">Wheat straw lunch box</b><span data-sample="Product#9.group" data-eid="e347">Kitchen</span></div>
+                  </div>
+                </td>
+                <td class="ed-price ds-num" data-sample="Product#9.pricePence" data-eid="e348">£15.50</td>
+                <td data-eid="e349">
+                  <div class="ed-switchcell" data-eid="e350">
+                    <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Wheat straw lunch box" data-eid="e351"></button>
+                    <span data-eid="e352">On</span>
+                  </div>
+                </td>
+              </tr>
+              <tr data-eid="e353">
+                <td data-eid="e354">
+                  <div class="ed-name" data-eid="e355">
+                    <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e356"></div>
+                    <div data-eid="e357"><b data-sample="Product#1.name">Wool winter scarf</b><span data-sample="Product#1.group" data-eid="e358">Clothing</span></div>
+                  </div>
+                </td>
+                <td class="ed-price ds-num" data-sample="Product#1.pricePence" data-eid="e359">£18.00</td>
+                <td data-eid="e360">
+                  <div class="ed-switchcell" data-eid="e361">
+                    <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Wool winter scarf" data-eid="e362"></button>
+                    <span data-eid="e363">On</span>
+                  </div>
+                </td>
+              </tr>
+              <tr data-eid="e364">
+                <td data-eid="e365">
+                  <div class="ed-name" data-eid="e366">
+                    <div class="ds-img ed-thumb" data-sample data-sample-role="photo" data-eid="e367"></div>
+                    <div data-eid="e368"><b data-sample="Product#3.name">Enamel camping mug, sage</b><span data-sample="Product#3.group" data-eid="e369">Kitchen</span></div>
+                  </div>
+                </td>
+                <td class="ed-price ds-num" data-sample="Product#3.pricePence" data-eid="e370">£12.50</td>
+                <td data-eid="e371">
+                  <div class="ed-switchcell" data-eid="e372">
+                    <button class="ds-switch" role="switch" aria-checked="true" aria-label="Visible: Enamel camping mug, sage" data-eid="e373"></button>
+                    <span data-eid="e374">On</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="ds-table-card-foot" data-eid="e375">
+          <span class="ds-muted" style="font-size: 13px" data-eid="e376">Showing the newest first</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main></body></html>

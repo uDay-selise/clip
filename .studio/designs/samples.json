@@ -1,0 +1,129 @@
+{
+  "records": {
+    "Product": [
+      {
+        "itemId": "product-1",
+        "name": "Stoneware mug",
+        "description": "Glazed by hand, holds a large cup",
+        "pricePence": "\u00A312.50",
+        "group": "Oils",
+        "medicineNote": "For adults. Keep away from children and ask your doctor if you are pregnant.",
+        "price": "\u00A312.50",
+        "sortOrder": "1"
+      },
+      {
+        "itemId": "product-2",
+        "name": "Sourdough starter kit",
+        "description": "Jar, flour and a folded recipe card",
+        "pricePence": "\u00A318.00",
+        "group": "Balms",
+        "price": "\u00A38.00",
+        "medicineNote": "External use only",
+        "sortOrder": "2"
+      },
+      {
+        "itemId": "product-3",
+        "name": "Linen tea towel",
+        "description": "Washed flax, sage stripe",
+        "pricePence": "\u00A39.75",
+        "group": "Teas",
+        "medicineNote": "A food, not a medicine. Not for children under 2.",
+        "price": "\u00A36.40",
+        "sortOrder": "3"
+      },
+      {
+        "itemId": "product-4",
+        "group": "Grow your own",
+        "name": "Wildflower seed tin",
+        "description": "Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.",
+        "price": "\u00A34.50",
+        "medicineNote": "Not for children under 12",
+        "pricePence": "\u00A34.20",
+        "sortOrder": "4"
+      },
+      {
+        "itemId": "product-5",
+        "group": "Balms",
+        "name": "Donkey lip salve",
+        "description": "A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.",
+        "price": "\u00A33.20",
+        "pricePence": "\u00A39.00",
+        "sortOrder": "5"
+      },
+      {
+        "itemId": "product-6",
+        "group": "Oils",
+        "name": "Rosehip face oil, 30ml",
+        "description": "Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.",
+        "medicineNote": "Patch test first if your skin is sensitive.",
+        "price": "\u00A318.00",
+        "pricePence": "\u00A314.00",
+        "sortOrder": "6"
+      },
+      {
+        "itemId": "product-7",
+        "name": "Linen tea towel, stripe",
+        "group": "Home",
+        "pricePence": "\u00A311.00",
+        "sortOrder": "7"
+      },
+      {
+        "itemId": "product-8",
+        "name": "Cedar soap dish",
+        "group": "Bath and body",
+        "pricePence": "\u00A38.75",
+        "sortOrder": "8"
+      }
+    ],
+    "editorSignIn": [
+      {
+        "itemId": "editorsignin-1",
+        "pageKicker": "Editors\u0027 area",
+        "intro": "This is where the Donkey team updates the words on the site, the delivery and returns details, and every product with its price and photo. Shoppers never see this page.",
+        "help": "Lost your invite email, or need a new one? Ask the shop owner to send it again."
+      }
+    ],
+    "home": [
+      {
+        "itemId": "home-1",
+        "heading": "Keep the shop looking sharp."
+      }
+    ],
+    "Form entry": [
+      {
+        "itemId": "form-entry-1",
+        "name": "Priya Shah",
+        "sentAt": "14 March, 9:42 am",
+        "message": "Do you have the camping mug in a second colour? I would like three for a birthday present."
+      },
+      {
+        "itemId": "form-entry-2",
+        "name": "Tom Whitlock",
+        "sentAt": "12 March, 4:05 pm",
+        "message": "My order arrived with one item missing. Could you check the farm shop order from last Tuesday?"
+      },
+      {
+        "itemId": "form-entry-3",
+        "name": "Rachel Nkemelu",
+        "sentAt": "9 March, 11:18 am",
+        "message": "Do you ship to Northern Ireland? The tea would make a good gift for my mum."
+      }
+    ]
+  },
+  "me": {
+    "name": "Amara Osei"
+  },
+  "empty": {
+    "products": {
+      "empty": [
+        "Product"
+      ]
+    },
+    "editor": {
+      "empty": [
+        "Form entry",
+        "Product"
+      ]
+    }
+  }
+}

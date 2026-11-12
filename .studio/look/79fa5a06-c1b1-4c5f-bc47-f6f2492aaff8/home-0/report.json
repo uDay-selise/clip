@@ -1,0 +1,5013 @@
+{
+  "version": 1,
+  "target": ".studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/home-0.html",
+  "kind": "file",
+  "situation": null,
+  "startedAt": "2026-11-12T04:33:21.221Z",
+  "views": [
+    {
+      "width": 390,
+      "mode": "light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Home",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/home-0.html",
+      "situation": null,
+      "document": {
+        "width": 394,
+        "height": 3638,
+        "title": "Home",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 4,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-img",
+            "eid": "e13",
+            "control": false,
+            "decorative": false,
+            "heading": "Good things, fair prices.",
+            "part": null,
+            "box": {
+              "x": 36,
+              "y": 501,
+              "width": 358,
+              "height": 184
+            },
+            "beyond": 4,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "text": "Good things, fair prices.",
+          "classes": "",
+          "eid": "e6",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 159,
+            "width": 358,
+            "height": 86
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e10",
+          "control": true,
+          "decorative": false,
+          "heading": "Good things, fair prices.",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 405,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 64
+          },
+          "page": {
+            "x": 16,
+            "y": 65,
+            "width": 358,
+            "height": 704
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 3081,
+            "width": 390,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 3638
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "content": {
+            "left": 27,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Good things, fair prices.",
+          "box": {
+            "x": 16,
+            "y": 159,
+            "width": 358,
+            "height": 86
+          },
+          "content": {
+            "left": 16,
+            "right": 342
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "box": {
+            "x": 0,
+            "y": 769,
+            "width": 390,
+            "height": 857
+          },
+          "content": {
+            "left": 16,
+            "right": 341
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "box": {
+            "x": 16,
+            "y": 1646,
+            "width": 358,
+            "height": 1089
+          },
+          "content": {
+            "left": 16,
+            "right": 345
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to see it all?",
+          "box": {
+            "x": 16,
+            "y": 2795,
+            "width": 358,
+            "height": 246
+          },
+          "content": {
+            "left": 36,
+            "right": 354
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 3081,
+            "width": 390,
+            "height": 557
+          },
+          "content": {
+            "left": 16,
+            "right": 326
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "QUESTIONS? CONTACT US",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "contact",
+          "text": "Questions? Contact us"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "HOW BUYING WORKS",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you want",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pay at the checkout",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "It comes to your door",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "QUESTIONS? CONTACT US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to see it all?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Donkey shop",
+        "Good things,",
+        "fair prices.",
+        "Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.",
+        "Sign up",
+        "How buying works",
+        "From the shop",
+        "£12.50",
+        "Pick what you like. Pay once. It arrives.",
+        "01",
+        "Pick what you want",
+        "Every product shows its photo, name and price up front, so nothing is a surprise.",
+        "02",
+        "Pay at the checkout",
+        "One payment, in pounds, with no hidden charges added at the end.",
+        "03",
+        "It comes to your door",
+        "Orders are packed by hand and posted with care. Delivery details live on the How it works page.",
+        "What you can do here",
+        "Look around freely. Sign up when you're ready to buy.",
+        "Browse every product and its price without signing in.",
+        "Read how delivery and returns work before you decide.",
+        "Use Sign up to head into the shop and place your order.",
+        "Sign up",
+        "Questions? Contact us",
+        "In the shop now",
+        "Stoneware mug",
+        "Glazed by hand, holds a large cup",
+        "£12.50",
+        "Sourdough starter kit",
+        "Jar, flour and a folded recipe card",
+        "£18.00",
+        "Linen tea towel",
+        "Washed flax, sage stripe",
+        "£9.75",
+        "Ready to see it all?",
+        "Sign up",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3258,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3431,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3520,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3590,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3189,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Orders are packed by hand and posted with care. Delivery details live on the Ho…",
+          "text": "Orders are packed by hand and posted with care. Delivery details live on the Ho…",
+          "classes": "",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": "It comes to your door",
+          "part": null,
+          "box": {
+            "x": 44,
+            "y": 1472,
+            "width": 302,
+            "height": 70
+          },
+          "colour": "#2a8265",
+          "background": "#def0e6",
+          "ratio": 3.93,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3490,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3287,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3317,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3347,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3376,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3461,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 12,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - group:\n    - img\n  - text: Donkey shop\n  - heading \"Good things, fair prices.\" [level=1]:\n    - text: Good things,\n    - emphasis: fair prices.\n  - paragraph: \"Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.\"\n  - button \"Sign up\"\n  - button \"How buying works\"\n  - text: From the shop £12.50\n  - heading \"Pick what you like. Pay once. It arrives.\" [level=2]\n  - article:\n    - text: \"01\"\n    - heading \"Pick what you want\" [level=3]\n    - paragraph: Every product shows its photo, name and price up front, so nothing is a surprise.\n  - article:\n    - text: \"02\"\n    - heading \"Pay at the checkout\" [level=3]\n    - paragraph: One payment, in pounds, with no hidden charges added at the end.\n  - article:\n    - text: \"03\"\n    - heading \"It comes to your door\" [level=3]\n    - paragraph: Orders are packed by hand and posted with care. Delivery details live on the How it works page.\n  - text: What you can do here\n  - heading \"Look around freely. Sign up when you're ready to buy.\" [level=2]\n  - list:\n    - listitem: Browse every product and its price without signing in.\n    - listitem: Read how delivery and returns work before you decide.\n    - listitem: Use Sign up to head into the shop and place your order.\n  - button \"Sign up\"\n  - button \"Questions? Contact us\"\n  - text: In the shop now Stoneware mug Glazed by hand, holds a large cup £12.50 Sourdough starter kit Jar, flour and a folded recipe card £18.00 Linen tea towel Washed flax, sage stripe £9.75\n  - heading \"Ready to see it all?\" [level=2]\n  - button \"Sign up\"\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w390-light.png",
+      "thumbnail": "thumb-w390-light.webp",
+      "modelImage": "model-w390-light.jpg"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Home",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/home-0.html",
+      "situation": null,
+      "document": {
+        "width": 394,
+        "height": 3638,
+        "title": "Home",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 4,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "div",
+            "role": "generic",
+            "name": "",
+            "text": "",
+            "classes": "ds-img",
+            "eid": "e13",
+            "control": false,
+            "decorative": false,
+            "heading": "Good things, fair prices.",
+            "part": null,
+            "box": {
+              "x": 36,
+              "y": 501,
+              "width": 358,
+              "height": 184
+            },
+            "beyond": 4,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "text": "Good things, fair prices.",
+          "classes": "",
+          "eid": "e6",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 159,
+            "width": 358,
+            "height": 86
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e10",
+          "control": true,
+          "decorative": false,
+          "heading": "Good things, fair prices.",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 405,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 64
+          },
+          "page": {
+            "x": 16,
+            "y": 65,
+            "width": 358,
+            "height": 704
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 3081,
+            "width": 390,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 3638
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 65
+          },
+          "content": {
+            "left": 27,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Good things, fair prices.",
+          "box": {
+            "x": 16,
+            "y": 159,
+            "width": 358,
+            "height": 86
+          },
+          "content": {
+            "left": 16,
+            "right": 342
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "box": {
+            "x": 0,
+            "y": 769,
+            "width": 390,
+            "height": 857
+          },
+          "content": {
+            "left": 16,
+            "right": 341
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "box": {
+            "x": 16,
+            "y": 1646,
+            "width": 358,
+            "height": 1089
+          },
+          "content": {
+            "left": 16,
+            "right": 345
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to see it all?",
+          "box": {
+            "x": 16,
+            "y": 2795,
+            "width": 358,
+            "height": 246
+          },
+          "content": {
+            "left": 36,
+            "right": 354
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 3081,
+            "width": 390,
+            "height": 557
+          },
+          "content": {
+            "left": 16,
+            "right": 326
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "QUESTIONS? CONTACT US",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "contact",
+          "text": "Questions? Contact us"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "HOW BUYING WORKS",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you want",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pay at the checkout",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "It comes to your door",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "QUESTIONS? CONTACT US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to see it all?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Donkey shop",
+        "Good things,",
+        "fair prices.",
+        "Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.",
+        "Sign up",
+        "How buying works",
+        "From the shop",
+        "£12.50",
+        "Pick what you like. Pay once. It arrives.",
+        "01",
+        "Pick what you want",
+        "Every product shows its photo, name and price up front, so nothing is a surprise.",
+        "02",
+        "Pay at the checkout",
+        "One payment, in pounds, with no hidden charges added at the end.",
+        "03",
+        "It comes to your door",
+        "Orders are packed by hand and posted with care. Delivery details live on the How it works page.",
+        "What you can do here",
+        "Look around freely. Sign up when you're ready to buy.",
+        "Browse every product and its price without signing in.",
+        "Read how delivery and returns work before you decide.",
+        "Use Sign up to head into the shop and place your order.",
+        "Sign up",
+        "Questions? Contact us",
+        "In the shop now",
+        "Stoneware mug",
+        "Glazed by hand, holds a large cup",
+        "£12.50",
+        "Sourdough starter kit",
+        "Jar, flour and a folded recipe card",
+        "£18.00",
+        "Linen tea towel",
+        "Washed flax, sage stripe",
+        "£9.75",
+        "Ready to see it all?",
+        "Sign up",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3258,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3431,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3520,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3590,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3189,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3490,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3287,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3317,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3347,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3376,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 3461,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - group:\n    - img\n  - text: Donkey shop\n  - heading \"Good things, fair prices.\" [level=1]:\n    - text: Good things,\n    - emphasis: fair prices.\n  - paragraph: \"Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.\"\n  - button \"Sign up\"\n  - button \"How buying works\"\n  - text: From the shop £12.50\n  - heading \"Pick what you like. Pay once. It arrives.\" [level=2]\n  - article:\n    - text: \"01\"\n    - heading \"Pick what you want\" [level=3]\n    - paragraph: Every product shows its photo, name and price up front, so nothing is a surprise.\n  - article:\n    - text: \"02\"\n    - heading \"Pay at the checkout\" [level=3]\n    - paragraph: One payment, in pounds, with no hidden charges added at the end.\n  - article:\n    - text: \"03\"\n    - heading \"It comes to your door\" [level=3]\n    - paragraph: Orders are packed by hand and posted with care. Delivery details live on the How it works page.\n  - text: What you can do here\n  - heading \"Look around freely. Sign up when you're ready to buy.\" [level=2]\n  - list:\n    - listitem: Browse every product and its price without signing in.\n    - listitem: Read how delivery and returns work before you decide.\n    - listitem: Use Sign up to head into the shop and place your order.\n  - button \"Sign up\"\n  - button \"Questions? Contact us\"\n  - text: In the shop now Stoneware mug Glazed by hand, holds a large cup £12.50 Sourdough starter kit Jar, flour and a folded recipe card £18.00 Linen tea towel Washed flax, sage stripe £9.75\n  - heading \"Ready to see it all?\" [level=2]\n  - button \"Sign up\"\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w390-dark.png",
+      "thumbnail": "thumb-w390-dark.webp",
+      "modelImage": "model-w390-dark.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "light",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Home",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/home-0.html",
+      "situation": null,
+      "document": {
+        "width": 834,
+        "height": 3749,
+        "title": "Home",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "text": "Good things, fair prices.",
+          "classes": "",
+          "eid": "e6",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 159,
+            "width": 786,
+            "height": 60
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e10",
+          "control": true,
+          "decorative": false,
+          "heading": "Good things, fair prices.",
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 352,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 64
+          },
+          "page": {
+            "x": 24,
+            "y": 65,
+            "width": 786,
+            "height": 918
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 3193,
+            "width": 834,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 3749
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "content": {
+            "left": 35,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Good things, fair prices.",
+          "box": {
+            "x": 24,
+            "y": 159,
+            "width": 786,
+            "height": 60
+          },
+          "content": {
+            "left": 24,
+            "right": 679
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "box": {
+            "x": 0,
+            "y": 983,
+            "width": 834,
+            "height": 774
+          },
+          "content": {
+            "left": 24,
+            "right": 733
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "box": {
+            "x": 24,
+            "y": 1789,
+            "width": 786,
+            "height": 1002
+          },
+          "content": {
+            "left": 24,
+            "right": 770
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to see it all?",
+          "box": {
+            "x": 24,
+            "y": 2878,
+            "width": 786,
+            "height": 258
+          },
+          "content": {
+            "left": 207,
+            "right": 627
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 3193,
+            "width": 834,
+            "height": 557
+          },
+          "content": {
+            "left": 24,
+            "right": 334
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "QUESTIONS? CONTACT US",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "contact",
+          "text": "Questions? Contact us"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "HOW BUYING WORKS",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you want",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pay at the checkout",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "It comes to your door",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "QUESTIONS? CONTACT US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to see it all?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Donkey shop",
+        "Good things,",
+        "fair prices.",
+        "Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.",
+        "Sign up",
+        "How buying works",
+        "From the shop",
+        "£12.50",
+        "Pick what you like. Pay once. It arrives.",
+        "01",
+        "Pick what you want",
+        "Every product shows its photo, name and price up front, so nothing is a surprise.",
+        "02",
+        "Pay at the checkout",
+        "One payment, in pounds, with no hidden charges added at the end.",
+        "03",
+        "It comes to your door",
+        "Orders are packed by hand and posted with care. Delivery details live on the How it works page.",
+        "What you can do here",
+        "Look around freely. Sign up when you're ready to buy.",
+        "Browse every product and its price without signing in.",
+        "Read how delivery and returns work before you decide.",
+        "Use Sign up to head into the shop and place your order.",
+        "Sign up",
+        "Questions? Contact us",
+        "In the shop now",
+        "Stoneware mug",
+        "Glazed by hand, holds a large cup",
+        "£12.50",
+        "Sourdough starter kit",
+        "Jar, flour and a folded recipe card",
+        "£18.00",
+        "Linen tea towel",
+        "Washed flax, sage stripe",
+        "£9.75",
+        "Ready to see it all?",
+        "Sign up",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3369,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3542,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3631,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3701,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3301,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Orders are packed by hand and posted with care. Delivery details live on the Ho…",
+          "text": "Orders are packed by hand and posted with care. Delivery details live on the Ho…",
+          "classes": "",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": "It comes to your door",
+          "part": null,
+          "box": {
+            "x": 52,
+            "y": 1649,
+            "width": 730,
+            "height": 23
+          },
+          "colour": "#2a8265",
+          "background": "#def0e6",
+          "ratio": 3.93,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3602,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3399,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3428,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3458,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3488,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3572,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 12,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - group:\n    - img\n  - text: Donkey shop\n  - heading \"Good things, fair prices.\" [level=1]:\n    - text: Good things,\n    - emphasis: fair prices.\n  - paragraph: \"Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.\"\n  - button \"Sign up\"\n  - button \"How buying works\"\n  - text: From the shop £12.50\n  - heading \"Pick what you like. Pay once. It arrives.\" [level=2]\n  - article:\n    - text: \"01\"\n    - heading \"Pick what you want\" [level=3]\n    - paragraph: Every product shows its photo, name and price up front, so nothing is a surprise.\n  - article:\n    - text: \"02\"\n    - heading \"Pay at the checkout\" [level=3]\n    - paragraph: One payment, in pounds, with no hidden charges added at the end.\n  - article:\n    - text: \"03\"\n    - heading \"It comes to your door\" [level=3]\n    - paragraph: Orders are packed by hand and posted with care. Delivery details live on the How it works page.\n  - text: What you can do here\n  - heading \"Look around freely. Sign up when you're ready to buy.\" [level=2]\n  - list:\n    - listitem: Browse every product and its price without signing in.\n    - listitem: Read how delivery and returns work before you decide.\n    - listitem: Use Sign up to head into the shop and place your order.\n  - button \"Sign up\"\n  - button \"Questions? Contact us\"\n  - text: In the shop now Stoneware mug Glazed by hand, holds a large cup £12.50 Sourdough starter kit Jar, flour and a folded recipe card £18.00 Linen tea towel Washed flax, sage stripe £9.75\n  - heading \"Ready to see it all?\" [level=2]\n  - button \"Sign up\"\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w834-light.png",
+      "thumbnail": "thumb-w834-light.webp",
+      "modelImage": "model-w834-light.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "dark",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Home",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/home-0.html",
+      "situation": null,
+      "document": {
+        "width": 834,
+        "height": 3749,
+        "title": "Home",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "text": "Good things, fair prices.",
+          "classes": "",
+          "eid": "e6",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 159,
+            "width": 786,
+            "height": 60
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e10",
+          "control": true,
+          "decorative": false,
+          "heading": "Good things, fair prices.",
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 352,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 64
+          },
+          "page": {
+            "x": 24,
+            "y": 65,
+            "width": 786,
+            "height": 918
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 3193,
+            "width": 834,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 3749
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 65
+          },
+          "content": {
+            "left": 35,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Good things, fair prices.",
+          "box": {
+            "x": 24,
+            "y": 159,
+            "width": 786,
+            "height": 60
+          },
+          "content": {
+            "left": 24,
+            "right": 679
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "box": {
+            "x": 0,
+            "y": 983,
+            "width": 834,
+            "height": 774
+          },
+          "content": {
+            "left": 24,
+            "right": 733
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "box": {
+            "x": 24,
+            "y": 1789,
+            "width": 786,
+            "height": 1002
+          },
+          "content": {
+            "left": 24,
+            "right": 770
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to see it all?",
+          "box": {
+            "x": 24,
+            "y": 2878,
+            "width": 786,
+            "height": 258
+          },
+          "content": {
+            "left": 207,
+            "right": 627
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 3193,
+            "width": 834,
+            "height": 557
+          },
+          "content": {
+            "left": 24,
+            "right": 334
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "QUESTIONS? CONTACT US",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "contact",
+          "text": "Questions? Contact us"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "HOW BUYING WORKS",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you want",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pay at the checkout",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "It comes to your door",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "QUESTIONS? CONTACT US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to see it all?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Donkey shop",
+        "Good things,",
+        "fair prices.",
+        "Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.",
+        "Sign up",
+        "How buying works",
+        "From the shop",
+        "£12.50",
+        "Pick what you like. Pay once. It arrives.",
+        "01",
+        "Pick what you want",
+        "Every product shows its photo, name and price up front, so nothing is a surprise.",
+        "02",
+        "Pay at the checkout",
+        "One payment, in pounds, with no hidden charges added at the end.",
+        "03",
+        "It comes to your door",
+        "Orders are packed by hand and posted with care. Delivery details live on the How it works page.",
+        "What you can do here",
+        "Look around freely. Sign up when you're ready to buy.",
+        "Browse every product and its price without signing in.",
+        "Read how delivery and returns work before you decide.",
+        "Use Sign up to head into the shop and place your order.",
+        "Sign up",
+        "Questions? Contact us",
+        "In the shop now",
+        "Stoneware mug",
+        "Glazed by hand, holds a large cup",
+        "£12.50",
+        "Sourdough starter kit",
+        "Jar, flour and a folded recipe card",
+        "£18.00",
+        "Linen tea towel",
+        "Washed flax, sage stripe",
+        "£9.75",
+        "Ready to see it all?",
+        "Sign up",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3369,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3542,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3631,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3701,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3301,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3602,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3399,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3428,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3458,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3488,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3572,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - group:\n    - img\n  - text: Donkey shop\n  - heading \"Good things, fair prices.\" [level=1]:\n    - text: Good things,\n    - emphasis: fair prices.\n  - paragraph: \"Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.\"\n  - button \"Sign up\"\n  - button \"How buying works\"\n  - text: From the shop £12.50\n  - heading \"Pick what you like. Pay once. It arrives.\" [level=2]\n  - article:\n    - text: \"01\"\n    - heading \"Pick what you want\" [level=3]\n    - paragraph: Every product shows its photo, name and price up front, so nothing is a surprise.\n  - article:\n    - text: \"02\"\n    - heading \"Pay at the checkout\" [level=3]\n    - paragraph: One payment, in pounds, with no hidden charges added at the end.\n  - article:\n    - text: \"03\"\n    - heading \"It comes to your door\" [level=3]\n    - paragraph: Orders are packed by hand and posted with care. Delivery details live on the How it works page.\n  - text: What you can do here\n  - heading \"Look around freely. Sign up when you're ready to buy.\" [level=2]\n  - list:\n    - listitem: Browse every product and its price without signing in.\n    - listitem: Read how delivery and returns work before you decide.\n    - listitem: Use Sign up to head into the shop and place your order.\n  - button \"Sign up\"\n  - button \"Questions? Contact us\"\n  - text: In the shop now Stoneware mug Glazed by hand, holds a large cup £12.50 Sourdough starter kit Jar, flour and a folded recipe card £18.00 Linen tea towel Washed flax, sage stripe £9.75\n  - heading \"Ready to see it all?\" [level=2]\n  - button \"Sign up\"\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w834-dark.png",
+      "thumbnail": "thumb-w834-dark.webp",
+      "modelImage": "model-w834-dark.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Home",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/home-0.html",
+      "situation": null,
+      "document": {
+        "width": 1280,
+        "height": 2635,
+        "title": "Home",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "text": "Good things, fair prices.",
+          "classes": "",
+          "eid": "e6",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 232,
+            "width": 589,
+            "height": 180
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e10",
+          "control": true,
+          "decorative": false,
+          "heading": "Good things, fair prices.",
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 544,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 62
+          },
+          "page": {
+            "x": 104,
+            "y": 63,
+            "width": 1072,
+            "height": 664
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 63
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2340,
+            "width": 1280,
+            "height": 294
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 2635
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 63
+          },
+          "content": {
+            "left": 115,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Good things, fair prices.",
+          "box": {
+            "x": 104,
+            "y": 232,
+            "width": 589,
+            "height": 180
+          },
+          "content": {
+            "left": 104,
+            "right": 626
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "box": {
+            "x": 0,
+            "y": 727,
+            "width": 1280,
+            "height": 484
+          },
+          "content": {
+            "left": 104,
+            "right": 1134
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "box": {
+            "x": 104,
+            "y": 1243,
+            "width": 1072,
+            "height": 673
+          },
+          "content": {
+            "left": 104,
+            "right": 1136
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to see it all?",
+          "box": {
+            "x": 104,
+            "y": 2004,
+            "width": 1072,
+            "height": 280
+          },
+          "content": {
+            "left": 338,
+            "right": 942
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2340,
+            "width": 1280,
+            "height": 294
+          },
+          "content": {
+            "left": 104,
+            "right": 1144
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": "header"
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": "header"
+          },
+          {
+            "name": "Sign up",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": "header"
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "QUESTIONS? CONTACT US",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "contact",
+          "text": "Questions? Contact us"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Sign up"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Sign up",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "HOW BUYING WORKS",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you want",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pay at the checkout",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "It comes to your door",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "QUESTIONS? CONTACT US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to see it all?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Sign in",
+        "Sign up",
+        "Donkey shop",
+        "Good things,",
+        "fair prices.",
+        "Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.",
+        "Sign up",
+        "How buying works",
+        "From the shop",
+        "£12.50",
+        "Pick what you like. Pay once. It arrives.",
+        "01",
+        "Pick what you want",
+        "Every product shows its photo, name and price up front, so nothing is a surprise.",
+        "02",
+        "Pay at the checkout",
+        "One payment, in pounds, with no hidden charges added at the end.",
+        "03",
+        "It comes to your door",
+        "Orders are packed by hand and posted with care. Delivery details live on the How it works page.",
+        "What you can do here",
+        "Look around freely. Sign up when you're ready to buy.",
+        "Browse every product and its price without signing in.",
+        "Read how delivery and returns work before you decide.",
+        "Use Sign up to head into the shop and place your order.",
+        "Sign up",
+        "Questions? Contact us",
+        "In the shop now",
+        "Stoneware mug",
+        "Glazed by hand, holds a large cup",
+        "£12.50",
+        "Sourdough starter kit",
+        "Jar, flour and a folded recipe card",
+        "£18.00",
+        "Linen tea towel",
+        "Washed flax, sage stripe",
+        "£9.75",
+        "Ready to see it all?",
+        "Sign up",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2398,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2398,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2487,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2587,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2448,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Orders are packed by hand and posted with care. Delivery details live on the Ho…",
+          "text": "Orders are packed by hand and posted with care. Delivery details live on the Ho…",
+          "classes": "",
+          "eid": "e31",
+          "control": false,
+          "decorative": false,
+          "heading": "It comes to your door",
+          "part": null,
+          "box": {
+            "x": 857,
+            "y": 1058,
+            "width": 291,
+            "height": 70
+          },
+          "colour": "#2a8265",
+          "background": "#def0e6",
+          "ratio": 3.93,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2457,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2428,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2457,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2487,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2517,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2428,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 12,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - navigation \"Pages\": Home How it works About Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Sign in\n  - link \"Sign up\":\n    - /url: \"#\"\n  - text: Donkey shop\n  - heading \"Good things, fair prices.\" [level=1]:\n    - text: Good things,\n    - emphasis: fair prices.\n  - paragraph: \"Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.\"\n  - button \"Sign up\"\n  - button \"How buying works\"\n  - text: From the shop £12.50\n  - heading \"Pick what you like. Pay once. It arrives.\" [level=2]\n  - article:\n    - text: \"01\"\n    - heading \"Pick what you want\" [level=3]\n    - paragraph: Every product shows its photo, name and price up front, so nothing is a surprise.\n  - article:\n    - text: \"02\"\n    - heading \"Pay at the checkout\" [level=3]\n    - paragraph: One payment, in pounds, with no hidden charges added at the end.\n  - article:\n    - text: \"03\"\n    - heading \"It comes to your door\" [level=3]\n    - paragraph: Orders are packed by hand and posted with care. Delivery details live on the How it works page.\n  - text: What you can do here\n  - heading \"Look around freely. Sign up when you're ready to buy.\" [level=2]\n  - list:\n    - listitem: Browse every product and its price without signing in.\n    - listitem: Read how delivery and returns work before you decide.\n    - listitem: Use Sign up to head into the shop and place your order.\n  - button \"Sign up\"\n  - button \"Questions? Contact us\"\n  - text: In the shop now Stoneware mug Glazed by hand, holds a large cup £12.50 Sourdough starter kit Jar, flour and a folded recipe card £18.00 Linen tea towel Washed flax, sage stripe £9.75\n  - heading \"Ready to see it all?\" [level=2]\n  - button \"Sign up\"\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w1280-light.png",
+      "thumbnail": "thumb-w1280-light.webp",
+      "modelImage": "model-w1280-light.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Home",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/home-0.html",
+      "situation": null,
+      "document": {
+        "width": 1280,
+        "height": 2635,
+        "title": "Home",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "text": "Good things, fair prices.",
+          "classes": "",
+          "eid": "e6",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 232,
+            "width": 589,
+            "height": 180
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "button",
+          "role": "button",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e10",
+          "control": true,
+          "decorative": false,
+          "heading": "Good things, fair prices.",
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 544,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 62
+          },
+          "page": {
+            "x": 104,
+            "y": 63,
+            "width": 1072,
+            "height": 664
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 0,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Home How it works About Contact Sign in Sign up Home How it wor…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": "header",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 63
+          },
+          "atTop": true,
+          "fullWidth": true
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2340,
+            "width": 1280,
+            "height": 294
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": ".site-top { display: flex; align-items: center; gap: calc(24px * var(--space-sc…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 2635
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 63
+          },
+          "content": {
+            "left": 115,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Good things, fair prices.",
+          "box": {
+            "x": 104,
+            "y": 232,
+            "width": 589,
+            "height": 180
+          },
+          "content": {
+            "left": 104,
+            "right": 626
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "box": {
+            "x": 0,
+            "y": 727,
+            "width": 1280,
+            "height": 484
+          },
+          "content": {
+            "left": 104,
+            "right": 1134
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "box": {
+            "x": 104,
+            "y": 1243,
+            "width": 1072,
+            "height": 673
+          },
+          "content": {
+            "left": 104,
+            "right": 1136
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Ready to see it all?",
+          "box": {
+            "x": 104,
+            "y": 2004,
+            "width": 1072,
+            "height": 280
+          },
+          "content": {
+            "left": 338,
+            "right": 942
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2340,
+            "width": 1280,
+            "height": 294
+          },
+          "content": {
+            "left": 104,
+            "right": 1144
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": "header"
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": "header"
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": "header"
+          },
+          {
+            "name": "Sign up",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": "header"
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "HOW BUYING WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "QUESTIONS? CONTACT US",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How buying works"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "contact",
+          "text": "Questions? Contact us"
+        },
+        {
+          "target": "products",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Sign up"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Sign up",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Good things, fair prices.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "HOW BUYING WORKS",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you like. Pay once. It arrives.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick what you want",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pay at the checkout",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "It comes to your door",
+          "level": 3,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Look around freely. Sign up when you're ready to buy.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "QUESTIONS? CONTACT US",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Ready to see it all?",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "D",
+        "Donkey website",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Sign in",
+        "Sign up",
+        "Donkey shop",
+        "Good things,",
+        "fair prices.",
+        "Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.",
+        "Sign up",
+        "How buying works",
+        "From the shop",
+        "£12.50",
+        "Pick what you like. Pay once. It arrives.",
+        "01",
+        "Pick what you want",
+        "Every product shows its photo, name and price up front, so nothing is a surprise.",
+        "02",
+        "Pay at the checkout",
+        "One payment, in pounds, with no hidden charges added at the end.",
+        "03",
+        "It comes to your door",
+        "Orders are packed by hand and posted with care. Delivery details live on the How it works page.",
+        "What you can do here",
+        "Look around freely. Sign up when you're ready to buy.",
+        "Browse every product and its price without signing in.",
+        "Read how delivery and returns work before you decide.",
+        "Use Sign up to head into the shop and place your order.",
+        "Sign up",
+        "Questions? Contact us",
+        "In the shop now",
+        "Stoneware mug",
+        "Glazed by hand, holds a large cup",
+        "£12.50",
+        "Sourdough starter kit",
+        "Jar, flour and a folded recipe card",
+        "£18.00",
+        "Linen tea towel",
+        "Washed flax, sage stripe",
+        "£9.75",
+        "Ready to see it all?",
+        "Sign up",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2398,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2398,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2487,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2587,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2448,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2457,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2428,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2457,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2487,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2517,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Ready to see it all?",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2428,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 11,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey website\n  - navigation \"Pages\": Home How it works About Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Sign in\n  - link \"Sign up\":\n    - /url: \"#\"\n  - text: Donkey shop\n  - heading \"Good things, fair prices.\" [level=1]:\n    - text: Good things,\n    - emphasis: fair prices.\n  - paragraph: \"Donkey sells everyday goods chosen with care: homeware, pantry staples and small gifts. Browse what we have, see what it costs, and sign up to buy.\"\n  - button \"Sign up\"\n  - button \"How buying works\"\n  - text: From the shop £12.50\n  - heading \"Pick what you like. Pay once. It arrives.\" [level=2]\n  - article:\n    - text: \"01\"\n    - heading \"Pick what you want\" [level=3]\n    - paragraph: Every product shows its photo, name and price up front, so nothing is a surprise.\n  - article:\n    - text: \"02\"\n    - heading \"Pay at the checkout\" [level=3]\n    - paragraph: One payment, in pounds, with no hidden charges added at the end.\n  - article:\n    - text: \"03\"\n    - heading \"It comes to your door\" [level=3]\n    - paragraph: Orders are packed by hand and posted with care. Delivery details live on the How it works page.\n  - text: What you can do here\n  - heading \"Look around freely. Sign up when you're ready to buy.\" [level=2]\n  - list:\n    - listitem: Browse every product and its price without signing in.\n    - listitem: Read how delivery and returns work before you decide.\n    - listitem: Use Sign up to head into the shop and place your order.\n  - button \"Sign up\"\n  - button \"Questions? Contact us\"\n  - text: In the shop now Stoneware mug Glazed by hand, holds a large cup £12.50 Sourdough starter kit Jar, flour and a folded recipe card £18.00 Linen tea towel Washed flax, sage stripe £9.75\n  - heading \"Ready to see it all?\" [level=2]\n  - button \"Sign up\"\n  - text: Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w1280-dark.png",
+      "thumbnail": "thumb-w1280-dark.webp",
+      "modelImage": "model-w1280-dark.jpg"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-12T04:33:35.417Z"
+}

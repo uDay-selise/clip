@@ -1,0 +1,4965 @@
+{
+  "version": 1,
+  "target": ".studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/products-0.html",
+  "kind": "file",
+  "situation": null,
+  "startedAt": "2026-11-12T03:11:36.085Z",
+  "views": [
+    {
+      "width": 390,
+      "mode": "light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 414,
+        "height": 5568,
+        "title": "Products",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 24,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Strawberry and elderflower cordial",
+            "part": null,
+            "box": {
+              "x": 154,
+              "y": 4552,
+              "width": 260,
+              "height": 260
+            },
+            "beyond": 24,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Strawberry and elderflower cordial",
+            "part": null,
+            "box": {
+              "x": 154,
+              "y": 4552,
+              "width": 260,
+              "height": 260
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "text": "What Donkey sells.",
+          "classes": "ds-display",
+          "eid": "e32",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 170,
+            "width": 358,
+            "height": 41
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Donkey's own honey",
+          "part": null,
+          "box": {
+            "x": 37,
+            "y": 984,
+            "width": 316,
+            "height": 36
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 4908,
+            "width": 358,
+            "height": 559
+          },
+          "page": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 3,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 4908,
+            "width": 390,
+            "height": 660
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 5568
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "content": {
+            "left": 60,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "What Donkey sells.",
+          "box": {
+            "x": 16,
+            "y": 170,
+            "width": 358,
+            "height": 41
+          },
+          "content": {
+            "left": 16,
+            "right": 355
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 4908,
+            "width": 390,
+            "height": 660
+          },
+          "content": {
+            "left": 16,
+            "right": 298
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read how buying works"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey's own honey",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Sourdough loaf, baked this morning",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calendula hand salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Field notes notebook",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wool socks",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Apple and blackberry chutney",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Strawberry and elderflower cordial",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick it, then sign up to buy it.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign up",
+        "Everything in the shop",
+        "What Donkey",
+        "sells",
+        ".",
+        "Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.",
+        "7",
+        "Products in the shop",
+        "Donkey's own honey",
+        "Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.",
+        "£8.50",
+        "Sign up",
+        "Sourdough loaf, baked this morning",
+        "A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.",
+        "£4.20",
+        "Sign up",
+        "Calendula hand salve",
+        "A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.",
+        "£12.50",
+        "Contains lanolin. Not for use on broken skin.",
+        "Sign up",
+        "Field notes notebook",
+        "A slim notebook with plain pages and a cloth cover, for lists and sketches alike.",
+        "£9.00",
+        "Sign up",
+        "Wool socks",
+        "£15.00",
+        "Sign up",
+        "Apple and blackberry chutney",
+        "Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.",
+        "£6.40",
+        "Sign up",
+        "Strawberry and elderflower cordial",
+        "A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.",
+        "£7.80",
+        "High in sugar. Best kept in the fridge once opened.",
+        "Sign up",
+        "Found something you like?",
+        "Pick it, then sign up to buy it.",
+        "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+        "Sign up",
+        "Read how buying works",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5128,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5344,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5487,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5523,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "FOUND SOMETHING YOU LIKE?",
+          "text": "Found something you like?",
+          "classes": "ds-eyebrow",
+          "eid": "e100",
+          "control": false,
+          "decorative": false,
+          "heading": "Strawberry and elderflower cordial",
+          "part": null,
+          "box": {
+            "x": 48,
+            "y": 4430,
+            "width": 208,
+            "height": 19
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5004,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "text": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "classes": "",
+          "eid": "e102",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": null,
+          "box": {
+            "x": 48,
+            "y": 4529,
+            "width": 294,
+            "height": 77
+          },
+          "colour": "#ddece7",
+          "background": "#1c825d",
+          "ratio": 3.92,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 7,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - button \"Sign up\"\n  - group:\n    - img\n  - text: Everything in the shop\n  - heading \"What Donkey sells.\" [level=1]:\n    - text: What Donkey\n    - emphasis: sells\n    - text: .\n  - paragraph: Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.\n  - text: 7 Products in the shop\n  - article:\n    - heading \"Donkey's own honey\" [level=2]\n    - paragraph: Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.\n    - text: £8.50 Sign up\n  - article:\n    - heading \"Sourdough loaf, baked this morning\" [level=2]\n    - paragraph: A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.\n    - text: £4.20 Sign up\n  - article:\n    - heading \"Calendula hand salve\" [level=2]\n    - paragraph: A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.\n    - text: £12.50\n    - paragraph: Contains lanolin. Not for use on broken skin.\n    - text: Sign up\n  - article:\n    - heading \"Field notes notebook\" [level=2]\n    - paragraph: A slim notebook with plain pages and a cloth cover, for lists and sketches alike.\n    - text: £9.00 Sign up\n  - article:\n    - heading \"Wool socks\" [level=2]\n    - text: £15.00 Sign up\n  - article:\n    - heading \"Apple and blackberry chutney\" [level=2]\n    - paragraph: Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.\n    - text: £6.40 Sign up\n  - article:\n    - heading \"Strawberry and elderflower cordial\" [level=2]\n    - paragraph: A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.\n    - text: £7.80\n    - paragraph: High in sugar. Best kept in the fridge once opened.\n    - text: Sign up\n  - text: Found something you like?\n  - heading \"Pick it, then sign up to buy it.\" [level=2]\n  - paragraph: Sign up opens Donkey app, where you add what you want to your basket and pay.\n  - text: Sign up Read how buying works\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w390-light.png",
+      "thumbnail": "thumb-w390-light.webp",
+      "modelImage": "model-w390-light.jpg"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 414,
+        "height": 5568,
+        "title": "Products",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 24,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Strawberry and elderflower cordial",
+            "part": null,
+            "box": {
+              "x": 154,
+              "y": 4552,
+              "width": 260,
+              "height": 260
+            },
+            "beyond": 24,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Strawberry and elderflower cordial",
+            "part": null,
+            "box": {
+              "x": 154,
+              "y": 4552,
+              "width": 260,
+              "height": 260
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "text": "What Donkey sells.",
+          "classes": "ds-display",
+          "eid": "e32",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 170,
+            "width": 358,
+            "height": 41
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Donkey's own honey",
+          "part": null,
+          "box": {
+            "x": 37,
+            "y": 984,
+            "width": 316,
+            "height": 36
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 4908,
+            "width": 358,
+            "height": 559
+          },
+          "page": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 3,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 4908,
+            "width": 390,
+            "height": 660
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 5568
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "content": {
+            "left": 60,
+            "right": 365
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "What Donkey sells.",
+          "box": {
+            "x": 16,
+            "y": 170,
+            "width": 358,
+            "height": 41
+          },
+          "content": {
+            "left": 16,
+            "right": 355
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 4908,
+            "width": 390,
+            "height": 660
+          },
+          "content": {
+            "left": 16,
+            "right": 298
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read how buying works"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey's own honey",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Sourdough loaf, baked this morning",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calendula hand salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Field notes notebook",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wool socks",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Apple and blackberry chutney",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Strawberry and elderflower cordial",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick it, then sign up to buy it.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign up",
+        "Everything in the shop",
+        "What Donkey",
+        "sells",
+        ".",
+        "Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.",
+        "7",
+        "Products in the shop",
+        "Donkey's own honey",
+        "Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.",
+        "£8.50",
+        "Sign up",
+        "Sourdough loaf, baked this morning",
+        "A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.",
+        "£4.20",
+        "Sign up",
+        "Calendula hand salve",
+        "A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.",
+        "£12.50",
+        "Contains lanolin. Not for use on broken skin.",
+        "Sign up",
+        "Field notes notebook",
+        "A slim notebook with plain pages and a cloth cover, for lists and sketches alike.",
+        "£9.00",
+        "Sign up",
+        "Wool socks",
+        "£15.00",
+        "Sign up",
+        "Apple and blackberry chutney",
+        "Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.",
+        "£6.40",
+        "Sign up",
+        "Strawberry and elderflower cordial",
+        "A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.",
+        "£7.80",
+        "High in sugar. Best kept in the fridge once opened.",
+        "Sign up",
+        "Found something you like?",
+        "Pick it, then sign up to buy it.",
+        "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+        "Sign up",
+        "Read how buying works",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5128,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5344,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5487,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5523,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "FOUND SOMETHING YOU LIKE?",
+          "text": "Found something you like?",
+          "classes": "ds-eyebrow",
+          "eid": "e100",
+          "control": false,
+          "decorative": false,
+          "heading": "Strawberry and elderflower cordial",
+          "part": null,
+          "box": {
+            "x": 48,
+            "y": 4430,
+            "width": 208,
+            "height": 19
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5004,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "text": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "classes": "",
+          "eid": "e102",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": null,
+          "box": {
+            "x": 48,
+            "y": 4529,
+            "width": 294,
+            "height": 77
+          },
+          "colour": "#ddece7",
+          "background": "#1c825d",
+          "ratio": 3.92,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 7,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - button \"Sign up\"\n  - group:\n    - img\n  - text: Everything in the shop\n  - heading \"What Donkey sells.\" [level=1]:\n    - text: What Donkey\n    - emphasis: sells\n    - text: .\n  - paragraph: Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.\n  - text: 7 Products in the shop\n  - article:\n    - heading \"Donkey's own honey\" [level=2]\n    - paragraph: Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.\n    - text: £8.50 Sign up\n  - article:\n    - heading \"Sourdough loaf, baked this morning\" [level=2]\n    - paragraph: A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.\n    - text: £4.20 Sign up\n  - article:\n    - heading \"Calendula hand salve\" [level=2]\n    - paragraph: A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.\n    - text: £12.50\n    - paragraph: Contains lanolin. Not for use on broken skin.\n    - text: Sign up\n  - article:\n    - heading \"Field notes notebook\" [level=2]\n    - paragraph: A slim notebook with plain pages and a cloth cover, for lists and sketches alike.\n    - text: £9.00 Sign up\n  - article:\n    - heading \"Wool socks\" [level=2]\n    - text: £15.00 Sign up\n  - article:\n    - heading \"Apple and blackberry chutney\" [level=2]\n    - paragraph: Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.\n    - text: £6.40 Sign up\n  - article:\n    - heading \"Strawberry and elderflower cordial\" [level=2]\n    - paragraph: A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.\n    - text: £7.80\n    - paragraph: High in sugar. Best kept in the fridge once opened.\n    - text: Sign up\n  - text: Found something you like?\n  - heading \"Pick it, then sign up to buy it.\" [level=2]\n  - paragraph: Sign up opens Donkey app, where you add what you want to your basket and pay.\n  - text: Sign up Read how buying works\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w390-dark.png",
+      "thumbnail": "thumb-w390-dark.webp",
+      "modelImage": "model-w390-dark.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "light",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 850,
+        "height": 3913,
+        "title": "Products",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 16,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Strawberry and elderflower cordial",
+            "part": null,
+            "box": {
+              "x": 590,
+              "y": 3060,
+              "width": 260,
+              "height": 260
+            },
+            "beyond": 16,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Strawberry and elderflower cordial",
+            "part": null,
+            "box": {
+              "x": 590,
+              "y": 3060,
+              "width": 260,
+              "height": 260
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "text": "What Donkey sells.",
+          "classes": "ds-display",
+          "eid": "e32",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 182,
+            "width": 786,
+            "height": 51
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Donkey's own honey",
+          "part": null,
+          "box": {
+            "x": 45,
+            "y": 1060,
+            "width": 339,
+            "height": 36
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 3416,
+            "width": 786,
+            "height": 432
+          },
+          "page": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 3,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 3416,
+            "width": 834,
+            "height": 497
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 3913
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "content": {
+            "left": 68,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "What Donkey sells.",
+          "box": {
+            "x": 24,
+            "y": 182,
+            "width": 786,
+            "height": 51
+          },
+          "content": {
+            "left": 24,
+            "right": 448
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 3416,
+            "width": 834,
+            "height": 497
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read how buying works"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey's own honey",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Sourdough loaf, baked this morning",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calendula hand salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Field notes notebook",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wool socks",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Apple and blackberry chutney",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Strawberry and elderflower cordial",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick it, then sign up to buy it.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign up",
+        "Everything in the shop",
+        "What Donkey",
+        "sells",
+        ".",
+        "Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.",
+        "7",
+        "Products in the shop",
+        "Donkey's own honey",
+        "Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.",
+        "£8.50",
+        "Sign up",
+        "Sourdough loaf, baked this morning",
+        "A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.",
+        "£4.20",
+        "Sign up",
+        "Calendula hand salve",
+        "A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.",
+        "£12.50",
+        "Contains lanolin. Not for use on broken skin.",
+        "Sign up",
+        "Field notes notebook",
+        "A slim notebook with plain pages and a cloth cover, for lists and sketches alike.",
+        "£9.00",
+        "Sign up",
+        "Wool socks",
+        "£15.00",
+        "Sign up",
+        "Apple and blackberry chutney",
+        "Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.",
+        "£6.40",
+        "Sign up",
+        "Strawberry and elderflower cordial",
+        "A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.",
+        "£7.80",
+        "High in sugar. Best kept in the fridge once opened.",
+        "Sign up",
+        "Found something you like?",
+        "Pick it, then sign up to buy it.",
+        "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+        "Sign up",
+        "Read how buying works",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3636,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 441,
+            "y": 3636,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3869,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 704,
+            "y": 3869,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "FOUND SOMETHING YOU LIKE?",
+          "text": "Found something you like?",
+          "classes": "ds-eyebrow",
+          "eid": "e100",
+          "control": false,
+          "decorative": false,
+          "heading": "Strawberry and elderflower cordial",
+          "part": null,
+          "box": {
+            "x": 72,
+            "y": 2975,
+            "width": 208,
+            "height": 19
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3512,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "text": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "classes": "",
+          "eid": "e102",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": null,
+          "box": {
+            "x": 72,
+            "y": 3047,
+            "width": 480,
+            "height": 51
+          },
+          "colour": "#ddece7",
+          "background": "#1c825d",
+          "ratio": 3.92,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 7,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - button \"Sign up\"\n  - group:\n    - img\n  - text: Everything in the shop\n  - heading \"What Donkey sells.\" [level=1]:\n    - text: What Donkey\n    - emphasis: sells\n    - text: .\n  - paragraph: Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.\n  - text: 7 Products in the shop\n  - article:\n    - heading \"Donkey's own honey\" [level=2]\n    - paragraph: Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.\n    - text: £8.50 Sign up\n  - article:\n    - heading \"Sourdough loaf, baked this morning\" [level=2]\n    - paragraph: A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.\n    - text: £4.20 Sign up\n  - article:\n    - heading \"Calendula hand salve\" [level=2]\n    - paragraph: A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.\n    - text: £12.50\n    - paragraph: Contains lanolin. Not for use on broken skin.\n    - text: Sign up\n  - article:\n    - heading \"Field notes notebook\" [level=2]\n    - paragraph: A slim notebook with plain pages and a cloth cover, for lists and sketches alike.\n    - text: £9.00 Sign up\n  - article:\n    - heading \"Wool socks\" [level=2]\n    - text: £15.00 Sign up\n  - article:\n    - heading \"Apple and blackberry chutney\" [level=2]\n    - paragraph: Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.\n    - text: £6.40 Sign up\n  - article:\n    - heading \"Strawberry and elderflower cordial\" [level=2]\n    - paragraph: A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.\n    - text: £7.80\n    - paragraph: High in sugar. Best kept in the fridge once opened.\n    - text: Sign up\n  - text: Found something you like?\n  - heading \"Pick it, then sign up to buy it.\" [level=2]\n  - paragraph: Sign up opens Donkey app, where you add what you want to your basket and pay.\n  - text: Sign up Read how buying works\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w834-light.png",
+      "thumbnail": "thumb-w834-light.webp",
+      "modelImage": "model-w834-light.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "dark",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 850,
+        "height": 3913,
+        "title": "Products",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 16,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Strawberry and elderflower cordial",
+            "part": null,
+            "box": {
+              "x": 590,
+              "y": 3060,
+              "width": 260,
+              "height": 260
+            },
+            "beyond": 16,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-ring",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Strawberry and elderflower cordial",
+            "part": null,
+            "box": {
+              "x": 590,
+              "y": 3060,
+              "width": 260,
+              "height": 260
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "text": "What Donkey sells.",
+          "classes": "ds-display",
+          "eid": "e32",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 182,
+            "width": 786,
+            "height": 51
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Donkey's own honey",
+          "part": null,
+          "box": {
+            "x": 45,
+            "y": 1060,
+            "width": 339,
+            "height": 36
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 3416,
+            "width": 786,
+            "height": 432
+          },
+          "page": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 3,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 3416,
+            "width": 834,
+            "height": 497
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 3913
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "content": {
+            "left": 68,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "What Donkey sells.",
+          "box": {
+            "x": 24,
+            "y": 182,
+            "width": 786,
+            "height": 51
+          },
+          "content": {
+            "left": 24,
+            "right": 448
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 3416,
+            "width": 834,
+            "height": 497
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read how buying works"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey's own honey",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Sourdough loaf, baked this morning",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calendula hand salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Field notes notebook",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wool socks",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Apple and blackberry chutney",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Strawberry and elderflower cordial",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick it, then sign up to buy it.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign up",
+        "Everything in the shop",
+        "What Donkey",
+        "sells",
+        ".",
+        "Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.",
+        "7",
+        "Products in the shop",
+        "Donkey's own honey",
+        "Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.",
+        "£8.50",
+        "Sign up",
+        "Sourdough loaf, baked this morning",
+        "A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.",
+        "£4.20",
+        "Sign up",
+        "Calendula hand salve",
+        "A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.",
+        "£12.50",
+        "Contains lanolin. Not for use on broken skin.",
+        "Sign up",
+        "Field notes notebook",
+        "A slim notebook with plain pages and a cloth cover, for lists and sketches alike.",
+        "£9.00",
+        "Sign up",
+        "Wool socks",
+        "£15.00",
+        "Sign up",
+        "Apple and blackberry chutney",
+        "Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.",
+        "£6.40",
+        "Sign up",
+        "Strawberry and elderflower cordial",
+        "A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.",
+        "£7.80",
+        "High in sugar. Best kept in the fridge once opened.",
+        "Sign up",
+        "Found something you like?",
+        "Pick it, then sign up to buy it.",
+        "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+        "Sign up",
+        "Read how buying works",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3636,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 441,
+            "y": 3636,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3869,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 704,
+            "y": 3869,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "FOUND SOMETHING YOU LIKE?",
+          "text": "Found something you like?",
+          "classes": "ds-eyebrow",
+          "eid": "e100",
+          "control": false,
+          "decorative": false,
+          "heading": "Strawberry and elderflower cordial",
+          "part": null,
+          "box": {
+            "x": 72,
+            "y": 2975,
+            "width": 208,
+            "height": 19
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3512,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "text": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "classes": "",
+          "eid": "e102",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": null,
+          "box": {
+            "x": 72,
+            "y": 3047,
+            "width": 480,
+            "height": 51
+          },
+          "colour": "#ddece7",
+          "background": "#1c825d",
+          "ratio": 3.92,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 7,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - button \"Sign up\"\n  - group:\n    - img\n  - text: Everything in the shop\n  - heading \"What Donkey sells.\" [level=1]:\n    - text: What Donkey\n    - emphasis: sells\n    - text: .\n  - paragraph: Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.\n  - text: 7 Products in the shop\n  - article:\n    - heading \"Donkey's own honey\" [level=2]\n    - paragraph: Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.\n    - text: £8.50 Sign up\n  - article:\n    - heading \"Sourdough loaf, baked this morning\" [level=2]\n    - paragraph: A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.\n    - text: £4.20 Sign up\n  - article:\n    - heading \"Calendula hand salve\" [level=2]\n    - paragraph: A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.\n    - text: £12.50\n    - paragraph: Contains lanolin. Not for use on broken skin.\n    - text: Sign up\n  - article:\n    - heading \"Field notes notebook\" [level=2]\n    - paragraph: A slim notebook with plain pages and a cloth cover, for lists and sketches alike.\n    - text: £9.00 Sign up\n  - article:\n    - heading \"Wool socks\" [level=2]\n    - text: £15.00 Sign up\n  - article:\n    - heading \"Apple and blackberry chutney\" [level=2]\n    - paragraph: Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.\n    - text: £6.40 Sign up\n  - article:\n    - heading \"Strawberry and elderflower cordial\" [level=2]\n    - paragraph: A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.\n    - text: £7.80\n    - paragraph: High in sugar. Best kept in the fridge once opened.\n    - text: Sign up\n  - text: Found something you like?\n  - heading \"Pick it, then sign up to buy it.\" [level=2]\n  - paragraph: Sign up opens Donkey app, where you add what you want to your basket and pay.\n  - text: Sign up Read how buying works\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w834-dark.png",
+      "thumbnail": "thumb-w834-dark.webp",
+      "modelImage": "model-w834-dark.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 1280,
+        "height": 3054,
+        "title": "Products",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "text": "What Donkey sells.",
+          "classes": "ds-display",
+          "eid": "e32",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 190,
+            "width": 589,
+            "height": 147
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Donkey's own honey",
+          "part": null,
+          "box": {
+            "x": 125,
+            "y": 1027,
+            "width": 299,
+            "height": 36
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 2724,
+            "width": 1072,
+            "height": 265
+          },
+          "page": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 3,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2724,
+            "width": 1280,
+            "height": 330
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 3054
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "content": {
+            "left": 148,
+            "right": 1176
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "What Donkey sells.",
+          "box": {
+            "x": 104,
+            "y": 190,
+            "width": 589,
+            "height": 147
+          },
+          "content": {
+            "left": 104,
+            "right": 536
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2724,
+            "width": 1280,
+            "height": 330
+          },
+          "content": {
+            "left": 104,
+            "right": 1176
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read how buying works"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Site pages",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey's own honey",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Sourdough loaf, baked this morning",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calendula hand salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Field notes notebook",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wool socks",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Apple and blackberry chutney",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Strawberry and elderflower cordial",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick it, then sign up to buy it.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Home",
+        "Products",
+        "How it works",
+        "About",
+        "Contact",
+        "Sign up",
+        "Everything in the shop",
+        "What Donkey",
+        "sells",
+        ".",
+        "Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.",
+        "7",
+        "Products in the shop",
+        "Donkey's own honey",
+        "Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.",
+        "£8.50",
+        "Sign up",
+        "Sourdough loaf, baked this morning",
+        "A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.",
+        "£4.20",
+        "Sign up",
+        "Calendula hand salve",
+        "A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.",
+        "£12.50",
+        "Contains lanolin. Not for use on broken skin.",
+        "Sign up",
+        "Field notes notebook",
+        "A slim notebook with plain pages and a cloth cover, for lists and sketches alike.",
+        "£9.00",
+        "Sign up",
+        "Wool socks",
+        "£15.00",
+        "Sign up",
+        "Apple and blackberry chutney",
+        "Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.",
+        "£6.40",
+        "Sign up",
+        "Strawberry and elderflower cordial",
+        "A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.",
+        "£7.80",
+        "High in sugar. Best kept in the fridge once opened.",
+        "Sign up",
+        "Found something you like?",
+        "Pick it, then sign up to buy it.",
+        "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+        "Sign up",
+        "Read how buying works",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 518,
+            "y": 2777,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 871,
+            "y": 2777,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 3010,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 1070,
+            "y": 3010,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "FOUND SOMETHING YOU LIKE?",
+          "text": "Found something you like?",
+          "classes": "ds-eyebrow",
+          "eid": "e100",
+          "control": false,
+          "decorative": false,
+          "heading": "Strawberry and elderflower cordial",
+          "part": null,
+          "box": {
+            "x": 152,
+            "y": 2385,
+            "width": 208,
+            "height": 19
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2820,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "text": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "classes": "",
+          "eid": "e102",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": null,
+          "box": {
+            "x": 152,
+            "y": 2473,
+            "width": 480,
+            "height": 51
+          },
+          "colour": "#ddece7",
+          "background": "#1c825d",
+          "ratio": 3.92,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 7,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - navigation \"Site pages\": Home Products How it works About Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - button \"Sign up\"\n  - text: Everything in the shop\n  - heading \"What Donkey sells.\" [level=1]:\n    - text: What Donkey\n    - emphasis: sells\n    - text: .\n  - paragraph: Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.\n  - text: 7 Products in the shop\n  - article:\n    - heading \"Donkey's own honey\" [level=2]\n    - paragraph: Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.\n    - text: £8.50 Sign up\n  - article:\n    - heading \"Sourdough loaf, baked this morning\" [level=2]\n    - paragraph: A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.\n    - text: £4.20 Sign up\n  - article:\n    - heading \"Calendula hand salve\" [level=2]\n    - paragraph: A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.\n    - text: £12.50\n    - paragraph: Contains lanolin. Not for use on broken skin.\n    - text: Sign up\n  - article:\n    - heading \"Field notes notebook\" [level=2]\n    - paragraph: A slim notebook with plain pages and a cloth cover, for lists and sketches alike.\n    - text: £9.00 Sign up\n  - article:\n    - heading \"Wool socks\" [level=2]\n    - text: £15.00 Sign up\n  - article:\n    - heading \"Apple and blackberry chutney\" [level=2]\n    - paragraph: Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.\n    - text: £6.40 Sign up\n  - article:\n    - heading \"Strawberry and elderflower cordial\" [level=2]\n    - paragraph: A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.\n    - text: £7.80\n    - paragraph: High in sugar. Best kept in the fridge once opened.\n    - text: Sign up\n  - text: Found something you like?\n  - heading \"Pick it, then sign up to buy it.\" [level=2]\n  - paragraph: Sign up opens Donkey app, where you add what you want to your basket and pay.\n  - text: Sign up Read how buying works\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w1280-light.png",
+      "thumbnail": "thumb-w1280-light.webp",
+      "modelImage": "model-w1280-light.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/b6b33fec-46b3-4d01-a160-b1000bee1fad/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 1280,
+        "height": 3054,
+        "title": "Products",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": false,
+        "by": 0,
+        "scrollable": false,
+        "elements": []
+      },
+      "clipped": [],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "text": "What Donkey sells.",
+          "classes": "ds-display",
+          "eid": "e32",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 190,
+            "width": 589,
+            "height": 147
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Donkey's own honey",
+          "part": null,
+          "box": {
+            "x": 125,
+            "y": 1027,
+            "width": 299,
+            "height": 36
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 2724,
+            "width": 1072,
+            "height": 265
+          },
+          "page": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 3,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey website Plain, useful things for the home and the garden, chosen by Donk…",
+          "classes": "dn-footer",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2724,
+            "width": 1280,
+            "height": 330
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Home Products How it wo…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 3054
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "content": {
+            "left": 148,
+            "right": 1176
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "What Donkey sells.",
+          "box": {
+            "x": 104,
+            "y": 190,
+            "width": 589,
+            "height": 147
+          },
+          "content": {
+            "left": 104,
+            "right": 536
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2724,
+            "width": 1280,
+            "height": 330
+          },
+          "content": {
+            "left": 104,
+            "right": 1176
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": true,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": null,
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "Read how buying works"
+        },
+        {
+          "target": "home",
+          "text": "Donkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "products",
+          "text": "Products"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "contact",
+          "text": "hello@donkey.example"
+        },
+        {
+          "target": "contact",
+          "text": "01234 567890"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Donkey website"
+        },
+        {
+          "href": "#",
+          "text": "Home"
+        },
+        {
+          "href": "#",
+          "text": "How it works"
+        },
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "About"
+        },
+        {
+          "href": "#",
+          "text": "Contact"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.example"
+        },
+        {
+          "href": "#",
+          "text": "01234 567890"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Site pages",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "SIGN UP",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "What Donkey sells.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey's own honey",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Sourdough loaf, baked this morning",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calendula hand salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Field notes notebook",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wool socks",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Apple and blackberry chutney",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Strawberry and elderflower cordial",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Pick it, then sign up to buy it.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Donkey website",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Home",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "How it works",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "About",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "Contact",
+          "depth": 2
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.example",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01234 567890",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Home",
+        "Products",
+        "How it works",
+        "About",
+        "Contact",
+        "Sign up",
+        "Everything in the shop",
+        "What Donkey",
+        "sells",
+        ".",
+        "Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.",
+        "7",
+        "Products in the shop",
+        "Donkey's own honey",
+        "Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.",
+        "£8.50",
+        "Sign up",
+        "Sourdough loaf, baked this morning",
+        "A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.",
+        "£4.20",
+        "Sign up",
+        "Calendula hand salve",
+        "A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.",
+        "£12.50",
+        "Contains lanolin. Not for use on broken skin.",
+        "Sign up",
+        "Field notes notebook",
+        "A slim notebook with plain pages and a cloth cover, for lists and sketches alike.",
+        "£9.00",
+        "Sign up",
+        "Wool socks",
+        "£15.00",
+        "Sign up",
+        "Apple and blackberry chutney",
+        "Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.",
+        "£6.40",
+        "Sign up",
+        "Strawberry and elderflower cordial",
+        "A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.",
+        "£7.80",
+        "High in sugar. Best kept in the fridge once opened.",
+        "Sign up",
+        "Found something you like?",
+        "Pick it, then sign up to buy it.",
+        "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+        "Sign up",
+        "Read how buying works",
+        "Donkey website",
+        "Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.",
+        "Pages",
+        "Home",
+        "How it works",
+        "Products",
+        "About",
+        "Contact",
+        "Reach us",
+        "hello@donkey.example",
+        "01234 567890",
+        "Donkey, a small shop for everyday things.",
+        "Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "PAGES",
+          "text": "Pages",
+          "classes": "dn-foot-caps",
+          "eid": "e9",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 518,
+            "y": 2777,
+            "width": 43,
+            "height": 14
+          },
+          "colour": "#b0d3c7",
+          "background": "#1c825d",
+          "ratio": 2.95,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH US",
+          "text": "Reach us",
+          "classes": "dn-foot-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 871,
+            "y": 2777,
+            "width": 66,
+            "height": 14
+          },
+          "colour": "#b0d3c6",
+          "background": "#1c825d",
+          "ratio": 2.96,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey, a small shop for everyday things.",
+          "text": "Donkey, a small shop for everyday things.",
+          "classes": "",
+          "eid": "e24",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 3010,
+            "width": 256,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds.",
+          "text": "Prices in pounds.",
+          "classes": "",
+          "eid": "e26",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 1070,
+            "y": 3010,
+            "width": 106,
+            "height": 20
+          },
+          "colour": "#bbdacf",
+          "background": "#1c825d",
+          "ratio": 3.18,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "FOUND SOMETHING YOU LIKE?",
+          "text": "Found something you like?",
+          "classes": "ds-eyebrow",
+          "eid": "e100",
+          "control": false,
+          "decorative": false,
+          "heading": "Strawberry and elderflower cordial",
+          "part": null,
+          "box": {
+            "x": 152,
+            "y": 2385,
+            "width": 208,
+            "height": 19
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "text": "Plain, useful things for the home and the garden, chosen by Donkey and sent out…",
+          "classes": "dn-foot-line",
+          "eid": "e7",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2820,
+            "width": 284,
+            "height": 72
+          },
+          "colour": "#d2e6df",
+          "background": "#1c825d",
+          "ratio": 3.66,
+          "required": 4.5,
+          "fontSize": 15,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "text": "Sign up opens Donkey app, where you add what you want to your basket and pay.",
+          "classes": "",
+          "eid": "e102",
+          "control": false,
+          "decorative": false,
+          "heading": "Pick it, then sign up to buy it.",
+          "part": null,
+          "box": {
+            "x": 152,
+            "y": 2473,
+            "width": 480,
+            "height": 51
+          },
+          "colour": "#ddece7",
+          "background": "#1c825d",
+          "ratio": 3.92,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 7,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - navigation \"Site pages\": Home Products How it works About Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - button \"Sign up\"\n  - text: Everything in the shop\n  - heading \"What Donkey sells.\" [level=1]:\n    - text: What Donkey\n    - emphasis: sells\n    - text: .\n  - paragraph: Every product here, with what it costs. Pick what you like, then use Sign up to buy it in the shop.\n  - text: 7 Products in the shop\n  - article:\n    - heading \"Donkey's own honey\" [level=2]\n    - paragraph: Raw honey from our own hives, jarred in small batches. A little grainy, the way real honey goes.\n    - text: £8.50 Sign up\n  - article:\n    - heading \"Sourdough loaf, baked this morning\" [level=2]\n    - paragraph: A slow rise and a dark crust. Baked each morning and sold the same day, so it never sits overnight.\n    - text: £4.20 Sign up\n  - article:\n    - heading \"Calendula hand salve\" [level=2]\n    - paragraph: A small tin of salve for dry hands, made with our own calendula. Keep it by the sink.\n    - text: £12.50\n    - paragraph: Contains lanolin. Not for use on broken skin.\n    - text: Sign up\n  - article:\n    - heading \"Field notes notebook\" [level=2]\n    - paragraph: A slim notebook with plain pages and a cloth cover, for lists and sketches alike.\n    - text: £9.00 Sign up\n  - article:\n    - heading \"Wool socks\" [level=2]\n    - text: £15.00 Sign up\n  - article:\n    - heading \"Apple and blackberry chutney\" [level=2]\n    - paragraph: Made from the orchard at the back of the farm, sharp and good with cheese or a hot pie.\n    - text: £6.40 Sign up\n  - article:\n    - heading \"Strawberry and elderflower cordial\" [level=2]\n    - paragraph: A tall bottle of cordial, made in June and bottled by hand. Mix it with cold water or fizz.\n    - text: £7.80\n    - paragraph: High in sugar. Best kept in the fridge once opened.\n    - text: Sign up\n  - text: Found something you like?\n  - heading \"Pick it, then sign up to buy it.\" [level=2]\n  - paragraph: Sign up opens Donkey app, where you add what you want to your basket and pay.\n  - text: Sign up Read how buying works\n  - link \"Donkey website\":\n    - /url: \"#\"\n  - paragraph: Plain, useful things for the home and the garden, chosen by Donkey and sent out from our workshop.\n  - text: Pages\n  - navigation \"Pages\":\n    - link \"Home\":\n      - /url: \"#\"\n    - link \"How it works\":\n      - /url: \"#\"\n    - link \"Products\":\n      - /url: \"#\"\n    - link \"About\":\n      - /url: \"#\"\n    - link \"Contact\":\n      - /url: \"#\"\n  - text: Reach us\n  - link \"hello@donkey.example\":\n    - /url: \"#\"\n    - img\n    - text: hello@donkey.example\n  - link \"01234 567890\":\n    - /url: \"#\"\n    - img\n    - text: 01234 567890\n  - text: Donkey, a small shop for everyday things. Prices in pounds.",
+      "screenshot": "w1280-dark.png",
+      "thumbnail": "thumb-w1280-dark.webp",
+      "modelImage": "model-w1280-dark.jpg"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-12T03:11:51.180Z"
+}

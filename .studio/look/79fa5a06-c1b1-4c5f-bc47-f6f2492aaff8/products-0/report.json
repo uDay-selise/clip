@@ -1,0 +1,6807 @@
+{
+  "version": 1,
+  "target": ".studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/products-0.html",
+  "kind": "file",
+  "situation": null,
+  "startedAt": "2026-11-12T04:33:21.627Z",
+  "views": [
+    {
+      "width": 390,
+      "mode": "light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 430,
+        "height": 5050,
+        "title": "Products",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 40,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "details",
+            "role": "generic",
+            "name": "",
+            "text": "HomeProductsHow it worksAboutContact",
+            "classes": "ds-menu ds-only-narrow",
+            "eid": null,
+            "control": false,
+            "decorative": false,
+            "heading": null,
+            "part": null,
+            "box": {
+              "x": 375,
+              "y": 16,
+              "width": 36,
+              "height": 36
+            },
+            "beyond": 21,
+            "controlsBeyond": []
+          },
+          {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 170,
+              "y": 3862,
+              "width": 260,
+              "height": 260
+            },
+            "beyond": 40,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "summary",
+            "role": "button",
+            "name": "Open the menu",
+            "text": "",
+            "classes": "ds-menu-button",
+            "eid": null,
+            "control": true,
+            "decorative": false,
+            "heading": null,
+            "part": null,
+            "box": {
+              "x": 375,
+              "y": 16,
+              "width": 36,
+              "height": 36
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        },
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 170,
+              "y": 3862,
+              "width": 260,
+              "height": 260
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "text": "Everything we sell, priced plainly.",
+          "classes": "ds-h1 ds-display",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 150,
+            "width": 358,
+            "height": 82
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e127",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": null,
+          "box": {
+            "x": 56,
+            "y": 4369,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 4494,
+            "width": 358,
+            "height": 556
+          },
+          "page": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": false,
+          "how": null
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 4493,
+            "width": 390,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 5050
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "content": {
+            "left": 58,
+            "right": 402
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything we sell, priced plainly.",
+          "box": {
+            "x": 16,
+            "y": 68,
+            "width": 358,
+            "height": 434
+          },
+          "content": {
+            "left": 16,
+            "right": 373
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Calm Nights lavender oil",
+          "box": {
+            "x": 0,
+            "y": 526,
+            "width": 390,
+            "height": 3537
+          },
+          "content": {
+            "left": 16,
+            "right": 374
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Take your pick into the shop.",
+          "box": {
+            "x": 16,
+            "y": 4147,
+            "width": 358,
+            "height": 306
+          },
+          "content": {
+            "left": 56,
+            "right": 333
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 4493,
+            "width": 390,
+            "height": 557
+          },
+          "content": {
+            "left": 16,
+            "right": 326
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "HOW IT WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calm Nights lavender oil",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Hand balm, unscented",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Nettle and mint tea, 20 bags",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wildflower seed tin",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey lip salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Rosehip face oil, 30ml",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Take your pick into the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign up",
+        "Sign in",
+        "The shop",
+        "Everything we sell, priced plainly.",
+        "Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.",
+        "6",
+        "On sale",
+        "£12.50",
+        "From",
+        "3 to 5 days",
+        "Delivery",
+        "On sale now",
+        "Prices in pounds, no extras",
+        "In stock",
+        "Oils",
+        "Calm Nights lavender oil",
+        "A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.",
+        "For adults. Keep away from children and ask your doctor if you are pregnant.",
+        "£12.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Hand balm, unscented",
+        "Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.",
+        "£8.00",
+        "Sign up",
+        "Low stock",
+        "Teas",
+        "Nettle and mint tea, 20 bags",
+        "Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.",
+        "A food, not a medicine. Not for children under 2.",
+        "£6.40",
+        "Sign up",
+        "In stock",
+        "Grow your own",
+        "Wildflower seed tin",
+        "Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.",
+        "£4.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Donkey lip salve",
+        "A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.",
+        "£3.20",
+        "Sign up",
+        "Oils",
+        "Rosehip face oil, 30ml",
+        "Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.",
+        "Patch test first if your skin is sensitive.",
+        "£18.00",
+        "Sign up",
+        "Ready to buy",
+        "Take your pick into the shop.",
+        "Signing up takes a minute. Then you can put things in a basket and pay at the checkout.",
+        "Sign up",
+        "How it works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Calm Nights lavender oil",
+          "text": "Calm Nights lavender oil",
+          "classes": "pr-name",
+          "eid": "e55",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 944,
+            "width": 318,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£12.50",
+          "text": "£12.50",
+          "classes": "pr-price",
+          "eid": "e60",
+          "control": false,
+          "decorative": false,
+          "heading": "Calm Nights lavender oil",
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 1143,
+            "width": 97,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Hand balm, unscented",
+          "text": "Hand balm, unscented",
+          "classes": "pr-name",
+          "eid": "e68",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 1549,
+            "width": 318,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£8.00",
+          "text": "£8.00",
+          "classes": "pr-price",
+          "eid": "e71",
+          "control": false,
+          "decorative": false,
+          "heading": "Hand balm, unscented",
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 1679,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Nettle and mint tea, 20 bags",
+          "text": "Nettle and mint tea, 20 bags",
+          "classes": "pr-name",
+          "eid": "e79",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 2084,
+            "width": 318,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£6.40",
+          "text": "£6.40",
+          "classes": "pr-price",
+          "eid": "e84",
+          "control": false,
+          "decorative": false,
+          "heading": "Nettle and mint tea, 20 bags",
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 2284,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Wildflower seed tin",
+          "text": "Wildflower seed tin",
+          "classes": "pr-name",
+          "eid": "e92",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 2690,
+            "width": 318,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£4.50",
+          "text": "£4.50",
+          "classes": "pr-price",
+          "eid": "e95",
+          "control": false,
+          "decorative": false,
+          "heading": "Wildflower seed tin",
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 2819,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Donkey lip salve",
+          "text": "Donkey lip salve",
+          "classes": "pr-name",
+          "eid": "e103",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 3225,
+            "width": 318,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£3.20",
+          "text": "£3.20",
+          "classes": "pr-price",
+          "eid": "e106",
+          "control": false,
+          "decorative": false,
+          "heading": "Donkey lip salve",
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 3355,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Rosehip face oil, 30ml",
+          "text": "Rosehip face oil, 30ml",
+          "classes": "pr-name",
+          "eid": "e113",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 3760,
+            "width": 318,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£18.00",
+          "text": "£18.00",
+          "classes": "pr-price",
+          "eid": "e118",
+          "control": false,
+          "decorative": false,
+          "heading": "Rosehip face oil, 30ml",
+          "part": null,
+          "box": {
+            "x": 36,
+            "y": 3941,
+            "width": 97,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4670,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4843,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4932,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5002,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4601,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "ON SALE NOW",
+          "text": "On sale now",
+          "classes": "ds-label-caps",
+          "eid": "e46",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 578,
+            "width": 88,
+            "height": 17
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds, no extras",
+          "text": "Prices in pounds, no extras",
+          "classes": "pr-band-note",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 208,
+            "y": 575,
+            "width": 166,
+            "height": 20
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "READY TO BUY",
+          "text": "Ready to buy",
+          "classes": "ds-eyebrow",
+          "eid": "e123",
+          "control": false,
+          "decorative": false,
+          "heading": "Rosehip face oil, 30ml",
+          "part": null,
+          "box": {
+            "x": 56,
+            "y": 4190,
+            "width": 100,
+            "height": 19
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.41,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Signing up takes a minute. Then you can put things in a basket and pay at the c…",
+          "text": "Signing up takes a minute. Then you can put things in a basket and pay at the c…",
+          "classes": "",
+          "eid": "e125",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": null,
+          "box": {
+            "x": 56,
+            "y": 4252,
+            "width": 278,
+            "height": 77
+          },
+          "colour": "#ddece7",
+          "background": "#1c825d",
+          "ratio": 3.92,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4902,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4699,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4729,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4759,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4788,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4873,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 27,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey Sign up Sign in\n  - group:\n    - img\n  - text: The shop\n  - heading \"Everything we sell, priced plainly.\" [level=1]\n  - paragraph: Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.\n  - text: 6 On sale £12.50 From 3 to 5 days Delivery On sale now Prices in pounds, no extras\n  - article:\n    - text: In stock Oils\n    - heading \"Calm Nights lavender oil\" [level=2]\n    - paragraph: A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.\n    - paragraph: For adults. Keep away from children and ask your doctor if you are pregnant.\n    - text: £12.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Hand balm, unscented\" [level=2]\n    - paragraph: Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.\n    - text: £8.00 Sign up\n  - article:\n    - text: Low stock Teas\n    - heading \"Nettle and mint tea, 20 bags\" [level=2]\n    - paragraph: Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.\n    - paragraph: A food, not a medicine. Not for children under 2.\n    - text: £6.40 Sign up\n  - article:\n    - text: In stock Grow your own\n    - heading \"Wildflower seed tin\" [level=2]\n    - paragraph: Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.\n    - text: £4.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Donkey lip salve\" [level=2]\n    - paragraph: A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.\n    - text: £3.20 Sign up\n  - article:\n    - text: Oils\n    - heading \"Rosehip face oil, 30ml\" [level=2]\n    - paragraph: Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.\n    - paragraph: Patch test first if your skin is sensitive.\n    - text: £18.00 Sign up\n  - text: Ready to buy\n  - heading \"Take your pick into the shop.\" [level=2]\n  - paragraph: Signing up takes a minute. Then you can put things in a basket and pay at the checkout.\n  - text: Sign up How it works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w390-light.png",
+      "thumbnail": "thumb-w390-light.webp",
+      "modelImage": "model-w390-light.jpg"
+    },
+    {
+      "width": 390,
+      "mode": "dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 430,
+        "height": 5050,
+        "title": "Products",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 40,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "details",
+            "role": "generic",
+            "name": "",
+            "text": "HomeProductsHow it worksAboutContact",
+            "classes": "ds-menu ds-only-narrow",
+            "eid": null,
+            "control": false,
+            "decorative": false,
+            "heading": null,
+            "part": null,
+            "box": {
+              "x": 375,
+              "y": 16,
+              "width": 36,
+              "height": 36
+            },
+            "beyond": 21,
+            "controlsBeyond": []
+          },
+          {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 170,
+              "y": 3862,
+              "width": 260,
+              "height": 260
+            },
+            "beyond": 40,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "summary",
+            "role": "button",
+            "name": "Open the menu",
+            "text": "",
+            "classes": "ds-menu-button",
+            "eid": null,
+            "control": true,
+            "decorative": false,
+            "heading": null,
+            "part": null,
+            "box": {
+              "x": 375,
+              "y": 16,
+              "width": 36,
+              "height": 36
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        },
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 170,
+              "y": 3862,
+              "width": 260,
+              "height": 260
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "text": "Everything we sell, priced plainly.",
+          "classes": "ds-h1 ds-display",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 150,
+            "width": 358,
+            "height": 82
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e127",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": null,
+          "box": {
+            "x": 56,
+            "y": 4369,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 16,
+            "y": 4494,
+            "width": 358,
+            "height": 556
+          },
+          "page": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": false,
+          "how": null
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 4493,
+            "width": 390,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 5050
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 16,
+            "y": 0,
+            "width": 358,
+            "height": 68
+          },
+          "content": {
+            "left": 58,
+            "right": 402
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything we sell, priced plainly.",
+          "box": {
+            "x": 16,
+            "y": 68,
+            "width": 358,
+            "height": 434
+          },
+          "content": {
+            "left": 16,
+            "right": 373
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Calm Nights lavender oil",
+          "box": {
+            "x": 0,
+            "y": 526,
+            "width": 390,
+            "height": 3537
+          },
+          "content": {
+            "left": 16,
+            "right": 374
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Take your pick into the shop.",
+          "box": {
+            "x": 16,
+            "y": 4147,
+            "width": 358,
+            "height": 306
+          },
+          "content": {
+            "left": 56,
+            "right": 333
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 4493,
+            "width": 390,
+            "height": 557
+          },
+          "content": {
+            "left": 16,
+            "right": 326
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#080b09",
+            "part": null
+          },
+          {
+            "name": "HOW IT WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calm Nights lavender oil",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Hand balm, unscented",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Nettle and mint tea, 20 bags",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wildflower seed tin",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey lip salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Rosehip face oil, 30ml",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Take your pick into the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign up",
+        "Sign in",
+        "The shop",
+        "Everything we sell, priced plainly.",
+        "Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.",
+        "6",
+        "On sale",
+        "£12.50",
+        "From",
+        "3 to 5 days",
+        "Delivery",
+        "On sale now",
+        "Prices in pounds, no extras",
+        "In stock",
+        "Oils",
+        "Calm Nights lavender oil",
+        "A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.",
+        "For adults. Keep away from children and ask your doctor if you are pregnant.",
+        "£12.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Hand balm, unscented",
+        "Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.",
+        "£8.00",
+        "Sign up",
+        "Low stock",
+        "Teas",
+        "Nettle and mint tea, 20 bags",
+        "Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.",
+        "A food, not a medicine. Not for children under 2.",
+        "£6.40",
+        "Sign up",
+        "In stock",
+        "Grow your own",
+        "Wildflower seed tin",
+        "Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.",
+        "£4.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Donkey lip salve",
+        "A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.",
+        "£3.20",
+        "Sign up",
+        "Oils",
+        "Rosehip face oil, 30ml",
+        "Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.",
+        "Patch test first if your skin is sensitive.",
+        "£18.00",
+        "Sign up",
+        "Ready to buy",
+        "Take your pick into the shop.",
+        "Signing up takes a minute. Then you can put things in a basket and pay at the checkout.",
+        "Sign up",
+        "How it works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4670,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4843,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4932,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 5002,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4601,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "ON SALE NOW",
+          "text": "On sale now",
+          "classes": "ds-label-caps",
+          "eid": "e46",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 16,
+            "y": 578,
+            "width": 88,
+            "height": 17
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds, no extras",
+          "text": "Prices in pounds, no extras",
+          "classes": "pr-band-note",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 208,
+            "y": 575,
+            "width": 166,
+            "height": 20
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4902,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4699,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4729,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4759,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4788,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 16,
+            "y": 4873,
+            "width": 358,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "READY TO BUY",
+          "text": "Ready to buy",
+          "classes": "ds-eyebrow",
+          "eid": "e123",
+          "control": false,
+          "decorative": false,
+          "heading": "Rosehip face oil, 30ml",
+          "part": null,
+          "box": {
+            "x": 56,
+            "y": 4190,
+            "width": 100,
+            "height": 19
+          },
+          "colour": "#173226",
+          "background": "#3c9b75",
+          "ratio": 4.02,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 14,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey Sign up Sign in\n  - group:\n    - img\n  - text: The shop\n  - heading \"Everything we sell, priced plainly.\" [level=1]\n  - paragraph: Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.\n  - text: 6 On sale £12.50 From 3 to 5 days Delivery On sale now Prices in pounds, no extras\n  - article:\n    - text: In stock Oils\n    - heading \"Calm Nights lavender oil\" [level=2]\n    - paragraph: A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.\n    - paragraph: For adults. Keep away from children and ask your doctor if you are pregnant.\n    - text: £12.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Hand balm, unscented\" [level=2]\n    - paragraph: Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.\n    - text: £8.00 Sign up\n  - article:\n    - text: Low stock Teas\n    - heading \"Nettle and mint tea, 20 bags\" [level=2]\n    - paragraph: Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.\n    - paragraph: A food, not a medicine. Not for children under 2.\n    - text: £6.40 Sign up\n  - article:\n    - text: In stock Grow your own\n    - heading \"Wildflower seed tin\" [level=2]\n    - paragraph: Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.\n    - text: £4.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Donkey lip salve\" [level=2]\n    - paragraph: A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.\n    - text: £3.20 Sign up\n  - article:\n    - text: Oils\n    - heading \"Rosehip face oil, 30ml\" [level=2]\n    - paragraph: Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.\n    - paragraph: Patch test first if your skin is sensitive.\n    - text: £18.00 Sign up\n  - text: Ready to buy\n  - heading \"Take your pick into the shop.\" [level=2]\n  - paragraph: Signing up takes a minute. Then you can put things in a basket and pay at the checkout.\n  - text: Sign up How it works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w390-dark.png",
+      "thumbnail": "thumb-w390-dark.webp",
+      "modelImage": "model-w390-dark.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "light",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 874,
+        "height": 3313,
+        "title": "Products",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 40,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 614,
+              "y": 2207,
+              "width": 260,
+              "height": 260
+            },
+            "beyond": 40,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 614,
+              "y": 2207,
+              "width": 260,
+              "height": 260
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "text": "Everything we sell, priced plainly.",
+          "classes": "ds-h1 ds-display",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 150,
+            "width": 786,
+            "height": 51
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e127",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": null,
+          "box": {
+            "x": 506,
+            "y": 2580,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 2758,
+            "width": 786,
+            "height": 556
+          },
+          "page": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2757,
+            "width": 834,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 3313
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "content": {
+            "left": 66,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything we sell, priced plainly.",
+          "box": {
+            "x": 24,
+            "y": 68,
+            "width": 786,
+            "height": 352
+          },
+          "content": {
+            "left": 24,
+            "right": 773
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Calm Nights lavender oil",
+          "box": {
+            "x": 0,
+            "y": 444,
+            "width": 834,
+            "height": 1964
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Take your pick into the shop.",
+          "box": {
+            "x": 24,
+            "y": 2504,
+            "width": 786,
+            "height": 197
+          },
+          "content": {
+            "left": 64,
+            "right": 755
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2757,
+            "width": 834,
+            "height": 557
+          },
+          "content": {
+            "left": 24,
+            "right": 334
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "HOW IT WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calm Nights lavender oil",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Hand balm, unscented",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Nettle and mint tea, 20 bags",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wildflower seed tin",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey lip salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Rosehip face oil, 30ml",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Take your pick into the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign up",
+        "Sign in",
+        "The shop",
+        "Everything we sell, priced plainly.",
+        "Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.",
+        "6",
+        "On sale",
+        "£12.50",
+        "From",
+        "3 to 5 days",
+        "Delivery",
+        "On sale now",
+        "Prices in pounds, no extras",
+        "In stock",
+        "Oils",
+        "Calm Nights lavender oil",
+        "A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.",
+        "For adults. Keep away from children and ask your doctor if you are pregnant.",
+        "£12.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Hand balm, unscented",
+        "Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.",
+        "£8.00",
+        "Sign up",
+        "Low stock",
+        "Teas",
+        "Nettle and mint tea, 20 bags",
+        "Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.",
+        "A food, not a medicine. Not for children under 2.",
+        "£6.40",
+        "Sign up",
+        "In stock",
+        "Grow your own",
+        "Wildflower seed tin",
+        "Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.",
+        "£4.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Donkey lip salve",
+        "A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.",
+        "£3.20",
+        "Sign up",
+        "Oils",
+        "Rosehip face oil, 30ml",
+        "Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.",
+        "Patch test first if your skin is sensitive.",
+        "£18.00",
+        "Sign up",
+        "Ready to buy",
+        "Take your pick into the shop.",
+        "Signing up takes a minute. Then you can put things in a basket and pay at the checkout.",
+        "Sign up",
+        "How it works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Calm Nights lavender oil",
+          "text": "Calm Nights lavender oil",
+          "classes": "pr-name",
+          "eid": "e55",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 44,
+            "y": 879,
+            "width": 341,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£12.50",
+          "text": "£12.50",
+          "classes": "pr-price",
+          "eid": "e60",
+          "control": false,
+          "decorative": false,
+          "heading": "Calm Nights lavender oil",
+          "part": null,
+          "box": {
+            "x": 44,
+            "y": 1079,
+            "width": 97,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Hand balm, unscented",
+          "text": "Hand balm, unscented",
+          "classes": "pr-name",
+          "eid": "e68",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 449,
+            "y": 879,
+            "width": 341,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£8.00",
+          "text": "£8.00",
+          "classes": "pr-price",
+          "eid": "e71",
+          "control": false,
+          "decorative": false,
+          "heading": "Hand balm, unscented",
+          "part": null,
+          "box": {
+            "x": 449,
+            "y": 1079,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Nettle and mint tea, 20 bags",
+          "text": "Nettle and mint tea, 20 bags",
+          "classes": "pr-name",
+          "eid": "e79",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 44,
+            "y": 1502,
+            "width": 341,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£6.40",
+          "text": "£6.40",
+          "classes": "pr-price",
+          "eid": "e84",
+          "control": false,
+          "decorative": false,
+          "heading": "Nettle and mint tea, 20 bags",
+          "part": null,
+          "box": {
+            "x": 44,
+            "y": 1683,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Wildflower seed tin",
+          "text": "Wildflower seed tin",
+          "classes": "pr-name",
+          "eid": "e92",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 449,
+            "y": 1502,
+            "width": 341,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£4.50",
+          "text": "£4.50",
+          "classes": "pr-price",
+          "eid": "e95",
+          "control": false,
+          "decorative": false,
+          "heading": "Wildflower seed tin",
+          "part": null,
+          "box": {
+            "x": 449,
+            "y": 1683,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Donkey lip salve",
+          "text": "Donkey lip salve",
+          "classes": "pr-name",
+          "eid": "e103",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 44,
+            "y": 2105,
+            "width": 341,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£3.20",
+          "text": "£3.20",
+          "classes": "pr-price",
+          "eid": "e106",
+          "control": false,
+          "decorative": false,
+          "heading": "Donkey lip salve",
+          "part": null,
+          "box": {
+            "x": 44,
+            "y": 2286,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Rosehip face oil, 30ml",
+          "text": "Rosehip face oil, 30ml",
+          "classes": "pr-name",
+          "eid": "e113",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 449,
+            "y": 2105,
+            "width": 341,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£18.00",
+          "text": "£18.00",
+          "classes": "pr-price",
+          "eid": "e118",
+          "control": false,
+          "decorative": false,
+          "heading": "Rosehip face oil, 30ml",
+          "part": null,
+          "box": {
+            "x": 449,
+            "y": 2286,
+            "width": 97,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2934,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3107,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3196,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3265,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2865,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "ON SALE NOW",
+          "text": "On sale now",
+          "classes": "ds-label-caps",
+          "eid": "e46",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 496,
+            "width": 88,
+            "height": 17
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds, no extras",
+          "text": "Prices in pounds, no extras",
+          "classes": "pr-band-note",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 644,
+            "y": 493,
+            "width": 166,
+            "height": 20
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "READY TO BUY",
+          "text": "Ready to buy",
+          "classes": "ds-eyebrow",
+          "eid": "e123",
+          "control": false,
+          "decorative": false,
+          "heading": "Rosehip face oil, 30ml",
+          "part": null,
+          "box": {
+            "x": 64,
+            "y": 2547,
+            "width": 100,
+            "height": 19
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.41,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Signing up takes a minute. Then you can put things in a basket and pay at the c…",
+          "text": "Signing up takes a minute. Then you can put things in a basket and pay at the c…",
+          "classes": "",
+          "eid": "e125",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": null,
+          "box": {
+            "x": 64,
+            "y": 2610,
+            "width": 349,
+            "height": 51
+          },
+          "colour": "#ddece7",
+          "background": "#1c825d",
+          "ratio": 3.92,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3166,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2963,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2993,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3022,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3052,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3136,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 27,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey Sign up Sign in\n  - group:\n    - img\n  - text: The shop\n  - heading \"Everything we sell, priced plainly.\" [level=1]\n  - paragraph: Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.\n  - text: 6 On sale £12.50 From 3 to 5 days Delivery On sale now Prices in pounds, no extras\n  - article:\n    - text: In stock Oils\n    - heading \"Calm Nights lavender oil\" [level=2]\n    - paragraph: A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.\n    - paragraph: For adults. Keep away from children and ask your doctor if you are pregnant.\n    - text: £12.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Hand balm, unscented\" [level=2]\n    - paragraph: Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.\n    - text: £8.00 Sign up\n  - article:\n    - text: Low stock Teas\n    - heading \"Nettle and mint tea, 20 bags\" [level=2]\n    - paragraph: Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.\n    - paragraph: A food, not a medicine. Not for children under 2.\n    - text: £6.40 Sign up\n  - article:\n    - text: In stock Grow your own\n    - heading \"Wildflower seed tin\" [level=2]\n    - paragraph: Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.\n    - text: £4.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Donkey lip salve\" [level=2]\n    - paragraph: A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.\n    - text: £3.20 Sign up\n  - article:\n    - text: Oils\n    - heading \"Rosehip face oil, 30ml\" [level=2]\n    - paragraph: Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.\n    - paragraph: Patch test first if your skin is sensitive.\n    - text: £18.00 Sign up\n  - text: Ready to buy\n  - heading \"Take your pick into the shop.\" [level=2]\n  - paragraph: Signing up takes a minute. Then you can put things in a basket and pay at the checkout.\n  - text: Sign up How it works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w834-light.png",
+      "thumbnail": "thumb-w834-light.webp",
+      "modelImage": "model-w834-light.jpg"
+    },
+    {
+      "width": 834,
+      "mode": "dark",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 874,
+        "height": 3313,
+        "title": "Products",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 40,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 614,
+              "y": 2207,
+              "width": 260,
+              "height": 260
+            },
+            "beyond": 40,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 614,
+              "y": 2207,
+              "width": 260,
+              "height": 260
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "text": "Everything we sell, priced plainly.",
+          "classes": "ds-h1 ds-display",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 150,
+            "width": 786,
+            "height": 51
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e127",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": null,
+          "box": {
+            "x": 506,
+            "y": 2580,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 24,
+            "y": 2758,
+            "width": 786,
+            "height": 556
+          },
+          "page": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "menu"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2757,
+            "width": 834,
+            "height": 557
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 834,
+            "height": 3313
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 24,
+            "y": 0,
+            "width": 786,
+            "height": 68
+          },
+          "content": {
+            "left": 66,
+            "right": 801
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything we sell, priced plainly.",
+          "box": {
+            "x": 24,
+            "y": 68,
+            "width": 786,
+            "height": 352
+          },
+          "content": {
+            "left": 24,
+            "right": 773
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Calm Nights lavender oil",
+          "box": {
+            "x": 0,
+            "y": 444,
+            "width": 834,
+            "height": 1964
+          },
+          "content": {
+            "left": 24,
+            "right": 810
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Take your pick into the shop.",
+          "box": {
+            "x": 24,
+            "y": 2504,
+            "width": 786,
+            "height": 197
+          },
+          "content": {
+            "left": 64,
+            "right": 755
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2757,
+            "width": 834,
+            "height": 557
+          },
+          "content": {
+            "left": 24,
+            "right": 334
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#080b09",
+            "part": null
+          },
+          {
+            "name": "HOW IT WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Open the menu",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calm Nights lavender oil",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Hand balm, unscented",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Nettle and mint tea, 20 bags",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wildflower seed tin",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey lip salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Rosehip face oil, 30ml",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Take your pick into the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Sign up",
+        "Sign in",
+        "The shop",
+        "Everything we sell, priced plainly.",
+        "Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.",
+        "6",
+        "On sale",
+        "£12.50",
+        "From",
+        "3 to 5 days",
+        "Delivery",
+        "On sale now",
+        "Prices in pounds, no extras",
+        "In stock",
+        "Oils",
+        "Calm Nights lavender oil",
+        "A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.",
+        "For adults. Keep away from children and ask your doctor if you are pregnant.",
+        "£12.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Hand balm, unscented",
+        "Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.",
+        "£8.00",
+        "Sign up",
+        "Low stock",
+        "Teas",
+        "Nettle and mint tea, 20 bags",
+        "Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.",
+        "A food, not a medicine. Not for children under 2.",
+        "£6.40",
+        "Sign up",
+        "In stock",
+        "Grow your own",
+        "Wildflower seed tin",
+        "Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.",
+        "£4.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Donkey lip salve",
+        "A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.",
+        "£3.20",
+        "Sign up",
+        "Oils",
+        "Rosehip face oil, 30ml",
+        "Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.",
+        "Patch test first if your skin is sensitive.",
+        "£18.00",
+        "Sign up",
+        "Ready to buy",
+        "Take your pick into the shop.",
+        "Signing up takes a minute. Then you can put things in a basket and pay at the checkout.",
+        "Sign up",
+        "How it works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2934,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3107,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3196,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3265,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2865,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "ON SALE NOW",
+          "text": "On sale now",
+          "classes": "ds-label-caps",
+          "eid": "e46",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 24,
+            "y": 496,
+            "width": 88,
+            "height": 17
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds, no extras",
+          "text": "Prices in pounds, no extras",
+          "classes": "pr-band-note",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 644,
+            "y": 493,
+            "width": 166,
+            "height": 20
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3166,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2963,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 2993,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3022,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3052,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 24,
+            "y": 3136,
+            "width": 786,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "READY TO BUY",
+          "text": "Ready to buy",
+          "classes": "ds-eyebrow",
+          "eid": "e123",
+          "control": false,
+          "decorative": false,
+          "heading": "Rosehip face oil, 30ml",
+          "part": null,
+          "box": {
+            "x": 64,
+            "y": 2547,
+            "width": 100,
+            "height": 19
+          },
+          "colour": "#173226",
+          "background": "#3c9b75",
+          "ratio": 4.02,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 14,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey Sign up Sign in\n  - group:\n    - img\n  - text: The shop\n  - heading \"Everything we sell, priced plainly.\" [level=1]\n  - paragraph: Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.\n  - text: 6 On sale £12.50 From 3 to 5 days Delivery On sale now Prices in pounds, no extras\n  - article:\n    - text: In stock Oils\n    - heading \"Calm Nights lavender oil\" [level=2]\n    - paragraph: A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.\n    - paragraph: For adults. Keep away from children and ask your doctor if you are pregnant.\n    - text: £12.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Hand balm, unscented\" [level=2]\n    - paragraph: Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.\n    - text: £8.00 Sign up\n  - article:\n    - text: Low stock Teas\n    - heading \"Nettle and mint tea, 20 bags\" [level=2]\n    - paragraph: Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.\n    - paragraph: A food, not a medicine. Not for children under 2.\n    - text: £6.40 Sign up\n  - article:\n    - text: In stock Grow your own\n    - heading \"Wildflower seed tin\" [level=2]\n    - paragraph: Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.\n    - text: £4.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Donkey lip salve\" [level=2]\n    - paragraph: A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.\n    - text: £3.20 Sign up\n  - article:\n    - text: Oils\n    - heading \"Rosehip face oil, 30ml\" [level=2]\n    - paragraph: Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.\n    - paragraph: Patch test first if your skin is sensitive.\n    - text: £18.00 Sign up\n  - text: Ready to buy\n  - heading \"Take your pick into the shop.\" [level=2]\n  - paragraph: Signing up takes a minute. Then you can put things in a basket and pay at the checkout.\n  - text: Sign up How it works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w834-dark.png",
+      "thumbnail": "thumb-w834-dark.webp",
+      "modelImage": "model-w834-dark.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 1320,
+        "height": 2467,
+        "title": "Products",
+        "rootClass": "",
+        "prefersDark": false
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 40,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 1060,
+              "y": 1612,
+              "width": 260,
+              "height": 260
+            },
+            "beyond": 40,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 1060,
+              "y": 1612,
+              "width": 260,
+              "height": 260
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "text": "Everything we sell, priced plainly.",
+          "classes": "ds-h1 ds-display",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 158,
+            "width": 588,
+            "height": 220
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e127",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": null,
+          "box": {
+            "x": 872,
+            "y": 1991,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 2174,
+            "width": 1072,
+            "height": 293
+          },
+          "page": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2173,
+            "width": 1280,
+            "height": 294
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 2467
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "content": {
+            "left": 146,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything we sell, priced plainly.",
+          "box": {
+            "x": 104,
+            "y": 75,
+            "width": 1072,
+            "height": 413
+          },
+          "content": {
+            "left": 104,
+            "right": 1090
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Calm Nights lavender oil",
+          "box": {
+            "x": 0,
+            "y": 512,
+            "width": 1280,
+            "height": 1301
+          },
+          "content": {
+            "left": 104,
+            "right": 1176
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Take your pick into the shop.",
+          "box": {
+            "x": 104,
+            "y": 1909,
+            "width": 1072,
+            "height": 208
+          },
+          "content": {
+            "left": 144,
+            "right": 1121
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2173,
+            "width": 1280,
+            "height": 294
+          },
+          "content": {
+            "left": 104,
+            "right": 1144
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#1c825d",
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "HOW IT WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Site pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calm Nights lavender oil",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Hand balm, unscented",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Nettle and mint tea, 20 bags",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wildflower seed tin",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey lip salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Rosehip face oil, 30ml",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Take your pick into the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Home",
+        "Products",
+        "How it works",
+        "About",
+        "Contact",
+        "Sign up",
+        "Sign in",
+        "The shop",
+        "Everything we sell, priced plainly.",
+        "Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.",
+        "6",
+        "On sale",
+        "£12.50",
+        "From",
+        "3 to 5 days",
+        "Delivery",
+        "On sale now",
+        "Prices in pounds, no extras",
+        "In stock",
+        "Oils",
+        "Calm Nights lavender oil",
+        "A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.",
+        "For adults. Keep away from children and ask your doctor if you are pregnant.",
+        "£12.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Hand balm, unscented",
+        "Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.",
+        "£8.00",
+        "Sign up",
+        "Low stock",
+        "Teas",
+        "Nettle and mint tea, 20 bags",
+        "Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.",
+        "A food, not a medicine. Not for children under 2.",
+        "£6.40",
+        "Sign up",
+        "In stock",
+        "Grow your own",
+        "Wildflower seed tin",
+        "Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.",
+        "£4.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Donkey lip salve",
+        "A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.",
+        "£3.20",
+        "Sign up",
+        "Oils",
+        "Rosehip face oil, 30ml",
+        "Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.",
+        "Patch test first if your skin is sensitive.",
+        "£18.00",
+        "Sign up",
+        "Ready to buy",
+        "Take your pick into the shop.",
+        "Signing up takes a minute. Then you can put things in a basket and pay at the checkout.",
+        "Sign up",
+        "How it works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Calm Nights lavender oil",
+          "text": "Calm Nights lavender oil",
+          "classes": "pr-name",
+          "eid": "e55",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 124,
+            "y": 918,
+            "width": 301,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£12.50",
+          "text": "£12.50",
+          "classes": "pr-price",
+          "eid": "e60",
+          "control": false,
+          "decorative": false,
+          "heading": "Calm Nights lavender oil",
+          "part": null,
+          "box": {
+            "x": 124,
+            "y": 1117,
+            "width": 97,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Hand balm, unscented",
+          "text": "Hand balm, unscented",
+          "classes": "pr-name",
+          "eid": "e68",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 489,
+            "y": 918,
+            "width": 301,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£8.00",
+          "text": "£8.00",
+          "classes": "pr-price",
+          "eid": "e71",
+          "control": false,
+          "decorative": false,
+          "heading": "Hand balm, unscented",
+          "part": null,
+          "box": {
+            "x": 489,
+            "y": 1117,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Nettle and mint tea, 20 bags",
+          "text": "Nettle and mint tea, 20 bags",
+          "classes": "pr-name",
+          "eid": "e79",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 855,
+            "y": 918,
+            "width": 301,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£6.40",
+          "text": "£6.40",
+          "classes": "pr-price",
+          "eid": "e84",
+          "control": false,
+          "decorative": false,
+          "heading": "Nettle and mint tea, 20 bags",
+          "part": null,
+          "box": {
+            "x": 855,
+            "y": 1117,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Wildflower seed tin",
+          "text": "Wildflower seed tin",
+          "classes": "pr-name",
+          "eid": "e92",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 124,
+            "y": 1510,
+            "width": 301,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£4.50",
+          "text": "£4.50",
+          "classes": "pr-price",
+          "eid": "e95",
+          "control": false,
+          "decorative": false,
+          "heading": "Wildflower seed tin",
+          "part": null,
+          "box": {
+            "x": 124,
+            "y": 1691,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Donkey lip salve",
+          "text": "Donkey lip salve",
+          "classes": "pr-name",
+          "eid": "e103",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 489,
+            "y": 1510,
+            "width": 301,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£3.20",
+          "text": "£3.20",
+          "classes": "pr-price",
+          "eid": "e106",
+          "control": false,
+          "decorative": false,
+          "heading": "Donkey lip salve",
+          "part": null,
+          "box": {
+            "x": 489,
+            "y": 1691,
+            "width": 79,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "h2",
+          "role": "heading",
+          "name": "Rosehip face oil, 30ml",
+          "text": "Rosehip face oil, 30ml",
+          "classes": "pr-name",
+          "eid": "e113",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 855,
+            "y": 1510,
+            "width": 301,
+            "height": 25
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 21,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "£18.00",
+          "text": "£18.00",
+          "classes": "pr-price",
+          "eid": "e118",
+          "control": false,
+          "decorative": false,
+          "heading": "Rosehip face oil, 30ml",
+          "part": null,
+          "box": {
+            "x": 855,
+            "y": 1691,
+            "width": 97,
+            "height": 30
+          },
+          "colour": "#ffffff",
+          "background": "#ffffff",
+          "ratio": 1,
+          "required": 3,
+          "fontSize": 30,
+          "bold": true
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2231,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2231,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2320,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2419,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2281,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "ON SALE NOW",
+          "text": "On sale now",
+          "classes": "ds-label-caps",
+          "eid": "e46",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 564,
+            "width": 88,
+            "height": 17
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds, no extras",
+          "text": "Prices in pounds, no extras",
+          "classes": "pr-band-note",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 1010,
+            "y": 561,
+            "width": 166,
+            "height": 20
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "READY TO BUY",
+          "text": "Ready to buy",
+          "classes": "ds-eyebrow",
+          "eid": "e123",
+          "control": false,
+          "decorative": false,
+          "heading": "Rosehip face oil, 30ml",
+          "part": null,
+          "box": {
+            "x": 144,
+            "y": 1952,
+            "width": 100,
+            "height": 19
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.41,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Signing up takes a minute. Then you can put things in a basket and pay at the c…",
+          "text": "Signing up takes a minute. Then you can put things in a basket and pay at the c…",
+          "classes": "",
+          "eid": "e125",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": null,
+          "box": {
+            "x": 144,
+            "y": 2026,
+            "width": 384,
+            "height": 51
+          },
+          "colour": "#ddece7",
+          "background": "#1c825d",
+          "ratio": 3.92,
+          "required": 4.5,
+          "fontSize": 16,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2290,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2260,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2290,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2320,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2350,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2260,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 27,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - navigation \"Site pages\":\n    - text: Home\n    - link \"Products\":\n      - /url: \"#\"\n    - text: How it works About Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Sign up Sign in The shop\n  - heading \"Everything we sell, priced plainly.\" [level=1]\n  - paragraph: Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.\n  - text: 6 On sale £12.50 From 3 to 5 days Delivery On sale now Prices in pounds, no extras\n  - article:\n    - text: In stock Oils\n    - heading \"Calm Nights lavender oil\" [level=2]\n    - paragraph: A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.\n    - paragraph: For adults. Keep away from children and ask your doctor if you are pregnant.\n    - text: £12.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Hand balm, unscented\" [level=2]\n    - paragraph: Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.\n    - text: £8.00 Sign up\n  - article:\n    - text: Low stock Teas\n    - heading \"Nettle and mint tea, 20 bags\" [level=2]\n    - paragraph: Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.\n    - paragraph: A food, not a medicine. Not for children under 2.\n    - text: £6.40 Sign up\n  - article:\n    - text: In stock Grow your own\n    - heading \"Wildflower seed tin\" [level=2]\n    - paragraph: Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.\n    - text: £4.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Donkey lip salve\" [level=2]\n    - paragraph: A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.\n    - text: £3.20 Sign up\n  - article:\n    - text: Oils\n    - heading \"Rosehip face oil, 30ml\" [level=2]\n    - paragraph: Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.\n    - paragraph: Patch test first if your skin is sensitive.\n    - text: £18.00 Sign up\n  - text: Ready to buy\n  - heading \"Take your pick into the shop.\" [level=2]\n  - paragraph: Signing up takes a minute. Then you can put things in a basket and pay at the checkout.\n  - text: Sign up How it works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w1280-light.png",
+      "thumbnail": "thumb-w1280-light.webp",
+      "modelImage": "model-w1280-light.jpg"
+    },
+    {
+      "width": 1280,
+      "mode": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "title": "Products",
+      "url": "file:///workspace/.studio/look/79fa5a06-c1b1-4c5f-bc47-f6f2492aaff8/products-0.html",
+      "situation": null,
+      "document": {
+        "width": 1320,
+        "height": 2467,
+        "title": "Products",
+        "rootClass": "dark",
+        "prefersDark": true
+      },
+      "overflow": {
+        "horizontal": true,
+        "by": 40,
+        "scrollable": false,
+        "elements": [
+          {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 1060,
+              "y": 1612,
+              "width": 260,
+              "height": 260
+            },
+            "beyond": 40,
+            "controlsBeyond": []
+          }
+        ]
+      },
+      "clipped": [
+        {
+          "element": {
+            "tag": "svg",
+            "role": "img",
+            "name": "",
+            "text": "",
+            "classes": "ds-deco pr-close-shape",
+            "eid": null,
+            "control": false,
+            "decorative": true,
+            "heading": "Everything we sell, priced plainly.",
+            "part": null,
+            "box": {
+              "x": 1060,
+              "y": 1612,
+              "width": 260,
+              "height": 260
+            }
+          },
+          "kind": "viewport",
+          "fully": false,
+          "by": null
+        }
+      ],
+      "scrolledAway": [],
+      "crowded": [],
+      "columnBackgrounds": [],
+      "covered": [],
+      "smallControls": [],
+      "logos": [],
+      "expectations": {
+        "title": {
+          "tag": "h1",
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "text": "Everything we sell, priced plainly.",
+          "classes": "ds-h1 ds-display",
+          "eid": "e34",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 158,
+            "width": 588,
+            "height": 220
+          },
+          "shown": true
+        },
+        "mainAction": {
+          "tag": "a",
+          "role": "generic",
+          "name": "SIGN UP",
+          "text": "Sign up",
+          "classes": "ds-btn ds-btn-lg",
+          "eid": "e127",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": null,
+          "box": {
+            "x": 872,
+            "y": 1991,
+            "width": 107,
+            "height": 44
+          },
+          "shown": true
+        },
+        "columns": {
+          "bar": {
+            "x": 104,
+            "y": 2174,
+            "width": 1072,
+            "height": 293
+          },
+          "page": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "left": 0,
+          "right": 0,
+          "split": false
+        },
+        "themeSwitch": {
+          "count": 2,
+          "reachable": true,
+          "how": "shown"
+        },
+        "situationsShowing": [],
+        "messagesShowing": []
+      },
+      "firstContentTop": 16,
+      "frame": {
+        "header": {
+          "tag": "header",
+          "role": "generic",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "pr-top",
+          "eid": "e3",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "atTop": true,
+          "fullWidth": false
+        },
+        "footer": {
+          "tag": "footer",
+          "role": "generic",
+          "name": "",
+          "text": "DDonkey website Everyday goods and small prices from Donkey. The pages Home How…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 0,
+            "y": 2173,
+            "width": 1280,
+            "height": 294
+          },
+          "atBottom": true
+        },
+        "sidebar": null,
+        "main": {
+          "tag": "main",
+          "role": "main",
+          "name": "",
+          "text": "Donkey Home Products How it works About Contact Sign up Sign in HomeProductsHow…",
+          "classes": "",
+          "eid": "e1",
+          "control": false,
+          "decorative": false,
+          "heading": null,
+          "part": null,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 2467
+          }
+        }
+      },
+      "regions": [
+        {
+          "kind": "header",
+          "name": "",
+          "box": {
+            "x": 104,
+            "y": 0,
+            "width": 1072,
+            "height": 75
+          },
+          "content": {
+            "left": 146,
+            "right": 1164
+          }
+        },
+        {
+          "kind": "pagehead",
+          "name": "Everything we sell, priced plainly.",
+          "box": {
+            "x": 104,
+            "y": 75,
+            "width": 1072,
+            "height": 413
+          },
+          "content": {
+            "left": 104,
+            "right": 1090
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Calm Nights lavender oil",
+          "box": {
+            "x": 0,
+            "y": 512,
+            "width": 1280,
+            "height": 1301
+          },
+          "content": {
+            "left": 104,
+            "right": 1176
+          }
+        },
+        {
+          "kind": "section",
+          "name": "Take your pick into the shop.",
+          "box": {
+            "x": 104,
+            "y": 1909,
+            "width": 1072,
+            "height": 208
+          },
+          "content": {
+            "left": 144,
+            "right": 1121
+          }
+        },
+        {
+          "kind": "footer",
+          "name": "",
+          "box": {
+            "x": 0,
+            "y": 2173,
+            "width": 1280,
+            "height": 294
+          },
+          "content": {
+            "left": 104,
+            "right": 1144
+          }
+        }
+      ],
+      "styles": {
+        "fontFamily": "Inter Variable",
+        "headingFont": "Space Grotesk Variable",
+        "buttons": [
+          {
+            "name": "Light",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "Dark",
+            "primary": false,
+            "radius": 999,
+            "background": "#ffffff",
+            "part": null
+          },
+          {
+            "name": "Auto",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#3c9b75",
+            "part": null
+          },
+          {
+            "name": "SIGN IN",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#141816",
+            "part": null
+          },
+          {
+            "name": "SIGN UP",
+            "primary": false,
+            "radius": 999,
+            "background": "#080b09",
+            "part": null
+          },
+          {
+            "name": "HOW IT WORKS",
+            "primary": false,
+            "radius": 999,
+            "background": null,
+            "part": null
+          }
+        ],
+        "cards": []
+      },
+      "states": [
+        {
+          "name": "empty",
+          "hidden": true,
+          "replaces": "content",
+          "rootClass": null
+        }
+      ],
+      "gotos": [
+        {
+          "target": "home",
+          "text": "Donkey"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "editor-sign-in",
+          "text": "Sign in"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "home",
+          "text": "Sign up"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "home",
+          "text": "DDonkey website"
+        },
+        {
+          "target": "home",
+          "text": "Home"
+        },
+        {
+          "target": "how-it-works",
+          "text": "How it works"
+        },
+        {
+          "target": "about",
+          "text": "About"
+        },
+        {
+          "target": "contact",
+          "text": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "href": "#",
+          "text": "Products"
+        },
+        {
+          "href": "#",
+          "text": "hello@donkey.shop"
+        },
+        {
+          "href": "#",
+          "text": "01632 960 412"
+        }
+      ],
+      "accessibility": [
+        {
+          "role": "main",
+          "name": "",
+          "depth": 0
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "navigation",
+          "name": "Site pages",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "Products",
+          "depth": 2
+        },
+        {
+          "role": "button",
+          "name": "Light",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Dark",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "button",
+          "name": "Auto",
+          "depth": 1
+        },
+        {
+          "role": "img",
+          "name": "",
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Everything we sell, priced plainly.",
+          "level": 1,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Calm Nights lavender oil",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Hand balm, unscented",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Nettle and mint tea, 20 bags",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Wildflower seed tin",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Donkey lip salve",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Rosehip face oil, 30ml",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "heading",
+          "name": "Take your pick into the shop.",
+          "level": 2,
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "depth": 1
+        },
+        {
+          "role": "link",
+          "name": "01632 960 412",
+          "depth": 1
+        }
+      ],
+      "texts": [
+        "Donkey",
+        "Home",
+        "Products",
+        "How it works",
+        "About",
+        "Contact",
+        "Sign up",
+        "Sign in",
+        "The shop",
+        "Everything we sell, priced plainly.",
+        "Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.",
+        "6",
+        "On sale",
+        "£12.50",
+        "From",
+        "3 to 5 days",
+        "Delivery",
+        "On sale now",
+        "Prices in pounds, no extras",
+        "In stock",
+        "Oils",
+        "Calm Nights lavender oil",
+        "A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.",
+        "For adults. Keep away from children and ask your doctor if you are pregnant.",
+        "£12.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Hand balm, unscented",
+        "Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.",
+        "£8.00",
+        "Sign up",
+        "Low stock",
+        "Teas",
+        "Nettle and mint tea, 20 bags",
+        "Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.",
+        "A food, not a medicine. Not for children under 2.",
+        "£6.40",
+        "Sign up",
+        "In stock",
+        "Grow your own",
+        "Wildflower seed tin",
+        "Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.",
+        "£4.50",
+        "Sign up",
+        "In stock",
+        "Balms",
+        "Donkey lip salve",
+        "A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.",
+        "£3.20",
+        "Sign up",
+        "Oils",
+        "Rosehip face oil, 30ml",
+        "Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.",
+        "Patch test first if your skin is sensitive.",
+        "£18.00",
+        "Sign up",
+        "Ready to buy",
+        "Take your pick into the shop.",
+        "Signing up takes a minute. Then you can put things in a basket and pay at the checkout.",
+        "Sign up",
+        "How it works",
+        "D",
+        "Donkey website",
+        "Everyday goods and small prices from Donkey.",
+        "The pages",
+        "Home",
+        "How it works",
+        "About",
+        "Contact",
+        "Reach Donkey",
+        "hello@donkey.shop",
+        "01632 960 412",
+        "12 Larkfield Road, Nottingham NG7 4DQ",
+        "Donkey shop. Prices in pounds."
+      ],
+      "lowContrast": [
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "THE PAGES",
+          "text": "The pages",
+          "classes": "ds-label-caps",
+          "eid": "e10",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2231,
+            "width": 69,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "REACH DONKEY",
+          "text": "Reach Donkey",
+          "classes": "ds-label-caps",
+          "eid": "e17",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2231,
+            "width": 98,
+            "height": 14
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "text": "12 Larkfield Road, Nottingham NG7 4DQ",
+          "classes": "",
+          "eid": "e21",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2320,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Donkey shop. Prices in pounds.",
+          "text": "Donkey shop. Prices in pounds.",
+          "classes": "",
+          "eid": "e23",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2419,
+            "width": 194,
+            "height": 20
+          },
+          "colour": "#bbdace",
+          "background": "#1c825d",
+          "ratio": 3.17,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "p",
+          "role": "paragraph",
+          "name": "Everyday goods and small prices from Donkey.",
+          "text": "Everyday goods and small prices from Donkey.",
+          "classes": "site-foot-line",
+          "eid": "e8",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 104,
+            "y": 2281,
+            "width": 364,
+            "height": 22
+          },
+          "colour": "#c0dcd2",
+          "background": "#1c825d",
+          "ratio": 3.27,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "ON SALE NOW",
+          "text": "On sale now",
+          "classes": "ds-label-caps",
+          "eid": "e46",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 104,
+            "y": 564,
+            "width": 88,
+            "height": 17
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 11,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "Prices in pounds, no extras",
+          "text": "Prices in pounds, no extras",
+          "classes": "pr-band-note",
+          "eid": "e47",
+          "control": false,
+          "decorative": false,
+          "heading": "Everything we sell, priced plainly.",
+          "part": null,
+          "box": {
+            "x": 1010,
+            "y": 561,
+            "width": 166,
+            "height": 20
+          },
+          "colour": "#c6e0d6",
+          "background": "#1c825d",
+          "ratio": 3.4,
+          "required": 4.5,
+          "fontSize": 13,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "01632 960 412",
+          "text": "01632 960 412",
+          "classes": "",
+          "eid": "e20",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2290,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.96,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Home",
+          "text": "Home",
+          "classes": "",
+          "eid": "e12",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2260,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "How it works",
+          "text": "How it works",
+          "classes": "",
+          "eid": "e13",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2290,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "About",
+          "text": "About",
+          "classes": "",
+          "eid": "e14",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2320,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "generic",
+          "name": "Contact",
+          "text": "Contact",
+          "classes": "",
+          "eid": "e15",
+          "control": false,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 551,
+            "y": 2350,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "a",
+          "role": "link",
+          "name": "hello@donkey.shop",
+          "text": "hello@donkey.shop",
+          "classes": "",
+          "eid": "e19",
+          "control": true,
+          "decorative": false,
+          "heading": "Take your pick into the shop.",
+          "part": "footer",
+          "box": {
+            "x": 880,
+            "y": 2260,
+            "width": 296,
+            "height": 22
+          },
+          "colour": "#dfeee8",
+          "background": "#1c825d",
+          "ratio": 3.97,
+          "required": 4.5,
+          "fontSize": 14,
+          "bold": false
+        },
+        {
+          "tag": "span",
+          "role": "generic",
+          "name": "READY TO BUY",
+          "text": "Ready to buy",
+          "classes": "ds-eyebrow",
+          "eid": "e123",
+          "control": false,
+          "decorative": false,
+          "heading": "Rosehip face oil, 30ml",
+          "part": null,
+          "box": {
+            "x": 144,
+            "y": 1952,
+            "width": 100,
+            "height": 19
+          },
+          "colour": "#173226",
+          "background": "#3c9b75",
+          "ratio": 4.02,
+          "required": 4.5,
+          "fontSize": 12,
+          "bold": false
+        }
+      ],
+      "lowContrastCount": 14,
+      "controls": {
+        "checked": 3,
+        "dead": [],
+        "unknownGotos": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "ariaSnapshot": "- main:\n  - text: Donkey\n  - navigation \"Site pages\":\n    - text: Home\n    - link \"Products\":\n      - /url: \"#\"\n    - text: How it works About Contact\n  - group \"Colour mode\":\n    - button \"Light\":\n      - img\n    - button \"Dark\":\n      - img\n    - button \"Auto\":\n      - img\n  - text: Sign up Sign in The shop\n  - heading \"Everything we sell, priced plainly.\" [level=1]\n  - paragraph: Six things on the shelf right now. Every price is the full price in pounds, nothing added at the counter.\n  - text: 6 On sale £12.50 From 3 to 5 days Delivery On sale now Prices in pounds, no extras\n  - article:\n    - text: In stock Oils\n    - heading \"Calm Nights lavender oil\" [level=2]\n    - paragraph: A small bottle of cold-pressed lavender oil for the end of the day. Ten drops in a warm bath, or on the pillow.\n    - paragraph: For adults. Keep away from children and ask your doctor if you are pregnant.\n    - text: £12.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Hand balm, unscented\" [level=2]\n    - paragraph: Beeswax and shea, in a tin that fits a coat pocket. For gardeners and anyone who washes up a lot.\n    - text: £8.00 Sign up\n  - article:\n    - text: Low stock Teas\n    - heading \"Nettle and mint tea, 20 bags\" [level=2]\n    - paragraph: Grown on a small farm near Frome, dried slowly and packed in paper. Bright and grassy, good after a heavy meal.\n    - paragraph: A food, not a medicine. Not for children under 2.\n    - text: £6.40 Sign up\n  - article:\n    - text: In stock Grow your own\n    - heading \"Wildflower seed tin\" [level=2]\n    - paragraph: Twelve kinds of seed for a strip of lawn or a window box, with a small card on when to sow and what will come up.\n    - text: £4.50 Sign up\n  - article:\n    - text: In stock Balms\n    - heading \"Donkey lip salve\" [level=2]\n    - paragraph: A little tin of balm with a hint of honey. Sold in singles and in a pack of three for a few pence less.\n    - text: £3.20 Sign up\n  - article:\n    - text: Oils\n    - heading \"Rosehip face oil, 30ml\" [level=2]\n    - paragraph: Pressed rosehip with a drop of vitamin E, in a dark glass bottle with a dropper. Three drops in the evening is plenty.\n    - paragraph: Patch test first if your skin is sensitive.\n    - text: £18.00 Sign up\n  - text: Ready to buy\n  - heading \"Take your pick into the shop.\" [level=2]\n  - paragraph: Signing up takes a minute. Then you can put things in a basket and pay at the checkout.\n  - text: Sign up How it works Donkey website\n  - paragraph: Everyday goods and small prices from Donkey.\n  - text: The pages Home How it works About Contact Reach Donkey\n  - link \"hello@donkey.shop\":\n    - /url: \"#\"\n  - link \"01632 960 412\":\n    - /url: \"#\"\n  - text: 12 Larkfield Road, Nottingham NG7 4DQ Donkey shop. Prices in pounds.",
+      "screenshot": "w1280-dark.png",
+      "thumbnail": "thumb-w1280-dark.webp",
+      "modelImage": "model-w1280-dark.jpg"
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-11-12T04:33:36.384Z"
+}
