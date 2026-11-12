@@ -17,8 +17,7 @@ export function CallbackPage({ onNavigate }: { onNavigate: (path: string) => voi
 
     completeLogin(window.location.href).then((result) => {
       if (result.ok) {
-        refresh();
-        onNavigate(result.returnTo);
+        void refresh().then(() => onNavigate(result.returnTo));
         return;
       }
 

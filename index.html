@@ -9,8 +9,8 @@
       (function(){try{var k=localStorage.getItem("donkey:theme")||"auto";var d=k==="dark"||(k!=="light"&&window.matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.classList.toggle("dark",d);}catch(e){}})();
     </script>
   </head>
-  <body>
-    <div id="root"></div>
+  <body class="ds-root">
+    <div id="root" class="ds-root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -60,6 +60,6 @@ This run builds T01, T02, T03, T04, one step at a time: Studio gives you each st
 This app is one of 1 in Donkey; they share sign-in, roles, record types (Data schemas), files and translations.
 
 Reuse these record types; never create a second one under a similar name, and never change one another app keeps (push only the schemas this plan owns):
-- Calculation (kept by another app): sum, answer, workedOutBy, workedOutAt
-- PageWording (kept by another app): pageKey, heading, intro
-- Product (kept by another app): name, description, pricePence, group, medicineNote, visible, photoFileId, sortOrder
+- Calculation (kept by another app): sum, answer, workedOutBy, workedOutAt, Create, Read, Update, Delete, Roles, UserIds and 1 more
+- PageWording (kept by another app; read by Donkey website): pageKey, heading, intro, Create, Read, Update, Delete, Roles, UserIds, Permissions and 5 more
+- Product (kept by another app): name, description, pricePence, group, medicineNote, visible, photoFileId, sortOrder, Create, Read and 5 more

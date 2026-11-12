@@ -5,3 +5,9 @@ dist/
 .env.*.local
 env.*
 .cert/
+.codex/skills/
+.claude/skills/
+.agents/skills/
+.env.*
+*.pem
+.studio/
