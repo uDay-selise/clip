@@ -1,18 +1,17 @@
 import { useState } from "react";
 import { useT } from "../../lib/i18n/LocalizationProvider";
-import { usePageWording } from "../content/pageWording";
+import { WordingForm } from "./WordingForm";
 
 const PAGES = [
-  { key: "home", label: "editor.pageHome" },
-  { key: "how-it-works", label: "editor.pageHow" },
-  { key: "contact", label: "editor.pageContact" }
+  { key: "home", label: "editor.pageHome", title: "wording.homeTitle", note: "wording.homeNote", extra: [] },
+  { key: "how-it-works", label: "editor.pageHow", title: "wording.howTitle", note: "wording.howNote", extra: ["delivery"] },
+  { key: "contact", label: "editor.pageContact", title: "wording.contactTitle", note: "wording.contactNote", extra: ["contact"] }
 ] as const;
 
-/** Read-only this step: the wording forms arrive with the delivery, returns and contact step. */
 export function WordingPanel() {
   const { t } = useT();
   const [pageKey, setPageKey] = useState<string>("home");
-  const { data: wording } = usePageWording(pageKey);
+  const page = PAGES.find((item) => item.key === pageKey) ?? PAGES[0];
 
   return (
     <div className="ds-page">
@@ -21,22 +20,24 @@ export function WordingPanel() {
         <p>{t("editor.wordingNote")}</p>
       </div>
       <div className="ds-filter-bar ed-toolbar">
-        {PAGES.map((page) => (
+        {PAGES.map((item) => (
           <button
-            key={page.key}
+            key={item.key}
             type="button"
-            className={pageKey === page.key ? "ds-btn ds-btn-sm" : "ds-btn ds-btn-ghost ds-btn-sm"}
-            onClick={() => setPageKey(page.key)}
+            className={pageKey === item.key ? "ds-btn ds-btn-sm" : "ds-btn ds-btn-ghost ds-btn-sm"}
+            onClick={() => setPageKey(item.key)}
           >
-            {t(page.label)}
+            {t(item.label)}
           </button>
         ))}
       </div>
-      <div className="ds-card" style={{ padding: "calc(24px * var(--space-scale, 1))" }}>
-        <span className="ds-label-caps">{t(PAGES.find((page) => page.key === pageKey)?.label ?? "editor.pageHome")}</span>
-        <h3 style={{ margin: "8px 0 4px" }}>{wording?.heading?.trim() || t("editor.wordingDefaultHeading")}</h3>
-        <p className="ds-muted">{wording?.intro?.trim() || t("editor.wordingDefaultIntro")}</p>
-      </div>
+      <WordingForm
+        key={page.key}
+        pageKey={page.key}
+        titleKey={page.title}
+        noteKey={page.note}
+        extra={[...page.extra] as ("delivery" | "contact")[]}
+      />
     </div>
   );
 }

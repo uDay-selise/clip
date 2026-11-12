@@ -1,5 +1,7 @@
 import type { MouseEvent } from "react";
-import { HeaderPart } from "../../app/layout/HeaderPart";
+import { ThemeSwitch } from "../../app/layout/ThemeSwitch";
+import { useMenuClose } from "../../app/layout/useMenuClose";
+import { useEnterShop } from "../shop-entry/useEnterShop";
 import { FooterPart } from "../../app/layout/FooterPart";
 import { useT } from "../../lib/i18n/LocalizationProvider";
 import { usePageWording } from "../content/pageWording";
@@ -10,6 +12,8 @@ export type ContactScreenSituation = "normal" | "empty";
 
 export function ContactScreen({ situation, onNavigate }: { situation?: ContactScreenSituation; onNavigate?: (path: string) => void }) {
   const { t } = useT();
+  useMenuClose();
+  const { enter, pending } = useEnterShop();
   const { data: contact } = usePageWording("contact");
   const email = contact?.email?.trim() ?? "";
   const phone = contact?.phone?.trim() ?? "";
@@ -22,11 +26,49 @@ export function ContactScreen({ situation, onNavigate }: { situation?: ContactSc
     event.preventDefault();
     onNavigate(path);
   };
+  const signIn = (event: MouseEvent) => {
+    event.preventDefault();
+    void enter();
+  };
 
   return (
     <div className="studio-screen-contact" style={{ display: "contents" }}>
       <main data-screen="contact">
-        <HeaderPart active="contact" onNavigate={onNavigate} />
+        <header>
+          <div className="ds-bar ct-top">
+            <a href="/" className="ds-brand-link" data-goto="home" onClick={goTo("/")}>
+              <span className="ds-brand-text">{t("app.name")}</span>
+            </a>
+            <nav className="ct-links ds-only-wide" aria-label="Pages">
+              <a href="/" data-goto="home" onClick={goTo("/")}>{t("nav.home")}</a>
+              {" "}
+              <a href="/how-it-works" data-goto="how-it-works" onClick={goTo("/how-it-works")}>{t("nav.howItWorks")}</a>
+              {" "}
+              <a href="/products" data-goto="products" onClick={goTo("/products")}>{t("nav.products")}</a>
+              {" "}
+              <a className="ct-on" aria-current="page">{t("nav.contact")}</a>
+            </nav>
+            <span className="ds-spacer" />
+            <ThemeSwitch className="ds-only-wide" />
+            <a href="#" className="ds-btn ds-btn-sm" onClick={signIn} aria-busy={pending}>{pending ? t("auth.opening") : t("auth.signUp")}</a>
+            <details className="ds-menu ds-only-narrow">
+              <summary className="ds-menu-button" aria-label="Open the menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75">
+                  <path d="M4 7h16M4 12h16M4 17h16" />
+                </svg>
+              </summary>
+              <div className="ds-menu-list">
+                <a href="/" data-goto="home" onClick={goTo("/")}>{t("nav.home")}</a>
+                <a href="/how-it-works" data-goto="how-it-works" onClick={goTo("/how-it-works")}>{t("nav.howItWorks")}</a>
+                <a href="/products" data-goto="products" onClick={goTo("/products")}>{t("nav.products")}</a>
+                <a aria-current="page">{t("nav.contact")}</a>
+                <a href="#" onClick={signIn}>{t("auth.signIn")}</a>
+                <a href="#" onClick={signIn}>{t("auth.signUp")}</a>
+                <ThemeSwitch />
+              </div>
+            </details>
+          </div>
+        </header>
         {showEmpty ? (
           <section data-state="empty">
             <div className="ds-page ct-hero">

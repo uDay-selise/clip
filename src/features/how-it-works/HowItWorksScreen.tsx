@@ -1,5 +1,6 @@
 import type { MouseEvent } from "react";
-import { HeaderPart } from "../../app/layout/HeaderPart";
+import { ThemeSwitch } from "../../app/layout/ThemeSwitch";
+import { useMenuClose } from "../../app/layout/useMenuClose";
 import { FooterPart } from "../../app/layout/FooterPart";
 import { useT } from "../../lib/i18n/LocalizationProvider";
 import { usePageWording } from "../content/pageWording";
@@ -8,6 +9,7 @@ import "./HowItWorksScreen.css";
 
 export function HowItWorksScreen({ onNavigate }: { onNavigate?: (path: string) => void }) {
   const { t } = useT();
+  useMenuClose();
   const { enter, failed, pending } = useEnterShop();
   const { data: wording } = usePageWording("how-it-works");
   const delivery = wording?.deliveryText?.trim() || t("how.deliveryEmpty");
@@ -27,7 +29,53 @@ export function HowItWorksScreen({ onNavigate }: { onNavigate?: (path: string) =
   return (
     <div className="studio-screen-how-it-works" style={{ display: "contents" }}>
       <main data-screen="how-it-works">
-        <HeaderPart active="how-it-works" onNavigate={onNavigate} />
+        <div className="ds-page" style={{ paddingTop: "0", paddingBottom: "0" }}>
+          <div className="hi-top">
+            <a href="/" className="hi-brand" data-goto="home" onClick={goTo("/")}>
+              <span className="hi-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75">
+                  <circle cx="9" cy="7" r="3" /><circle cx="17" cy="8" r="2.4" />
+                  <path d="M3.5 20c0-3.6 2.6-6 5.9-6s5.9 2.4 5.9 6" /><path d="M17 14.4c2.2.3 3.6 2.1 3.6 4.6" />
+                </svg>
+              </span>
+              {t("app.name")}
+            </a>
+            <nav className="hi-links ds-only-wide" aria-label="Site pages">
+              <a href="/" data-goto="home" onClick={goTo("/")}>{t("nav.home")}</a>
+              {" "}
+              <a href="/how-it-works" data-goto="how-it-works" aria-current="page" onClick={goTo("/how-it-works")}>{t("nav.howItWorks")}</a>
+              {" "}
+              <a href="/about" data-goto="about" onClick={goTo("/about")}>{t("nav.about")}</a>
+              {" "}
+              <a href="/contact" data-goto="contact" onClick={goTo("/contact")}>{t("nav.contact")}</a>
+              {" "}
+              <a href="/products" data-goto="products" onClick={goTo("/products")}>{t("nav.products")}</a>
+            </nav>
+            <span className="ds-spacer" />
+            <div className="hi-actions">
+              <ThemeSwitch className="ds-only-wide" />
+              <a href="#" className="ds-btn ds-btn-ghost ds-only-wide" onClick={signUp} aria-busy={pending}>{t("auth.signIn")}</a>
+              {" "}
+              <a href="#" className="ds-btn ds-btn-sm" onClick={signUp} aria-busy={pending} aria-label={t("auth.signUp")}>{label}</a>
+              <details className="ds-menu ds-only-narrow">
+                <summary className="ds-menu-button" aria-label="Open the menu">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75">
+                    <path d="M4 7h16M4 12h16M4 17h16" />
+                  </svg>
+                </summary>
+                <div className="ds-menu-list">
+                  <a href="/" data-goto="home" onClick={goTo("/")}>{t("nav.home")}</a>
+                  <a href="/how-it-works" data-goto="how-it-works" onClick={goTo("/how-it-works")}>{t("nav.howItWorks")}</a>
+                  <a href="/about" data-goto="about" onClick={goTo("/about")}>{t("nav.about")}</a>
+                  <a href="/contact" data-goto="contact" onClick={goTo("/contact")}>{t("nav.contact")}</a>
+                  <a href="/products" data-goto="products" onClick={goTo("/products")}>{t("nav.products")}</a>
+                  <a href="#" onClick={signUp}>{t("auth.signIn")}</a>
+                  <ThemeSwitch />
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
         <div className="ds-page hi-hero">
           <div className="hi-hero-grid">
             <div>

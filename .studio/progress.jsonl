@@ -28,3 +28,11 @@
 {"type":"assumption","feature":"PR-01","text":"An editor types a price in pounds; the app turns it into whole pence for the record. A name and a price are required before saving; a product with no description shows its name and price alone."}
 {"type":"assumption","feature":"PR-01","text":"A product photo is uploaded to Blocks Storage and the product keeps its file id; the photo is shown through the storage read. Photoless products show the design's own picture mark, never an invented image address."}
 {"type":"step_done","step":"T03"}
+{"type":"step_started","step":"T04"}
+{"type":"check_verified","check":"PG-02 AC1","by":"ran","how":"Rendered the How it works page with the team's delivery text set to 'Orders arrive in 3 to 5 days.': the Delivery panel printed that line word for word. The editor's How it works form holds the same text in its Delivery field."}
+{"type":"check_verified","check":"PG-03 AC1","by":"ran","how":"Rendered the Contact page with phone set to '01234 567890': the page prints it and its call link is href=\"tel:01234567890\". The email prints with href=\"mailto:...\" and the address shows under the phone."}
+{"type":"check_verified","check":"PG-02 AC2 and PG-03 AC2 still hold","by":"ran","how":"Rendered both pages with nothing written: How it works prints \"We'll add our delivery details here soon.\" and \"We'll add our returns details here soon.\"; Contact prints 'Contact details are on their way. Check back soon.'"}
+{"type":"check_verified","check":"Every visitor page opens with a Sign up button and nothing to /editor","by":"ran","how":"Rendered home, how it works, about, contact and products: each printed a Sign up button and none linked /editor. Every t() key used in src now has real text."}
+{"type":"assumption","feature":"PG-02","text":"Delivery and returns text are required (up to 1,000 characters each); the editor's How it works form refuses to save without both. Heading and intro are saved the same way as the other pages."}
+{"type":"assumption","feature":"PG-03","text":"Email and phone are required in the Contact form; the address is optional and shows only when filled in. With both email and phone blank the page keeps its 'on their way' line."}
+{"type":"step_done","step":"T04"}
