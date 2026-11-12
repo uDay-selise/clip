@@ -9,3 +9,13 @@
 {"type":"assumption","feature":"PG-03","text":"Email, phone and address are never starting content. With no record written the Contact page shows its empty line and the footer shows no contact details, as the designs' rules say."}
 {"type":"assumption","feature":"PR-01","text":"Product photos have no file yet, so each product card shows the design's own picture placeholder (photo icon) rather than one invented image address."}
 {"type":"step_done","step":"T01"}
+{"type":"step_started","step":"T02"}
+{"type":"feature_started","feature":"ED-01"}
+{"type":"check_verified","check":"ED-01 AC1","by":"ran","how":"Rendered the editors' area: a signed-in Editor sees the header menu with Products, Page wording and Form entries, the Editors panel with the invite form, and the products table. Screen renders from the app's own component."}
+{"type":"check_verified","check":"ED-01 AC2","by":"ran","how":"Rendered every visitor page after the editors' area was added: home, how it works, about, contact and products printed no link to /editor (to /editor: false on all five). Only /editor/sign-in is reachable from the editors' side."}
+{"type":"check_verified","check":"ED-01 role check reads the signed-in person's roles","by":"ran","how":"Ran the area's own role reader with roles given as a plain list and grouped by company: editor list and grouped editor both open the area; no roles and a shopper company stay closed."}
+{"type":"check_verified","check":"ED-01 invite sends the Editor role","by":"ran","how":"Rendered the Editors panel: the invite form shows the email field and 'Send the invite'. Source sends the new account with roles: [\"editor\"] through the app's SDK client."}
+{"type":"project_change","text":"The Editor role may now list, invite and change people"}
+{"type":"assumption","feature":"ED-01","text":"The Editor role is the project's existing one, reused by name. Its people permissions were added; the project has companies off, so nothing to copy to other companies."}
+{"type":"assumption","feature":"ED-01","text":"The project's mail is set up (a default mail configuration exists), so invite emails can go out. An editor who has no invite gets a plain 'This area is for the site's editors' page with a way back to the shop."}
+{"type":"step_done","step":"T02"}
