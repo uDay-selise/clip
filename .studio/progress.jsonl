@@ -19,3 +19,12 @@
 {"type":"assumption","feature":"ED-01","text":"The Editor role is the project's existing one, reused by name. Its people permissions were added; the project has companies off, so nothing to copy to other companies."}
 {"type":"assumption","feature":"ED-01","text":"The project's mail is set up (a default mail configuration exists), so invite emails can go out. An editor who has no invite gets a plain 'This area is for the site's editors' page with a way back to the shop."}
 {"type":"step_done","step":"T02"}
+{"type":"step_started","step":"T03"}
+{"type":"check_verified","check":"PR-01 AC1","by":"ran","how":"Ran the app's own price helper: 1250 shows £12.50, 1875 shows £18.75, 1205 shows £12.05, 0 shows £0.00. Rendered a product card with price 1250: it printed 'In stock Calm Nights lavender oil For adults. £12.50 Sign up', the bare price only."}
+{"type":"check_verified","check":"PR-01 AC2","by":"ran","how":"The products page reads only products marked visible and sorts by order; ran that rule over a sample with one hidden product, and the hidden one did not appear in the list."}
+{"type":"check_verified","check":"PR-01 AC3","by":"ran","how":"Rendered the products page with no products shown: it printed 'Our products are on their way. Check back soon.' in place of the product list."}
+{"type":"check_verified","check":"PR-01 price cannot save wrong","by":"ran","how":"Ran the app's own pound-to-pence reader: 12.50 gives 1250, £18 gives 1800, 9.5 gives 950; 12.505 and abc are refused. A save the gateway refuses in a 200 answer is read from its errors and shown as a failed save."}
+{"type":"check_verified","check":"ED-01 AC3","by":"ran","how":"Rendered the editors' change-product form for a product priced 1250: the price field shows 12.50, and saving sends pricePence 1250, so the products page shows £12.50. The editors' table prints the same £12.50."}
+{"type":"assumption","feature":"PR-01","text":"An editor types a price in pounds; the app turns it into whole pence for the record. A name and a price are required before saving; a product with no description shows its name and price alone."}
+{"type":"assumption","feature":"PR-01","text":"A product photo is uploaded to Blocks Storage and the product keeps its file id; the photo is shown through the storage read. Photoless products show the design's own picture mark, never an invented image address."}
+{"type":"step_done","step":"T03"}

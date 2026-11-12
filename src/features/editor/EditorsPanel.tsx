@@ -44,7 +44,7 @@ async function inviteEditor(email: string): Promise<void> {
 }
 
 /** Adds a new editor by email address, giving them the Editor role so the invite link starts their account. */
-export function EditorsPanel({ editorName }: { editorName: string }) {
+export function EditorsPanel({ editorName, compact = false }: { editorName: string; compact?: boolean }) {
   const { t } = useT();
   const client = useQueryClient();
   const [email, setEmail] = useState("");
@@ -88,7 +88,7 @@ export function EditorsPanel({ editorName }: { editorName: string }) {
       </div>
       {failed ? <div className="ds-notice ds-notice-error"><span role="alert">{failed}</span></div> : null}
       {saved ? <div className="ds-notice ds-notice-success"><span>{t("editor.inviteSent")}</span></div> : null}
-      <div className="ed-cols">
+      <div className={compact ? "" : "ed-cols"}>
         <div className="ds-table-card">
           <div className="ds-table-wrap">
             <table className="ds-table ds-table-compact">

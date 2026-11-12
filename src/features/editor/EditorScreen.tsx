@@ -8,7 +8,8 @@ import { FooterPart } from "../../app/layout/FooterPart";
 import { LoadingScreen } from "../../shared/ui/LoadingScreen";
 import { useT } from "../../lib/i18n/LocalizationProvider";
 import { useEditorAccess } from "./useEditorAccess";
-import { readAllProducts, ProductRows } from "./ProductRows";
+import { ProductsPanel } from "./ProductsPanel";
+import { readAllProducts } from "../products/products";
 import { WordingPanel } from "./WordingPanel";
 import { FormEntries } from "./FormEntries";
 import { EditorsPanel } from "./EditorsPanel";
@@ -84,7 +85,6 @@ export function EditorScreen({ onNavigate }: { onNavigate?: (path: string) => vo
   }
 
   const visible = (products ?? []).filter((product) => product.visible === true).length;
-  const heading = section === "products" ? "products" : section === "wording" ? "wording" : "entries";
 
   return (
     <div className="studio-screen-editor" style={{ display: "contents" }}>
@@ -124,15 +124,13 @@ export function EditorScreen({ onNavigate }: { onNavigate?: (path: string) => vo
                 </div>
               </div>
             </div>
-            <div className="ds-page" style={{ paddingTop: "0", paddingBottom: "0" }}>
-              <ProductRows products={products ?? []} />
-            </div>
+            <ProductsPanel />
           </section>
         ) : null}
         {section === "wording" ? <WordingPanel /> : null}
         {section === "entries" ? <FormEntries /> : null}
-        <div className="ds-page" style={{ paddingTop: "24px", paddingBottom: "0" }}>
-          <EditorsPanel editorName={access.name} />
+        <div className="ds-page" style={{ paddingTop: "8px", paddingBottom: "0" }}>
+          <EditorsPanel editorName={access.name} compact />
         </div>
         <div className="ds-page ed-foot">
           <div className="ds-notice ds-notice-info">
@@ -141,7 +139,6 @@ export function EditorScreen({ onNavigate }: { onNavigate?: (path: string) => vo
         </div>
         <FooterPart onNavigate={onNavigate} />
       </main>
-      <span hidden data-section={heading} />
     </div>
   );
 }

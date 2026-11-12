@@ -1,6 +1,7 @@
 import type { MouseEvent } from "react";
 import { useT } from "../../lib/i18n/LocalizationProvider";
 import { priceInPounds } from "./products";
+import { ProductPhoto } from "./ProductPhoto";
 import type { Product } from "./products";
 
 type ProductCardProps = {
@@ -19,11 +20,7 @@ export function ProductCard({ product, onSignUp, pending, label }: ProductCardPr
   return (
     <article className="pr-card">
       <div className="pr-photo">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" aria-hidden="true">
-          <rect x="3" y="4" width="18" height="16" rx="3" />
-          <path d="m3 16 5-4 4 3 3-2 6 4" />
-          <circle cx="9" cy="9" r="1.5" />
-        </svg>
+        <ProductPhoto fileId={product.photoFileId} alt={product.name} />
       </div>
       <div className="pr-tagline">
         <span className="ds-badge ds-badge-success">{t("products.inStock")}</span>

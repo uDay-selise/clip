@@ -1,6 +1,7 @@
 import type { MouseEvent } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { HeaderPart } from "../../app/layout/HeaderPart";
+import { ThemeSwitch } from "../../app/layout/ThemeSwitch";
+import { useMenuClose } from "../../app/layout/useMenuClose";
 import { FooterPart } from "../../app/layout/FooterPart";
 import { useT } from "../../lib/i18n/LocalizationProvider";
 import { usePageWording } from "../content/pageWording";
@@ -14,6 +15,7 @@ export type ProductsScreenSituation = "normal" | "empty";
 
 export function ProductsScreen({ situation, onNavigate }: { situation?: ProductsScreenSituation; onNavigate?: (path: string) => void }) {
   const { t } = useT();
+  useMenuClose();
   const { enter, failed, pending } = useEnterShop();
   const { data: wording } = usePageWording("how-it-works");
   const { data: products } = useQuery({ queryKey: ["products", "visible"], queryFn: readVisibleProducts });
@@ -35,7 +37,52 @@ export function ProductsScreen({ situation, onNavigate }: { situation?: Products
   return (
     <div className="studio-screen-products" style={{ display: "contents" }}>
       <main data-screen="products">
-        <HeaderPart active="products" onNavigate={onNavigate} />
+        <div className="ds-page" style={{ paddingTop: "0", paddingBottom: "0" }}>
+          <header className="pr-top">
+            <a href="/" className="pr-brand" data-goto="home" onClick={goTo("/")}>
+              <span className="pr-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75">
+                  <path d="M7 8c-1.5 1.6-2 3.4 0 4.5M17 8c1.5 1.6 2 3.4 0 4.5" />
+                  <path d="M6 13.5c0 3.5 2.7 6 6 6s6-2.5 6-6c0-1.6-1-2.8-2.5-2.8h-7C7 10.7 6 11.9 6 13.5Z" />
+                </svg>
+              </span>
+              <span>{t("app.name")}</span>
+            </a>
+            <nav className="pr-links ds-only-wide" aria-label="Site pages">
+              <a href="/" data-goto="home" onClick={goTo("/")}>{t("nav.home")}</a>
+              {" "}
+              <a className="pr-on" href="#" aria-current="page">{t("nav.products")}</a>
+              {" "}
+              <a href="/how-it-works" data-goto="how-it-works" onClick={goTo("/how-it-works")}>{t("nav.howItWorks")}</a>
+              {" "}
+              <a href="/about" data-goto="about" onClick={goTo("/about")}>{t("nav.about")}</a>
+              {" "}
+              <a href="/contact" data-goto="contact" onClick={goTo("/contact")}>{t("nav.contact")}</a>
+            </nav>
+            <span className="ds-spacer" />
+            <ThemeSwitch className="ds-only-wide" />
+            <a href="#" className="ds-btn ds-btn-sm ds-only-wide" onClick={signUp} aria-busy={pending}>{label}</a>
+            {" "}
+            <a href="#" className="ds-btn ds-btn-ghost ds-btn-sm ds-only-wide" data-goto="editor-sign-in" onClick={signUp} aria-busy={pending}>{t("auth.signIn")}</a>
+            <details className="ds-menu ds-only-narrow">
+              <summary className="ds-menu-button" aria-label="Open the menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75">
+                  <path d="M4 7h16M4 12h16M4 17h16" />
+                </svg>
+              </summary>
+              <div className="ds-menu-list">
+                <a href="/" data-goto="home" onClick={goTo("/")}>{t("nav.home")}</a>
+                <a href="#" onClick={(event) => event.preventDefault()}>{t("nav.products")}</a>
+                <a href="/how-it-works" data-goto="how-it-works" onClick={goTo("/how-it-works")}>{t("nav.howItWorks")}</a>
+                <a href="/about" data-goto="about" onClick={goTo("/about")}>{t("nav.about")}</a>
+                <a href="/contact" data-goto="contact" onClick={goTo("/contact")}>{t("nav.contact")}</a>
+                <a href="#" onClick={signUp}>{t("auth.signIn")}</a>
+                <a href="#" onClick={signUp}>{t("auth.signUp")}</a>
+                <ThemeSwitch />
+              </div>
+            </details>
+          </header>
+        </div>
         {failed ? <p role="alert" className="ds-muted pr-alert">{t("auth.openFailed")}</p> : null}
         {showEmpty ? (
           <section data-state="empty">

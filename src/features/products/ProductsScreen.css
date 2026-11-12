@@ -22,6 +22,7 @@
   .pr-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(24px * var(--space-scale, 1)); margin-top: calc(24px * var(--space-scale, 1)); }
   .pr-card { display: flex; flex-direction: column; background: hsl(var(--card)); color: hsl(var(--card-foreground, var(--foreground))); border-radius: calc(var(--card-radius, var(--radius)) + 4px); box-shadow: var(--shadow); overflow: hidden; }
   .pr-card .ds-badge { background: hsl(var(--background)); }
+  .pr-photo-img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .pr-photo { aspect-ratio: 4 / 3; background: linear-gradient(150deg, hsl(var(--main-100)), hsl(var(--main-200))); position: relative; display: flex; align-items: center; justify-content: center; color: hsl(var(--main-600)); }
   .dark & .pr-photo { background: linear-gradient(150deg, hsl(var(--main-900)), hsl(var(--main-800))); color: hsl(var(--main-300)); }
   .pr-photo svg { width: 48px; height: 48px; opacity: 0.6; }
