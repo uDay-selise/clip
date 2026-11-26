@@ -32,30 +32,25 @@ export function FooterPart({ onNavigate }: { onNavigate?: (path: string) => void
               <p className="site-foot-line">{t("footer.line")}</p>
             </div>
             <div>
-              <span className="ds-label-caps" style={{ color: "inherit", opacity: "0.7" }}>{t("footer.pages")}</span>
+              <span className="ds-label-caps site-foot-cap">{t("footer.pages")}</span>
               <div className="site-foot-links" style={{ marginTop: "calc(12px * var(--space-scale, 1))" }}>
                 <a href="/" data-goto="home" onClick={goTo("/")}>{t("nav.home")}</a>
-                {" "}
                 <a href="/how-it-works" data-goto="how-it-works" onClick={goTo("/how-it-works")}>{t("nav.howItWorks")}</a>
-                {" "}
                 <a href="/about" data-goto="about" onClick={goTo("/about")}>{t("nav.about")}</a>
-                {" "}
                 <a href="/contact" data-goto="contact" onClick={goTo("/contact")}>{t("nav.contact")}</a>
               </div>
             </div>
             <div>
-              <span className="ds-label-caps" style={{ color: "inherit", opacity: "0.7" }}>{t("contact.eyebrow")}</span>
+              <span className="ds-label-caps site-foot-cap">{t("contact.eyebrow")}</span>
               <div className="site-foot-contact" style={{ marginTop: "calc(12px * var(--space-scale, 1))" }}>
                 {email ? <a href={`mailto:${email}`}>{email}</a> : null}
-                {email && phone ? " " : null}
                 {phone ? <a href={`tel:${phone.replace(/[^+0-9]/g, "")}`}>{phone}</a> : null}
-                {(email || phone) && address ? " " : null}
-                {address ? <span style={{ opacity: "0.7" }}>{address}</span> : null}
+                {address ? <span className="site-foot-addr">{address}</span> : null}
               </div>
             </div>
           </div>
           <div className="site-foot-base">
-            <span style={{ opacity: "0.7" }}>{t("footer.base")}</span>
+            <span>{t("footer.base")}</span>
           </div>
         </div>
       </footer>

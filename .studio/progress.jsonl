@@ -1,0 +1,5 @@
+{"type":"step_started","step":"T05"}
+{"type":"feature_started","feature":"PG-01"}
+{"type":"check_verified","check":"T05 AC1","by":"ran","how":"Built bundle: ran node check over dist CSS, footer caps and links use hsl(var(--band-foreground)) dark labels; old green tokens gone; primary 18.7 100% 37.8%"}
+{"type":"check_verified","check":"T05 AC2","by":"ran","how":"Built bundle: footer links, contact links and colour-mode switch all render from the same component, nav targets unchanged; build passed"}
+{"type":"step_done","step":"T05"}

@@ -3,7 +3,7 @@
 The shared footer gets darker labels so the small headings, address and contact links are easy to read on every page.
 
 **Build steps**
-- [ ] **T05 Rebuild the Footer as redrawn** — Builds the Footer as redrawn in this plan (`.studio/designs/`). What it does stays the same. Done when The Footer in the app matches its new design, and everything on it works as before.
+- [x] **T05 Rebuild the Footer as redrawn** — Builds the Footer as redrawn in this plan (`.studio/designs/`). What it does stays the same. Done when The Footer in the app matches its new design, and everything on it works as before.
 
 No step of this plan is built in this run.
 
